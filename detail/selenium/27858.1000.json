@@ -1,0 +1,51 @@
+{
+    "build": {
+        "number": "27858.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2025-05-12 12:09",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2025-05-16 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/05/16/announcing-windows-11-insider-preview-build-27858-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "selenium",
+            "build": "27842.1000"
+        },
+        "next": {
+            "category": "bromine",
+            "build": "27863.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "selenium",
+        "name": "Selenium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "b169d101-6e6a-404b-8bb4-8d6745512dfd"
+    },
+    {
+        "arch": "ARM64",
+        "id": "576b9ba3-8e9f-46ad-ae69-0b931204fd52"
+    }],
+    "download": {
+        "name": "27858.1000.250512-1209.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "",
+            "source": "百度网盘"
+        },
+        {
+            "url": "",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "",
+        "sha256": ""
+    }
+}
