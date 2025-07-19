@@ -1,0 +1,55 @@
+{
+    "build": {
+        "number": "26100.1742",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2024-09-04 19:06",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2024-09-10 17:00",
+        "url": "https://support.microsoft.com/topic/407666c8-6b6d-4561-a982-abce4e7c2efb",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.1656"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.1876"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "e1d5e11a-7054-49cf-b9c9-ba54258d5cc6"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "8cec498b-8ace-4e8d-b213-6fc8d7dda844"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "3eba5342-8ca9-4c07-8d5f-188b85186d04"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "f507a704-9ca8-4aaa-aa71-ee2fb142d82b"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5043080-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1742/Windows11.0-KB5043080-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "4cb4c733a536f7bf1acf219d1311f592",
+        "sha256": "819632610a101af11c72907fb13ff05b5fb4222c0e263ee9a03bcc1d1d5f26a4"
+    }
+}

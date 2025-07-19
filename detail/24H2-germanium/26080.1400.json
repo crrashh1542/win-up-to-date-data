@@ -1,0 +1,51 @@
+{
+    "build": {
+        "number": "26080.1400",
+        "branch": "ge_release_svc_hotpatch_prod1",
+        "compileTime": "2024-03-11 10:12",
+        "arch": ["AMD64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2024-03-18 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/03/13/announcing-windows-11-insider-preview-build-26080-canary-and-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "featureIds": {
+        "url": "https://github.com/riverar/mach2/blob/master/features/ge_release/amd64/26063.1_26080.1_diff.patch",
+        "fileName": "26063.1_26080.1_diff.patch"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26080.1300"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26085.1"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "a091c35e-a248-4faf-8b98-21512c2495cf"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5037140-x64.msu",
+        "link": [{
+            "url": "https://1542.lanzn.com/iyvYX2ls4fsj",
+            "source": "蓝奏云盘"
+        },
+        {
+            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037140-x64.msu",
+            "source": "Internet Archive"
+        }],
+        "arch": "AMD64",
+        "md5": "1e15130660b93783e8894e61ddc21ef2",
+        "sha256": "e036dcc4629aba164ef5da746122eb08ad2ac3fd1b9e99bbbaca8d485a3c8d11"
+    }
+}

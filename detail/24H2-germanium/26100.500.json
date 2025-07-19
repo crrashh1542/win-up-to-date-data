@@ -1,0 +1,45 @@
+{
+    "build": {
+        "number": "26100.500",
+        "branch": "ge_release_svc_hotpatch_prod1",
+        "compileTime": "2024-05-08 12:08",
+        "arch": ["AMD64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "None",
+        "time": "2024-06-16 12:30"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.268"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.560"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "7658f0b3-03b0-4646-94ed-9b797a8ad9fa"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5037970-x64.msu",
+        "link": [{
+            "url": "https://1542.lanzn.com/ikoP42lmxfrg",
+            "source": "蓝奏云盘"
+        },
+        {
+            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037970-x64.msu",
+            "source": "Internet Archive"
+        }],
+        "arch": "AMD64",
+        "md5": "db337bb25ea7d944f48f70d4fd9c1f4f",
+        "sha256": "861a3570bf82e573360bebba689dca8e14b6a44ff6b19c28cdbd483c6f5b2dd7"
+    }
+}

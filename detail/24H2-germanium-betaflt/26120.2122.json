@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "26120.2122",
+        "branch": "ge_release_svc_betaflt_prod1",
+        "compileTime": "2024-10-04 11:34",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2024-10-11 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/10/11/announcing-windows-11-insider-preview-build-26120-2122-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.1930"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.2130"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-betaflt",
+        "name": "Germanium (Betaflt)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "a495c8ac-f626-4839-9c4f-231eb4ad5ce2"
+    },
+    {
+        "arch": "ARM64",
+        "id": "9bc796dd-3eca-4553-8fb6-32b1cc1f0297"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5044374-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive002/26120.2122/Windows11.0-KB5044374-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "f44450cb480aa4981808874310a9a418",
+        "sha256": "508e69ba7d0164175eb94c843ff641799d554475b0bc5ad41201f310ffae076e"
+    }
+ }

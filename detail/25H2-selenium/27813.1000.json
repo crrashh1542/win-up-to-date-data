@@ -1,0 +1,51 @@
+{
+    "build": {
+        "number": "27813.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2025-03-07 14:07",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2025-03-12 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/03/12/announcing-windows-11-insider-preview-build-27813-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-selenium",
+            "build": "27808.1000"
+        },
+        "next": {
+            "category": "25H2-selenium",
+            "build": "27818.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-selenium",
+        "name": "Selenium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "3a1398ec-b305-471b-a7df-573cc2d2bf3c"
+    },
+    {
+        "arch": "ARM64",
+        "id": "b0cc84a8-07fa-43d1-a7ff-979a19be5b23"
+    }],
+    "download": {
+        "name": "27813.1000.250307-1407.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "",
+            "source": "百度网盘"
+        },
+        {
+            "url": "",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "",
+        "sha256": ""
+    }
+}

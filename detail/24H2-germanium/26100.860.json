@@ -1,0 +1,45 @@
+{
+    "build": {
+        "number": "26100.860",
+        "branch": "ge_release_svc_im",
+        "compileTime": "2024-06-12 17:38",
+        "arch": ["ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "None",
+        "time": "2024-06-14 21:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.793"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.863"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "ARM64",
+        "id": "cb5bec13-47b0-4746-ac43-6525ce009ad1"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5039239-arm64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.860/Windows11.0-KB5039239-arm64.msu",
+            "source": "OneDrive"
+        },
+        {
+            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5039239-860-arm64.msu",
+            "source": "Internet Archive"
+        }],
+        "arch": "ARM64",
+        "md5": "b391b72fb83bd394aa11922cbbd729f9",
+        "sha256": "44002074db148b288d1c33870031b8ae797e6ad55c86c80e415690cca29246f3"
+    }
+}

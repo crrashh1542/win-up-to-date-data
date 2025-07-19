@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "26120.3000",
+        "branch": "ge_release_svc_betaflt_prod1",
+        "compileTime": "2025-01-15 17:38",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2025-01-24 18:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/01/24/announcing-windows-11-insider-preview-build-26120-3000-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.2992"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26200.5001"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-betaflt",
+        "name": "Germanium (Betaflt)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "359a4e36-d126-4269-a7e2-0563a264de53"
+    },
+    {
+        "arch": "ARM64",
+        "id": "5105d477-4650-4580-a19b-aeb7c4fe00ec"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5050103-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive002/26120.3000/Windows11.0-KB5050103-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "170d7a0780596ecefaa2ee7b0ec3b130",
+        "sha256": "51176092121f13cbcca45f22e6044c27fafc63b035d89b3f8f52963a08682dac"
+    }
+ }

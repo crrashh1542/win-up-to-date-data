@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "26120.961",
+        "branch": "ge_release_svc_betaflt_prod1",
+        "compileTime": "2024-06-10 12:48",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2024-06-14 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/06/14/announcing-windows-11-insider-preview-build-26120-961-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.770"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.1252"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-betaflt",
+        "name": "Germanium (Betaflt)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "075e97b8-110a-4d2f-a0ac-06eaca1de7c4"
+    },
+    {
+        "arch": "ARM64",
+        "id": "c3f68441-c37f-4607-8fb6-d3eb31526149"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5038575-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive002/26120.961/Windows11.0-KB5038575-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "5e9337e8b305c2d888c0ebbe9063c498",
+        "sha256": "8fe7849fbe532f25356ba4c8e4ed780b4a41b4faf081e67cd0b7e090ed6fbe96"
+    }
+ }

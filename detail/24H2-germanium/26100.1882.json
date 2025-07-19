@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.1882",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2024-09-27 17:45",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2024-09-30 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/09/23/releasing-windows-11-build-26100-1876-to-the-release-preview-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.1876"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.2033"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64",
+        "id": "8bb7f81c-c236-456c-92ca-1f70baf26f35"
+    },
+    {
+        "arch": "ARM64",
+        "id": "9ad58be0-2202-437d-939f-87b083d35397"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5043178-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1882/Windows11.0-KB5043178-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "a873817ff5500878a4e1f5c21465c01f",
+        "sha256": "32b2c6b161aff21d0f64100497d17080dd9540b2bdf2f231dc6e04a3abbf79fe"
+    }
+}

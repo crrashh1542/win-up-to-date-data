@@ -1,0 +1,45 @@
+{
+    "build": {
+        "number": "26100.1",
+        "branch": "ge_release",
+        "compileTime": "2024-03-31 14:35",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary & Dev",
+        "time": "2024-04-03 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/04/03/announcing-windows-11-insider-preview-build-26100-canary-and-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "featureIds": {
+        "url": "https://github.com/riverar/mach2/blob/master/features/ge_release/amd64/26090.1_26100.1_diff.patch",
+        "fileName": "26090.1_26100.1_diff.patch"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26090.112"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.2"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "3d68645c-e4c6-4d51-8858-6421e46cb0bb"
+    },
+    {
+        "arch": "ARM64",
+        "id": "a350067e-8331-4f33-bc25-bd463f8b4917"
+    }],
+    "download": {
+        "name": "26100.1.240331-1435.ge_release_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
+        "arch": "AMD64"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "26120.2510",
+        "branch": "ge_release_svc_betaflt_prod1",
+        "compileTime": "2024-11-27 12:45",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2024-12-06 18:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/12/06/previewing-more-copilot-experiences-with-windows-insiders-in-the-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.2415"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.2702"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-betaflt",
+        "name": "Germanium (Betaflt)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "fa99a281-d67b-405f-98d7-61cf235b525d"
+    },
+    {
+        "arch": "ARM64",
+        "id": "384482b1-1f7c-444f-9997-d10fc0b852b4"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5048780-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive002/26120.2510/Windows11.0-KB5048780-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "4634b991d6c33faa9826e86ea17327d8",
+        "sha256": "08bbdb9325c57ec0bc8e286d518facad20d4698d32efb33f473a9293ad2925e1"
+    }
+ }

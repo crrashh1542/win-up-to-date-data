@@ -1,0 +1,63 @@
+{
+    "build": {
+        "number": "26252.5000",
+        "branch": "ge_prerelease",
+        "compileTime": "2024-07-05 13:29",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2024-07-10 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/07/10/announcing-windows-11-insider-preview-build-26252-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "featureIds": {
+        "url": "https://github.com/riverar/mach2/blob/master/features/ge_prerelease/amd64/26244.5000_26252.5000_diff.patch",
+        "fileName": "26244.5000_26252.5000_diff.patch"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-upstream",
+            "build": "26244.5000"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26257.5000"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-upstream",
+        "name": "Germanium (Upstream)"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "d0511e9a-9649-4636-80db-8dd6aefe3382"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "1e09c05b-1824-4ee1-814b-76826a2e5da6"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "4b4c5667-e7b2-48fd-8109-449f8d1820cd"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "1edb8a58-b0ad-46de-95e4-38ed11744ca1"
+    }],
+    "download": {
+        "name": "26252.5000.240705-1329.ge_prerelease_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1a6O_rK4azjNIStJkKAytZQ?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://pan.huang1111.cn/s/xbj76HV",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "eb5c3db41055fc6ee13acd4dfa3844ed",
+        "sha256": "f98fa25537b407803f933ae937987b7097a3ed1de7a4519d616e4f1d34e64f8a"
+    }
+}

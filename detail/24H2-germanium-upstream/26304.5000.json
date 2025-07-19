@@ -1,0 +1,51 @@
+{
+    "build": {
+        "number": "26304.5000",
+        "branch": "ge_prerelease",
+        "compileTime": "2024-10-04 17:28",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "Preview",
+        "time": "2024-10-11 17:00",
+        "url": "https://techcommunity.microsoft.com/t5/windows-server-insiders/announcing-windows-server-preview-build-26304/m-p/4268622",
+        "announcePlace": "Microsoft Tech Community"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-upstream",
+            "build": "26296.5001"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26311.5000"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-upstream",
+        "name": "Germanium (Upstream)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "de0d9bf4-e672-4766-bc6c-81fc55f38142"
+    },
+    {
+        "arch": "ARM64",
+        "id": "a5a286a5-7c8f-419e-a0c2-43480391940b"
+    }],
+    "download": {
+        "name": "26304.5000.241004-1728.ge_prerelease_SERVER_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1ennLQslFzPnrInD53Q2XAA?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://pan.huang1111.cn/s/jRQKoHy",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "0db22fb0cd28fa0a3acc6dff7e0f6d5e",
+        "sha256": "f023fe12a7b499e2b8b514c3ef34ad9e1c3c5b88f4e61c9260e846054bb7490e"
+    }
+}

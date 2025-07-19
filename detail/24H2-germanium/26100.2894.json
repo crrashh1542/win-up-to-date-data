@@ -1,0 +1,64 @@
+{
+    "build": {
+        "number": "26100.2894",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2025-01-11 15:17",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server & CloudPC"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2025-01-14 18:00",
+        "url": "https://support.microsoft.com/topic/bdbfb097-ea20-487d-9171-718d15e26f1b",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.2605"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.3025"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64 (Client)",
+        "id": "0da0ea0f-443c-4e74-aa7d-8508b13abdf0"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "c4ea08fe-f75b-4244-8741-0a5bf06395a1"
+    },
+    {
+        "arch":"AMD64 (Server)",
+        "id": "2b0a275d-6e82-4833-bafe-5e06d1800a9b"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "ca38b9b4-0eba-4fff-a7ca-183a408076d5"
+    },
+    {
+        "arch":"AMD64 (Cloud PC)",
+        "id": "fcae1ba2-c679-4063-abab-14231e3cd59d"
+    },
+    {
+        "arch":"ARM64 (Cloud PC)",
+        "id": "28e8fa00-dcf1-4a77-9759-8f3adbd2d5c1"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5050009-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2894/Windows11.0-KB5050009-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "338295fdae170fbe2ba3647afff7ba2c",
+        "sha256": "ee108e6697b6059d12133e3efbd9d4f3d85530a09ec60e8196b582bf3d188131"
+    }
+}

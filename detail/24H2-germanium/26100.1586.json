@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "26100.1586",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2024-08-12 18:20",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2024-08-19 21:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/08/19/releasing-windows-11-build-26100-1586-to-the-release-preview-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.1457"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.1591"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "7db0a8d0-e2b9-48c8-8d7b-e34e431f0954"
+    },
+    {
+        "arch": "ARM64",
+        "id": "d03da148-7de5-40f0-a5d4-547a29ec1331"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5041865-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1586/Windows11.0-KB5041865-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "3a7ce41ffa5c20184058f40d74f0fa09",
+        "sha256": "88b424677cf3c99b29d26193659e8c85c3f3884aaec2556f1abdfcbc1753a1eb"
+    }
+}

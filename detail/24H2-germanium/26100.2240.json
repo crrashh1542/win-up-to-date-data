@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.2240",
+        "branch": "ge_release_svc_hotpatch_prod1",
+        "compileTime": "2024-11-0? ??:??",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2024-11-12 18:00",
+        "url": "https://support.microsoft.com/topic/8807348d-14d6-4d28-9c4b-c006ff748d44",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.2161"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.2314"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64",
+        "id": "7635931b-6834-440e-8d9b-84ea36d3bfee"
+    },
+    {
+        "arch": "ARM64",
+        "id": "a4f901b6-70ea-478e-bf5a-c9b29ed1fec9"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5046696-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2240/Windows11.0-KB5046696-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "a19486cf3b73e38f0346486765f7b6d4",
+        "sha256": "eb131a3df7e5fab70aa1b366a6a965c6d9d8b09f3791aecb49c8251847e877ba"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "build": {
+        "number": "26100.560",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2024-05-10 16:33",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Relase Preview",
+        "time": "2024-05-19 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/05/22/releasing-windows-11-version-24h2-to-the-release-preview-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.500"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.712"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "ba068ab5-c754-4115-902a-9f0786c706a8"
+    },
+    {
+        "arch": "ARM64",
+        "id": "54375396-9deb-41b9-8998-03162226a7b6"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5037783-x64.msu",
+        "link": [{
+            "url": "https://1542.lanzn.com/i4Ylz2lmztje",
+            "source": "蓝奏云盘"
+        },
+        {
+            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037783-x64.msu",
+            "source": "Internet Archive"
+        }],
+        "arch": "AMD64",
+        "md5": "9845d026eee116791c6e4a17b672f14a",
+        "sha256": "333c8b5c867895d95202ae5c094968276a4a216e3619dbdda448f9ab9033b901"
+    }
+}

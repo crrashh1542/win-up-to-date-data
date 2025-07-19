@@ -9,7 +9,7 @@
                 "version": "27902.1000",
                 "branch": "rs_prerelease",
                 "codename": "Bromine",
-                "category": "bromine",
+                "category": "26H1-bromine",
                 "period": "26H1"
             },
             {
@@ -18,7 +18,7 @@
                 "version": "26120.3000",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
-                "category": "germanium-betaflt",
+                "category": "24H2-germanium-betaflt",
                 "period": "24H2"
             },
             {
@@ -35,7 +35,7 @@
                 "version": "26100.3037",
                 "branch": "ge_release_svc_prod3",
                 "codename": "Germanium",
-                "category": "germanium",
+                "category": "24H2-germanium",
                 "period": "24H2"
             },
             {
@@ -44,7 +44,7 @@
                 "version": "26100.2894",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
-                "category": "germanium",
+                "category": "24H2-germanium",
                 "period": "24H2"
             },
             {
@@ -53,7 +53,7 @@
                 "version": "26100.2894",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
-                "category": "germanium",
+                "category": "24H2-germanium",
                 "period": "24H2"
             },
             {
@@ -153,7 +153,7 @@
                 "version": "26334.5000",
                 "branch": "ge_prerelease",
                 "codename": "Germanium",
-                "category": "germanium-upstream",
+                "category": "24H2-germanium-upstream",
                 "period": "24H2"
             },
             {
@@ -162,7 +162,7 @@
                 "version": "26100.2894",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
-                "category": "germanium",
+                "category": "24H2-germanium",
                 "period": "24H2"
             },
             {
@@ -209,7 +209,7 @@
                 "version": "27774.1000",
                 "branch": "rs_prerelease",
                 "codename": "Selenium",
-                "category": "selenium",
+                "category": "25H2-selenium",
                 "period": "25H2"
             },
             {
@@ -218,7 +218,7 @@
                 "version": "26100.1150",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
-                "category": "germanium",
+                "category": "24H2-germanium",
                 "period": "24H2"
             },
             {
@@ -235,7 +235,7 @@
                 "version": "26100.1150",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
-                "category": "germanium",
+                "category": "24H2-germanium",
                 "period": "24H2"
             },
             {
@@ -258,7 +258,7 @@
                 "version": "26100.2894",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
-                "category": "germanium",
+                "category": "24H2-germanium",
                 "period": "24H2"
             },
             {

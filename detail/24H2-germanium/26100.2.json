@@ -1,0 +1,49 @@
+{
+    "build": {
+        "number": "26100.2",
+        "branch": "ge_release_svc_oem",
+        "compileTime": "2024-04-05 16:17",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "None",
+        "time": "2024-04-17 17:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.1"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.3"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "f85d43a4-60e9-4607-8997-a761beb7ef77"
+    },
+    {
+        "arch": "ARM64",
+        "id": "a7c6c75e-5d2b-4d77-b7dd-5588614da877"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5037941-x64.msu",
+        "link": [{
+            "url": "https://1542.lanzn.com/iK8EO2lmyp1g",
+            "source": "蓝奏云盘"
+        },
+        {
+            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037941-x64.msu",
+            "source": "Internet Archive"
+        }],
+        "arch": "AMD64",
+        "md5": "fd64798a924a273d2f9441f7f971d61b",
+        "sha256": "b33621eaeafd53c30b794f90387213962cb6304e69e81e9387020ef087c27ffe"
+    }
+}

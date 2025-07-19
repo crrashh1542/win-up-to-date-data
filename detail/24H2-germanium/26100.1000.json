@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "26100.1000",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2024-06-25 13:13",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Relase Preview",
+        "time": "2024-06-28 17:00",
+        "url": "https://support.microsoft.com/topic/b123a499-2880-4ce7-936e-3f0c0713abe5",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.994"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.1150"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "0cda15f9-a14a-4adf-bb3c-2ce79d0de621"
+    },
+    {
+        "arch": "ARM64",
+        "id": "653fc949-d4df-4192-9e0a-7dfd1b6dd74c"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5039304-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1000/Windows11.0-KB5039304-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "b39586e1af720e2e0dad078a201ff30f",
+        "sha256": "8ca9f98146a0b04df372e805f2419fd6a2b9c830ff85686ad6aaaccd008dc96d"
+    }
+}

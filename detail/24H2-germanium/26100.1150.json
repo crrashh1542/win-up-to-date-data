@@ -1,0 +1,55 @@
+{
+    "build": {
+        "number": "26100.1150",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2024-07-02 18:33",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2024-06-28 17:00",
+        "url": "https://support.microsoft.com/topic/954078e3-6c6b-4b6d-885e-f5aa534524a6",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.1000"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.1297"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "c1da54e1-2cf1-4534-ba44-61251a6de142"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "a874afac-39f6-4ca6-b5e5-f4f5fe62d9cc"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "d32ae4dc-d2f9-4e35-a099-16096cb4fe37"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "1370329f-38a3-443d-a3a1-99206b0bf483"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5040435-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1150/Windows11.0-KB5040435-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "fa684be85cf5db42fa4eebcc661f1526",
+        "sha256": "c86efe2b8d16cd9ccfcbfc8fd0479cd41840df9d5239ef4a76f7474e9eaf375f"
+    }
+}

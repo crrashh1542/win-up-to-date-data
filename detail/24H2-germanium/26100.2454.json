@@ -1,0 +1,56 @@
+{
+    "build": {
+        "number": "26100.2454",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2024-11-15 17:34",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2024-11-19 18:00",
+        "url": "https://support.microsoft.com/topic/2040f716-b719-482a-8aff-f7f02c79b147",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.2448"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.2605"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64 (1)",
+        "id": "5a1853ef-d285-4946-a1fa-7ca4f5bc10d8"
+    },
+    {
+        "arch": "AMD64 (2)",
+        "id": "a0300238-bf98-4de5-975f-2134a6808b3a"
+    },
+    {
+        "arch": "ARM64 (1)",
+        "id": "ddd5b1a0-6f79-408b-ad0c-b177d72ed65b"
+    },
+    {
+        "arch": "ARM64 (2)",
+        "id": "a0300238-bf98-4de5-975f-2134a6808b3a"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5046740-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2454/Windows11.0-KB5046740-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "92b38c1418d7ef583ef8d029b2d291c4",
+        "sha256": "052e0e5f17d610a88223d2d166a67d57cd9fbe6c199abd03baa37f786754cea2"
+    }
+}

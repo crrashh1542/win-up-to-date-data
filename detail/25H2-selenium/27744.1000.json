@@ -1,0 +1,55 @@
+{
+    "build": {
+        "number": "27744.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2024-11-01 13:29",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2024-11-06 18:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/11/06/announcing-windows-11-insider-preview-build-27744-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "featureIds": {
+        "url": "https://github.com/riverar/mach2/blob/master/features/rs_prerelease/amd64/27729.1000_27744.1000_diff.patch",
+        "fileName": "27729.1000_27744.1000_diff.patch"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-selenium",
+            "build": "27729.1000"
+        },
+        "next": {
+            "category": "25H2-selenium",
+            "build": "27749.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-selenium",
+        "name": "Selenium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "959f8a75-d184-4fbb-926f-ed467c1e4084"
+    },
+    {
+        "arch": "ARM64",
+        "id": "b12d60f7-2e76-44bf-91bd-54935e89faa3"
+    }],
+    "download": {
+        "name": "27744.1000.241101-1329.rs_prerelease_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1aB4tA-2TepzSg3mPsnVk-g?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://pan.huang1111.cn/s/4RlklFg",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "ada1c21775d6f483860271225e103adc",
+        "sha256": "c3dbc7c718d3b883f0509b53d70eed40438dd61a051079a617df3b5bc65cb859"
+    }
+}

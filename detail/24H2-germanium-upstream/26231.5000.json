@@ -1,0 +1,55 @@
+{
+    "build": {
+        "number": "26231.5000",
+        "branch": "ge_prerelease",
+        "compileTime": "2024-05-31 12:43",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2024-06-06 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/06/06/announcing-windows-11-insider-preview-build-26231-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "featureIds": {
+        "url": "https://github.com/riverar/mach2/blob/master/features/ge_prerelease/amd64/26227.5000_26231.5000_diff.patch",
+        "fileName": "26227.5000_26231.5000_diff.patch"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-upstream",
+            "build": "26227.5000"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26236.5000"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-upstream",
+        "name": "Germanium (Upstream)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "913a8220-936e-4046-961d-8238debf2ff3"
+    },
+    {
+        "arch": "ARM64",
+        "id": "0e9e7d53-8842-4fbf-b481-d21a56a019f4"
+    }],
+    "download": {
+        "name": "26231.5000.240531-1243.ge_prerelease_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.huang1111.cn/s/vxNkiE",
+            "source": "OneDrive"
+        },
+        {
+            "url": "https://pan.baidu.com/s/1YvvrYoHpgp2acnfcwwxcbQ?pwd=2333",
+            "source": "百度网盘"
+        }],
+        "arch": "AMD64",
+        "md5": "a7bd6ef6da7de9e77306aaaccb29581c",
+        "sha256": "304f656215270402ce2fcaf9ff43079019946c3a960dcba7cf8989cf4fc165f8"
+    }
+}

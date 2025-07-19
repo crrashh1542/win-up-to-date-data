@@ -1,0 +1,63 @@
+{
+    "build": {
+        "number": "26257.5000",
+        "branch": "ge_prerelease",
+        "compileTime": "2024-07-19 17:47",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2024-07-24 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/07/24/announcing-windows-11-insider-preview-build-26257-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "featureIds": {
+        "url": "https://github.com/riverar/mach2/blob/master/features/ge_prerelease/amd64/26252.5000_26257.5000_diff.patch",
+        "fileName": "26252.5000_26257.5000_diff.patch"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-upstream",
+            "build": "26252.5000"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26280.5000"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-upstream",
+        "name": "Germanium (Upstream)"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "a0eed896-764b-497f-864a-29f540889571"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "5dbf996f-49ef-48cb-9de2-857eb983ac29"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "895aa2b3-2f6e-4c0c-a25a-322f714a305e"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "647b1232-da7b-402f-ad39-31e26aebead9"
+    }],
+    "download": {
+        "name": "26257.5000.240719-1747.ge_prerelease_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/16x3kNj0SIpaa0U-ylROyjQ?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://pan.huang1111.cn/s/2vv8ySN",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "3d8b815f979c5e572be064ac7e2bf13c",
+        "sha256": "ad0019f5052b9ade12524f5774c803ebc76ca6e3d632866e4ea9c1a1e958d2e1"
+    }
+}

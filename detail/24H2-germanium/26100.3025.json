@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.3025",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2025-01-17 17:49",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2025-01-21 18:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/01/21/releasing-windows-11-build-26100-3025-to-the-release-preview-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.2894"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.3037"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64",
+        "id": "8cb661e7-beea-4a33-9ead-7648f29c83f6"
+    },
+    {
+        "arch": "ARM64",
+        "id": "966b27b4-5600-48d6-9f89-de57cc8901b7"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5050094-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.3025/Windows11.0-KB5050094-x64.msu",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "f30f650adca5f0bd3e7f7ff1597e6bdf",
+        "sha256": "7ac529dbdd2d5ecf68b6646ff984f99b800f39d72ceac0bfcb5d4f62d985ac6e"
+    }
+}

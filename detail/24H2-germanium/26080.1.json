@@ -1,0 +1,59 @@
+{
+    "build": {
+        "number": "26080.1",
+        "branch": "ge_release",
+        "compileTime": "2024-03-08 14:00",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2024-03-13 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2024/03/13/announcing-windows-11-insider-preview-build-26080-canary-and-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "featureIds": {
+        "url": "https://github.com/riverar/mach2/blob/master/features/ge_release/amd64/26063.1_26080.1_diff.patch",
+        "fileName": "26063.1_26080.1_diff.patch"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26063.1"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26080.1100"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "72967526-1234-4a25-aed1-bbb073b5092c"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "03aaf60f-5f3c-424d-a235-a32a2e3570eb"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "004c4882-a913-4ee4-aa02-ccf732332d7f"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "b49becee-e748-4c18-8ed7-3b73a6943571"
+    }],
+    "download": {
+        "name": "26080.1.240308-1400.ge_release_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1ci03U3IGG3wHRgtX6Ql2yA?pwd=2333",
+            "source": "百度网盘"
+        }],
+        "arch": "AMD64",
+        "md5": "b63a96a422a9beaa6123362303aab663",
+        "sha256": "f4a7caaedfe5027a03da2c3244909bd753ceb599360c7c12ca491ecb8860fad8"
+    }
+}
