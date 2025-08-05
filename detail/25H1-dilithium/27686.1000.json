@@ -19,11 +19,11 @@
     "nav": {
         "previous": {
             "category": "24H2-germanium-upstream",
-            "build": "26311.5000"
+            "build": "26454.1000"
         },
         "next": {
-            "category": "25H2-selenium",
-            "build": "27695.1000"
+            "category": "25H2-germanium",
+            "build": "26200.5510"
         }
     },
     "belongsTo": {

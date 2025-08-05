@@ -8,7 +8,7 @@
     },
     "release": {
         "channel": "Preview",
-        "time": "2024-10-24 17:00",
+        "time": "2024-12-06 18:00",
         "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-26334/4354808",
         "announcePlace": "Microsoft Tech Community"
     },
@@ -18,8 +18,8 @@
             "build": "26311.5000"
         },
         "next": {
-            "category": "25H1-dilithium",
-            "build": "27686.1000"
+            "category": "24H2-germanium-upstream",
+            "build": "26360.5000"
         }
     },
     "belongsTo": {

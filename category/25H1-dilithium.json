@@ -5,8 +5,12 @@
     "semester": "25H1",
     "range": [27548, 27690],
     "previous": {
-        "path": "germanium-upstream",
+        "path": "24H2-germanium-upstream",
         "name": "Germanium (Upstream)"
+    },
+    "next": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2)"
     },
     "list": [
         ["27686.1000", "2024-08-15"]
