@@ -5,8 +5,8 @@
     "semester": "25H2",
     "range": [27691, 27858],
     "previous": {
-        "path": "25H1-dilithium",
-        "name": "Dilithium"
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2)"
     },
     "next": {
         "path": "26H1-bromine",

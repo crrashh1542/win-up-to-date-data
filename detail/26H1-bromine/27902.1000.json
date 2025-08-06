@@ -9,13 +9,17 @@
     "release": {
         "channel": "Canary",
         "time": "2025-07-17 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2025/07/11/announcing-windows-11-insider-preview-build-27898-canary-channel/",
+        "url": "https://blogs.windows.com/windows-insider/2025/07/17/announcing-windows-11-insider-preview-build-27902-canary-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
             "category": "26H1-bromine",
             "build": "27898.1000"
+        },
+        "next": {
+            "category": "26H1-bromine",
+            "build": "27909.1000"
         }
     },
     "belongsTo": {
@@ -33,15 +37,15 @@
     "download": {
         "name": "27902.1000.250711-1513.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "link": [{
-            "url": "",
+            "url": "https://pan.baidu.com/s/1GTEF-udP10Tm3uY_LEjtoA?pwd=2333",
             "source": "百度网盘"
         },
         {
-            "url": "",
+            "url": "https://www.123912.com/s/oYprVv-J1MRv",
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "",
-        "sha256": ""
+        "md5": "9e2e8cfe1ecb659a0c1b28dc75ff249e",
+        "sha256": "26cabf2f61333b52bb5d7353c096dd4908768839246d7a7549673d9321607827"
     }
 }

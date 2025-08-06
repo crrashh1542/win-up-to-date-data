@@ -1,0 +1,51 @@
+{
+    "build": {
+        "number": "27909.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2025-07-21 17:07",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2025-07-25 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/07/25/announcing-windows-11-insider-preview-build-27909-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "27902.1000"
+        },
+        "next": {
+            "category": "26H1-bromine",
+            "build": "27913.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "8dc6dfb2-2741-4481-aaea-08b8efee3e7e"
+    },
+    {
+        "arch": "ARM64",
+        "id": "4677220e-aeb1-4a27-b5c7-8540a5addbb5"
+    }],
+    "download": {
+        "name": "27909.1000.250721-1707.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1iLkhvjqyKAEB6WiWxQMF4Q?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://www.123912.com/s/oYprVv-8wMRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "72c602899b149c3a238c8dc06da3a79d",
+        "sha256": "c9f2f9df53372529cee1892eecc916f44f66e6e12b72892798893d7b9ad3a9c7"
+    }
+}
