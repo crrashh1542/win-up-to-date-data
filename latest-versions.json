@@ -18,8 +18,8 @@
                 "version": "26200.5733",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
-                "category": "24H2-germanium-betaflt",
-                "period": "24H2"
+                "category": "25H2-germanium",
+                "period": "25H2"
             },
             {
                 "name": "Beta",
