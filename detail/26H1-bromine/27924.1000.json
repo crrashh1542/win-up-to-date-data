@@ -1,25 +1,21 @@
 {
     "build": {
-        "number": "27919.1000",
+        "number": "27924.1000",
         "branch": "rs_prerelease",
-        "compileTime": "2025-08-03 14:14",
+        "compileTime": "2025-08-08 16:02",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Canary",
-        "time": "2025-08-08 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2025/08/08/announcing-windows-11-insider-preview-build-27919-canary-channel/",
+        "time": "2025-08-14 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/08/14/announcing-windows-11-insider-preview-build-27924-canary-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
             "category": "26H1-bromine",
-            "build": "27913.1000"
-        },
-        "next": {
-            "category":"26H1-bromine",
-            "build": "27924.1000"
+            "build": "27919.1000"
         }
     },
     "belongsTo": {
@@ -28,14 +24,14 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "f912e044-d332-45e2-a125-9640c8bd5a0d"
+        "id": "f27b2b03-75eb-4a29-b862-6c813d3b53f0"
     },
     {
         "arch": "ARM64",
-        "id": "6a5eb7a9-f018-49ee-a17a-197138f48eab"
+        "id": "58e2b7fd-f4d1-4359-901c-9e0a11cbd344"
     }],
     "download": {
-        "name": "27919.1000.250803-1414.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "name": "27924.1000.250808-1602.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "link": [{
             "url": "https://pan.baidu.com/s/1JbfNxa3LWQ2xs4NxGINicg?pwd=2333",
             "source": "百度网盘"
@@ -45,7 +41,7 @@
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "294bb8c93f64d43aa398600d48989435",
-        "sha256": "327d9d2ff575017b9318f8cac5544accd087d2437eced7c9515cbafdb1ef5508"
+        "md5": "a464aa828aa09e787939b56ab0e7b7d0",
+        "sha256": "ae3b9b5949842abcfd07cdc922ef8f945975eb2926a3d476e0e74ccf80933177"
     }
 }
