@@ -36,10 +36,14 @@
         "id": "a128eb2d-d3ac-4beb-a5a6-33052256a954"
     }],
     "download": {
-        "name": "Windows11.0-KB5043178-x64.msu",
+        "name": "Windows11.0-KB5044284-x64.msu",
         "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2033/Windows11.0-KB5043178-x64.msu",
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2033/Windows11.0-KB5044284-x64.msu",
             "source": "OneDrive"
+        },
+        {
+            "url": "https://www.123912.com/s/oYprVv-QnMRv",
+            "source": "123云盘"
         }],
         "arch": "AMD64",
         "md5": "0215170e54259898bae0efb330c376a5",

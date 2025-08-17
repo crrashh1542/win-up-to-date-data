@@ -6,10 +6,6 @@
         "arch": ["AMD64"],
         "counterpart": "Server"
     },
-    "featureIds": {
-        "url": "https://github.com/riverar/mach2/blob/master/features/rs_prerelease/amd64/26020.1000_26040.1000_diff.patch",
-        "fileName": "26020.1000_26040.1000_diff.patch"
-    },
     "nav": {
         "previous": {
             "category": "24H2-germanium",
@@ -35,8 +31,8 @@
             "source": "Internet Archive"
         },
         {
-            "url": "https://disk.crrashh.com/%F0%9F%96%A5%EF%B8%8F%20%E6%95%B0%E7%A0%81%E8%B5%84%E6%BA%90/%E7%94%B5%E8%84%91%20%E2%86%92%20Windows/%E7%B3%BB%E7%BB%9F%E9%95%9C%E5%83%8F/Windows%2011/%E6%B3%84%E9%9C%B2%E7%89%88/26047.1000.240128-1636.rs_prerelease_SERVER_x64FRE_en-us.iso",
-            "source": "阿里云盘"
+            "url": "https://www.123912.com/s/oYprVv-cnMRv",
+            "source": "123云盘"
         }],
         "arch": "AMD64",
         "md5": "1a139e3ee513a6f9e53e30b75c6d42bf",

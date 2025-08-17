@@ -31,5 +31,19 @@
     {
         "arch": "ARM64",
         "id": "05754800-cebb-4dba-aa0e-bcd936c24345"
-    }]
+    }],
+    "download": {
+        "name": "Windows11.0-KB5043088-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.1656/Windows11.0-KB5043088-x64.msu",
+            "source": "OneDrive"
+        },
+        {
+            "url": "https://www.123912.com/s/oYprVv-QnMRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "c2bb2e47afea4b71959e71ee257336a4",
+        "sha256": "d1c675fe994fa31a54448d9c7c3b9c72a94aa35adbd56669aacaab75d470a98f"
+    }
 }

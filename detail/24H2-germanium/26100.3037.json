@@ -7,7 +7,7 @@
         "counterpart": "Client"
     },
     "release": {
-        "channel": "Release Preview",
+        "channel": "General",
         "time": "2025-01-28 18:00",
         "url": "https://support.microsoft.com/topic/78fda0ea-79e9-468d-8a77-de7914ca1aef",
         "announcePlace": "Microsoft Support"
@@ -18,8 +18,8 @@
             "build": "26100.3025"
         },
         "next": {
-            "category": "24H2-germanium-betaflt",
-            "build": "26120.461"
+            "category": "24H2-germanium",
+            "build": "26100.3107"
         }
     },
     "belongsTo": {
@@ -40,6 +40,10 @@
         "link": [{
             "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.3037/Windows11.0-KB5050094-x64.msu",
             "source": "OneDrive"
+        },
+        {
+            "url": "https://www.123912.com/s/oYprVv-QnMRv",
+            "source": "123云盘"
         }],
         "arch": "AMD64",
         "md5": "2b60a04a9ef4990684e18a5874805058",

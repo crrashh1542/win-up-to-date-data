@@ -1,15 +1,15 @@
 {
     "build": {
-        "number": "26100.2240",
+        "number": "26100.2528",
         "branch": "ge_release_svc_hotpatch_prod1",
-        "compileTime": "2024-11-06 17:33",
+        "compileTime": "2024-12-04 04:46",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client & Server"
     },
     "release": {
         "channel": "General",
-        "time": "2024-11-12 18:00",
-        "url": "https://support.microsoft.com/topic/8807348d-14d6-4d28-9c4b-c006ff748d44",
+        "time": "2024-12-10 18:00",
+        "url": "https://support.microsoft.com/topic/b03075b9-0573-43c4-9d16-73822ce6cefa",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
@@ -29,24 +29,24 @@
     "updateId": [
     {
         "arch": "AMD64 (Client)",
-        "id": "7635931b-6834-440e-8d9b-84ea36d3bfee"
+        "id": "c6177e06-31cb-403d-b0c0-821d3bef5dd2"
     },
     {
         "arch": "ARM64 (Client)",
-        "id": "a4f901b6-70ea-478e-bf5a-c9b29ed1fec9"
+        "id": "917411fe-c5e5-4ab5-85c5-d7c044f2c73e"
     },
     {
         "arch": "AMD64 (Server)",
-        "id": "776ade9d-a2a0-4381-9155-299b18c27732"
+        "id": "8a09d53a-3594-488e-85db-f5d84191b78d"
     },
     {
         "arch": "ARM64 (Server)",
-        "id": "668004ba-3dac-4e6f-ad41-90fa545b8820"
+        "id": "e13a9f92-91ad-4330-8737-cff96f02af00"
     }],
     "download": {
-        "name": "Windows11.0-KB5046696-x64.msu",
+        "name": "Windows11.0-KB5048794-x64.msu",
         "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2240/Windows11.0-KB5046696-x64.msu",
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.2528/Windows11.0-KB5048794-x64.msu",
             "source": "OneDrive"
         },
         {
@@ -54,7 +54,7 @@
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "a19486cf3b73e38f0346486765f7b6d4",
-        "sha256": "eb131a3df7e5fab70aa1b366a6a965c6d9d8b09f3791aecb49c8251847e877ba"
+        "md5": "3c0a2871d168e420d2c0e2aaa6812870",
+        "sha256": "4d0a9b3decd3fd4dea46e886dae7c37f0e7047131d46eb83f0d697387123eb00"
     }
 }

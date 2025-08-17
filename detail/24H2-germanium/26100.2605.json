@@ -28,18 +28,38 @@
     },
     "updateId": [
     {
-        "arch": "AMD64",
+        "arch": "AMD64 (Client)",
         "id": "ad27e52b-9e18-408a-9df2-8688e5273fbf"
     },
     {
-        "arch": "ARM64",
+        "arch": "ARM64 (Client)",
         "id": "b6049aaf-4f56-4183-8e58-32954906de64"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "ed603b9a-f2f0-47dc-8090-232b014c8d58"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "0d4a3e01-dd5c-4e7b-ae8e-1c137101a07a"
+    },
+    {
+        "arch": "AMD64 (Cloud PC)",
+        "id": "de679083-4889-4ab8-bd84-4210f666137a"
+    },
+    {
+        "arch": "ARM64 (Cloud PC)",
+        "id": "cea99294-15eb-4569-b3d3-d32ea70e9da9"
     }],
     "download": {
         "name": "Windows11.0-KB5048667-x64.msu",
         "link": [{
             "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2605/Windows11.0-KB5048667-x64.msu",
             "source": "OneDrive"
+        },
+        {
+            "url": "https://www.123912.com/s/oYprVv-QnMRv",
+            "source": "123云盘"
         }],
         "arch": "AMD64",
         "md5": "34700a690b6cd48586a0efd9dec70261",
