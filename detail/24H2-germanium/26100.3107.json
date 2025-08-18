@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26100.3781",
-        "branch": "ge_release_svc_im",
-        "compileTime": "2025-04-13 23:30",
+        "number": "26100.3107",
+        "branch": "ge_release_svc_hotpatch_prod1",
+        "compileTime": "2025-02-0? ??:??",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "General",
-        "time": "2025-04-16 17:00",
-        "url": "https://support.microsoft.com/topic/28af76fc-36e5-49bc-9447-201cfadd9d97",
+        "time": "2025-02-11 18:00",
+        "url": "https://support.microsoft.com/topic/6dda7015-f0c5-40d9-8de2-941ff9b7e3fc",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium",
-            "build": "26100.3775"
+            "build": "26100.3037"
         },
         "next": {
             "category": "24H2-germanium",
-            "build": "26100.3902"
+            "build": "26100.3194"
         }
     },
     "belongsTo": {
@@ -29,16 +29,16 @@
     "updateId": [
     {
         "arch": "AMD64",
-        "id": "cd273543-49d1-47c6-a7d5-00a46d3f0bb6"
+        "id": "ae167ba9-3e3f-4cff-8b33-73708a490fbe"
     },
     {
         "arch": "ARM64",
-        "id": "167c9367-b3d9-4a50-a18a-cc13f408b899"
+        "id": "f329a206-e940-47c8-b2db-b80f022e10ae"
     }],
     "download": {
-        "name": "Windows11.0-KB5059087-x64.msu",
+        "name": "Windows11.0-KB5052105-x64.msu",
         "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.3781/Windows11.0-KB5059087-x64.msu",
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3107/Windows11.0-KB5052105-x64.msu",
             "source": "OneDrive"
         },
         {
@@ -46,7 +46,7 @@
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "fd52516e0892402ee3742da42fd8084c",
-        "sha256": "8aac923613863773205caa1377c6ca53ae420ec351d1210838d0afece665b66f"
+        "md5": "727a10d084ad96c9aaf8f7c1f8f921ba",
+        "sha256": "57840cf12e5d8807771bc0813be42c986c7e11594b06b3b9ea5ab6f4c9bafa93"
     }
 }

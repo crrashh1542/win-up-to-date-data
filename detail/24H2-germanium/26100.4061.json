@@ -1,0 +1,54 @@
+{
+    "build": {
+        "number": "26100.4061",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2025-05-08 17:55",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2025-05-13 17:00",
+        "url": "https://support.microsoft.com/topic/356568c2-c730-469e-819d-b680d43b1265",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.3983"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.4066"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64 (Client)",
+        "id": "a594cf6a-104c-4032-b50f-5936677ab688"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "df64c973-18c1-44b9-a7bf-fbc04813c969"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "c08bcc5c-d702-4f0c-8f0d-e38f374bbbf2"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "576f49aa-07d9-4c77-bf10-c4392da90a09"
+    },
+    {
+        "arch": "AMD64 (Cloud PC)",
+        "id": "0fbae59d-7843-4d98-a080-e242a50b2a1d"
+    },
+    {
+        "arch": "ARM64 (Cloud PC)",
+        "id": "528b5111-90f2-4859-92e2-f3acc56277a4"
+    }]
+}

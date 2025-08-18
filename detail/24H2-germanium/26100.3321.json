@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26100.3613",
+        "number": "26100.3321",
         "branch": "ge_release_svc_prod3",
-        "compileTime": "2025-03-14 18:01",
+        "compileTime": "2025-02-14 17:49",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Release Preview",
-        "time": "2025-03-18 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2025/03/18/releasing-windows-11-build-26100-3613-to-the-release-preview-channel/",
+        "time": "2025-02-11 18:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/02/18/releasing-windows-11-build-26100-3321-to-the-release-preview-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium",
-            "build": "26100.3476"
+            "build": "26100.3194"
         },
         "next": {
             "category": "24H2-germanium",
-            "build": "26100.3624"
+            "build": "26100.3323"
         }
     },
     "belongsTo": {
@@ -29,16 +29,16 @@
     "updateId": [
     {
         "arch": "AMD64",
-        "id": "d62392f7-0d31-4108-8a2e-ea0e34e2464d"
+        "id": "567055f8-90ea-40ea-8c62-3bad6cc395ec"
     },
     {
         "arch": "ARM64",
-        "id": "4e12465c-67e2-4491-a258-e73daffd4cb5"
+        "id": "4e3027e0-7b7d-4cf9-afa1-def5bfdfcb19"
     }],
     "download": {
-        "name": "Windows11.0-KB5053656-x64.msu",
+        "name": "Windows11.0-KB5052093-x64.msu",
         "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3613/Windows11.0-KB5053656-x64.msu",
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3321/Windows11.0-KB5052093-x64.msu",
             "source": "OneDrive"
         },
         {

@@ -1,0 +1,60 @@
+{
+    "build": {
+        "number": "26100.4270",
+        "branch": "ge_release_svc_hotpatch_prod1",
+        "compileTime": "2025-05-31 19:33",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2025-05-27 17:00",
+        "url": "https://support.microsoft.com/topic/231e0380-8e30-47cf-bb49-83cbd058c937",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.4202"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.4349"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64 (Client)",
+        "id": "5b5ae559-4e69-4848-ad39-cdbec680c694"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "3ae3e8b1-0e9a-48db-8170-e29811c81baa"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "9f319d48-4885-42fc-9032-5ac7fa2cf344"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "727bbbc7-a915-421c-a0ab-27d71452cbb3"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5060841-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.4270/Windows11.0-KB5060841-x64.msu",
+            "source": "OneDrive"
+        },
+        {
+            "url": "https://www.123912.com/s/oYprVv-QnMRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "87e559ec0a6387a91a40f004e52e6302",
+        "sha256": "c72aa572a03486a17362b973ab72595f947d390ba03cdffbbb76a5d383a37bea"
+    }
+}

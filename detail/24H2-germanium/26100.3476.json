@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26100.3775",
+        "number": "26100.3476",
         "branch": "ge_release_svc_prod1",
-        "compileTime": "2025-04-05 00:10",
+        "compileTime": "2025-03-05 20:24",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client & Server"
     },
     "release": {
         "channel": "General",
-        "time": "2025-04-08 17:00",
-        "url": "https://support.microsoft.com/topic/277a9d11-6ebf-410c-99f7-8c61957461eb",
+        "time": "2025-03-11 17:00",
+        "url": "https://support.microsoft.com/topic/a248e951-daef-43ad-aa10-0b99f551cec2",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium",
-            "build": "26100.3624"
+            "build": "26100.3403"
         },
         "next": {
             "category": "24H2-germanium",
-            "build": "26100.3781"
+            "build": "26100.3613"
         }
     },
     "belongsTo": {
@@ -29,32 +29,32 @@
     "updateId": [
     {
         "arch": "AMD64 (Client)",
-        "id": "b612df79-0a67-4ef5-80b3-3cc051ce8ee9"
+        "id": "069bfcf6-2c67-4392-9378-69339f737981"
     },
     {
         "arch": "ARM64 (Client)",
-        "id": "64e3a862-9d2f-4b18-90cf-a915e40b4ce8"
+        "id": "aaf4ffb5-1b4e-40c4-9f9d-06c4f7c4aa3a"
     },
     {
         "arch": "AMD64 (Server)",
-        "id": "155b8544-ab33-4b0d-b753-38e3f7b03d58"
+        "id": "7cea3e2e-2c07-4e67-a561-c500c656cc66"
     },
     {
         "arch": "ARM64 (Server)",
-        "id": "dec6edf2-1051-40a6-a449-0f89e28fdb02"
+        "id": "845e11de-3e8f-4c1b-bad0-b99777ca27b2"
     },
     {
         "arch": "AMD64 (Cloud PC)",
-        "id": "9ad49c95-81fc-46e7-80a6-1e715a6758a2"
+        "id": "eb1ab38a-513b-457f-809e-57c9af0727dd"
     },
     {
         "arch": "ARM64 (Cloud PC)",
-        "id": "e7c03bcd-3504-4aa7-b212-ac875746f3c5"
+        "id": "c6febb9a-5acb-4fb9-b795-f63e0e48bbbe"
     }],
     "download": {
-        "name": "Windows11.0-KB5055523-x64.msu",
+        "name": "Windows11.0-KB5053598-x64.msu",
         "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.3775/Windows11.0-KB5055523-x64.msu",
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3476/Windows11.0-KB5053598-x64.msu",
             "source": "OneDrive"
         },
         {
@@ -62,7 +62,7 @@
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "c8fb6f6f0a42f16f608e0d7d4de5d59b",
-        "sha256": "76f78cd911f12cb75adee186d5c52585b088150d8c1f8240318b9c9a239ee19a"
+        "md5": "b44756cd7c4d89cf7e7dd964de26aed1",
+        "sha256": "34e87ec97f2b5ab9d603eaaecf360f2ace1bf48a9d0a7c4ba2a59b49f071d5e6"
     }
 }

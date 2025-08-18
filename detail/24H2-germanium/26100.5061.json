@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26100.3909",
+        "number": "26100.5061",
         "branch": "ge_release_svc_prod3",
-        "compileTime": "2025-04-15 17:43",
+        "compileTime": "2025-08-11 01:19",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Release Preview",
-        "time": "2025-04-18 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2025/04/10/releasing-windows-11-build-26100-3902-to-the-release-preview-channel/",
+        "time": "2025-08-14 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/08/14/releasing-windows-11-build-26100-5061-to-the-release-preview-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium",
-            "build": "26100.3909"
+            "build": "26100.4946"
         },
         "next": {
-            "category": "24H2-germanium",
-            "build": "26100.3915"
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
         }
     },
     "belongsTo": {
@@ -29,10 +29,10 @@
     "updateId": [
     {
         "arch": "AMD64",
-        "id": "7c770de4-fea9-47d7-a9eb-40cec792977a"
+        "id": "5545401a-fd43-4eee-8e1b-e3b1b0bd3321"
     },
     {
         "arch": "ARM64",
-        "id": "5f48b58e-9363-45bf-89f5-1ef14332852d"
+        "id": "34c48ad7-984e-4834-a583-d8a03d001fd1"
     }]
 }

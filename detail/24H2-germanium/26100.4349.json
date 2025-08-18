@@ -1,0 +1,64 @@
+{
+    "build": {
+        "number": "26100.4349",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2025-06-06 19:00",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2025-06-10 17:00",
+        "url": "https://support.microsoft.com/topic/d7d4793c-bb41-4e4a-bfbd-a0dbdb2f6055",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.4270"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.4351"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64 (Client)",
+        "id": "808fd7fc-4ad7-4c0d-8801-8d9e4dd953ed"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "7e301761-12d7-4f8e-9acf-988be987751a"
+    },
+    {
+        "arch": "AMD64 (Server)",
+        "id": "dc616f05-dd63-47e3-9365-ff4bc05397eb"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "241bfcb4-bfd8-4e7f-8824-169cf9d1cdf5"
+    },
+    {
+        "arch": "AMD64 (Cloud PC)",
+        "id": "afac5b26-bfc9-4d27-b153-63535544bc37"
+    },
+    {
+        "arch": "ARM64 (Cloud PC)",
+        "id": "50ec7ea9-1729-407f-ab90-d4a0e0772c5a"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5060842-x64.msu",
+        "link": [{
+            "url": "https://www.123912.com/s/oYprVv-QnMRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "afde806e8df694550e3b54a45152ea83",
+        "sha256": "d4a0ce28c647df336cdd47cd4f4a3fb1869a5f0eb0f7a1c165c82a91e5ba3056"
+    }
+}

@@ -33,8 +33,8 @@
             {
                 "name": "发布预览",
                 "style": "color-purple",
-                "version": "26100.4946",
-                "branch": "ge_release_svc_prod1",
+                "version": "26100.5061",
+                "branch": "ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "period": "24H2"
@@ -51,7 +51,7 @@
             {
                 "name": "CloudPC OS",
                 "style": "color-theme",
-                "version": "26100.4652",
+                "version": "26100.4946",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",

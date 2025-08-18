@@ -1,0 +1,52 @@
+{
+    "build": {
+        "number": "26100.3983",
+        "branch": "ge_release_svc_hotpatch_prod1",
+        "compileTime": "2025-05-09 05:41",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2025-05-16 17:00",
+        "url": "https://support.microsoft.com/topic/6826d54b-8acd-4bc1-b8bf-c839ca8e77a0",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.3981"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.4066"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64",
+        "id": "06c06880-f451-4e3b-844a-7d526f249718"
+    },
+    {
+        "arch": "ARM64",
+        "id": "8e34bc58-601d-474e-aacc-85d26893021e"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5061258-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.3983/Windows11.0-KB5061258-x64.msu",
+            "source": "OneDrive"
+        },
+        {
+            "url": "https://www.123912.com/s/oYprVv-QnMRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "02ba271b36f19106c541f6acd47cf8e2",
+        "sha256": "100719b0ae40e13ae8aadc5d2ff5ba44a31d7b44dd6e3e29e8c203d173cc0e78"
+    }
+}

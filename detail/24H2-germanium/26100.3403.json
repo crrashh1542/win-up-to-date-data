@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26100.3981",
+        "number": "26100.3403",
         "branch": "ge_release_svc_hotpatch_prod1",
-        "compileTime": "2025-05-09 05:41",
+        "compileTime": "2025-03-05 03:16",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client & Server"
     },
     "release": {
         "channel": "General",
-        "time": "2025-05-13 17:00",
-        "url": "https://support.microsoft.com/topic/57e0f501-23aa-4418-9b80-2246fb2da428",
+        "time": "2025-03-11 17:00",
+        "url": "https://support.microsoft.com/topic/3f967136-f355-4b18-b0de-1b7ea62e948c",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium",
-            "build": "26100.3915"
+            "build": "26100.3323"
         },
         "next": {
             "category": "24H2-germanium",
-            "build": "26100.3983"
+            "build": "26100.3476"
         }
     },
     "belongsTo": {
@@ -29,24 +29,24 @@
     "updateId": [
     {
         "arch": "AMD64 (Client)",
-        "id": "b104dc91-7d84-4d36-a776-bf93cc81104b"
+        "id": "c7d094e2-6fab-49eb-8cce-150e8199fbd5"
     },
     {
         "arch": "ARM64 (Client)",
-        "id": "954ed8bc-0a09-4638-b277-fcc3ca54b56d"
+        "id": "2e706af8-899f-434d-9c84-6aa463de551a"
     },
     {
         "arch": "AMD64 (Server)",
-        "id": "2baf73fe-b1f9-4f4c-9cb2-b2893bb4c82f"
+        "id": "16f08b2e-35b9-4ad8-8a0e-3cad15ac2edf"
     },
     {
         "arch": "ARM64 (Server)",
-        "id": "486f5c22-cbbf-4ca9-a28a-790a5eff549c"
+        "id": "6b39e585-2060-44af-b2f4-dde27310d0af"
     }],
     "download": {
-        "name": "Windows11.0-KB5058497-x64.msu",
+        "name": "Windows11.0-KB5053636-x64.msu",
         "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.3981/Windows11.0-KB5058497-x64.msu",
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3403/Windows11.0-KB5053636-x64.msu",
             "source": "OneDrive"
         },
         {
@@ -54,7 +54,7 @@
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "2c3658a37ccc0ab159ab706c554afc54",
-        "sha256": "fa786d47d2d87c94d4e313035c54db0e6ade7fd1603f683e795d1b44c9304fef"
+        "md5": "0e6c3057f02b2aae0b5587c69e34b0ed",
+        "sha256": "6ecb22a674522c75bae1c58e2940aa1efb27cfefe990ea53948dc931c3155cce"
     }
 }

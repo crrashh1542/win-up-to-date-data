@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26100.3981",
+        "number": "26100.4851",
         "branch": "ge_release_svc_hotpatch_prod1",
-        "compileTime": "2025-05-09 05:41",
+        "compileTime": "2025-08-07 15:52",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client & Server"
     },
     "release": {
         "channel": "General",
-        "time": "2025-05-13 17:00",
-        "url": "https://support.microsoft.com/topic/57e0f501-23aa-4418-9b80-2246fb2da428",
+        "time": "2025-08-12 17:00",
+        "url": "https://support.microsoft.com/topic/33d7ac46-35d6-406b-a4a0-ef1d00bc590f",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium",
-            "build": "26100.3915"
+            "build": "26100.4770"
         },
         "next": {
             "category": "24H2-germanium",
-            "build": "26100.3983"
+            "build": "26100.4946"
         }
     },
     "belongsTo": {
@@ -29,32 +29,28 @@
     "updateId": [
     {
         "arch": "AMD64 (Client)",
-        "id": "b104dc91-7d84-4d36-a776-bf93cc81104b"
+        "id": "cd1a9b86-b88b-43e3-95a3-062a449be194"
     },
     {
         "arch": "ARM64 (Client)",
-        "id": "954ed8bc-0a09-4638-b277-fcc3ca54b56d"
+        "id": "241da831-b8c7-4bd2-b8d7-8d209c9da96c"
     },
     {
         "arch": "AMD64 (Server)",
-        "id": "2baf73fe-b1f9-4f4c-9cb2-b2893bb4c82f"
+        "id": "56bd20f7-ca33-4834-9789-f6f8756c2695"
     },
     {
         "arch": "ARM64 (Server)",
-        "id": "486f5c22-cbbf-4ca9-a28a-790a5eff549c"
+        "id": "88a3ed95-0c22-4fc8-9bf2-3612ab4b2cb2"
     }],
     "download": {
-        "name": "Windows11.0-KB5058497-x64.msu",
+        "name": "Windows11.0-KB5064010-x64.msu",
         "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.3981/Windows11.0-KB5058497-x64.msu",
-            "source": "OneDrive"
-        },
-        {
             "url": "https://www.123912.com/s/oYprVv-QnMRv",
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "2c3658a37ccc0ab159ab706c554afc54",
-        "sha256": "fa786d47d2d87c94d4e313035c54db0e6ade7fd1603f683e795d1b44c9304fef"
+        "md5": "8bd5256c6a85033f85ba78b3da58c040",
+        "sha256": "a1ed751f352a1722d120fbc752e061386f4c50aed1ad44267cc40b5ac610659e"
     }
 }

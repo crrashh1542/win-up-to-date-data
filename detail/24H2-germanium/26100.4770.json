@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "26100.4770",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2025-07-18 17:06",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2025-07-22 17:00",
+        "url": "https://support.microsoft.com/topic/9c5bc200-52b6-4c1a-be70-80df6bbfe9c3",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.4767"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.4851"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64",
+        "id": "1116eb92-418b-4015-ba21-3d34d586b0ab"
+    },
+    {
+        "arch": "ARM64",
+        "id": "2feb19a7-b118-4644-8018-22118b5ab6fc"
+    }]
+}

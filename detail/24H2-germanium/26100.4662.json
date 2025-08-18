@@ -1,0 +1,54 @@
+{
+    "build": {
+        "number": "26100.4662",
+        "branch": "ge_release_svc_hotpatch_im",
+        "compileTime": "2025-07-11 18:58",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2025-07-14 08:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.4656"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.4762"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64 (Client)",
+        "id": "87b6d616-a21b-4b93-b10d-13ee16920fc9"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "47f80069-75e6-4f57-b2e3-6c559c297607"
+    },
+    {
+        "arch": "ARM64 (Server)",
+        "id": "f53a42d4-98d0-4a3e-8045-fa3f70e7059d"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5064490-x64.msu",
+        "link": [{
+            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive005/26100.4662/Windows11.0-KB5064490-x64.msu",
+            "source": "OneDrive"
+        },
+        {
+            "url": "https://www.123912.com/s/oYprVv-QnMRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "084deafa19daeecffa887165c9db895a",
+        "sha256": "1e4887579fbecdf6ccad50ff31ef5ebd3cb214faaa5e9f383e709c8f1210909b"
+    }
+}

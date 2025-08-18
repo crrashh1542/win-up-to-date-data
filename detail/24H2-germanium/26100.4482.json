@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "26100.4482",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2025-06-16 20:33",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2025-06-19 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/06/19/releasing-windows-11-build-26100-4482-to-the-release-preview-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.4351"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.4484"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [
+    {
+        "arch": "AMD64",
+        "id": "a65e5849-be58-42a1-aa4d-9a85f2b8c158"
+    },
+    {
+        "arch": "ARM64",
+        "id": "4a1381be-7848-497b-9aaf-f7974ceb9a0b"
+    }]
+}
