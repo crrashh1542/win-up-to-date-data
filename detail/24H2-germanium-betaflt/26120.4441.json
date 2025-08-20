@@ -1,0 +1,37 @@
+{
+    "build": {
+        "number": "26120.4441",
+        "branch": "ge_release_svc_betaflt_prod1",
+        "compileTime": "2025-06-05 10:14",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Beta",
+        "time": "2025-06-13 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/06/13/announcing-windows-11-insider-preview-build-26120-4441-beta-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.4250"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.4452"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-betaflt",
+        "name": "Germanium (Betaflt)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "72e0ba5c-98d8-4a28-ae54-f99e02300dde"
+    },
+    {
+        "arch": "ARM64",
+        "id": "811946f7-f470-41cb-9275-9582f96baccf"
+    }]
+ }
