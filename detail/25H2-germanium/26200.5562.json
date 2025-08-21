@@ -1,0 +1,37 @@
+{
+    "build": {
+        "number": "26200.5562",
+        "branch": "ge_prerelease_im",
+        "compileTime": "2025-04-15 09:47",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2025-04-21 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/04/21/announcing-windows-11-insider-preview-build-26200-5562-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.5551"
+        },
+        "next": {
+            "category": "25H2-germanium",
+            "build": "26200.5570"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "6abee06e-9670-4392-9adb-28ef0a94db9d"
+    },
+    {
+        "arch": "ARM64",
+        "id": "7617a881-aa04-4c01-a68e-9372cbce658b"
+    }]
+ }
