@@ -16,6 +16,10 @@
         "previous": {
             "category": "26H1-bromine",
             "build": "27919.1000"
+        },
+        "next": {
+            "category": "26H1-bromine",
+            "build": "27928.1"
         }
     },
     "belongsTo": {
