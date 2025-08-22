@@ -18,7 +18,7 @@
             "build": "27783.1000"
         },
         "next": {
-            "category": "25H2-selenium",
+            "category": "26H1-bromine",
             "build": "27802.1000"
         }
     },

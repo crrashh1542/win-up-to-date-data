@@ -1,41 +1,41 @@
 {
     "build": {
-        "number": "27842.1000",
+        "number": "27813.1000",
         "branch": "rs_prerelease",
-        "compileTime": "2025-04-18 14:24",
+        "compileTime": "2025-03-07 14:07",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Canary",
-        "time": "2025-04-23 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2025/04/23/announcing-windows-11-insider-preview-build-27842-canary-channel/",
+        "time": "2025-03-12 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/03/12/announcing-windows-11-insider-preview-build-27813-canary-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
-            "category": "25H2-selenium",
-            "build": "27823.1000"
+            "category": "26H1-bromine",
+            "build": "27808.1000"
         },
         "next": {
-            "category": "25H2-selenium",
-            "build": "27858.1000"
+            "category": "26H1-bromine",
+            "build": "27818.1000"
         }
     },
     "belongsTo": {
-        "path": "25H2-selenium",
-        "name": "Selenium"
+        "path": "26H1-bromine",
+        "name": "Bromine"
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "7653f72a-1f6d-4ddc-bd73-3460c6f6cbee"
+        "id": "3a1398ec-b305-471b-a7df-573cc2d2bf3c"
     },
     {
         "arch": "ARM64",
-        "id": "4e9de499-5076-44ed-aff7-ce9ee1db520d"
+        "id": "b0cc84a8-07fa-43d1-a7ff-979a19be5b23"
     }],
     "download": {
-        "name": "27842.1000.250418-1424.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "name": "27813.1000.250307-1407.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "link": [{
             "url": "",
             "source": "百度网盘"

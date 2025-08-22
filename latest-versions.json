@@ -8,9 +8,9 @@
                 "style": "color-amber",
                 "version": "27924.1000",
                 "branch": "rs_prerelease",
-                "codename": "selenium",
-                "category": "25H2-selenium",
-                "period": "25H2"
+                "codename": "Bromine",
+                "category": "26H1-bromine",
+                "period": "26H1"
             },
             {
                 "name": "Dev",

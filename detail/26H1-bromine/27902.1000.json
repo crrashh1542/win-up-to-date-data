@@ -14,17 +14,17 @@
     },
     "nav": {
         "previous": {
-            "category": "25H2-selenium",
+            "category": "26H1-bromine",
             "build": "27898.1000"
         },
         "next": {
-            "category": "25H2-selenium",
+            "category": "26H1-bromine",
             "build": "27909.1000"
         }
     },
     "belongsTo": {
-        "path": "25H2-selenium",
-        "name": "selenium"
+        "path": "26H1-bromine",
+        "name": "Bromine"
     },
     "updateId": [{
         "arch": "AMD64",
