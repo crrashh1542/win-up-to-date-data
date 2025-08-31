@@ -6,7 +6,7 @@
             {
                 "name": "Canary",
                 "style": "color-amber",
-                "version": "27928.1000",
+                "version": "27934.1",
                 "branch": "br_release",
                 "codename": "Bromine",
                 "category": "26H1-bromine",
