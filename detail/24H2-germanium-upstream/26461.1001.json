@@ -18,8 +18,8 @@
             "build": "26454.1000"
         },
         "next": {
-            "category": "25H1-dilithium",
-            "build": "27686.1000"
+            "category": "24H2-germanium-upstream",
+            "build": "26470.1000"
         }
     },
     "belongsTo": {
