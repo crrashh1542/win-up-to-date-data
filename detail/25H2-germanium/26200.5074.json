@@ -1,0 +1,37 @@
+{
+    "build": {
+        "number": "26200.5074",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2025-08-26 14:28",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2025-08-29 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/08/29/releasing-windows-11-version-25h2-to-the-release-preview-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.5761"
+        },
+        "next": {
+            "category": "25H2-selenium",
+            "build": "27695.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "8fa6ad88-cc7f-430d-8d35-4bf1bbbb28f4"
+    },
+    {
+        "arch": "ARM64",
+        "id": "3db47489-cd38-40ec-80c3-a28df6537c37"
+    }]
+ }
