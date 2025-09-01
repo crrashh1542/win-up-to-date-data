@@ -9,8 +9,8 @@
         "name": "Dilithium"
     },
     "next": {
-        "path": "25H2-selenium",
-        "name": "Selenium"
+        "path": "25H2-germanium-betaflt",
+        "name": "Germanium (25H2 Betaflt)"
     },
     "list": [
         ["26200.5074", "2025-08-29"],

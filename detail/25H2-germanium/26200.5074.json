@@ -18,8 +18,8 @@
             "build": "26200.5761"
         },
         "next": {
-            "category": "25H2-selenium",
-            "build": "27695.1000"
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
         }
     },
     "belongsTo": {
@@ -34,4 +34,4 @@
         "arch": "ARM64",
         "id": "3db47489-cd38-40ec-80c3-a28df6537c37"
     }]
- }
+}
