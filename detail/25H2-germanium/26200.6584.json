@@ -1,16 +1,14 @@
 {
     "build": {
-        "number": "26200.5074",
-        "branch": "25h2_ge_release_svc_prod3",
-        "compileTime": "2025-08-26 14:28",
+        "number": "26200.6584",
+        "branch": "25h2_ge_release_svc_prod1",
+        "compileTime": "2025-09-04 17:28",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Release Preview",
-        "time": "2025-08-29 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2025/08/29/releasing-windows-11-version-25h2-to-the-release-preview-channel/",
-        "announcePlace": "Windows Blogs"
+        "time": "2025-09-09 17:00"
     },
     "nav": {
         "previous": {
@@ -18,8 +16,8 @@
             "build": "26200.5761"
         },
         "next": {
-            "category": "25H2-germanium",
-            "build": "26200.6584"
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
         }
     },
     "belongsTo": {
