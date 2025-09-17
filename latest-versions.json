@@ -58,10 +58,18 @@
                 "period": "24H2"
             },
             {
+                "name": "发布预览",
+                "style": "color-purple",
+                "version": "22631.5984",
+                "branch": "23h2_ni_release_svc_prod3",
+                "codename": "Nickel",
+                "period": "23H2"
+            },
+            {
                 "name": "正式通道",
                 "style": "color-theme",
-                "version": "22631.5982",
-                "branch": "23h2_ni_release_svc_prod3",
+                "version": "22631.5909",
+                "branch": "23h2_ni_release_svc_prod1",
                 "codename": "Nickel",
                 "period": "23H2"
             },
@@ -82,8 +90,8 @@
             {
                 "name": "发布预览",
                 "style": "color-purple",
-                "version": "19045.6388",
-                "branch": "22h2_release_svc_prod2",
+                "version": "19045.6390",
+                "branch": "22h2_release_svc_prod3",
                 "codename": "Vibranium",
                 "period": "22H2"
             },
