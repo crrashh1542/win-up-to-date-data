@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26200.6713",
+        "number": "26200.6718",
         "branch": "25h2_ge_release_svc_prod3",
-        "compileTime": "2025-09-08 17:42",
+        "compileTime": "2025-09-14 20:20",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Release Preview",
-        "time": "2025-09-12 17:00",
+        "time": "2025-09-17 17:00",
         "url": "https://blogs.windows.com/windows-insider/2025/09/12/releasing-windows-11-builds-26100-6713-and-26200-6713-to-the-release-preview-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
             "category": "25H2-germanium",
-            "build": "26200.5761"
+            "build": "26200.6713"
         },
         "next": {
-            "category": "25H2-germanium",
-            "build": "26200.6718"
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
         }
     },
     "belongsTo": {
@@ -28,10 +28,10 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "e65522cc-6e59-4d16-9fcd-1a656d198c2d"
+        "id": "aa8a691e-bee8-495d-b159-721264f5c9b8"
     },
     {
         "arch": "ARM64",
-        "id": "9f6074c7-2aab-4a73-8fc3-fee74f5c781f"
+        "id": "ef5f82ec-54b5-46e5-add0-6201f61e8bc1"
     }]
 }
