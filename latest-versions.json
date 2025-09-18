@@ -15,16 +15,16 @@
             {
                 "name": "Dev",
                 "style": "color-orange",
-                "version": "26220.5790",
+                "version": "26220.6682",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
-                "category": "25H2-germanium",
+                "category": "25H2-germanium-betaflt",
                 "period": "25H2"
             },
             {
                 "name": "Beta",
                 "style": "color-green",
-                "version": "26120.5770",
+                "version": "26120.6682",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium-betaflt",

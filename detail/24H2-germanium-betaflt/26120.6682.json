@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26120.5770",
+        "number": "26120.6682",
         "branch": "ge_release_svc_betaflt_prod1",
-        "compileTime": "2025-08-20 16:38",
+        "compileTime": "2025-09-05 13:46",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Beta",
-        "time": "2025-08-29 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2025/08/29/announcing-windows-11-insider-preview-build-26120-5770-beta-channel/",
+        "time": "2025-09-12 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/09/12/announcing-windows-11-insider-preview-build-26120-6682-beta-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium-betaflt",
-            "build": "26120.5751"
+            "build": "26120.5770"
         },
         "next": {
-            "category": "24H2-germanium-betaflt",
-            "build": "26120.6682"
+            "category": "24H2-germanium-upstream",
+            "build": "26200.5001"
         }
     },
     "belongsTo": {
@@ -28,10 +28,10 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "f26cc05e-8cf0-4d9c-b12a-17a5e7b3fd1e"
+        "id": "7049ac89-6421-4145-b8fb-9b820d70a116"
     },
     {
         "arch": "ARM64",
-        "id": "1982075a-c631-46c8-aa68-ea21307c5480"
+        "id": "9752c5f3-3899-47a9-a4ca-a76d95647b06"
     }]
 }
