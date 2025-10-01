@@ -18,8 +18,8 @@
     },
     "nav": {
         "previous": {
-            "category": "25H2-germanium-betaflt",
-            "build": "26220.6760"
+            "category": "24H2-germanium-upstream",
+            "build": "26484.1000"
         },
         "next": {
             "category": "25H2-germanium",

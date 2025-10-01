@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26470.1000",
+        "number": "26484.1000",
         "branch": "ge_prereleaseserver",
-        "compileTime": "2025-08-15 10:27",
+        "compileTime": "2025-09-05 09:06",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Server"
     },
     "release": {
         "channel": "Preview",
-        "time": "2025-08-27 17:00",
-        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-26470/4448770",
+        "time": "2025-09-11 17:00",
+        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-26484/4453381",
         "announcePlace": "Microsoft Tech Community"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium-upstream",
-            "build": "26461.1001"
+            "build": "26470.1000"
         },
         "next": {
-            "category": "24H2-germanium-upstream",
-            "build": "26484.1000"
+            "category": "25H1-dilithium",
+            "build": "27686.1000"
         }
     },
     "belongsTo": {
@@ -32,16 +32,16 @@
     },
     {
         "arch": "ARM64",
-        "id": "d423cda1-ea9d-4242-8c83-ec20630514ad"
+        "id": "dc9dc2c7-0e7e-4912-832d-929261294dfc"
     }],
     "download": {
-        "name": "26470.1000.250815-1027.ge_prereleaseserver_SERVER_X64FRE_zh.cn.iso",
+        "name": "26484.1000.250905-0906.ge_prereleaseserver_SERVER_X64FRE_zh-cn.iso",
         "link": [ {
-            "url": "https://www.123912.com/s/oYprVv-ASMRv",
+            "url": "https://www.123912.com/s/oYprVv-lyMRv",
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "6f0c5a647683b1e00937bddfbbd39c45",
-        "sha256": "0e5081f4c2b51a5a737675c9c8764e1ce384ee691dea6e9e78d6e6d5abeb772c"
+        "md5": "ddae246496c5892e5ab7685b81bf53c7",
+        "sha256": "5e370bc36823fb473ee1a194978bd61bf0479dbfd87a3c470346c8edac8c0e0a"
     }
 }
