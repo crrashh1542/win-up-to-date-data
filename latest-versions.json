@@ -1,284 +1,289 @@
 [
     {
         "category": "Windows 11",
-        "style": "w-icon-win11",
+        "id": "client-11",
+        "icon": "windows11",
         "releases": [
             {
-                "name": "Canary",
+                "channel": "Canary",
                 "style": "color-amber",
                 "version": "27954.1",
                 "branch": "br_release",
                 "codename": "Bromine",
                 "category": "26H1-bromine",
-                "period": "26H1"
+                "semester": "26H1"
             },
             {
-                "name": "Dev",
+                "channel": "Dev",
                 "style": "color-orange",
                 "version": "26220.6760",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
-                "period": "25H2"
+                "semester": "25H2"
             },
             {
-                "name": "Beta",
+                "channel": "Beta",
                 "style": "color-green",
                 "version": "26120.6760",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium-betaflt",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "发布预览",
+                "channel": "发布预览",
                 "style": "color-purple",
                 "version": "26200.6725",
                 "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
-                "period": "25H2"
+                "semester": "25H2"
             },
             {
-                "name": "发布预览",
+                "channel": "发布预览",
                 "style": "color-purple",
                 "version": "26100.6725",
                 "branch": "ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "正式通道",
+                "channel": "正式通道",
                 "style": "color-theme",
                 "version": "26100.6725",
                 "branch": "ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "CloudPC OS",
+                "channel": "CloudPC OS",
                 "style": "color-theme",
                 "version": "26100.6584",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "发布预览",
+                "channel": "发布预览",
                 "style": "color-purple",
                 "version": "22631.5984",
                 "branch": "23h2_ni_release_svc_prod3",
                 "codename": "Nickel",
-                "period": "23H2"
+                "semester": "23H2"
             },
             {
-                "name": "正式通道",
+                "channel": "正式通道",
                 "style": "color-theme",
                 "version": "22631.5909",
                 "branch": "23h2_ni_release_svc_prod1",
                 "codename": "Nickel",
-                "period": "23H2"
+                "semester": "23H2"
             },
             {
-                "name": "正式通道",
+                "channel": "正式通道",
                 "style": "color-theme",
                 "version": "22621.5909",
                 "branch": "ni_release_svc_prod1",
                 "codename": "Nickel",
-                "period": "22H2"
+                "semester": "22H2"
             }
         ]
     },
     {
         "category": "Windows 10",
-        "style": "w-icon-win10",
+        "id": "client-10",
+        "icon": "windows10",
         "releases": [
             {
-                "name": "发布预览",
+                "channel": "发布预览",
                 "style": "color-purple",
                 "version": "19045.6390",
                 "branch": "22h2_release_svc_prod3",
                 "codename": "Vibranium",
-                "period": "22H2"
+                "semester": "22H2"
             },
             {
-                "name": "正式通道",
+                "channel": "正式通道",
                 "style": "color-theme",
                 "version": "19045.6332",
                 "branch": "22h2_release_svc_prod1",
                 "codename": "Vibranium",
-                "period": "22H2"
+                "semester": "22H2"
             },
             {
-                "name": "LTSC (2021)",
+                "channel": "LTSC (2021)",
                 "style": "color-teal",
                 "version": "19044.6332",
                 "branch": "21h2_release_svc_prod1",
                 "codename": "Vibranium",
-                "period": "21H2"
+                "semester": "21H2"
             },
             {
-                "name": "LTSC (2019)",
+                "channel": "LTSC (2019)",
                 "style": "color-teal",
                 "version": "17763.7792",
                 "branch": "rs5_release_svc_prod1",
                 "codename": "Redstone",
-                "period": "1809"
+                "semester": "1809"
             },
             {
-                "name": "LTSB (2016)",
+                "channel": "LTSB (2016)",
                 "style": "color-teal",
                 "version": "14393.8422",
                 "branch": "rs1_release",
                 "codename": "Redstone",
-                "period": "1607"
+                "semester": "1607"
             },
             {
-                "name": "LTSB (2015)",
+                "channel": "LTSB (2015)",
                 "style": "color-teal",
                 "version": "10240.21128",
                 "branch": "th1",
                 "codename": "Threshold",
-                "period": "1507"
+                "semester": "1507"
             }
         ]
     },
     {
         "category": "Windows Server",
-        "style": "w-icon-server",
+        "id": "server",
+        "icon": "server",
         "releases": [
             {
-                "name": "预览版 (v.Next)",
+                "channel": "预览版 (v.Next)",
                 "style": "color-amber",
                 "version": "26484.1000",
                 "branch": "ge_prereleaseserver",
                 "codename": "Germanium",
                 "category": "24H2-germanium-upstream",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "LTSC (2025)",
+                "channel": "LTSC (2025)",
                 "style": "color-theme",
                 "version": "26100.6584",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "年度频道 (23H2)",
+                "channel": "年度频道 (23H2)",
                 "style": "color-theme",
                 "version": "25398.1849",
                 "branch": "zn_release_svc_prod1",
                 "codename": "Zinc",
-                "period": "23H2"
+                "semester": "23H2"
             },
             {
-                "name": "LTSC (2022)",
+                "channel": "LTSC (2022)",
                 "style": "color-theme",
                 "version": "20349.4171",
                 "branch": "22h2_fe_release_svc_prod1",
                 "codename": "Iron",
-                "period": "22H2"
+                "semester": "22H2"
             },
             {
-                "name": "LTSC (2019)",
+                "channel": "LTSC (2019)",
                 "style": "color-teal",
                 "version": "17763.7792",
                 "branch": "rs5_release_svc_prod1",
                 "codename": "Redstone",
-                "period": "1809"
+                "semester": "1809"
             },
             {
-                "name": "LTSC (2016)",
+                "channel": "LTSC (2016)",
                 "style": "color-teal",
                 "version": "14393.8442",
                 "branch": "rs1_release",
                 "codename": "Redstone",
-                "period": "1607"
+                "semester": "1607"
             }
         ]
     },
     {
         "category": "可下载的客户端 ISO",
-        "style": "w-icon-iso",
+        "id": "iso",
+        "icon": "iso",
         "releases": [
             {
-                "name": "Canary",
+                "channel": "Canary",
                 "style": "color-amber",
                 "version": "27924.1000",
                 "branch": "rs_prerelease",
                 "codename": "Selenium",
                 "category": "25H2-selenium",
-                "period": "25H2"
+                "semester": "25H2"
             },
             {
-                "name": "Dev",
+                "channel": "Dev",
                 "style": "color-orange",
                 "version": "26200.5074",
                 "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "Beta",
+                "channel": "Beta",
                 "style": "color-green",
                 "version": "22621.1",
                 "branch": "ni_release",
                 "codename": "Nickel",
-                "period": "22H2"
+                "semester": "22H2"
             },
             {
-                "name": "发布预览",
+                "channel": "发布预览",
                 "style": "color-purple",
                 "version": "26100.1150",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "发布预览",
+                "channel": "发布预览",
                 "style": "color-purple",
                 "version": "19045.1826",
                 "branch": "22h2_release_svc_prod2",
                 "codename": "Vibranium",
-                "period": "22H2"
+                "semester": "22H2"
             }
         ]
     },
     {
         "category": "Azure Stack HCI",
-        "style": "w-icon-azure",
+        "id": "azure",
+        "icon": "azure",
         "releases": [
             {
-                "name": "Preview",
+                "channel": "Preview",
                 "style": "color-purple",
                 "version": "26100.2314",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
-                "period": "24H2"
+                "semester": "24H2"
             },
             {
-                "name": "Production",
+                "channel": "Production",
                 "style": "color-theme",
                 "version": "25398.1849",
                 "branch": "zn_release_svc_prod1",
                 "codename": "Zinc",
-                "period": "23H2"
+                "semester": "23H2"
             },
             {
-                "name": "Production",
+                "channel": "Production",
                 "style": "color-theme",
                 "version": "20349.3692",
                 "branch": "fe_release_svc_prod1",
                 "codename": "Iron",
-                "period": "22H2"
+                "semester": "22H2"
             }
         ]
     }
