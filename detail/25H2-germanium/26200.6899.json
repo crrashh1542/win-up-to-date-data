@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26200.6725",
-        "branch": "25h2_ge_release_svc_prod3",
-        "compileTime": "2025-09-25 16:04",
+        "number": "26200.6899",
+        "branch": "25h2_ge_release_svc_prod1",
+        "compileTime": "2025-10-10 10:22",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "General",
-        "time": "2025-09-29 17:00",
-        "url": "https://support.microsoft.com/topic/fa03ce47-cec5-4d1c-87d0-cac4195b4b4e",
+        "time": "2025-10-14 17:00",
+        "url": "https://support.microsoft.com/topic/1db237d8-9f3b-4218-9515-3e0a32729685",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
             "category": "25H2-germanium",
-            "build": "26200.6718"
+            "build": "26200.6725"
         },
         "next": {
-            "category": "25H2-germanium",
-            "build": "26200.6899"
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
         }
     },
     "belongsTo": {
@@ -28,10 +28,10 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "a66fe849-c1e4-41b7-bb51-f6abbecf4040"
+        "id": "37896fbb-52b8-49ee-9488-773465cfa4db"
     },
     {
         "arch": "ARM64",
-        "id": "9beb19c0-fcda-4dbf-bb62-e42127163a5d"
+        "id": "f44eb96e-9b39-40ec-9978-184ed846cba3"
     }]
 }
