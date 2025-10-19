@@ -16,7 +16,7 @@
             {
                 "channel": "Dev",
                 "style": "color-orange",
-                "version": "26220.6780",
+                "version": "26220.6972",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
@@ -25,7 +25,7 @@
             {
                 "channel": "Beta",
                 "style": "color-green",
-                "version": "26120.6780",
+                "version": "26120.6972",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium-betaflt",
