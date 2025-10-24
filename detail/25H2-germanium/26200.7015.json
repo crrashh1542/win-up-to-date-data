@@ -1,0 +1,37 @@
+{
+    "build": {
+        "number": "26200.7015",
+        "branch": "25h2_ge_release_svc_prod3",
+        "compileTime": "2025-10-17 18:06",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2025-10-21 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/10/21/releasing-windows-11-builds-26100-7015-and-26200-7015-to-the-release-preview-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.6899"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "2e5be87c-a2d1-4164-b90a-17e003156729"
+    },
+    {
+        "arch": "ARM64",
+        "id": "b3039aaf-89cf-45ca-8689-56ac6d0832dd"
+    }]
+}
