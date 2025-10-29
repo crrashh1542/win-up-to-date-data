@@ -1,0 +1,43 @@
+{
+    "build": {
+        "number": "27975.984",
+        "branch": "br_release_svc_prod3",
+        "compileTime": "2025-10-20 17:00",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2025-10-27 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/10/23/announcing-windows-11-insider-preview-build-27975-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "27975.1"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "ff5f348d-c42a-4a0d-bf07-460b9c947956"
+    },
+    {
+        "arch": "ARM64",
+        "id": "27525081-4537-49d6-b38f-a753247481ff"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5070899-x64.msu",
+        "link": [{
+            "url": "https://www.123865.com/s/oYprVv-zowRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "6a93363c131647f064be6fa4cd827b19",
+        "sha256": "adcc4cacb740cf3a7cfab7d1e4e5057c2399087748d2546a264644f396f1c095"
+    }
+}
