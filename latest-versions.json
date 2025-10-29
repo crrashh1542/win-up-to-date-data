@@ -34,7 +34,7 @@
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "26200.7015",
+                "version": "26200.7019",
                 "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
@@ -52,7 +52,7 @@
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "26100.7015",
+                "version": "26100.7019",
                 "branch": "ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
