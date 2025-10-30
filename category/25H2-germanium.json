@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "25H2",
     "range": [26200.5510, null],
-    "previous": {
-        "path": "25H1-dilithium",
-        "name": "Dilithium"
-    },
-    "next": {
-        "path": "25H2-germanium-betaflt",
-        "name": "Germanium (25H2 Betaflt)"
+    "nav": {
+        "previous": {
+            "path": "25H1-dilithium",
+            "name": "Dilithium"
+        },
+        "next": {
+            "path": "25H2-germanium-betaflt",
+            "name": "Germanium (25H2 Betaflt)"
+        }
     },
     "list": [
         ["26200.7019", "2025-10-28"],

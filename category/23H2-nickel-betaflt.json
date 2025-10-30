@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "23H2",
     "range": [22635.2419, 22635.5305],
-    "previous": {
-        "path": "23H2-nickel",
-        "name": "Nickel (23H2)"
-    },
-    "next": {
-        "path": "23H1-copper",
-        "name": "Copper"
+    "nav": {
+        "previous": {
+            "path": "23H2-nickel",
+            "name": "Nickel (23H2)"
+        },
+        "next": {
+            "path": "23H1-copper",
+            "name": "Copper"
+        }
     },
     "list": [
         ["22635.5305", "2025-04-05"],

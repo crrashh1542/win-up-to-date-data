@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "25H2",
     "range": [27691, 27788],
-    "previous": {
-        "path": "25H2-germanium-betaflt",
-        "name": "Germanium (25H2 Betaflt)"
-    },
-    "next": {
-        "path": "26H1-bromine",
-        "name": "Bromine"
+    "nav": {
+        "previous": {
+            "path": "25H2-germanium-betaflt",
+            "name": "Germanium (25H2 Betaflt)"
+        },
+        "next": {
+            "path": "26H1-bromine",
+            "name": "Bromine"
+        }
     },
     "list": [
         ["27788.1000", "2025-02-05"],

@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "24H1",
     "range": [25905, 25941],
-    "previous": {
-        "path": "23H2-zinc-server",
-        "name": "Zinc (Server)"
-    },
-    "next": {
-        "path": "24H2-germanium",
-        "name": "Germanium"
+    "nav": {
+        "previous": {
+            "path": "23H2-zinc-server",
+            "name": "Zinc (Server)"
+        },
+        "next": {
+            "path": "24H2-germanium",
+            "name": "Germanium"
+        }
     },
     "list": [
         ["25941.1000", "2023-08-31", "25941"],

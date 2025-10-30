@@ -4,13 +4,15 @@
     "belonging": "Windows Server v2023",
     "semester": "23H2",
     "range": [25398.1, null],
-    "previous": {
-        "path": "23H2-zinc",
-        "name": "Zinc (Client)"
-    },
-    "next": {
-        "path": "24H1-gallium",
-        "name": "Gallium"
+    "nav": {
+        "previous": {
+            "path": "23H2-zinc",
+            "name": "Zinc (Client)"
+        },
+        "next": {
+            "path": "24H1-gallium",
+            "name": "Gallium"
+        }
     },
     "list": [
         ["25398.1916", "2025-10-23"],

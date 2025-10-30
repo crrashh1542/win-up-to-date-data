@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "24H2",
     "range": [25947, 26100],
-    "previous": {
-        "path": "24H1-gallium",
-        "name": "Gallium"
-    },
-    "next": {
-        "path": "24H2-germanium-betaflt",
-        "name": "Germanium (Betaflt)"
+    "nav": {
+        "previous": {
+            "path": "24H1-gallium",
+            "name": "Gallium"
+        },
+        "next": {
+            "path": "24H2-germanium-betaflt",
+            "name": "Germanium (Betaflt)"
+        }
     },
     "list": [
         ["26100.7019", "2025-10-28"],

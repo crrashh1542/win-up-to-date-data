@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "23H2",
     "range": [22631.2428, null],
-    "previous": {
-        "path": "22H2-nickel-upstream",
-        "name": "Nickel (Upstream)"
-    },
-    "next": {
-        "path": "23H2-nickel-betaflt",
-        "name": "Nickel (23H2 Betaflt)"
+    "nav": {
+        "previous": {
+            "path": "22H2-nickel-upstream",
+            "name": "Nickel (Upstream)"
+        },
+        "next": {
+            "path": "23H2-nickel-betaflt",
+            "name": "Nickel (23H2 Betaflt)"
+        }
     },
     "list": [
         ["22631.6133", "2025-10-28"],

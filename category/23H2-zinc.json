@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "23H2",
     "range": [25247, 25393],
-    "previous": {
-        "path": "23H1-copper",
-        "name": "Copper"
-    },
-    "next": {
-        "path": "23H2-zinc-server",
-        "name": "Zinc (Server)"
+    "nav": {
+        "previous": {
+            "path": "23H1-copper",
+            "name": "Copper"
+        },
+        "next": {
+            "path": "23H2-zinc-server",
+            "name": "Zinc (Server)"
+        }
     },
     "list": [
         ["25393.1", "2023-06-14"],

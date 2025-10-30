@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "24H2",
     "range": [26120.461, null],
-    "previous": {
-        "path": "24H2-germanium",
-        "name": "Germanium"
-    },
-    "next": {
-        "path": "24H2-germanium-upstream",
-        "name": "Germanium (Upstream)"
+    "nav": {
+        "previous": {
+            "path": "24H2-germanium",
+            "name": "Germanium"
+        },
+        "next": {
+            "path": "24H2-germanium-upstream",
+            "name": "Germanium (Upstream)"
+        }
     },
     "list": [
         ["26120.6982", "2025-10-24"],

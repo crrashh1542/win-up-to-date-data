@@ -4,13 +4,15 @@
     "belonging": "Windows 11, Windows Server",
     "semester": "24H2",
     "range": [26200, null],
-    "previous": {
-        "path": "24H2-germanium-betaflt",
-        "name": "Germanium (Betaflt)"
-    },
-    "next": {
-        "path": "25H1-dilithium",
-        "name": "Dilithium"
+    "nav": {
+        "previous": {
+            "path": "24H2-germanium-betaflt",
+            "name": "Germanium (Betaflt)"
+        },
+        "next": {
+            "path": "25H1-dilithium",
+            "name": "Dilithium"
+        }
     },
     "list": [
         ["26484.1000", "2025-09-11"],

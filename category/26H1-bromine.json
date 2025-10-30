@@ -4,9 +4,11 @@
     "belonging": "Windows 11",
     "semester": "26H1",
     "range": [27802, null],
-    "previous": {
-        "path": "25H2-selenium",
-        "name": "Selenium"
+    "nav": {
+        "previous": {
+            "path": "25H2-selenium",
+            "name": "Selenium"
+        }
     },
     "list": [
         ["27975.984", "2025-10-27"],

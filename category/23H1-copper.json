@@ -4,13 +4,15 @@
     "belonging": "Windows 11",
     "semester": "23H2",
     "range": [25115, 25236],
-    "previous": {
-        "path": "23H2-Nickel-betaflt",
-        "name": "Nickel (23H2 Betaflt)"
-    },
-    "next": {
-        "path": "23H2-zinc",
-        "name": "Zinc (Client)"
+    "nav": {
+        "previous": {
+            "path": "23H2-Nickel-betaflt",
+            "name": "Nickel (23H2 Betaflt)"
+        },
+        "next": {
+            "path": "23H2-zinc",
+            "name": "Zinc (Client)"
+        }
     },
     "list": [
         ["25236.1010", "2022-11-04"],
