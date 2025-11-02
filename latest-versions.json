@@ -16,7 +16,7 @@
             {
                 "channel": "Dev",
                 "style": "color-orange",
-                "version": "26220.6982",
+                "version": "26220.7051",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
@@ -25,11 +25,11 @@
             {
                 "channel": "Beta",
                 "style": "color-green",
-                "version": "26120.6982",
+                "version": "26120.7051",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
-                "category": "24H2-germanium-betaflt",
-                "semester": "24H2"
+                "category": "25H2-germanium-betaflt",
+                "semester": "25H2"
             },
             {
                 "channel": "发布预览",
