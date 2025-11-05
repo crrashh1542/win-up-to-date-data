@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "27982.1",
+        "branch": "br_release",
+        "compileTime": "2025-10-30 16:42",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2025-11-04 18:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/11/04/announcing-windows-11-insider-preview-build-27982-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "27975.984"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "c21f7505-7161-4156-9ba2-4029943ba6a0"
+    },
+    {
+        "arch": "ARM64",
+        "id": "b10c9765-87eb-4921-b45a-5e401cf95041"
+    }],
+    "download": {
+        "name": "27982.1.251030-1642.br_release_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1b6gvwWlEMwvnRU0QRqzlYw?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://www.123865.com/s/oYprVv-MfwRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "a7b22c76dcadfbc557297c54dcdaee61",
+        "sha256": "e54cdc2c72ab09707a01d9fd1302463af85ab877fb29da6f751902a9a4cf9a19"
+    }
+}

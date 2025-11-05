@@ -7,8 +7,8 @@
             {
                 "channel": "Canary",
                 "style": "color-amber",
-                "version": "27975.984",
-                "branch": "br_release_svc_prod3",
+                "version": "27982.1",
+                "branch": "br_release",
                 "codename": "Bromine",
                 "category": "26H1-bromine",
                 "semester": "26H1"
