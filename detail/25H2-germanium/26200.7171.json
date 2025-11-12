@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "26200.7171",
+        "branch": "25h2_ge_release_svc_prod1",
+        "compileTime": "2025-11-07 02:43",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2025-11-11 18:00",
+        "url": "https://support.microsoft.com/topic/2e0512e4-3ad4-4da6-958c-a468a1af949e",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.7019"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "caf166fc-4332-406a-96d8-17789b8af6de"
+    },
+    {
+        "arch": "ARM64",
+        "id": "392ea2b9-cde1-458f-ac6e-23c5f8a7ce38"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5068861-x64.msu",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5315757b-0dc6-4282-a148-c7bf0b6b0e90/public/windows11.0-kb5068861-x64_acc4fe9c928835c0d44cdc0419d1867dbd2b62b2.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "aeb8b0fb094f2452084c5e32d77c3047",
+        "sha256": "c2e317db8a422a52c966b685b3b33fcfaf11867b6913ebb8a757c817644690eb"
+    }
+}

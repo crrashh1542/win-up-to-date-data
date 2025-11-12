@@ -34,8 +34,8 @@
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "26200.7019",
-                "branch": "25h2_ge_release_svc_prod3",
+                "version": "26200.7171",
+                "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2"
@@ -43,26 +43,17 @@
             {
                 "channel": "正式通道",
                 "style": "color-theme",
-                "version": "26200.6901",
-                "branch": "25h2_ge_release_svc_im",
+                "version": "26200.7171",
+                "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2"
             },
             {
-                "channel": "发布预览",
-                "style": "color-purple",
-                "version": "26100.7019",
-                "branch": "ge_release_svc_prod3",
-                "codename": "Germanium",
-                "category": "24H2-germanium",
-                "semester": "24H2"
-            },
-            {
                 "channel": "正式通道",
                 "style": "color-theme",
-                "version": "26100.6901",
-                "branch": "ge_release_svc_im",
+                "version": "26100.7171",
+                "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2"
@@ -70,7 +61,7 @@
             {
                 "channel": "CloudPC OS",
                 "style": "color-theme",
-                "version": "26100.6899",
+                "version": "26100.7171",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
