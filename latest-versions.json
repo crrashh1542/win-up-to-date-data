@@ -70,16 +70,16 @@
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "22631.6269",
-                "branch": "23h2_ni_release_svc_prod1",
+                "version": "22631.6276",
+                "branch": "23h2_ni_release_svc_prod3",
                 "codename": "Nickel",
                 "semester": "23H2"
             },
             {
                 "channel": "正式通道",
                 "style": "color-theme",
-                "version": "22631.6199",
-                "branch": "23h2_ni_release_svc_prod1",
+                "version": "22631.6276",
+                "branch": "23h2_ni_release_svc_prod3",
                 "codename": "Nickel",
                 "semester": "23H2"
             }
