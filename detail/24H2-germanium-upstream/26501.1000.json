@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26491.1001",
+        "number": "26501.1000",
         "branch": "ge_prereleaseserver",
-        "compileTime": "2025-09-20 15:22",
+        "compileTime": "2025-10-03 09:16",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Server"
     },
     "release": {
         "channel": "Preview",
-        "time": "2025-09-26 17:00",
-        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-26491/4457010",
+        "time": "2025-10-10 17:00",
+        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-26501/4460504",
         "announcePlace": "Microsoft Tech Community"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium-upstream",
-            "build": "26484.1000"
+            "build": "26491.1001"
         },
         "next": {
-            "category": "24H2-germanium-upstream",
-            "build": "26501.1000"
+            "category": "25H2-germanium",
+            "build": "26200.5510"
         }
     },
     "belongsTo": {
@@ -28,10 +28,10 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "b009725f-d7da-4fa7-977e-31a11f336e5e"
+        "id": "5f3f7bb7-83cf-43e5-9613-b03f91e7594e"
     },
     {
         "arch": "ARM64",
-        "id": "cfc31fc7-040c-4bd2-b8da-1e322c4bbcf5"
+        "id": "bc94140e-c654-47ce-96ea-fbdffba7c6f1"
     }]
 }
