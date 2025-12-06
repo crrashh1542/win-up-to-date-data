@@ -1,0 +1,43 @@
+{
+    "build": {
+        "number": "26525.1001",
+        "branch": "ge_prereleaseserver",
+        "compileTime": "2025-11-07 13:12",
+        "arch": ["AMD64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "Preview",
+        "time": "2025-11-13 18:00",
+        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-26525/4469714",
+        "announcePlace": "Microsoft Tech Community"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-upstream",
+            "build": "26501.1000"
+        },
+        "next": {
+            "category": "25H2-germanium",
+            "build": "26200.5510"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-upstream",
+        "name": "Germanium (Upstream)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "d12f1cdb-0deb-4730-8516-74c5d437c04e"
+    }],
+    "download": {
+        "name": "26525.1001.251107-1312.ge_prereleaseserver_SERVER_X64FRE_zh-cn.iso",
+        "link": [ {
+            "url": "https://www.123865.com/s/oYprVv-8swRv",
+            "source": "123云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "c3aaa6e1b63fdaf15a591e6564e4b034",
+        "sha256": "c2d89541f4e8c6aded7d1a0e3ee61398727d6c1b4a026f7d7645d72df40c9b4e"
+    }
+}
