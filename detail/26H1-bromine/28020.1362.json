@@ -1,0 +1,42 @@
+{
+    "build": {
+        "number": "28020.1362",
+        "branch": "br_release_svc_betaflt_prod1",
+        "compileTime": "2025-12-05 10:09",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2025-12-15 18:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/12/15/announcing-windows-11-insider-preview-build-28020-1362-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.1340"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "5510915e-64a2-4775-9c03-2057f94e36fc"
+    },
+    {
+        "arch": "AMD64 (2)",
+        "id": "4264d874-8da5-492f-8495-830be82501c6"
+    },
+    {
+        "arch": "ARM64",
+        "id": "0b0f4f60-61c7-4125-b8d2-581efacdc2d2"
+    },
+    {
+        "arch": "ARM64 (2)",
+        "id": "706eec62-696c-451c-ac61-5ca35e2ddb5d"
+    }],
+    "download": {}
+}
