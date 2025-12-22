@@ -16,8 +16,8 @@
             {
                 "channel": "Dev",
                 "style": "color-orange",
-                "version": "26220.7344",
-                "branch": "ge_release_svc_betaflt_prod1",
+                "version": "26220.7523",
+                "branch": "ge_release_svc_betaflt_im",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
                 "semester": "25H2"
@@ -25,8 +25,8 @@
             {
                 "channel": "Beta",
                 "style": "color-green",
-                "version": "26220.7344",
-                "branch": "ge_release_svc_betaflt_prod1",
+                "version": "26220.7523",
+                "branch": "ge_release_svc_betaflt_im",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
                 "semester": "25H2"
