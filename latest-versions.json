@@ -70,7 +70,7 @@
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "22631.6345",
+                "version": "22631.6491",
                 "branch": "23h2_ni_release_svc_prod1",
                 "codename": "Nickel",
                 "semester": "23H2"
@@ -78,7 +78,7 @@
             {
                 "channel": "正式通道",
                 "style": "color-theme",
-                "version": "22631.6345",
+                "version": "22631.6491",
                 "branch": "23h2_ni_release_svc_prod1",
                 "codename": "Nickel",
                 "semester": "23H2"
@@ -93,7 +93,7 @@
             {
                 "channel": "ESU 通道",
                 "style": "color-teal",
-                "version": "19045.6693",
+                "version": "19045.6809",
                 "branch": "22h2_release_svc_prod1",
                 "codename": "Vibranium",
                 "semester": "22H2"
@@ -101,7 +101,7 @@
             {
                 "channel": "LTSC (2021)",
                 "style": "color-teal",
-                "version": "19044.6693",
+                "version": "19044.6809",
                 "branch": "21h2_release_svc_prod1",
                 "codename": "Vibranium",
                 "semester": "21H2"
@@ -109,7 +109,7 @@
             {
                 "channel": "LTSC (2019)",
                 "style": "color-teal",
-                "version": "17763.8148",
+                "version": "17763.8276",
                 "branch": "rs5_release_svc_prod1",
                 "codename": "Redstone",
                 "semester": "1809"
@@ -117,7 +117,7 @@
             {
                 "channel": "LTSB (2016)",
                 "style": "color-teal",
-                "version": "14393.8692",
+                "version": "14393.8783",
                 "branch": "rs1_release",
                 "codename": "Redstone",
                 "semester": "1607"
@@ -150,7 +150,7 @@
             {
                 "channel": "年度频道 (23H2)",
                 "style": "color-theme",
-                "version": "25398.2025",
+                "version": "25398.2092",
                 "branch": "zn_release_svc_prod1",
                 "codename": "Zinc",
                 "semester": "23H2"
@@ -158,7 +158,7 @@
             {
                 "channel": "LTSC (2022)",
                 "style": "color-theme",
-                "version": "20349.4529",
+                "version": "20349.4648",
                 "branch": "22h2_fe_release_svc_prod1",
                 "codename": "Iron",
                 "semester": "22H2"
@@ -166,7 +166,7 @@
             {
                 "channel": "LTSC (2019)",
                 "style": "color-teal",
-                "version": "17763.8148",
+                "version": "17763.8276",
                 "branch": "rs5_release_svc_prod1",
                 "codename": "Redstone",
                 "semester": "1809"
@@ -174,7 +174,7 @@
             {
                 "channel": "LTSB (2016)",
                 "style": "color-teal",
-                "version": "14393.8692",
+                "version": "14393.8783",
                 "branch": "rs1_release",
                 "codename": "Redstone",
                 "semester": "1607"
@@ -248,7 +248,7 @@
             {
                 "channel": "Production",
                 "style": "color-theme",
-                "version": "25398.2025",
+                "version": "25398.2092",
                 "branch": "zn_release_svc_prod1",
                 "codename": "Zinc",
                 "semester": "23H2"
