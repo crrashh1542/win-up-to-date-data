@@ -9,7 +9,7 @@
     "release": {
         "channel": "General",
         "time": "2025-12-09 17:00",
-        "url": "https://support.microsoft.com/zh-cn/topic/0c1a4334-19ba-406d-bb1e-88fcffc87b79",
+        "url": "https://support.microsoft.com/topic/0c1a4334-19ba-406d-bb1e-88fcffc87b79",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
@@ -18,8 +18,8 @@
             "build": "26200.7171"
         },
         "next": {
-            "category": "25H2-germanium-betaflt",
-            "build": "26220.5770"
+            "category": "25H2-germanium",
+            "build": "26200.7623"
         }
     },
     "belongsTo": {
