@@ -6,8 +6,8 @@
     "range": [26200, null],
     "nav": {
         "previous": {
-            "path": "24H2-germanium-betaflt",
-            "name": "Germanium (Betaflt)"
+            "path": "24H2-germanium-server",
+            "name": "Germanium (Server)"
         },
         "next": {
             "path": "25H1-dilithium",

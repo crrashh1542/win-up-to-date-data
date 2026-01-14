@@ -1,0 +1,20 @@
+{
+    "name": "Germanium (Server)",
+    "codename": "Germanium",
+    "belonging": "Windows Server",
+    "semester": "24H2",
+    "range": ["26100.32230", null],
+    "nav": {
+        "previous": {
+            "path": "24H2-germanium-betaflt",
+            "name": "Germanium (Betaflt)"
+        },
+        "next": {
+            "path": "25H1-dilithium",
+            "name": "Dilithium"
+        }
+    },
+    "list": [
+        ["26100.32230", "2026-01-13"]
+    ]
+}
