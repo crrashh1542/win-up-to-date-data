@@ -1,5 +1,5 @@
 {
-    "name": "Bromine",
+    "name": "Bromine (Betaflt)",
     "codename": "Bromine",
     "belonging": "Windows 11",
     "semester": "26H1",
@@ -11,6 +11,7 @@
         }
     },
     "list": [
+        ["28020.1371", "2026-01-14"],
         ["28020.1362", "2025-12-15"]
     ]
 }
