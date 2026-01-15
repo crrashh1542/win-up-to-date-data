@@ -1,0 +1,16 @@
+{
+    "name": "Bromine",
+    "codename": "Bromine",
+    "belonging": "Windows 11",
+    "semester": "26H1",
+    "range": [28020.1362, null],
+    "nav": {
+        "previous": {
+            "path": "26H1-bromine",
+            "name": "Bromine"
+        }
+    },
+    "list": [
+        ["28020.1362", "2025-12-15"]
+    ]
+}

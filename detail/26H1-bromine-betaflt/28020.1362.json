@@ -15,16 +15,12 @@
     "nav": {
         "previous": {
             "category": "26H1-bromine",
-            "build": "28000.1340"
-        },
-        "next": {
-            "category": "26H1-bromine",
             "build": "28000.1450"
         }
     },
     "belongsTo": {
-        "path": "26H1-bromine",
-        "name": "Bromine"
+        "path": "26H1-bromine-betaflt",
+        "name": "Bromine (Betaflt)"
     },
     "updateId": [{
         "arch": "AMD64",
