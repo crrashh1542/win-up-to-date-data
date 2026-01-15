@@ -1,16 +1,16 @@
 {
     "build": {
-        "number": "28000.1340",
+        "number": "28000.1450",
         "branch": "br_release_svc_prod1",
-        "compileTime": "2025-12-05 11:08",
+        "compileTime": "2026-01-07 14:53",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
-        "channel": "Canary",
-        "time": "2025-12-09 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2025/12/09/announcing-windows-11-insider-preview-build-28000-1340-canary-channel/",
-        "announcePlace": "Windows Blogs"
+        "channel": "General",
+        "time": "2026-01-13 17:00",
+        "url": "https://support.microsoft.com/topic/3ec427dd-6fc4-4c32-a471-83504dd081cb",
+        "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
@@ -24,20 +24,20 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "3d01a661-1c2c-4c2b-8e79-12c85e8e9b30"
+        "id": "0e1cec91-9bb2-41ad-929f-fe36a5beda02"
     },
     {
         "arch": "ARM64",
-        "id": "936676fd-eb9e-44e1-842b-3a4b8fca7e9c"
+        "id": "5ee05231-b479-40cf-8ea4-c0202e66f100"
     }],
     "download": {
-        "name": "Windows11.0-KB5072032-x64.msu",
+        "name": "Windows11.0-KB5074107-x64.msu",
         "link": [{
             "url": "https://www.123865.com/s/oYprVv-DWwRv",
             "source": "123云盘"
         }],
         "arch": "AMD64",
-        "md5": "8ec81303dae5e0e7a850443309d0604e",
-        "sha256": "1c5d02787b81b0f354cad8435289a027388c70755072cebcbd14c4b164c56fb5"
+        "md5": "166b613481adddf40784e2d0c753369c",
+        "sha256": "3f0eab500410a8a1c32996f0aade5f5b4e1ed814a758eb43cd38aad27f83c71a"
     }
 }

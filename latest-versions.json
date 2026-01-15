@@ -14,6 +14,15 @@
                 "semester": "26H1"
             },
             {
+                "channel": "正式通道",
+                "style": "color-theme",
+                "version": "28000.1450",
+                "branch": "br_release_svc_prod1",
+                "codename": "Bromine",
+                "category": "26H1-bromine",
+                "semester": "26H1"
+            },
+            {
                 "channel": "Dev",
                 "style": "color-orange",
                 "version": "26220.7523",
