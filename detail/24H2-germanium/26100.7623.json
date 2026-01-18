@@ -18,13 +18,13 @@
             "build": "26100.7462"
         },
         "next": {
-            "category": "24H2-germanium-betaflt",
-            "build": "26120.461"
+            "category": "24H2-germanium",
+            "build": "26100.7627"
         }
     },
     "belongsTo": {
-        "path": "25H2-germanium",
-        "name": "Germanium (25H2 EKB)"
+        "path": "24H2-germanium",
+        "name": "Germanium"
     },
     "updateId": [{
         "arch": "AMD64 (Client)",
