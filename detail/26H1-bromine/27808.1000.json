@@ -37,15 +37,15 @@
     "download": {
         "name": "27808.1000.250303-1327.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "link": [{
-            "url": "",
-            "source": "百度网盘"
+            "url": "https://www.123865.com/s/oYprVv-FzwRv",
+            "source": "123云盘"
         },
         {
-            "url": "",
-            "source": "123云盘"
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQAJGYZF-AEWSqVegABexfalATb8N4F-BlcpAhIY4YSnKiA",
+            "source": "OneDrive"
         }],
         "arch": "AMD64",
-        "md5": "",
-        "sha256": ""
+        "md5": "3375c8a46f49294270509d0e7863e919",
+        "sha256": "d77900beac5df123c01aebffe450529cd0958937fb1067429c812a7f02339890"
     }
 }

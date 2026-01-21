@@ -34,18 +34,5 @@
         "arch": "ARM64",
         "id": "4e9de499-5076-44ed-aff7-ce9ee1db520d"
     }],
-    "download": {
-        "name": "27842.1000.250418-1424.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
-        "link": [{
-            "url": "",
-            "source": "百度网盘"
-        },
-        {
-            "url": "",
-            "source": "123云盘"
-        }],
-        "arch": "AMD64",
-        "md5": "",
-        "sha256": ""
-    }
+    "download": {}
 }
