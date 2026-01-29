@@ -16,6 +16,10 @@
         "previous": {
             "category": "26H2-germanium-beta",
             "build": "26100.2"
+        },
+        "next": {
+            "category": "26H2-germanium-beta",
+            "build": "26300.7674"
         }
     },
     "belongsTo": {
@@ -34,7 +38,7 @@
             "source": "123云盘"
         },
         {
-            "url": "",
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDtW9se3-7HR7HpRv7pQAlVAbfo_gIFdjmTjzl8ohu0iDg",
             "source": "OneDrive"
         }],
         "arch": "AMD64",

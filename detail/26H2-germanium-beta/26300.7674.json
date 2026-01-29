@@ -1,0 +1,34 @@
+{
+    "build": {
+        "number": "26300.7674",
+        "branch": "ge_prerelease_im",
+        "compileTime": "2026-01-20 14:46",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2026-01-27 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/01/27/announcing-windows-11-insider-preview-build-26300-7674-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-germanium-beta",
+            "build": "26100.1743"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-germanium-beta",
+        "name": "Germanium (26H2 Beta)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "cfd151af-f5f5-4623-a913-a23a154cd4c2"
+    },
+    {
+        "arch": "ARM64",
+        "id": "2f50fb98-5f35-4fa9-b411-cc0ff49949d8"
+    }],
+    "download": {}
+}
