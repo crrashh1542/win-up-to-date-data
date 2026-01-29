@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "28000.4",
+        "branch": "br_release_flt",
+        "compileTime": "2025-11-10 11:40",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2025-12-15 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2025/12/15/announcing-windows-11-insider-preview-build-28020-1362-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.1450"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28020.1362"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine-betaflt",
+        "name": "Bromine (Betaflt)"
+    },
+    "updateId": [],
+    "download": {
+        "name": "28000.4.251110-1140.br_release_flt_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1HXt0bCR98ADv2VThgdLgww?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://www.123865.com/s/oYprVv-D6wRv",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQBpWirQecUMRaYh5vxCQRy9AZ04OEZRnCq4bekdlk7XrY0",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "231f4f5ea27f2126bcb65e129c2619d1",
+        "sha256": "8c2edcc14496057af879d52f5d706874b220a1b75911f1fc0bfa2ae29a52d3f4"
+    }
+}
