@@ -1,0 +1,16 @@
+{
+    "name": "Germanium (26H2 Beta)",
+    "codename": "Germanium",
+    "belonging": "Windows 11",
+    "semester": "26H2",
+    "range": [26100.2, null],
+    "nav": {
+        "previous": {
+            "path": "26H1-bromine-betaflt",
+            "name": "Bromine (Betaflt)"
+        }
+    },
+    "list": [
+        ["26100.2", "2026-01-27"]
+    ]
+}

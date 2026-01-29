@@ -1,0 +1,44 @@
+{
+    "build": {
+        "number": "26100.2",
+        "branch": "ge_release_flt",
+        "compileTime": "2025-09-09 13:21",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2026-01-27 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/01/27/announcing-windows-11-insider-preview-build-26300-7674-dev-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28020.1371"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine-betaflt",
+        "name": "Bromine (Betaflt)"
+    },
+    "updateId": [],
+    "download": {
+        "name": "26100.2.250909-1321.ge_release_flt_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1On4QoavQPZpcw5FiVn6KTw?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://www.123865.com/s/oYprVv-86wRv",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQCl_cxyMNlUQpJOBxq7nn6JAVHDh2iiDw2sD-PAXIEDk_Y",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "2549e8c0314b774a85a31aa2db63bd6d",
+        "sha256": "f7e262ad7195259a9327ed6c05a9358db9b270cca067539afeec86605b2be0ef"
+    }
+}
