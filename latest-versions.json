@@ -43,8 +43,8 @@
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "26200.7627",
-                "branch": "25h2_ge_release_svc_im",
+                "version": "26200.7701",
+                "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2"
