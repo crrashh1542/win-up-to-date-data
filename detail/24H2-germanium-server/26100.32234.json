@@ -4,7 +4,7 @@
         "branch": "lt_release_svc_im",
         "compileTime": "2026-01-15 01:44",
         "arch": ["AMD64"],
-        "counterpart": "Client"
+        "counterpart": "Server"
     },
     "release": {
         "channel": "General",
@@ -18,8 +18,8 @@
             "build": "26100.32230"
         },
         "next": {
-            "category": "24H2-germanium-upstream",
-            "build": "26200.5001"
+            "category": "24H2-germanium-server",
+            "build": "26100.32236"
         }
     },
     "belongsTo": {

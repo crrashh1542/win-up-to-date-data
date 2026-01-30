@@ -4,7 +4,7 @@
         "branch": "lt_release_svc_prod1",
         "compileTime": "2026-01-10 00:31",
         "arch": ["AMD64", "ARM64"],
-        "counterpart": "Client"
+        "counterpart": "Server"
     },
     "release": {
         "channel": "General",

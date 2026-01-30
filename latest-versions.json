@@ -150,7 +150,7 @@
             {
                 "channel": "LTSC (2025)",
                 "style": "color-theme",
-                "version": "26100.32234",
+                "version": "26100.32236",
                 "branch": "lt_release_svc_im",
                 "codename": "Germanium",
                 "category": "24H2-germanium-server",
