@@ -16,8 +16,8 @@
             {
                 "channel": "正式通道",
                 "style": "color-theme",
-                "version": "28000.1450",
-                "branch": "br_release_svc_prod1",
+                "version": "28000.1516",
+                "branch": "br_release_svc_prod3",
                 "codename": "Bromine",
                 "category": "26H1-bromine",
                 "semester": "26H1"
