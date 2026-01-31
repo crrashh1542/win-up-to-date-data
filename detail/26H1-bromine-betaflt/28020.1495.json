@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "28020.1495",
+        "branch": "br_release_svc_betaflt_prod1",
+        "compileTime": "2026-01-20 13:45",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2026-01-28 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/01/28/announcing-windows-11-insider-preview-build-28020-1495-canary-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28020.1371"
+        },
+        "next": {
+            "category": "26H2-germanium-beta",
+            "build": "26100.2"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine-betaflt",
+        "name": "Bromine (Betaflt)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "3690e475-be4f-4290-a16e-fbcfde67b7f3"
+    },
+    {
+        "arch": "ARM64",
+        "id": "2a6b2d4b-2064-475d-adf1-7d64ca83f870"
+    }],
+    "download": {}
+}
