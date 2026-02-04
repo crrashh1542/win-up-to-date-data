@@ -1,25 +1,21 @@
 {
     "build": {
-        "number": "26300.7674",
+        "number": "26300.7733",
         "branch": "ge_prerelease_im",
-        "compileTime": "2026-01-20 14:46",
+        "compileTime": "2026-01-26 13:12",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Dev",
-        "time": "2026-01-27 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2026/01/27/announcing-windows-11-insider-preview-build-26300-7674-dev-channel/",
+        "time": "2026-02-03 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/02/03/announcing-windows-11-insider-preview-build-26300-7733-dev-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
             "category": "26H2-germanium-beta",
-            "build": "26100.1743"
-        },
-        "next": {
-            "category": "26H2-germanium-beta",
-            "build": "26300.7733"
+            "build": "26300.7674"
         }
     },
     "belongsTo": {
@@ -28,11 +24,11 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "cfd151af-f5f5-4623-a913-a23a154cd4c2"
+        "id": "8546d1fd-3ef5-4606-add9-a34674ace927"
     },
     {
         "arch": "ARM64",
-        "id": "2f50fb98-5f35-4fa9-b411-cc0ff49949d8"
+        "id": "c457b157-0a2c-4a34-944a-af57e6bc766b"
     }],
     "download": {}
 }
