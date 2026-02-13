@@ -8,6 +8,10 @@
         "previous": {
             "path": "26H1-bromine-betaflt",
             "name": "Bromine (Betaflt)"
+        },
+        "next": {
+            "path": "26H2-krypton",
+            "name": "Krypton"
         }
     },
     "list": [

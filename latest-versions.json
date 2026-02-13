@@ -141,11 +141,11 @@
             {
                 "channel": "预览版 (v.Next)",
                 "style": "color-amber",
-                "version": "26534.1000",
-                "branch": "ge_prereleaseserver",
-                "codename": "Germanium",
-                "category": "24H2-germanium-upstream",
-                "semester": "24H2"
+                "version": "29531.1000",
+                "branch": "rs_prerelease",
+                "codename": "Krypton",
+                "category": "26H2-krypton",
+                "semester": "26H2"
             },
             {
                 "channel": "LTSC (2025)",

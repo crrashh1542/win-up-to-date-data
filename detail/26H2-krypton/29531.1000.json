@@ -1,0 +1,40 @@
+{
+    "build": {
+        "number": "29531.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-02-06 18:41",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "Dev",
+        "time": "2026-02-12 17:00",
+        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-29531/4494655",
+        "announcePlace": "Microsoft Tech Community"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-germanium-beta",
+            "build": "26300.7760"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-krypton",
+        "name": "Krypton"
+    },
+    "updateId": [],
+    "download": {
+        "name": "Windows_InsiderPreview_Server_vNext_zh-cn_29531.iso",
+        "link": [{
+            "url": "https://www.123865.com/s/oYprVv-XvgRv",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://lghub01-my.sharepoint.com/:u:/g/personal/ling_lghub_org/IQB4F83675PSSI7AnsRoUk2TAZbKShPupOTameVnYhHES-o",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "bf58ea0275923bcb289644961657a1c3",
+        "sha256": "85f71505861391afe2f833aa649e19567305aa4b22985cf52aecf10b84f30fb4"
+    }
+}
