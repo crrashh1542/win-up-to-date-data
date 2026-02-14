@@ -1,0 +1,36 @@
+{
+    "build": {
+        "number": "28000.1635",
+        "branch": "br_release_svc_prod2",
+        "compileTime": "2026-02-06 17:41",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-02-13 00:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.1575"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "0fc47894-7fc4-43f3-9b80-dc6a3c5ee369"
+    },
+    {
+        "arch": "ARM64",
+        "id": "66c89473-d703-4a3e-8ca8-b4b595b91f37"
+    }],
+    "download": {}
+}
