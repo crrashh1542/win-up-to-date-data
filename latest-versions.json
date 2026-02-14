@@ -43,8 +43,8 @@
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "26200.7840",
-                "branch": "25h2_ge_release_svc_prod1",
+                "version": "26200.7899",
+                "branch": "25h2_ge_release_svc_prod2",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2"
@@ -57,6 +57,15 @@
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2"
+            },
+            {
+                "channel": "发布预览",
+                "style": "color-purple",
+                "version": "26100.7899",
+                "branch": "ge_release_svc_prod2",
+                "codename": "Germanium",
+                "category": "24H2-germanium",
+                "semester": "24H2"
             },
             {
                 "channel": "正式通道",

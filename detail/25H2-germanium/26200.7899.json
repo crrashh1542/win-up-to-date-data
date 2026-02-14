@@ -1,0 +1,36 @@
+{
+    "build": {
+        "number": "26200.7899",
+        "branch": "25h2_ge_release_svc_prod2",
+        "compileTime": "2026-02-06 18:14",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-02-12 17:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.7840"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "cceff177-5fe6-4eb1-a8cb-b9b528719b8b"
+    },
+    {
+        "arch": "ARM64",
+        "id": "5049b5c2-1c65-41ba-911f-993b5f23f5bd"
+    }],
+    "download": {}
+}
