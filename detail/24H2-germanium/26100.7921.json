@@ -1,38 +1,38 @@
 {
     "build": {
-        "number": "26200.7918",
-        "branch": "25h2_ge_release_svc_prod3",
-        "compileTime": "2026-02-12 18:57",
+        "number": "26100.7921",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2026-02-17 18:13",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Release Preview",
-        "time": "2026-02-17 17:00",
+        "time": "2026-02-19 17:00",
         "url": "https://blogs.windows.com/windows-insider/2026/02/17/releasing-windows-11-builds-26100-7918-and-26200-7918-to-the-release-preview-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
-            "category": "25H2-germanium",
-            "build": "26200.7899"
+            "category": "24H2-germanium",
+            "build": "26100.7918"
         },
         "next": {
-            "category": "25H2-germanium",
-            "build": "26200.7921"
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
         }
     },
     "belongsTo": {
-        "path": "25H2-germanium",
-        "name": "Germanium (25H2 EKB)"
+        "path": "24H2-germanium",
+        "name": "Germanium"
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "b62cb542-545c-4a7d-bc5c-5d07bf9bb1c9"
+        "id": "d61f8bab-3ca6-4425-ae77-5152858c91cd"
     },
     {
         "arch": "ARM64",
-        "id": "a6e0ec49-c34c-44d1-896d-d0945d101336"
+        "id": "58af1920-8324-4a35-85a2-92b7a996adca"
     }],
     "download": {}
 }
