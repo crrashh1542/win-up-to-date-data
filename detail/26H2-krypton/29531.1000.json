@@ -7,10 +7,10 @@
         "counterpart": "Server"
     },
     "release": {
-        "channel": "Dev",
-        "time": "2026-02-12 17:00",
-        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-29531/4494655",
-        "announcePlace": "Microsoft Tech Community"
+        "channel": "Canary",
+        "time": "2026-02-18 21:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/02/18/announcing-new-optional-windows-11-insider-preview-build-for-canary-channel-29531-1000/",
+        "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
@@ -22,19 +22,39 @@
         "path": "26H2-krypton",
         "name": "Krypton"
     },
-    "updateId": [],
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "f057986a-b878-4bf2-9f24-2fbe31fc81ed"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "5646e03f-129e-4469-ad31-6256768874d7"
+    }],
     "download": {
-        "name": "Windows_InsiderPreview_Server_vNext_zh-cn_29531.iso",
-        "link": [{
+        "name": "29531.1000.260206-1841.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [
+        {
+            "url": "https://www.123865.com/s/oYprVv-MhgRv",
+            "source": "123云盘 (Client)"
+        },
+        {
             "url": "https://www.123865.com/s/oYprVv-XvgRv",
-            "source": "123云盘"
+            "source": "123云盘 (Server)"
+        },
+        {
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000584",
+            "source": "豆包云盘 (Client)"
+        },
+        {
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQBP9lCsNUwSQqxK_k80vdBQAaW5q-jR-gGFY5cYBQxEi-k",
+            "source": "OneDrive (Client)"
         },
         {
             "url": "https://lghub01-my.sharepoint.com/:u:/g/personal/ling_lghub_org/IQB4F83675PSSI7AnsRoUk2TAZbKShPupOTameVnYhHES-o",
-            "source": "OneDrive"
+            "source": "OneDrive (Server)"
         }],
         "arch": "AMD64",
-        "md5": "bf58ea0275923bcb289644961657a1c3",
-        "sha256": "85f71505861391afe2f833aa649e19567305aa4b22985cf52aecf10b84f30fb4"
+        "md5": "9ed53852f16fca30cdc8e3d59ba9c8e9",
+        "sha256": "74d5996f22eb59a2ff78d80967805c6cb4e025a1f791f1c307929de28078b553"
     }
 }
