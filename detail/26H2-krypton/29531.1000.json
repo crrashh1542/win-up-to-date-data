@@ -4,7 +4,7 @@
         "branch": "rs_prerelease",
         "compileTime": "2026-02-06 18:41",
         "arch": ["AMD64", "ARM64"],
-        "counterpart": "Server"
+        "counterpart": "Client & Server"
     },
     "release": {
         "channel": "Canary",
@@ -15,7 +15,7 @@
     "nav": {
         "previous": {
             "category": "26H2-germanium-beta",
-            "build": "26300.7877"
+            "build": "26300.7939"
         }
     },
     "belongsTo": {
