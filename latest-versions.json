@@ -16,8 +16,8 @@
             {
                 "channel": "Canary",
                 "style": "color-amber",
-                "version": "28020.1000",
-                "branch": "rs_prerelease",
+                "version": "28020.1673",
+                "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
                 "semester": "26H1"
