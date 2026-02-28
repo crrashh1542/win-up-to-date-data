@@ -1,6 +1,6 @@
 [
     {
-        "category": "Windows 11",
+        "category": "预览体验计划",
         "id": "client-11",
         "icon": "windows11",
         "releases": [
@@ -20,15 +20,6 @@
                 "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
-                "semester": "26H1"
-            },
-            {
-                "channel": "正式通道",
-                "style": "color-theme",
-                "version": "28000.1635",
-                "branch": "br_release_svc_prod2",
-                "codename": "Bromine",
-                "category": "26H1-bromine",
                 "semester": "26H1"
             },
             {
@@ -59,15 +50,6 @@
                 "semester": "25H2"
             },
             {
-                "channel": "正式通道",
-                "style": "color-theme",
-                "version": "26200.7840",
-                "branch": "25h2_ge_release_svc_prod1",
-                "codename": "Germanium",
-                "category": "25H2-germanium",
-                "semester": "25H2"
-            },
-            {
                 "channel": "发布预览",
                 "style": "color-purple",
                 "version": "26100.7921",
@@ -77,7 +59,40 @@
                 "semester": "24H2"
             },
             {
-                "channel": "正式通道",
+                "channel": "发布预览",
+                "style": "color-purple",
+                "version": "22631.6649",
+                "branch": "23h2_ni_release_svc_prod1",
+                "codename": "Nickel",
+                "semester": "23H2"
+            }
+        ]
+    },
+    {
+        "category": "Windows 11",
+        "id": "client-11",
+        "icon": "windows11",
+        "releases": [
+            {
+                "channel": "26H1",
+                "style": "color-theme",
+                "version": "28000.1635",
+                "branch": "br_release_svc_prod2",
+                "codename": "Bromine",
+                "category": "26H1-bromine",
+                "semester": "26H1"
+            },
+            {
+                "channel": "25H2",
+                "style": "color-theme",
+                "version": "26200.7840",
+                "branch": "25h2_ge_release_svc_prod1",
+                "codename": "Germanium",
+                "category": "25H2-germanium",
+                "semester": "25H2"
+            },
+            {
+                "channel": "24H2",
                 "style": "color-theme",
                 "version": "26100.7840",
                 "branch": "ge_release_svc_prod1",
@@ -95,15 +110,7 @@
                 "semester": "24H2"
             },
             {
-                "channel": "发布预览",
-                "style": "color-purple",
-                "version": "22631.6649",
-                "branch": "23h2_ni_release_svc_prod1",
-                "codename": "Nickel",
-                "semester": "23H2"
-            },
-            {
-                "channel": "正式通道",
+                "channel": "23H2",
                 "style": "color-theme",
                 "version": "22631.6649",
                 "branch": "23h2_ni_release_svc_prod1",
@@ -228,8 +235,8 @@
                 "version": "26200.5074",
                 "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
-                "category": "24H2-germanium",
-                "semester": "24H2"
+                "category": "25H2-germanium",
+                "semester": "25H2"
             },
             {
                 "channel": "Beta",
