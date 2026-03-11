@@ -76,8 +76,8 @@
             {
                 "channel": "26H1",
                 "style": "color-theme",
-                "version": "28000.1635",
-                "branch": "br_release_svc_prod2",
+                "version": "28000.1719",
+                "branch": "br_release_svc_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine",
                 "semester": "26H1"
