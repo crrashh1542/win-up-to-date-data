@@ -8,7 +8,7 @@
     },
     "release": {
         "channel": "Release Preview",
-        "time": "2026-02-19 17:00",
+        "time": "2026-02-19 18:00",
         "url": "https://blogs.windows.com/windows-insider/2026/02/17/releasing-windows-11-builds-26100-7918-and-26200-7918-to-the-release-preview-channel/",
         "announcePlace": "Windows Blogs"
     },
@@ -18,8 +18,8 @@
             "build": "26100.7918"
         },
         "next": {
-            "category": "24H2-germanium-betaflt",
-            "build": "26120.461"
+            "category": "24H2-germanium",
+            "build": "26100.8037"
         }
     },
     "belongsTo": {
