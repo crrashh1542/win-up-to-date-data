@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "26100.8106",
+        "branch": "ge_release_svc_prod2",
+        "compileTime": "2026-03-06 18:22",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-03-12 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/03/12/releasing-windows-11-builds-26100-8106-and-26200-8106-to-the-release-preview-channel/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.8037"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "1b87d59d-9241-4422-b5c6-1f6109d93583"
+    },
+    {
+        "arch": "ARM64",
+        "id": "ebe81931-ad50-4f74-b886-b81c9a8cc6fe"
+    }],
+    "download": {}
+}
