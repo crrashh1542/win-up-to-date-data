@@ -3,13 +3,13 @@
         "number": "29550.1000",
         "branch": "rs_prerelease",
         "compileTime": "2026-03-06 16:19",
-        "arch": ["AMD64"],
-        "counterpart": "Server"
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client & Server"
     },
     "release": {
         "channel": "Canary",
-        "time": "2026-03-12 22:00",
-        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-29550/4501665",
+        "time": "2026-03-13 22:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/03/13/announcing-windows-11-insider-preview-build-for-canary-channel-29550-1000/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
@@ -23,22 +23,38 @@
         "name": "Krypton"
     },
     "updateId": [{
-        "arch": "AMD64",
+        "arch": "AMD64 (Client)",
+        "id": "2308caa5-b5ba-4909-b027-1f393e3253e5"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "48bf7630-787a-431f-9842-00bc3555c312"
+    },
+    {
+        "arch": "AMD64 (Server)",
         "id": "362e9471-536e-4162-92bb-d8370de7da9f"
     }],
     "download": {
-        "name": "29550.1000.260306-1619.rs_prerelease_SERVER_X64FRE_zh-cn.iso",
+        "name": "29550.1000.260306-1619.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "link": [
         {
             "url": "https://www.123865.com/s/oYprVv-v4gRv",
             "source": "123云盘"
         },
         {
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000584",
+            "source": "豆包云盘 (Client)"
+        },
+        {
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQAzUygk2P1IQZWd5H-gc4NMASi2w62BbPHnQHKYX0bpY-k",
+            "source": "OneDrive (Client)"
+        },
+        {
             "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQCvj5MYu0IKSb3l5_Z17hlLAVByhzqNFKCKNM1TD_zTPy4",
-            "source": "OneDrive"
+            "source": "OneDrive (Server)"
         }],
         "arch": "AMD64",
-        "md5": "4969be649f10a050f1af13d9013895d3",
-        "sha256": "a34b531ab10b7df5a53aeb7febb2acad841f7b3cccffb1f8f5ff41b58c47d3de"
+        "md5": "3af3d598c19e6edd454978bef798a169",
+        "sha256": "b5a2bc1a918ffb6a73a166816fd0120a897d8f0b3e39c21e9369937ebf09d452"
     }
 }
