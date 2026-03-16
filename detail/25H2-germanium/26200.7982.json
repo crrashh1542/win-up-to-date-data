@@ -1,0 +1,34 @@
+{
+    "build": {
+        "number": "26200.7982",
+        "branch": "25h2_ge_release_svc_hotpatch_im",
+        "compileTime": "2026-03-11 21:06",
+        "arch": ["AMD64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-03-13 17:00",
+        "url": "https://support.microsoft.com/topic/ef323fee-e70f-4f43-8bbc-1021c435bf5c",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.7921"
+        },
+        "next": {
+            "category": "25H2-germanium",
+            "build": "26200.8037"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "09224c03-9385-4c53-9f0b-28ad28ce44ed"
+    }],
+    "download": {}
+}
