@@ -1,7 +1,7 @@
 {
     "build": {
         "number": "26200.8037",
-        "branch": "ge_release_svc_prod1",
+        "branch": "25h2_ge_release_svc_prod1",
         "compileTime": "2026-03-05 17:45",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
@@ -15,7 +15,7 @@
     "nav": {
         "previous": {
             "category": "25H2-germanium",
-            "build": "26200.7982"
+            "build": "26200.7984"
         },
         "next": {
             "category": "25H2-germanium",
