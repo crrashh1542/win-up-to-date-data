@@ -8,7 +8,7 @@
     },
     "release": {
         "channel": "General",
-        "time": "2026-03-10 18:00",
+        "time": "2026-03-10 17:00",
         "url": "https://support.microsoft.com/topic/dd4f1c26-f8ac-4803-8ea7-059f0335a1f9",
         "announcePlace": "Microsoft Support"
     },
@@ -18,8 +18,8 @@
             "build": "28000.1575"
         },
         "next": {
-            "category": "26H1-bromine-betaflt",
-            "build": "28000.4"
+            "category": "26H1-bromine",
+            "build": "28000.1764"
         }
     },
     "belongsTo": {
