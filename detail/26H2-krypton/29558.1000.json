@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "29558.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-03-20 14:17",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2026-03-26 22:00",
+        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-29558/4505991",
+        "announcePlace": "Microsoft Tech Community"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-krypton",
+            "build": "29553.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-krypton",
+        "name": "Krypton"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "0a831358-0a03-415f-a261-f294d3f2199a"
+    }],
+    "download": {
+        "name": "29558.1000.260320-1417.rs_prerelease_SERVER_X64FRE_zh-cn.iso",
+        "link": [
+        {
+            "url": "https://www.123912.com/s/oYprVv-EJgRv",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000024",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQBKyrbn3Wc3QJID8WQDBUa_AS13z0-tg9dwK3w2t8MKa70",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "98e03d55525fd69a081381a86c8c7c2d",
+        "sha256": "388cb8858121bcffe907d9cbbdeb7d79eba761b1c76307e2547db10caeb6341a"
+    }
+}
