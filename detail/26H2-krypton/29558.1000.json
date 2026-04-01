@@ -4,13 +4,13 @@
         "branch": "rs_prerelease",
         "compileTime": "2026-03-20 14:17",
         "arch": ["AMD64", "ARM64"],
-        "counterpart": "Server"
+        "counterpart": "Client & Server"
     },
     "release": {
         "channel": "Canary",
-        "time": "2026-03-26 22:00",
-        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-29558/4505991",
-        "announcePlace": "Microsoft Tech Community"
+        "time": "2026-03-30 22:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/03/30/announcing-windows-11-insider-preview-build-for-canary-channel-29558-1000/",
+        "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
@@ -23,26 +23,42 @@
         "name": "Krypton"
     },
     "updateId": [{
-        "arch": "AMD64",
+        "arch": "AMD64 (Client)",
+        "id": "42164137-8d57-4e99-bad0-3bbb230f0df4"
+    },    
+    {
+        "arch": "AMD64 (Server)",
         "id": "0a831358-0a03-415f-a261-f294d3f2199a"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "eec56f51-69a0-4ac1-801b-292a85f4999c"
     }],
     "download": {
-        "name": "29558.1000.260320-1417.rs_prerelease_SERVER_X64FRE_zh-cn.iso",
+        "name": "29558.1000.260320-1417.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "link": [
         {
-            "url": "https://www.123912.com/s/oYprVv-EJgRv",
+            "url": "https://www.123912.com/s/oYprVv-VJgRv",
             "source": "123云盘"
         },
         {
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000809",
+            "source": "豆包云盘 (Client)"
+        },
+        {
             "url": "https://p0-fsb.api.crrashh.com/u/1001000024",
-            "source": "豆包云盘"
+            "source": "豆包云盘 (Server)"
+        },
+        {
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDQQPF8NK9dSagDEsFSfuSwAVAEvBQ5arhIdnA1W8d_95o",
+            "source": "OneDrive (Client)"
         },
         {
             "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQBKyrbn3Wc3QJID8WQDBUa_AS13z0-tg9dwK3w2t8MKa70",
-            "source": "OneDrive"
+            "source": "OneDrive (Server)"
         }],
         "arch": "AMD64",
-        "md5": "98e03d55525fd69a081381a86c8c7c2d",
-        "sha256": "388cb8858121bcffe907d9cbbdeb7d79eba761b1c76307e2547db10caeb6341a"
+        "md5": "2c89374eca7ec5d1056ee42bddd8c82c",
+        "sha256": "5824dee756b11e3139f09a47767639af6bfaf19a6093e6fe4c6905b8c1c7c977"
     }
 }
