@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "28020.1743",
+        "number": "28020.1797",
         "branch": "br_release_svc_betaflt_prod1",
-        "compileTime": "2026-03-11 17:58",
+        "compileTime": "2026-03-20 19:05",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Canary",
-        "time": "2026-03-20 17:00",
-        "url": "https://blogs.windows.com/windows-insider/2026/03/20/announcing-windows-11-insider-preview-build-28020-1743-canary-channel/",
+        "time": "2026-03-30 22:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/03/30/announcing-windows-11-insider-preview-build-28020-1797-canary-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
             "category": "26H1-bromine-betaflt",
-            "build": "28020.1737"
+            "build": "28020.1743"
         },
         "next": {
-            "category": "26H1-bromine-betaflt",
-            "build": "28020.1797"
+            "category": "26H2-germanium-beta",
+            "build": "26100.2"
         }
     },
     "belongsTo": {
@@ -28,11 +28,11 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "1af0813a-62bb-404e-98bb-2db422d36cc4"
+        "id": "1b60203c-4b18-4c7b-ba72-feb408898336"
     },
     {
         "arch": "ARM64",
-        "id": "40788bbf-8608-4442-9ca7-9bceab789ce1"
+        "id": "b465a937-2a8a-4d60-9e07-04c959042df3"
     }],
     "download": {}
 }
