@@ -16,6 +16,10 @@
         "previous": {
             "category": "26H2-krypton",
             "build": "29553.1000"
+        },
+        "next": {
+            "category": "26H2-krypton",
+            "build": "29560.1000"
         }
     },
     "belongsTo": {
