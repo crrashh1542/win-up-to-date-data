@@ -1,0 +1,52 @@
+{
+    "build": {
+        "number": "29565.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-04-01 14:17",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2026-04-10 17:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/04/10/announcing-windows-11-insider-preview-build-for-canary-channel-29565-1000/",
+        "announcePlace": "Windows Blogs"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-krypton",
+            "build": "29560.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-krypton",
+        "name": "Krypton"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "475e5ea4-7695-422f-9acb-66dbfdb7ee6b"
+    },    
+    {
+        "arch": "ARM64",
+        "id": "1b26ce9d-49b4-42d5-acf4-ce978205c691"
+    }],
+    "download": {
+        "name": "29565.1000.260401-1417.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [
+        {
+            "url": "https://www.123912.com/s/oYprVv-uggRv",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000068",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQCJ-9fU8xpoRI3rRgeqdof3AcZrt_ORUMI8pDWI3Hs5plg",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "5896699878824ca6bd10ebd8737f0ee5",
+        "sha256": "98808846d1fe8c919fc2a0271f319ad2d7ba245b93cd8c16f77cb633821d16b9"
+    }
+}
