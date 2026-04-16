@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "28000.1836",
+        "branch": "br_release_svc_prod3",
+        "compileTime": "2026-04-11 03:52",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-04-14 17:00",
+        "url": "https://support.microsoft.com/topic/839e4a25-d979-4158-b70c-182333045883",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.1764"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "e4053eff-92dd-432d-b429-fed7d587d890"
+    },
+    {
+        "arch": "ARM64",
+        "id": "b96f4e35-e7e6-4715-80d6-539193cab73c"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5083768-x64.msu",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4d36648-bc51-4f54-988c-b0cfde91dd5c/public/windows11.0-kb5083768-x64_dcab4cd248f64c610a16a4190061cd6a14d0acd4.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "0fded53cfbeca617f1e6e25f8bf920c9",
+        "sha256": "85f98e9324d4013462c316fe59692a3a12962fecd8622725f4725cad2c4cda2e"
+    }
+}
