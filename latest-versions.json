@@ -23,9 +23,9 @@
                 "semester": "26H1"
             },
             {
-                "channel": "Dev",
+                "channel": "Experimental",
                 "style": "color-orange",
-                "version": "26300.8276",
+                "version": "26300.8289",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
                 "category": "26H2-germanium-beta",
