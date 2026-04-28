@@ -1,8 +1,8 @@
 {
     "build": {
-        "number": "28000.1701",
+        "number": "28000.1706",
         "branch": "br_release_svc_prod1",
-        "compileTime": "2026-02-25 17:54",
+        "compileTime": "2026-02-27 21:10",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
@@ -13,11 +13,11 @@
     "nav": {
         "previous": {
             "category": "26H1-bromine",
-            "build": "28000.1635"
+            "build": "28000.1701"
         },
         "next": {
             "category": "26H1-bromine",
-            "build": "28000.1706"
+            "build": "28000.1719"
         }
     },
     "belongsTo": {
@@ -26,20 +26,20 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "6bd780f7-6a2b-4d41-9375-85b7d469fe68"
+        "id": "6e5a84ac-815f-4f7a-b0f4-24248999e357"
     },
     {
         "arch": "ARM64",
-        "id": "9fd0f372-1fbe-45de-a75b-0a5c50431cfd"
+        "id": "8d65c03f-3fb9-4255-8abc-4cbd657edcaa"
     }],
     "download": {
-        "name": "Windows11.0-KB5081921-x64.cab",
+        "name": "Windows11.0-KB5082960-x64.cab",
         "link": [{
-            "url": "https://wwa.lanzouu.com/iZhyu3ods6te",
+            "url": "https://wwa.lanzouu.com/iNWEb3odswta",
             "source": "蓝奏云盘"
         }],
         "arch": "AMD64",
-        "md5": "5682627e89e44a5ac193797c5204bf85",
-        "sha256": "23374b5889c911c7949498782f1b6c05963e88eb66e2faa7970ebfa8d1c6544a"
+        "md5": "6db19317aa8c09f256a879ae868f2a88",
+        "sha256": "37db1dccc94989365fd7dccd26f6f56f925584c7c4f888fe6b9d233bee7ff42f"
     }
 }
