@@ -1,0 +1,49 @@
+{
+    "build": {
+        "number": "26100.7900",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2026-02-09 18:58",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-04-25 13:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.7899"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.7918"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "4c844595-7ffa-4797-afe8-8c7e8346595e"
+    },
+    {
+        "arch": "AMD64 (2)",
+        "id": "c3ae627d-7c3b-42f3-a86c-c13692444aed"
+    },
+    {
+        "arch": "ARM64",
+        "id": "092dfade-2411-45e1-b2a8-9358b685d02a"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5078674-x64.cab",
+        "link": [{
+            "url": "https://wwa.lanzouu.com/iHCjJ3odte8h",
+            "source": "蓝奏云盘"
+        }],
+        "arch": "AMD64",
+        "md5": "5fb4519732f01e9911e686027edb5130",
+        "sha256": "d50adb6d908aa3770f0b41e5fa2bad366d37db66ac67d32a67aa1332977a737e"
+    }
+}
