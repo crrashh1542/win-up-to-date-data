@@ -8,7 +8,7 @@
     },
     "release": {
         "channel": "General",
-        "time": "2026-04-14 18:00",
+        "time": "2026-04-14 17:00",
         "url": "https://support.microsoft.com/topic/c57e289d-27c9-47cd-a183-72fabc62c5d7",
         "announcePlace": "Microsoft Support"
     },
@@ -18,8 +18,8 @@
             "build": "26100.32522"
         },
         "next": {
-            "category": "24H2-germanium-upstream",
-            "build": "26200.5001"
+            "category": "24H2-germanium-server",
+            "build": "26100.32698"
         }
     },
     "belongsTo": {
