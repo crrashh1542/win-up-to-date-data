@@ -1,0 +1,34 @@
+{
+    "build": {
+        "number": "26100.32704",
+        "branch": "lt_release_svc_hotpatch_im",
+        "compileTime": "2026-04-17 16:42",
+        "arch": ["AMD64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-04-19 22:00",
+        "url": "https://support.microsoft.com/topic/b09952e2-f7e1-4af0-a479-ecf2c427af56",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-server",
+            "build": "26100.32698"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26200.5001"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-server",
+        "name": "Germanium (Server)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "1f7dc390-fd5f-48aa-8661-11e06cba25ab"
+    }],
+    "download": {}
+}
