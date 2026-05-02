@@ -1,0 +1,52 @@
+{
+    "build": {
+        "number": "29580.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-04-23 15:10",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Experimental",
+        "time": "2026-05-01 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29580-1000",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-krypton",
+            "build": "29576.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-krypton",
+        "name": "Krypton"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "ff3415b7-aa40-403a-b0f4-5e51d54a0de0"
+    },    
+    {
+        "arch": "ARM64",
+        "id": "3a2b8309-6fed-428e-94fd-422ff81fe9d7"
+    }],
+    "download": {
+        "name": "29580.1000.260423-1510.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "link": [
+        {
+            "url": "https://www.123912.com/s/oYprVv-d9Wrv",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000018",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQD04KFReEc9TrnjMYj5PBz3Afnd6QJS0mGybG9qrWmlP50",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "c5add267e72f5aa029f240bb7fb04b4e",
+        "sha256": "060497176133f4d4f7898fce6cde49d414c4036932bdd0bf589ef94aa3dde21c"
+    }
+}
