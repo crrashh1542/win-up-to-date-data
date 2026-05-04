@@ -14,12 +14,21 @@
                 "semester": "26H2"
             },
             {
-                "channel": "Experimental",
-                "style": "color-amber",
+                "channel": "Beta",
+                "style": "color-green",
                 "version": "28020.1921",
                 "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
+                "semester": "26H1"
+            },
+            {
+                "channel": "发布预览",
+                "style": "color-purple",
+                "version": "28000.1896",
+                "branch": "br_release_svc_prod3",
+                "codename": "Bromine",
+                "category": "26H1-bromine",
                 "semester": "26H1"
             },
             {
@@ -76,8 +85,8 @@
             {
                 "channel": "26H1",
                 "style": "color-theme",
-                "version": "28000.1896",
-                "branch": "br_release_svc_prod3",
+                "version": "28000.1836",
+                "branch": "br_release_svc_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine",
                 "semester": "26H1"
@@ -221,47 +230,58 @@
         "icon": "iso",
         "releases": [
             {
-                "channel": "Canary",
+                "channel": "Experimental",
                 "style": "color-amber",
-                "version": "27924.1000",
+                "version": "29576.1000",
                 "branch": "rs_prerelease",
-                "codename": "Selenium",
-                "category": "25H2-selenium",
-                "semester": "25H2"
-            },
-            {
-                "channel": "Dev",
-                "style": "color-orange",
-                "version": "26200.5074",
-                "branch": "25h2_ge_release_svc_prod3",
-                "codename": "Germanium",
-                "category": "25H2-germanium",
-                "semester": "25H2"
+                "codename": "Krypton",
+                "category": "26H2-krypton",
+                "semester": "26H2"
             },
             {
                 "channel": "Beta",
                 "style": "color-green",
-                "version": "22621.1",
-                "branch": "ni_release",
-                "codename": "Nickel",
-                "semester": "22H2"
+                "version": "28020.1863",
+                "branch": "br_release_svc_betaflt_prod1",
+                "codename": "Bromine",
+                "category": "26H1-bromine-betaflt",
+                "semester": "26H1"
             },
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "26100.1150",
-                "branch": "ge_release_svc_prod1",
+                "version": "28000.1896",
+                "branch": "br_release_svc_prod3",
+                "codename": "Bromine",
+                "category": "26H1-bromine",
+                "semester": "26H1"
+            },
+            {
+                "channel": "Experimental",
+                "style": "color-orange",
+                "version": "26300.8276",
+                "branch": "ge_prerelease_im",
                 "codename": "Germanium",
-                "category": "24H2-germanium",
-                "semester": "24H2"
+                "category": "26H2-germanium-beta",
+                "semester": "26H2"
+            },
+            {
+                "channel": "Beta",
+                "style": "color-green",
+                "version": "26220.8271",
+                "branch": "ge_release_svc_betaflt_prod1",
+                "codename": "Germanium",
+                "category": "25H2-germanium-betaflt",
+                "semester": "25H2"
             },
             {
                 "channel": "发布预览",
                 "style": "color-purple",
-                "version": "19045.1826",
-                "branch": "22h2_release_svc_prod2",
-                "codename": "Vibranium",
-                "semester": "22H2"
+                "version": "26200.8328",
+                "branch": "25h2_ge_release_svc_prod3",
+                "codename": "Germanium",
+                "category": "25H2-germanium",
+                "semester": "25H2"
             }
         ]
     },
