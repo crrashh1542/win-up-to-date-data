@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "28020.1921",
-        "branch": "br_release_svc_betaflt_prod1",
-        "compileTime": "2026-04-23 23:27",
+        "number": "28020.2075",
+        "branch": "br_release_svc_betaflt_im",
+        "compileTime": "2026-05-06 13:38",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Experimental",
-        "time": "2026-05-01 17:00",
-        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-26-h1/preview-build-28020-1921",
+        "time": "2026-05-08 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-26-h1/preview-build-28020-2075",
         "announcePlace": "Microsoft Learn"
     },
     "nav": {
         "previous": {
             "category": "26H1-bromine-betaflt",
-            "build": "28020.1873"
+            "build": "28020.1921"
         },
         "next": {
-            "category": "26H1-bromine-betaflt",
-            "build": "28020.2075"
+            "category": "26H2-germanium-beta",
+            "build": "26100.2"
         }
     },
     "belongsTo": {
@@ -28,11 +28,11 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "7d43e9fd-b51d-462c-9700-99c64447d119"
+        "id": "6c23b160-936e-4f50-8380-5848e404dea7"
     },
     {
         "arch": "ARM64",
-        "id": "a061d596-8031-4056-931b-d9a68252b793"
+        "id": "1cd15c79-e133-41bf-ac22-877f0c1d152a"
     }],
     "download": {}
 }
