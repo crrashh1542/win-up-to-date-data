@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "26100.8390",
+        "branch": "ge_release_svc_hotpatch_prod1",
+        "compileTime": "2026-05-05 20:34",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-05-12 20:00",
+        "url": "https://support.microsoft.com/topic/8a0dd60b-c2fb-45d6-95f2-2609df309a9a",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.8328"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "0d2cde6d-8a1b-4bb4-bc9d-047bc0c1f915"
+    },
+    {
+        "arch": "ARM64",
+        "id": "7acadcd9-ac7a-4ae4-9a4c-f0586a80d628"
+    }],
+    "download": {}
+}
