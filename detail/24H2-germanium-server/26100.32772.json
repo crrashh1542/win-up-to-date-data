@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26100.32704",
-        "branch": "lt_release_svc_hotpatch_im",
-        "compileTime": "2026-04-17 16:42",
+        "number": "26100.32772",
+        "branch": "lt_release_svc_hotpatch_prod1",
+        "compileTime": "2026-05-05 23:13",
         "arch": ["AMD64"],
         "counterpart": "Server"
     },
     "release": {
         "channel": "General",
-        "time": "2026-04-19 22:00",
-        "url": "https://support.microsoft.com/topic/b09952e2-f7e1-4af0-a479-ecf2c427af56",
+        "time": "2026-05-12 22:00",
+        "url": "https://support.microsoft.com/topic/6a3275dd-3206-42b4-ab09-515421b3f142",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
             "category": "24H2-germanium-server",
-            "build": "26100.32698"
+            "build": "26100.32704"
         },
         "next": {
-            "category": "24H2-germanium-server",
-            "build": "26100.32772"
+            "category": "24H2-germanium-upstream",
+            "build": "26200.5001"
         }
     },
     "belongsTo": {
@@ -28,7 +28,7 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "1f7dc390-fd5f-48aa-8661-11e06cba25ab"
+        "id": "c2c19b07-9c80-4e29-8fbb-af7be3e83f78"
     }],
     "download": {}
 }
