@@ -184,8 +184,8 @@
             {
                 "channel": "LTSC (2025)",
                 "style": "color-theme",
-                "version": "26100.32772",
-                "branch": "lt_release_svc_hotpatch_prod1",
+                "version": "26100.32860",
+                "branch": "lt_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium-server",
                 "semester": "24H2"
