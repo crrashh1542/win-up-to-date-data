@@ -1,0 +1,55 @@
+{
+    "build": {
+        "number": "26200.8457",
+        "branch": "25h2_ge_release_svc_prod1",
+        "compileTime": "2026-05-05 21:55",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-05-12 17:00",
+        "url": "https://support.microsoft.com/topic/28ec2a99-4bbe-481d-a340-5c6cf18d9acb",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.8390"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "a90228a3-2053-4f31-b869-beee46792f50"
+    },
+    {
+        "arch": "AMD64 (Cloud PC)",
+        "id": "b7cccf88-c6fb-4040-8db6-87498738a46a"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "04ffaaeb-fea5-4223-9623-5755769549c9"
+    },
+    {
+        "arch": "ARM64 (Cloud PC)",
+        "id": "559eda9b-603a-49c1-ae26-7bbd42e4508e"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5089549-x64.msu",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/53914338-2058-4b75-95a6-6d674648107c/public/windows11.0-kb5089549-x64_9a542b5813b003374532dceeba49b7e07c3fc2fb.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "3ad586c0f38019a59257f46cf32c6a8d",
+        "sha256": "6782373e2273ee34e9a725988eea03928a738488d5a5b93c978d18a4c4e37ce7"
+    }
+}
