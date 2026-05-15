@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "26100.8514",
+        "branch": "ge_release_svc_prod2",
+        "compileTime": "2026-05-08 18:05",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-05-14 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/release-preview-24h2-25h2/build-26100-8514-26200-8514",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.8457"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "9b663bbb-2954-4b1f-8c54-01279d04a5a9"
+    },
+    {
+        "arch": "ARM64",
+        "id": "aee1ebef-25a4-4118-a398-39b853495d90"
+    }],
+    "download": {}
+}
