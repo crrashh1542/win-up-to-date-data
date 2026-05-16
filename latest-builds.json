@@ -16,8 +16,8 @@
             {
                 "channel": "Beta",
                 "style": "color-green",
-                "version": "28020.2075",
-                "branch": "br_release_svc_betaflt_im",
+                "version": "28020.2134",
+                "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
                 "semester": "26H1"
