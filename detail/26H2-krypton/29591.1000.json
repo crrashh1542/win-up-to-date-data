@@ -1,25 +1,21 @@
 {
     "build": {
-        "number": "29585.1000",
+        "number": "29591.1000",
         "branch": "rs_prerelease",
-        "compileTime": "2026-04-29 14:20",
+        "compileTime": "2026-05-08 14:26",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Experimental",
-        "time": "2026-05-08 17:00",
-        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29585-1000",
+        "time": "2026-05-15 19:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29591-1000",
         "announcePlace": "Microsoft Learn"
     },
     "nav": {
         "previous": {
             "category": "26H2-krypton",
-            "build": "29580.1000"
-        },
-        "next": {
-            "category": "26H2-krypton",
-            "build": "29591.1000"
+            "build": "29585.1000"
         }
     },
     "belongsTo": {
@@ -28,25 +24,25 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "2d381cb2-76cc-4b1b-bc25-e10ca3160722"
+        "id": "4a6672d1-0a73-47b7-aa06-44e98218ba56"
     },    
     {
         "arch": "ARM64",
-        "id": "25eb4fc8-4254-403f-ac2b-05edd467c590"
+        "id": "953e8b12-f9e5-48d3-8e62-407c823490c3"
     }],
     "download": {
-        "name": "29585.1000.260429-1420.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "name": "29591.1000.260508-1426.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "link": [
         {
-            "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-DBFrv",
+            "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-0q8rv",
             "source": "123云盘"
         },
         {
-            "url": "https://p0-fsb.api.crrashh.com/u/1001000077",
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000023",
             "source": "豆包云盘"
         },
         {
-            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQArme-9X9U6QqL2lqJrWIm8AR9gZjfACenebZsPNdHYPlk",
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDSjqV8hdDTTqlQx_iAinhaAQYO82D7wBkwP2xNSGKZTtc",
             "source": "OneDrive"
         }],
         "arch": "AMD64",
