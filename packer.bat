@@ -7,4 +7,4 @@ for /f %%i in ('git rev-list --count HEAD') do set count=%%i
 
 set filename=data-r%count%-%hash%-%date:~5,2%%date:~8,2%%date:~11,2%
 
-"%PROGRAMFILES%\Bandizip\bz.exe" c %cd%\%filename%.zip %cd%\category\ %cd%\detail\ %cd%\latest-versions.json
+"%PROGRAMFILES%\Bandizip\bz.exe" c %cd%\%filename%.zip %cd%\category\ %cd%\detail\ %cd%\latest-builds.json
