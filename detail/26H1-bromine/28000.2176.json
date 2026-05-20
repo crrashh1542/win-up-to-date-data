@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "28000.2173",
-        "branch": "br_release_svc_prod2",
-        "compileTime": "2026-05-08 18:29",
+        "number": "28000.2176",
+        "branch": "br_release_svc_prod3",
+        "compileTime": "2026-05-14 18:22",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Release Preview",
-        "time": "2026-05-14 17:00",
+        "time": "2026-05-19 17:00",
         "url": "https://learn.microsoft.com/windows-insider/release-notes/release-preview-26h1/build-28000-2173",
         "announcePlace": "Microsoft Learn"
     },
     "nav": {
         "previous": {
             "category": "26H1-bromine",
-            "build": "28000.2113"
+            "build": "28000.2173"
         },
         "next": {
-            "category": "26H1-bromine",
-            "build": "28000.2176"
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
         }
     },
     "belongsTo": {
@@ -28,11 +28,11 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "cf4f4f12-1076-48f3-93e1-fd4886a1a13b"
+        "id": "3cf2a0a8-63bf-4416-bc7d-7c313fb6a986"
     },
     {
         "arch": "ARM64",
-        "id": "e4a62614-6c63-4b80-b4c5-3c63984c6ff7"
+        "id": "59f47cd6-baec-4fef-857f-ee3f4a99c74d"
     }],
     "download": {}
 }
