@@ -43,8 +43,8 @@
             {
                 "channel": "Beta",
                 "style": "color-green",
-                "version": "26220.8474",
-                "branch": "ge_release_svc_betaflt_im",
+                "version": "26220.8491",
+                "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
                 "semester": "25H2"
