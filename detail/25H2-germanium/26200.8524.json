@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26200.8524",
+        "branch": "25h2_ge_release_svc_prod3",
+        "compileTime": "2026-05-22 07:03",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-05-26 21:00",
+        "url": "https://support.microsoft.com/topic/f378c8ae-0170-47c9-a1e9-dfef978c8e17",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.8521"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "b4d8466a-0024-4453-a0ed-1e0b9f7793d3"
+    },
+    {
+        "arch": "ARM64",
+        "id": "648c682d-a0f9-4045-bd6e-5b8eeb00998c"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5089573-x64.msu",
+        "size": "4.76 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/17caea23-ee77-4074-87dc-5820c52a9f45/public/windows11.0-kb5089573-x64_cc650a5cea73a2bca157ef66e0ce88f5c1d95e14.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "5715d5f8de886bbcc0b4586daaa76a46",
+        "sha256": "d52fbe7aab13a31f1f95c4e95c558a7425c9f1b15d0d78f52fa100acaec75d87"
+    }
+}
