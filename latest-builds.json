@@ -5,7 +5,7 @@
         "icon": "windows11",
         "releases": [
             {
-                "channel": "Experimental",
+                "channel": "Exp Next",
                 "style": "color-amber",
                 "version": "29595.1000",
                 "branch": "rs_prerelease",
@@ -14,9 +14,9 @@
                 "semester": "26H2"
             },
             {
-                "channel": "Beta",
+                "channel": "Exp 26H1",
                 "style": "color-green",
-                "version": "28020.2149",
+                "version": "28020.2207",
                 "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
