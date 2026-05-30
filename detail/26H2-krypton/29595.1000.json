@@ -4,7 +4,7 @@
         "branch": "rs_prerelease",
         "compileTime": "2026-05-08 14:26",
         "arch": ["AMD64", "ARM64"],
-        "counterpart": "Client"
+        "counterpart": "Client & Server"
     },
     "release": {
         "channel": "Experimental",
@@ -27,11 +27,15 @@
         "name": "Krypton"
     },
     "updateId": [{
-        "arch": "AMD64",
+        "arch": "AMD64 (Client)",
         "id": "0891407a-391d-4ded-add6-f92f90048090"
-    },    
+    },
     {
-        "arch": "ARM64",
+        "arch": "AMD64 (Server)",
+        "id": "42bf2113-68e8-4333-b3ee-2fb2db46690c"
+    },
+    {
+        "arch": "ARM64 (Client)",
         "id": "18695d7e-8684-4557-a848-abf89ca07952"
     }],
     "download": {
