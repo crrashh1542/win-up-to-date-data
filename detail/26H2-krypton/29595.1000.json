@@ -8,14 +8,18 @@
     },
     "release": {
         "channel": "Experimental",
-        "time": "2026-05-15 19:00",
+        "time": "2026-05-22 19:00",
         "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29595-1000",
         "announcePlace": "Microsoft Learn"
     },
     "nav": {
         "previous": {
             "category": "26H2-krypton",
-            "build": "29585.1000"
+            "build": "29591.1000"
+        },
+        "next": {
+            "category": "26H2-krypton",
+            "build": "29599.1000"
         }
     },
     "belongsTo": {
