@@ -14,17 +14,17 @@
     },
     "nav": {
         "previous": {
-            "category": "26H2-germanium-beta",
+            "category": "25H2-germanium-prerel",
             "build": "26300.7877"
         },
         "next": {
-            "category": "26H2-germanium-beta",
+            "category": "25H2-germanium-prerel",
             "build": "26300.7965"
         }
     },
     "belongsTo": {
-        "path": "26H2-germanium-beta",
-        "name": "Germanium (26H2 Beta)"
+        "path": "25H2-germanium-prerel",
+        "name": "Germanium (Prerelease)"
     },
     "updateId": [{
         "arch": "AMD64",
