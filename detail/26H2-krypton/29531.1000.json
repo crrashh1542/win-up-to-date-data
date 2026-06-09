@@ -14,8 +14,8 @@
     },
     "nav": {
         "previous": {
-            "category": "26H1-bromine-betaflt",
-            "build": "28020.2236"
+            "category": "26H1-bromine-prerel",
+            "build": "28120.2242"
         },
         "next": {
             "category": "26H2-krypton",

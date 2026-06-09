@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "28120.2242",
+        "branch": "br_prerelease_im",
+        "compileTime": "2026-06-01 09:50",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Experimental",
+        "time": "2026-06-08 21:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-26-h1/preview-build-28120-2242",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28020.2236"
+        },
+        "next": {
+            "category": "26H2-krypton",
+            "build": "29531.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine-prerel",
+        "name": "Bromine (Prerelease)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "76d1c0a3-12db-466f-bde1-ce591c2b61d3"
+    },
+    {
+        "arch": "ARM64",
+        "id": "631f5dea-112a-411b-9fd4-f95a2d013629"
+    }],
+    "download": {}
+}

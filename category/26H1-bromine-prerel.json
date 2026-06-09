@@ -1,0 +1,20 @@
+{
+    "name": "Bromine (Prerelease)",
+    "codename": "Bromine",
+    "belonging": "Windows 11",
+    "semester": "26H1",
+    "range": [28120.2242, null],
+    "nav": {
+        "previous": {
+            "path": "26H1-bromine-betaflt",
+            "name": "Bromine (Betaflt)"
+        },
+        "next": {
+            "path": "26H2-krypton",
+            "name": "Krypton"
+        }
+    },
+    "list": [
+        ["28120.2242", "2026-06-08"]
+    ]
+}

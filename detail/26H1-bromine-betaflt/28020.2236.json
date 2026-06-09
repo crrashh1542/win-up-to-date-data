@@ -18,8 +18,8 @@
             "build": "28020.2207"
         },
         "next": {
-            "category": "26H2-krypton",
-            "build": "29531.1000"
+            "category": "26H1-bromine-prerel",
+            "build": "28120.2242"
         }
     },
     "belongsTo": {

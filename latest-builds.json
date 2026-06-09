@@ -15,11 +15,11 @@
             },
             {
                 "channel": "Exp 26H1",
-                "style": "color-green",
-                "version": "28020.2207",
-                "branch": "br_release_svc_betaflt_prod1",
+                "style": "color-orange",
+                "version": "28120.2242",
+                "branch": "br_prerelease_im",
                 "codename": "Bromine",
-                "category": "26H1-bromine-betaflt",
+                "category": "26H1-bromine-prerel",
                 "semester": "26H1"
             },
             {

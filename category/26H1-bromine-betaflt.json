@@ -10,8 +10,8 @@
             "name": "Bromine"
         },
         "next": {
-            "path": "26H2-krypton",
-            "name": "Krypton"
+            "path": "26H1-bromine-prerel",
+            "name": "Bromine (Prerelease)"
         }
     },
     "list": [
