@@ -46,8 +46,8 @@
                 "version": "26300.8553",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
-                "category": "26H2-germanium-beta",
-                "semester": "26H2"
+                "category": "25H2-germanium-prerel",
+                "semester": "25H2"
             },
             {
                 "channel": "发布预览",
@@ -271,7 +271,7 @@
                 "version": "26300.8553",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
-                "category": "26H2-germanium-beta",
+                "category": "25H2-germanium-prerel",
                 "semester": "26H2"
             },
             {

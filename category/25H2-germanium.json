@@ -1,5 +1,5 @@
 {
-    "name": "Germanium (25H2 EKB)",
+    "name": "Germanium (25H2)",
     "codename": "Germanium",
     "belonging": "Windows 11",
     "semester": "25H2",
@@ -10,8 +10,8 @@
             "name": "Dilithium"
         },
         "next": {
-            "path": "25H2-germanium-betaflt",
-            "name": "Germanium (25H2 Betaflt)"
+            "path": "26H1-bromine",
+            "name": "Bromine"
         }
     },
     "list": [

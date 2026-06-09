@@ -6,12 +6,12 @@
     "range": [27548, 27690],
     "nav": {
         "previous": {
-            "path": "24H2-germanium-upstream",
-            "name": "Germanium (Upstream)"
+            "path": "25H2-germanium-prerel",
+            "name": "Germanium (Prerelease)"
         },
         "next": {
-            "path": "25H2-germanium",
-            "name": "Germanium (25H2)"
+            "path": "25H2-selenium",
+            "name": "Selenium"
         }
     },
     "list": [

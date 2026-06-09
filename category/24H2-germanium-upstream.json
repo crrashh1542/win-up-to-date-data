@@ -10,8 +10,8 @@
             "name": "Germanium (Server)"
         },
         "next": {
-            "path": "25H1-dilithium",
-            "name": "Dilithium"
+            "path": "25H2-germanium",
+            "name": "Germanium (25H2)"
         }
     },
     "list": [

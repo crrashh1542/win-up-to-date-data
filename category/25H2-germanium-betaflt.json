@@ -10,8 +10,8 @@
             "name": "Germanium (25H2)"
         },
         "next": {
-            "path": "25H2-selenium",
-            "name": "Selenium"
+            "path": "25H2-germanium-prerel",
+            "name": "Germanium (Prerelease)"
         }
     },
     "list": [
