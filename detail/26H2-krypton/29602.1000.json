@@ -1,0 +1,30 @@
+{
+    "build": {
+        "number": "29602.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-05-27 15:21",
+        "arch": ["AMD64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2026-06-08 21:00",
+        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-29602/4526486",
+        "announcePlace": "Microsoft Tech Community"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-krypton",
+            "build": "29595.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-krypton",
+        "name": "Krypton"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "04aeb30b-f04b-4df0-a6c9-b88a69a23782"
+    }],
+    "download": {}
+}
