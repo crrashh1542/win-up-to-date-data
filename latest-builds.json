@@ -121,7 +121,7 @@
             {
                 "channel": "23H2",
                 "style": "color-theme",
-                "version": "22631.7079",
+                "version": "22631.7219",
                 "branch": "23h2_ni_release_svc_prod1",
                 "codename": "Nickel",
                 "semester": "23H2"
@@ -136,7 +136,7 @@
             {
                 "channel": "ESU 通道",
                 "style": "color-teal",
-                "version": "19045.7291",
+                "version": "19045.7417",
                 "branch": "22h2_release_svc_prod1",
                 "codename": "Vibranium",
                 "semester": "22H2"
@@ -144,7 +144,7 @@
             {
                 "channel": "LTSC (2021)",
                 "style": "color-teal",
-                "version": "19044.7291",
+                "version": "19044.7417",
                 "branch": "21h2_release_svc_prod1",
                 "codename": "Vibranium",
                 "semester": "21H2"
@@ -152,7 +152,7 @@
             {
                 "channel": "LTSC (2019)",
                 "style": "color-teal",
-                "version": "17763.8755",
+                "version": "17763.8880",
                 "branch": "rs5_release_svc_prod1",
                 "codename": "Redstone",
                 "semester": "1809"
@@ -160,7 +160,7 @@
             {
                 "channel": "LTSB (2016)",
                 "style": "color-teal",
-                "version": "14393.9140",
+                "version": "14393.9234",
                 "branch": "rs1_release",
                 "codename": "Redstone",
                 "semester": "1607"
@@ -201,7 +201,7 @@
             {
                 "channel": "LTSC (2022)",
                 "style": "color-theme",
-                "version": "20349.5139",
+                "version": "20349.5256",
                 "branch": "22h2_fe_release_svc_prod1",
                 "codename": "Iron",
                 "semester": "22H2"
@@ -209,7 +209,7 @@
             {
                 "channel": "LTSC (2019)",
                 "style": "color-teal",
-                "version": "17763.8755",
+                "version": "17763.8880",
                 "branch": "rs5_release_svc_prod1",
                 "codename": "Redstone",
                 "semester": "1809"
@@ -217,7 +217,7 @@
             {
                 "channel": "LTSB (2016)",
                 "style": "color-teal",
-                "version": "14393.9140",
+                "version": "14393.9234",
                 "branch": "rs1_release",
                 "codename": "Redstone",
                 "semester": "1607"
