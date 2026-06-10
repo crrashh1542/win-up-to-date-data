@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.8655",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2026-06-05 18:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-06-09 17:00",
+        "url": "https://support.microsoft.com/topic/1a9bcba6-5f53-4075-8156-fe11ac631737",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.8524"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "f7e8991e-4fd8-4bfd-a404-0de6dccd4191"
+    },
+    {
+        "arch": "ARM64",
+        "id": "f6f03ef4-7dc3-48a3-8a21-567e3060f968"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5094126-x64.msu",
+        "size": "4.75 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8ab7b9b4-fb40-4820-afb3-cbaf4cc0a701/public/windows11.0-kb5094126-x64_1b7fae967f9781d27e8ee3f848fba51b7cd62e88.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "6dad9a8d28c321e5bd5a98a24195d137",
+        "sha256": "7a1e9ec5f215969fa83a3397eb2e2eee1821c8cbc9be959930f64cbce8d8f0a7"
+    }
+}

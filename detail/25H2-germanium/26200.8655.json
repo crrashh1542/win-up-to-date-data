@@ -1,0 +1,56 @@
+{
+    "build": {
+        "number": "26100.8655",
+        "branch": "25h2_ge_release_svc_prod1",
+        "compileTime": "2026-06-05 18:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-06-09 17:00",
+        "url": "https://support.microsoft.com/topic/1a9bcba6-5f53-4075-8156-fe11ac631737",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.8524"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "cde62503-0f96-4273-8a1e-d25b94fe30ad"
+    },
+    {
+        "arch": "AMD64 (Cloud PC)",
+        "id": "808e9015-f738-4353-a93d-bc9efb933f11"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "d87783d7-1b94-44c0-a833-fb221ad1e6b9"
+    },
+    {
+        "arch": "ARM64 (Cloud PC)",
+        "id": "e07ee0fa-b41f-405f-9a5b-d1b9eef97698"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5094126-x64.msu",
+        "size": "4.75 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/8ab7b9b4-fb40-4820-afb3-cbaf4cc0a701/public/windows11.0-kb5094126-x64_1b7fae967f9781d27e8ee3f848fba51b7cd62e88.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "6dad9a8d28c321e5bd5a98a24195d137",
+        "sha256": "7a1e9ec5f215969fa83a3397eb2e2eee1821c8cbc9be959930f64cbce8d8f0a7"
+    }
+}
