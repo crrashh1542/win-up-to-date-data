@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "28000.2333",
+        "branch": "br_release_svc_prod3",
+        "compileTime": "2026-06-08 18:25",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-06-12 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/release-preview-26h1/build-28000-2333",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.2269"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "229e9adb-7829-4524-978d-7b5fe79263e3"
+    },
+    {
+        "arch": "ARM64",
+        "id": "ffd484cf-bad0-4c86-a79d-0c62ad245bcb"
+    }],
+    "download": {}
+}
