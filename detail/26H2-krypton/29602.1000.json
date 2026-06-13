@@ -26,5 +26,24 @@
         "arch": "AMD64",
         "id": "04aeb30b-f04b-4df0-a6c9-b88a69a23782"
     }],
-    "download": {}
+    "download": {
+        "name": "29602.1000.260527-1521.rs_prerelease_SERVER_X64FRE_zh-cn.iso",
+        "size": "4.48 GB",
+        "link": [
+        {
+            "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-Tqvrv",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000022",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQChWWqG0HQHQqHem2BSC_KzAVT7WwMMehspkaerLcST3KE",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "47024a20862c5651a19f3eba44a77ca8",
+        "sha256": "282e6dee6a3e37e74a51fa908bbbbf2610f4ec6566ebdc24abd7aad56b3910ef"
+    }
 }
