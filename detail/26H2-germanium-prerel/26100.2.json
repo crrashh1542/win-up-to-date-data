@@ -18,12 +18,12 @@
             "build": "26220.8690"
         },
         "next": {
-            "category": "25H2-germanium-prerel",
+            "category": "26H2-germanium-prerel",
             "build": "26100.1743"
         }
     },
     "belongsTo": {
-        "path": "25H2-germanium-prerel",
+        "path": "26H2-germanium-prerel",
         "name": "Germanium (Prerelease)"
     },
     "updateId": [],

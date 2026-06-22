@@ -46,7 +46,7 @@
                 "version": "26300.8687",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
-                "category": "25H2-germanium-prerel",
+                "category": "26H2-germanium-prerel",
                 "semester": "25H2"
             },
             {
@@ -280,7 +280,7 @@
                 "version": "26300.8553",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
-                "category": "25H2-germanium-prerel",
+                "category": "26H2-germanium-prerel",
                 "semester": "26H2"
             },
             {

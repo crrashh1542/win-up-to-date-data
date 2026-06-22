@@ -1,29 +1,29 @@
 {
     "build": {
-        "number": "26300.7965",
+        "number": "26300.7939",
         "branch": "ge_prerelease_im",
-        "compileTime": "2026-03-02 11:52",
+        "compileTime": "2026-02-23 22:04",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Dev",
-        "time": "2026-03-06 18:00",
-        "url": "https://blogs.windows.com/windows-insider/2026/03/06/announcing-windows-11-insider-preview-build-26300-7965-dev-channel/",
+        "time": "2026-02-27 18:00",
+        "url": "https://blogs.windows.com/windows-insider/2026/02/27/announcing-windows-11-insider-preview-build-26300-7939-dev-channel/",
         "announcePlace": "Windows Blogs"
     },
     "nav": {
         "previous": {
-            "category": "25H2-germanium-prerel",
-            "build": "26300.7939"
+            "category": "26H2-germanium-prerel",
+            "build": "26300.7877"
         },
         "next": {
-            "category": "25H2-germanium-prerel",
-            "build": "26300.8068"
+            "category": "26H2-germanium-prerel",
+            "build": "26300.7965"
         }
     },
     "belongsTo": {
-        "path": "25H2-germanium-prerel",
+        "path": "26H2-germanium-prerel",
         "name": "Germanium (Prerelease)"
     },
     "updateId": [{
