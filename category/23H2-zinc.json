@@ -3,7 +3,7 @@
     "codename": "Zinc",
     "belonging": "Windows 11",
     "semester": "23H2",
-    "range": [25247, 25393],
+    "range": ["25247", "25393"],
     "nav": {
         "previous": {
             "path": "23H1-copper",

@@ -3,7 +3,7 @@
     "codename": "Nickel",
     "belonging": "Windows 11",
     "semester": "23H2",
-    "range": [22631.2428, null],
+    "range": ["22631.2428", null],
     "nav": {
         "previous": {
             "path": "22H2-nickel-upstream",

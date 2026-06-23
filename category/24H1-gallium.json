@@ -3,7 +3,7 @@
     "codename": "Gallium",
     "belonging": "Windows 11",
     "semester": "24H1",
-    "range": [25905, 25941],
+    "range": ["25905", "25941"],
     "nav": {
         "previous": {
             "path": "23H2-zinc-server",

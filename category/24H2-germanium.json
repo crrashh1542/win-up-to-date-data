@@ -3,7 +3,7 @@
     "codename": "Germanium",
     "belonging": "Windows 11",
     "semester": "24H2",
-    "range": [25947, 26100],
+    "range": ["25947", "26100"],
     "nav": {
         "previous": {
             "path": "24H1-gallium",

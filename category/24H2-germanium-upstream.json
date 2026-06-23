@@ -3,7 +3,7 @@
     "codename": "Germanium",
     "belonging": "Windows 11, Windows Server",
     "semester": "24H2",
-    "range": [26200, null],
+    "range": ["26200", null],
     "nav": {
         "previous": {
             "path": "24H2-germanium-server",

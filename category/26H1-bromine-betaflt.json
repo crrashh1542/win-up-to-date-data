@@ -3,7 +3,7 @@
     "codename": "Bromine",
     "belonging": "Windows 11",
     "semester": "26H1",
-    "range": [28020.1362, null],
+    "range": ["28020.1362", null],
     "nav": {
         "previous": {
             "path": "26H1-bromine",

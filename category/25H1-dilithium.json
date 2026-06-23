@@ -3,7 +3,7 @@
     "codename": "Dilithium",
     "belonging": "Windows 11",
     "semester": "25H1",
-    "range": [27548, 27690],
+    "range": ["27548", "27690"],
     "nav": {
         "previous": {
             "path": "26H2-germanium-prerel",

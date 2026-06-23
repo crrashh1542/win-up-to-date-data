@@ -3,7 +3,7 @@
     "codename": "Zinc",
     "belonging": "Windows Server v2023",
     "semester": "23H2",
-    "range": [25398.1, null],
+    "range": ["25398.1", null],
     "nav": {
         "previous": {
             "path": "23H2-zinc",

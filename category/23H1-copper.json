@@ -3,7 +3,7 @@
     "codename": "Copper",
     "belonging": "Windows 11",
     "semester": "23H2",
-    "range": [25115, 25236],
+    "range": ["25115", "25236"],
     "nav": {
         "previous": {
             "path": "23H2-Nickel-betaflt",
