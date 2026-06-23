@@ -7,7 +7,7 @@
             {
                 "channel": "Exp Next",
                 "style": "color-amber",
-                "version": "29610.1000",
+                "version": "29613.1000",
                 "branch": "rs_prerelease",
                 "codename": "Krypton",
                 "category": "26H2-krypton",
@@ -239,9 +239,9 @@
         "icon": "iso",
         "releases": [
             {
-                "channel": "Experimental",
+                "channel": "Exp Next",
                 "style": "color-amber",
-                "version": "29599.1000",
+                "version": "29610.1000",
                 "branch": "rs_prerelease",
                 "codename": "Krypton",
                 "category": "26H2-krypton",
@@ -257,21 +257,21 @@
                 "semester": "26H2"
             },
             {
-                "channel": "Beta",
-                "style": "color-green",
-                "version": "28020.2207",
-                "branch": "br_release_svc_betaflt_prod1",
+                "channel": "Exp 26H1",
+                "style": "color-orange",
+                "version": "28120.2302",
+                "branch": "br_prerelease_im",
                 "codename": "Bromine",
-                "category": "26H1-bromine-betaflt",
+                "category": "26H1-bromine-prerel",
                 "semester": "26H1"
             },
             {
-                "channel": "发布预览",
-                "style": "color-purple",
-                "version": "28000.1896",
-                "branch": "br_release_svc_prod3",
+                "channel": "Beta 26H1",
+                "style": "color-green",
+                "version": "28020.2295",
+                "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
-                "category": "26H1-bromine",
+                "category": "26H1-bromine-betaflt",
                 "semester": "26H1"
             },
             {
@@ -286,7 +286,7 @@
             {
                 "channel": "Beta",
                 "style": "color-green",
-                "version": "26220.8544",
+                "version": "26220.8575",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",

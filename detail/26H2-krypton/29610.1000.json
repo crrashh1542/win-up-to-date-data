@@ -16,6 +16,10 @@
         "previous": {
             "category": "26H2-krypton",
             "build": "29602.1000"
+        },
+        "next": {
+            "category": "26H2-krypton",
+            "build": "29613.1000"
         }
     },
     "belongsTo": {
@@ -43,7 +47,7 @@
             "source": "豆包云盘"
         },
         {
-            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQChWWqG0HQHQqHem2BSC_KzAVT7WwMMehspkaerLcST3KE",
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDfHccEjo6RQ4xV0Rd6BV03AfiiFXpEGOIxlePkmGERaug",
             "source": "OneDrive"
         }],
         "arch": "AMD64",
