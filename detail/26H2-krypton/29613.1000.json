@@ -3,7 +3,7 @@
         "number": "29613.1000",
         "branch": "rs_prerelease",
         "compileTime": "2026-06-10 15:52",
-        "arch": ["AMD64"],
+        "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
@@ -16,6 +16,10 @@
         "previous": {
             "category": "26H2-krypton",
             "build": "29610.1000"
+        },
+        "next": {
+            "category": "26H2-krypton",
+            "build": "29617.1000"
         }
     },
     "belongsTo": {
@@ -39,7 +43,7 @@
             "source": "123云盘"
         },
         {
-            "url": "https://p0-fsb.api.crrashh.com/u/1001000030",
+            "url": "https://p0-fsb.api.crrashh.com/u/1001000086",
             "source": "豆包云盘"
         },
         {

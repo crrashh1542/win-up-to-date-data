@@ -3,7 +3,7 @@
         "number": "29610.1000",
         "branch": "rs_prerelease",
         "compileTime": "2026-06-05 18:37",
-        "arch": ["AMD64"],
+        "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
