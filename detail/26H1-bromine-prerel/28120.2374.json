@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "28120.2315",
+        "number": "28120.2374",
         "branch": "br_prerelease_im",
-        "compileTime": "2026-06-11 16:46",
+        "compileTime": "2026-06-18 16:50",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Experimental",
-        "time": "2026-06-19 17:00",
-        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-26-h1/preview-build-28120-2315",
+        "time": "2026-06-26 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-26-h1/preview-build-28120-2374",
         "announcePlace": "Microsoft Learn"
     },
     "nav": {
         "previous": {
             "category": "26H1-bromine-prerel",
-            "build": "28120.2302"
+            "build": "28120.2315"
         },
         "next": {
-            "category": "26H1-bromine-prerel",
-            "build": "28130.2374"
+            "category": "26H2-krypton",
+            "build": "29531.1000"
         }
     },
     "belongsTo": {
@@ -27,19 +27,11 @@
         "name": "Bromine (Prerelease)"
     },
     "updateId": [{
-        "arch": "AMD64 (1)",
+        "arch": "AMD64",
         "id": "c556f7f6-d3b3-40a7-a654-f864208077de"
     },
     {
-        "arch": "AMD64 (2)",
-        "id": "934a7445-4e1f-4dcd-bd5a-b1e065ea9594"
-    },
-    {
-        "arch": "ARM64 (1)",
-        "id": "d297f8a9-e0ad-4389-bec9-521127b61794"
-    },
-    {
-        "arch": "ARM64 (2)",
+        "arch": "ARM64",
         "id": "76a616e5-08ec-44e9-9928-32c2bb5f6791"
     }],
     "download": {}
