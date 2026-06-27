@@ -27,12 +27,12 @@
             {
                 "channel": "Beta 26H1",
                 "color": "green",
-                "version": "28020.2308",
+                "version": "28020.2366",
                 "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
                 "semester": "26H1",
-                "date": "2026-06-19"
+                "date": "2026-06-26"
             },
             {
                 "channel": "发布预览",
