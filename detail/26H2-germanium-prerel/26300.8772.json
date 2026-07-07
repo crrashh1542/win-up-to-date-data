@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26300.8758",
+        "number": "26300.8772",
         "branch": "ge_prerelease_im",
-        "compileTime": "2026-06-20 21:49",
+        "compileTime": "2026-06-26 20:10",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Experimental",
-        "time": "2026-06-26 17:00",
-        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental/preview-build-26300-8758",
+        "time": "2026-07-06 21:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental/preview-build-26300-8772",
         "announcePlace": "Microsoft Learn"
     },
     "nav": {
         "previous": {
             "category": "26H2-germanium-prerel",
-            "build": "26300.8697"
+            "build": "26300.8758"
         },
         "next": {
-            "category": "26H2-germanium-prerel",
-            "build": "26300.8772"
+            "category": "25H1-dilithium",
+            "build": "27686.1000"
         }
     },
     "belongsTo": {
@@ -28,11 +28,11 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "8f247bc8-f5ba-4467-ac18-8a9d87e9f6d0"
+        "id": "23b8b945-cad8-41db-9925-72a522fedffc"
     },
     {
         "arch": "ARM64",
-        "id": "69753e14-a51a-4b46-86ed-dea98bf3e18c"
+        "id": "eca8ebeb-67aa-47bf-8f3a-f0662c0a583b"
     }],
     "download": {}
 }
