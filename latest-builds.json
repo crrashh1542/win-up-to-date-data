@@ -2,7 +2,7 @@
     {
         "category": "预览体验计划",
         "id": "client-11",
-        "icon": "windows11",
+        "icon": "insider",
         "releases": [
             {
                 "channel": "Exp Next",
@@ -57,12 +57,12 @@
             {
                 "channel": "Beta",
                 "color": "green",
-                "version": "26220.8754",
+                "version": "26220.8764",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
                 "semester": "25H2",
-                "date": "2026-06-26"
+                "date": "2026-07-06"
             },
             {
                 "channel": "发布预览",
