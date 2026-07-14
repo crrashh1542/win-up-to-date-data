@@ -7,7 +7,7 @@
         "counterpart": "Server"
     },
     "release": {
-        "channel": "Canary",
+        "channel": "Experimental",
         "time": "2026-06-08 21:00",
         "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-29602/4526486",
         "announcePlace": "Microsoft Tech Community"

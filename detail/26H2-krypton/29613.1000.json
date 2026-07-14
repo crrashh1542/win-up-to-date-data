@@ -7,7 +7,7 @@
         "counterpart": "Client"
     },
     "release": {
-        "channel": "Canary",
+        "channel": "Experimental",
         "time": "2026-06-19 17:00",
         "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29613-1000",
         "announcePlace": "Microsoft Learn"
