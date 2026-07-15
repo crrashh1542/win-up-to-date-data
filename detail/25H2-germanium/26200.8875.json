@@ -1,0 +1,56 @@
+{
+    "build": {
+        "number": "26200.8875",
+        "branch": "25h2_ge_release_svc_prod1",
+        "compileTime": "2026-07-10 14:18",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-07-14 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/07/july-14-2026-kb5101650-os-builds-26200-8875-and-26100-8875",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.8737"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "84f92676-c50f-47ba-8877-9cb3aded078f"
+    },
+    {
+        "arch": "AMD64 (Cloud PC)",
+        "id": "9f192958-4f3a-472f-b578-9389dd739762"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "b045adcf-3361-4fd1-8afc-2533adf25431"
+    },
+    {
+        "arch": "ARM64 (Cloud PC)",
+        "id": "d9cbce10-1023-4527-bd6d-609e12cf9f5e"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5101650-x64.msu",
+        "size": "4.85 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/07dceb13-ffad-47c5-a8fe-0f195bd14dc9/public/windows11.0-kb5101650-x64_5d4163c2e483adc9456b7ea9a8ea83d8fceaf52c.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "f2459ef10d593fa6e1a34c1931d745bd",
+        "sha256": "b6e4046308550ef847fe3b23f9dfe5922a3c14915de0d9a6469e92438dfc27b7"
+    }
+}
