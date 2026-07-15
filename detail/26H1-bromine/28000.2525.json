@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "28000.2525",
+        "branch": "br_release_svc_prod1",
+        "compileTime": "2026-07-10 18:25",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-07-14 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/07/july-14-2026-kb5101649-os-build-28000-2525",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.2340"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "533720b8-f9c8-4193-887c-780a92eec1e8"
+    },
+    {
+        "arch": "ARM64",
+        "id": "5b2d78ff-6654-4e90-8558-a58f0dc7a978"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5101649-x64.msu",
+        "size": "3.87 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d67372be-aa64-476a-ac11-8bc0484165fc/public/windows11.0-kb5101649-x64_ab873b62375afdcd1d4439c5ba08c4166e5d32ca.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "5e18d9ddc059774612f07f38228020e7",
+        "sha256": "3e10168737b9ba59cbec82094fd241b5372c5407898d1007ef07215c6d3bc18c"
+    }
+}
