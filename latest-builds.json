@@ -203,12 +203,12 @@
             {
                 "channel": "LTSC (2025)",
                 "color": "blue",
-                "version": "26100.32995",
+                "version": "26100.33158",
                 "branch": "lt_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium-server",
                 "semester": "24H2",
-                "date": "2026-06-09"
+                "date": "2026-07-14"
             },
             {
                 "channel": "年度频道 (23H2)",

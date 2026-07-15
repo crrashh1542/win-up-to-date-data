@@ -1,0 +1,47 @@
+{
+    "build": {
+        "number": "26100.33158",
+        "branch": "lt_release_svc_prod1",
+        "compileTime": "2026-07-10 18:15",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-07-14 17:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-server",
+            "build": "26100.32995"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26200.5001"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-server",
+        "name": "Germanium (Server)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "82cd72da-d41e-48c4-9a75-1a0651b7529b"
+    },
+    {
+        "arch": "ARM64",
+        "id": "6d0de3c7-c288-469a-9532-7a71c8bf243f"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5099536-x64.msu",
+        "size": "1.96 GB",
+        "link": [
+        {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a71830b0-cbf7-4f91-9ad0-27c92c497e7a/public/windows11.0-kb5099536-x64_62ec237bff7d2c4065936b2b2b58be57cf0d668d.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "21049e18eaff7ca7f80ddfdcc6e2bc2e",
+        "sha256": "879a9840776b423a1e05a0cadef608d5147493131a3754ebd9d2c8f1a331b8e9"
+    }
+}
