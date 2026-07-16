@@ -1,2 +1,5 @@
 # Generated zip data archive
 *.zip
+
+# Generated version info for no-git deployments
+version.json

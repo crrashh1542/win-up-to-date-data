@@ -1,0 +1,514 @@
+[
+    {
+        "category": "Windows 11",
+        "id": "11",
+        "icon": "windows11",
+        "platforms": [
+            {
+                "name": "Krypton",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "26H2",
+                        "category": "26H2-krypton",
+                        "latestBuild": "29613.1000",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Experimental",
+                                "color": "yellow"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Germanium (26H2)",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "26H2",
+                        "category": "26H2-germanium-prerel",
+                        "latestBuild": "26300.8697",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Experimental",
+                                "color": "orange"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bromine",
+                "multi": true,
+                "items": [
+                    {
+                        "name": "Bromine (Prerelease)",
+                        "semester": "26H1",
+                        "category": "26H1-bromine-prerel",
+                        "latestBuild": "28120.2315",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Experimental",
+                                "color": "orange"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bromine (Betaflt)",
+                        "semester": "26H1",
+                        "category": "26H1-bromine-betaflt",
+                        "latestBuild": "28020.2380",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Beta",
+                                "color": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bromine",
+                        "semester": "26H1",
+                        "category": "26H1-bromine",
+                        "latestBuild": "28000.2340",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "RP",
+                                "color": "purple"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Selenium",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "25H2",
+                        "category": "25H2-selenium",
+                        "latestBuild": "29613.1000",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Canary",
+                                "color": "amber"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Germanium (25H2)",
+                "multi": true,
+                "items": [
+                    {
+                        "name": "Germanium (Betaflt)",
+                        "semester": "25H2",
+                        "category": "25H2-germanium-betaflt",
+                        "latestBuild": "26220.8690",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Dev",
+                                "color": "orange"
+                            },
+                            {
+                                "name": "Beta",
+                                "color": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Germanium",
+                        "semester": "25H2",
+                        "category": "25H2-germanium",
+                        "latestBuild": "26200.8737",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "RP",
+                                "color": "purple"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dilithium",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "25H1",
+                        "category": "25H1-dilithium",
+                        "latestBuild": "27686.1000",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Canary",
+                                "color": "amber"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Germanium",
+                "multi": true,
+                "items": [
+                    {
+                        "name": "Germanium (Upstream)",
+                        "semester": "24H2",
+                        "category": "24H2-germanium-upstream",
+                        "latestBuild": "26534.1000",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Canary",
+                                "color": "amber"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Germanium (Betaflt)",
+                        "semester": "24H2",
+                        "category": "24H2-germanium-betaflt",
+                        "latestBuild": "26120.6982",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Dev",
+                                "color": "orange"
+                            },
+                            {
+                                "name": "Beta",
+                                "color": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Germanium",
+                        "semester": "24H2",
+                        "category": "24H2-germanium",
+                        "latestBuild": "26100.8875",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "RP",
+                                "color": "purple"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Nickel (23H2)",
+                "multi": true,
+                "items": [
+                    {
+                        "name": "Nickel (Betaflt)",
+                        "semester": "23H2",
+                        "latestBuild": "22635.5305",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Beta",
+                                "color": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nickel",
+                        "semester": "23H2",
+                        "latestBuild": "22631.7376",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Beta",
+                                "color": "green"
+                            },
+                            {
+                                "name": "RP",
+                                "color": "purple"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Zinc",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "23H2",
+                        "latestBuild": "25393.1",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Canary",
+                                "color": "amber"
+                            },
+                            {
+                                "name": "Dev",
+                                "color": "amber"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Copper",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "23H1",
+                        "latestBuild": "25236.1010",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Dev",
+                                "color": "amber"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Nickel",
+                "multi": true,
+                "items": [
+                    {
+                        "name": "Nickel (Upstream)",
+                        "semester": "22H2",
+                        "latestBuild": "26534.1000",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Canary",
+                                "color": "amber"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nickel (Betaflt)",
+                        "semester": "22H2",
+                        "latestBuild": "22624.1755",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Beta",
+                                "color": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Nickel",
+                        "semester": "22H2",
+                        "latestBuild": "22621.6060",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Canary",
+                                "color": "amber"
+                            },
+                            {
+                                "name": "RP",
+                                "color": "purple"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Copper (Wave 2)",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "21H2",
+                        "latestBuild": "22000.3260",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "RP",
+                                "color": "purple"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category":"Windows 10",
+        "id": "10",
+        "icon": "windows10",
+        "platforms": [
+            {
+                "name": "Vibranium (22H2)",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "22H2",
+                        "latestBuild": "19045.7548",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "RP",
+                                "color": "purple"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Vibranium (21H2)",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "21H2",
+                        "latestBuild": "19044.7548",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "LTSC",
+                                "color": "teal"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Copper (Wave 1)",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "21H2",
+                        "latestBuild": "21390.2025",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Dev",
+                                "color": "yellow"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Iron",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "21H1",
+                        "latestBuild": "20348.1",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Dev",
+                                "color": "yellow"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Maganese",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "20H2",
+                        "latestBuild": "19645.1",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "Fast",
+                                "color": "yellow"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Redstone 5",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "1809",
+                        "latestBuild": "17763.9020",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "LTSC",
+                                "color": "teal"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Redstone 1",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "1607",
+                        "latestBuild": "14393.9339",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "LTSC",
+                                "color": "teal"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
