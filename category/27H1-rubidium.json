@@ -1,0 +1,16 @@
+{
+    "name": "Rubidium",
+    "codename": "Rubidium",
+    "belonging": "Windows 11",
+    "semester": "27H1",
+    "range": [29634, null],
+    "nav": {
+        "previous": {
+            "path": "26H2-krypton",
+            "name": "Krypton"
+        }
+    },
+    "list": [
+        ["29634.1000", "2026-07-27"]
+    ]
+}

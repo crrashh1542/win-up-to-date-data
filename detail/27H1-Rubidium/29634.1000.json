@@ -19,8 +19,8 @@
         }
     },
     "belongsTo": {
-        "path": "26H2-krypton",
-        "name": "Krypton"
+        "path": "27H1-rubidium",
+        "name": "Rubidium"
     },
     "updateId": [
         {

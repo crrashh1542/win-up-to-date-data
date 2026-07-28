@@ -5,6 +5,25 @@
         "icon": "windows11",
         "platforms": [
             {
+                "name": "Rubidium",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "27H1",
+                        "category": "27H1-rubidium",
+                        "latestBuild": "29634.1000",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Experimental",
+                                "color": "yellow"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Krypton",
                 "multi": false,
                 "items": [
@@ -12,8 +31,8 @@
                         "name": "default",
                         "semester": "26H2",
                         "category": "26H2-krypton",
-                        "latestBuild": "29634.1000",
-                        "continued": true,
+                        "latestBuild": "29621.1000",
+                        "continued": false,
                         "tag": [
                             {
                                 "name": "Experimental",

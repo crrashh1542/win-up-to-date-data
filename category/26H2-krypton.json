@@ -3,15 +3,18 @@
     "codename": "Krypton",
     "belonging": "Windows 11",
     "semester": "26H2",
-    "range": [29531, null],
+    "range": [29531, 29621],
     "nav": {
         "previous": {
             "path": "26H1-bromine-prerel",
             "name": "Bromine (Prerelease)"
+        },
+        "next": {
+            "path": "27H1-rubidium",
+            "name": "Rubidium"
         }
     },
     "list": [
-        ["29634.1000", "2026-07-27"],
         ["29621.1000", "2026-07-13"],
         ["29617.1000", "2026-06-26"],
         ["29613.1000", "2026-06-19"],
