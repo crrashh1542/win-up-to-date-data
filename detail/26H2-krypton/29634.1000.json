@@ -1,0 +1,56 @@
+{
+    "build": {
+        "number": "29634.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-07-19 13:19",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Experimental",
+        "time": "2026-07-27 22:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29634-1000",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-krypton",
+            "build": "29621.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-krypton",
+        "name": "Krypton"
+    },
+    "updateId": [
+        {
+            "arch": "AMD64",
+            "id": "e641ee6e-2254-41bd-8b0a-1f82f298818f"
+        },
+        {
+            "arch": "ARM64",
+            "id": "a070cede-1173-46b7-b3bb-c69494f7f30a"
+        }
+    ],
+    "download": {
+        "name": "29634.1000.260719-1319.rs_prerelease_SERVER_X64FRE_zh-cn.iso",
+        "size": "4.49 GB",
+        "link": [
+            {
+                "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-zMFrv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://p0-fsb.api.crrashh.com/u/1001000082",
+                "source": "豆包云盘"
+            },
+            {
+                "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQA85cLcBmnVRrCR4aOAJ-BrAbsGp7k72TNZXabLYntF_ko",
+                "source": "OneDrive"
+            }
+        ],
+        "arch": "AMD64",
+        "md5": "f21796b3f9f035cb6937667f81c0cd05",
+        "sha256": "04584c4f7384fc758d827ccb5ca5642da8f00a7955a2ba3c926e35f4f57e1c81"
+    }
+}

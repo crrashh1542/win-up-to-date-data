@@ -3,7 +3,7 @@
         "number": "29621.1000",
         "branch": "rs_prerelease",
         "compileTime": "2026-06-24 16:00",
-        "arch": ["AMD64", "ARM64"],
+        "arch": ["AMD64"],
         "counterpart": "Server"
     },
     "release": {
@@ -16,32 +16,39 @@
         "previous": {
             "category": "26H2-krypton",
             "build": "29617.1000"
+        },
+        "next": {
+            "category": "26H2-krypton",
+            "build": "29634.1000"
         }
     },
     "belongsTo": {
         "path": "26H2-krypton",
         "name": "Krypton"
     },
-    "updateId": [{
-        "arch": "AMD64",
-        "id": "40527b6c-6058-4990-98e7-90e547a0aee0"
-    }],
+    "updateId": [
+        {
+            "arch": "AMD64",
+            "id": "40527b6c-6058-4990-98e7-90e547a0aee0"
+        }
+    ],
     "download": {
         "name": "29621.1000.260624-1600.rs_prerelease_SERVER_X64FRE_zh-cn.iso",
         "size": "4.49 GB",
         "link": [
-        {
-            "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-jSErv",
-            "source": "123云盘"
-        },
-        {
-            "url": "https://p0-fsb.api.crrashh.com/u/1001000070",
-            "source": "豆包云盘"
-        },
-        {
-            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQCUygpN_0iTSansVoUsYIsDAerWDSAwft1NOeUYxsqXuFQ",
-            "source": "OneDrive"
-        }],
+            {
+                "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-jSErv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://p0-fsb.api.crrashh.com/u/1001000070",
+                "source": "豆包云盘"
+            },
+            {
+                "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDZDY6FKHYeTKbubKaSXlc8Af1JLdoXlw_5KeQLMs5vgm0",
+                "source": "OneDrive"
+            }
+        ],
         "arch": "AMD64",
         "md5": "76c1a70a35aaa5c269c5550074fc1b6f",
         "sha256": "0ad0541a741964359d097d9df106607d5f52fab3bd343d2ca4c3ffc3d75f1119"
