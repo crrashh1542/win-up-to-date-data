@@ -7,7 +7,7 @@
         "counterpart": "Client"
     },
     "release": {
-        "channel": "General",
+        "channel": "Release Preview",
         "time": "2026-07-20 21:00",
         "url": "https://learn.microsoft.com/windows-insider/release-notes/release-preview-24h2-25h2/build-26100-8968-26200-8968",
         "announcePlace": "Microsoft Learn"
@@ -18,8 +18,8 @@
             "build": "26100.8894"
         },
         "next": {
-            "category": "24H2-germanium-betaflt",
-            "build": "26120.461"
+            "category": "24H2-germanium",
+            "build": "26100.8973"
         }
     },
     "belongsTo": {

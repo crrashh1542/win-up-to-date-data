@@ -67,22 +67,22 @@
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26200.8968",
+                "version": "26200.8973",
                 "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-07-20"
+                "date": "2026-07-28"
             },
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26100.8968",
+                "version": "26100.8973",
                 "branch": "ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
-                "date": "2026-07-20"
+                "date": "2026-07-28"
             }
         ]
     },
@@ -104,12 +104,12 @@
             {
                 "channel": "25H2",
                 "color": "blue",
-                "version": "26200.8894",
-                "branch": "25h2_ge_release_svc_im",
+                "version": "26200.8973",
+                "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-07-18"
+                "date": "2026-07-28"
             },
             {
                 "channel": "CloudPC OS",
@@ -124,12 +124,12 @@
             {
                 "channel": "24H2",
                 "color": "blue",
-                "version": "26100.8894",
-                "branch": "ge_release_svc_im",
+                "version": "26100.8973",
+                "branch": "24h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
-                "date": "2026-07-18"
+                "date": "2026-07-28"
             },
             {
                 "channel": "23H2",

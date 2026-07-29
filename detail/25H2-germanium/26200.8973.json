@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26200.8973",
+        "branch": "25h2_ge_release_svc_prod3",
+        "compileTime": "2026-07-24 03:54",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-07-28 21:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/07/july-28-2026-kb5101684-preview",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.8968"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "b407eb4e-c0c2-47e8-a60c-ae837d058d1e"
+    },
+    {
+        "arch": "ARM64",
+        "id": "1db7d109-ad8a-42f2-bbe7-e21f07664195"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5101684-x64.msu",
+        "size": "4.74 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f7475127-bd14-4dfd-b2fc-a05b89f39391/public/windows11.0-kb5101684-x64_4fbb7562c750f716a28bb2cd65ec21d44cadd2c0.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "db44b3300938e0e77e008f33877bc12c",
+        "sha256": "af188c048c86120ea49578bc9dbf142361753e5761dce594dd885e8ed7814b07"
+    }
+}
