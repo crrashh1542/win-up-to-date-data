@@ -1,0 +1,54 @@
+{
+    "build": {
+        "number": "28000.2608",
+        "branch": "br_release_svc_prod3",
+        "compileTime": "2026-07-24 02:53",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-07-28 21:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.2605"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64 (1)",
+        "id": "81988c5b-0c14-41fc-8a1f-79fb5e4eb2fb"
+    },
+    {
+        "arch": "AMD64 (2)",
+        "id": "64820786-8417-4d45-9230-2dc3ee354e40"
+    },
+    {
+        "arch": "ARM64 (1)",
+        "id": "43c0f4d9-611f-4d36-8b04-5b692097a8ba"
+    },
+    {
+        "arch": "ARM64 (2)",
+        "id": "84fddaa0-855c-4fbe-8d92-1a4e0ec07239"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5101681-x64.msu",
+        "size": "3.87 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/63eacef6-8939-4873-8e6f-40209f8a7760/public/windows11.0-kb5101681-x64_0dc113b327a8518c0dd6c5526b2e226d55addc89.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "4e194e52f8596a07e896df367b959040",
+        "sha256": "87ae47eb7904e60df5a9a87e676435134f893f3ef5a1fb9972fe6b9e1a343f6a"
+    }
+}
