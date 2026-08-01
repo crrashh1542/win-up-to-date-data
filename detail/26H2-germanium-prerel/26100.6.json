@@ -1,0 +1,51 @@
+{
+    "build": {
+        "number": "26100.2",
+        "branch": "ge_release_flt",
+        "compileTime": "2026-07-16 17:00",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Beta & Experimental",
+        "time": "2026-07-31 17:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-germanium-prerel",
+            "build": "26100.2"
+        },
+        "next": {
+            "category": "26H2-germanium-prerel",
+            "build": "26100.1743"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-germanium-prerel",
+        "name": "Germanium (Prerelease)"
+    },
+    "updateId": [],
+    "download": {
+        "name": "26100.6.260716-1700.ge_release_flt_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "size": "3.62 GB",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1pal8EGlkiRBkMLgY1i20wg?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-ogd8v",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://p0-fsb.api.crrashh.com/u/0100009a564",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQBUX3-U9__LSrdjwQre6tmRAXuxwAQtxZnDoAzdZ301T3o",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "8ccb9fcbd9616f120730cd8a4292d858",
+        "sha256": "e4d71eb0a5682dd3fab0ed44785809670f754b9ce8cf6efd27ed3422f130df02"
+    }
+}
