@@ -1,16 +1,14 @@
 {
     "build": {
-        "number": "26100.1743",
+        "number": "26100.1746",
         "branch": "ge_release_svc_flt",
         "compileTime": "2025-09-12 10:53",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
-        "channel": "Dev",
-        "time": "2026-01-27 22:00",
-        "url": "https://blogs.windows.com/windows-insider/2026/01/27/announcing-windows-11-insider-preview-build-26300-7674-dev-channel/",
-        "announcePlace": "Windows Blogs"
+        "channel": "Beta & Experimental",
+        "time": "2026-07-31 17:00"
     },
     "nav": {
         "previous": {
@@ -28,22 +26,22 @@
     },
     "updateId": [],
     "download": {
-        "name": "Windows11.0-KB5068181-x64.msu",
-        "size": "757 MB",
+        "name": "Windows11.0-KB5122055-x64.msu",
+        "size": "845 MB",
         "link": [{
-            "url": "https://pan.baidu.com/s/1PQvP1fm7fUicCGsdt6A8iw?pwd=2333",
+            "url": "https://pan.baidu.com/s/1_yP9p0pSA03nlfFm38NmIg?pwd=2333",
             "source": "百度网盘"
         },
         {
-            "url": "https://www.123865.com/s/oYprVv-K6wRv",
+            "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-lCfrv",
             "source": "123云盘"
         },
         {
-            "url": "https://yuqings-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDtW9se3-7HR7HpRv7pQAlVAbfo_gIFdjmTjzl8ohu0iDg",
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQBQHlQR3mvETLgo8i_x9wnXAQMqdFf1brpmxf1Aly8DddM",
             "source": "OneDrive"
         }],
         "arch": "AMD64",
-        "md5": "dcacfb92799ba69fe89003be3f0ff681",
-        "sha256": "e7db9dc47876466927fb30c90fa84db247e9c0c1e57ede76d1514a49359ee3bb"
+        "md5": "d910fd814de71478c9ae3ce3037346b2",
+        "sha256": "1efa7df6d2d733533e5d912bff75db817156b2af16e92a67d16668ffd695bfef"
     }
 }
