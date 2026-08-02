@@ -18,8 +18,8 @@
             "build": "28000.2608"
         },
         "next": {
-            "category": "26H1-bromine-betaflt",
-            "build": "28020.1362"
+            "category": "26H1-bromine",
+            "build": "28000.7"
         }
     },
     "belongsTo": {

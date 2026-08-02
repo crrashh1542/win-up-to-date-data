@@ -1,0 +1,51 @@
+{
+    "build": {
+        "number": "28000.7",
+        "branch": "br_release_flt",
+        "compileTime": "2026-07-16 17:02",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Experimental",
+        "time": "2026-07-31 17:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28020.1362"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine-betaflt",
+        "name": "Bromine (Betaflt)"
+    },
+    "updateId": [],
+    "download": {
+        "name": "28000.7.260716-1702.br_release_flt_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "size": "4.03 GB",
+        "link": [{
+            "url": "https://pan.baidu.com/s/1SYsytGtf3IHzINHXTt4CjQ?pwd=2333",
+            "source": "百度网盘"
+        },
+        {
+            "url": "https://1812070911.share.123pan.cn/123pan/oYprVv-2V8rv",
+            "source": "123云盘"
+        },
+        {
+            "url": "https://p0-fsb.api.crrashh.com/u/010000ac42f",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDMOs0UJqTuRLN3ZPovKcYzAaMrOCtzDALaQRzWyDEU4qA",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "dcd42294e535249cf9a347df47a97178",
+        "sha256": "c3b6bdbeea948d23292f1a771bb16c2a28141168b7b4290ac944328ad154a0f7"
+    }
+}
