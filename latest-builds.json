@@ -7,12 +7,12 @@
             {
                 "channel": "Exp Next",
                 "color": "amber",
-                "version": "29634.1000",
+                "version": "29639.1000",
                 "branch": "rs_prerelease",
                 "codename": "Rubidium",
                 "category": "27H1-rubidium",
                 "semester": "27H1",
-                "date": "2026-07-27"
+                "date": "2026-07-31"
             },
             {
                 "channel": "Exp 26H1",

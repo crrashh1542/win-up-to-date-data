@@ -16,6 +16,10 @@
         "previous": {
             "category": "26H2-krypton",
             "build": "29621.1000"
+        },
+        "next": {
+            "category": "27H1-rubidium",
+            "build": "29639.1000"
         }
     },
     "belongsTo": {
@@ -33,7 +37,7 @@
         }
     ],
     "download": {
-        "name": "29634.1000.260719-1319.rs_prerelease_SERVER_X64FRE_zh-cn.iso",
+        "name": "29634.1000.260719-1319.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "size": "4.49 GB",
         "link": [
             {
@@ -41,7 +45,7 @@
                 "source": "123云盘"
             },
             {
-                "url": "https://p0-fsb.api.crrashh.com/u/1001000082",
+                "url": "https://p0-fsb.api.crrashh.com/u/0100004c42c",
                 "source": "豆包云盘"
             },
             {
