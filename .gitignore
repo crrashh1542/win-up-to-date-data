@@ -1,5 +1,8 @@
 # Generated zip data archive
 *.zip
 
+# Deploy token
+deploy.txt
+
 # Generated version info for no-git deployments
 version.json
