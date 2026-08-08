@@ -1,0 +1,103 @@
+{
+    "codename": "Uncategorized",
+    "belonging": "疑似不受Windows版本号影响可启用的功能",
+    "range": [],
+    "list": [
+        {
+            "id": ["41360093"],
+            "variant": null,
+            "title": "占位符(不可用)",
+            "description": ""
+        },
+        {
+            "id": ["42052883"],
+            "variant": null,
+            "title": "占位符(不可用)",
+            "description": ""
+        },
+        {
+            "id": ["40979072"],
+            "variant": null,
+            "title": "设置搜索权限页加入Let search apps show results选项",
+            "description": "未分类"
+        },
+        {
+            "id": ["26338762"],
+            "variant": null,
+            "title": "更多设置项支持深色模式",
+            "description": "Windows Server 2022 build 20231.1000专属"
+        },
+        {
+            "id": ["40062046"],
+            "variant": null,
+            "title": "设置中的实验性功能下拉菜单",
+            "description": "Windows 更新> Windows Insider 程序"
+        },
+        {
+            "id": ["43040593"],
+            "variant": null,
+            "title": "新小组件选择器",
+            "description": "需更新到最新WWEP,已默认启用"
+        },
+        {
+            "id": ["43636169"],
+            "variant": null,
+            "title": "小组件可以被固定",
+            "description": "需更新到最新WWEP,已默认启用"
+        },
+        {
+            "id": ["41561454"],
+            "variant": null,
+            "title": "不登录微软账户即可使用小组件",
+            "description": "更新到最新WWEP,已默认启用"
+        },
+        {
+            "id": ["38652916"],
+            "variant": null,
+            "title": "显示新的小组件设置",
+            "description": "需更新到最新WWEP,已默认启用"
+        },
+        {
+            "id": ["36718398"],
+            "variant": null,
+            "title": "启用新的小组件设置中的徽章选项",
+            "description": "需更新到最新WWEP,已默认启用"
+        },
+        {
+            "id": ["40772499"],
+            "variant": null,
+            "title": "启用小组件新UI",
+            "description": "需更新到最新WWEP(4选1随机测试),目前疑似移除?"
+        },
+        {
+            "id": ["45393399", "42880174", "44281626"],
+            "variant": null,
+            "title": "启用全新小组件样式(可关掉新闻)",
+            "description": "需更新到最新WWEP"
+        },
+        {
+            "id": ["47557358", "49686193"],
+            "variant": null,
+            "title": "Win11小组件变WinUI3",
+            "description": "请将WWEP更新到版本524.20502.0.0及以上,然后启用速度暂存键以及IntegratedServicesRegionPolicySet.json下的“第三方源显示在 Widgets 中”策略。(需启用48433719)"
+        },
+        {
+            "id": ["50179255", "53672489"],
+            "variant": null,
+            "title": "锁屏小组件原生方案",
+            "description": "22635.4870。启用后小组件变WinUI3,26120.3073设置-个性化-锁屏界面将无法打开"
+        },
+        {
+            "id": ["56659543"],
+            "variant": null,
+            "title": "自定义锁屏天气小组件",
+            "description": "在“个性化” → “锁屏”下自定义锁屏天气小组件。(需启用50179255,53672489)(26120.3360)"
+        },
+        {
+            "id": ["55994763", "59162732"],
+            "variant": null,
+            "title": "小组件设置对话框改为全页设置页面",
+            "description": "新增了重新排列仪表盘和配置通知的功能。(需更新到最新WWEP)(26220.7051)"
+        }
+    ]
+}

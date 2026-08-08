@@ -1,0 +1,475 @@
+{
+    "codename": "Nickel Betaflt",
+    "belonging": "Windows 11 23H2 ni_release_svc_betaflt",
+    "range": ["22635", "22635"],
+    "list": [
+        {
+            "id": ["48969045"],
+            "variant": null,
+            "title": "更多动画小组件任务栏图标集",
+            "description": "例如新的动画\"夜间多云\"图标以及更清晰的图标改进"
+        },
+        {
+            "id": ["48801541"],
+            "variant": null,
+            "title": "其他锁屏卡(金融和体育)",
+            "description": "可通过KB5035941为Windows 10启用"
+        },
+        {
+            "id": ["46107637", "48799383"],
+            "variant": null,
+            "title": "Studio Effects图标添加到系统托盘",
+            "description": "默认禁用。22635.3276"
+        },
+        {
+            "id": ["39695921"],
+            "variant": ["3"],
+            "title": "超级分辨率",
+            "description": ""
+        },
+        {
+            "id": ["48468527", "48468541", "48660958"],
+            "variant": null,
+            "title": "任务栏左对齐时Widgets入口点移至系统托盘左侧",
+            "description": "启动Widgets仪表板时从右侧飞出。22635.3420"
+        },
+        {
+            "id": ["47664723", "48433719"],
+            "variant": null,
+            "title": "WinUI3版文件资源管理器痕迹导航拖放功能回归",
+            "description": "22635.3420"
+        },
+        {
+            "id": ["45262221"],
+            "variant": null,
+            "title": "选项卡上下文菜单中复制选项卡选项",
+            "description": "最初在22635.3566中实现。(需启用48433719)"
+        },
+        {
+            "id": ["47448915", "48546544"],
+            "variant": null,
+            "title": "账户页面下新增链接设备子页面",
+            "description": "用于管理使用Microsoft账户登录的设备、电脑和Xbox主机。"
+        },
+        {
+            "id": ["46892085"],
+            "variant": null,
+            "title": "用户个人资料菜单重新设计为账户管理器",
+            "description": "显示账户设置和建议的通知。(需启用48433719)"
+        },
+        {
+            "id": ["33722644", "46264199", "48412482"],
+            "variant": null,
+            "title": "账户>通行密钥下新增高级选项页",
+            "description": "用于管理同步和凭据管理器设置。26200(需启用48433719)"
+        },
+        {
+            "id": ["49445394"],
+            "variant": null,
+            "title": "搜索下拉菜单中新增在Windows中询问Copilot选项",
+            "description": "默认禁用。(需启用48433719)"
+        },
+        {
+            "id": ["45189370", "47364920"],
+            "variant": null,
+            "title": "更改用户个人资料图片体验改进",
+            "description": "增加对图片应用效果和滤镜、裁剪等功能。(需启用48433719)"
+        },
+        {
+            "id": ["50012660"],
+            "variant": null,
+            "title": "旧版鼠标控制面板选项移植到设置",
+            "description": "增强指针精度选项和滚动方向下拉菜单移植到蓝牙和设备>鼠标页面。26227(需启用48433719)"
+        },
+        {
+            "id": ["51407079"],
+            "variant": null,
+            "title": "隐私和安全下新增生成式人工智能子页面",
+            "description": "用于管理生成式人工智能访问。26236(需启用48433719)"
+        },
+        {
+            "id": ["50566956"],
+            "variant": null,
+            "title": "快照中右键单击分析文本时新增搜索Web选项",
+            "description": "26236(需启用48433719)"
+        },
+        {
+            "id": ["32222762"],
+            "variant": null,
+            "title": "右键单击固定到开始菜单的应用时显示跳转列表",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["45130483"],
+            "variant": null,
+            "title": "主页视觉改进",
+            "description": "22635.3640(需启用48433719)"
+        },
+        {
+            "id": ["48697323"],
+            "variant": null,
+            "title": "开始菜单旁新增Phone Link配套面板",
+            "description": "用于管理Android移动设备。需要Phone Link应用版本1.24052.124.0或更高。(需启用48433719)(22635.3790)"
+        },
+        {
+            "id": ["41118774", "451339492"],
+            "variant": null,
+            "title": "打开方式对话框中新增更多应用部分",
+            "description": "22635.3790"
+        },
+        {
+            "id": ["48525682"],
+            "variant": null,
+            "title": "任务栏上显示缩短的日期和时间",
+            "description": "22635.3790"
+        },
+        {
+            "id": ["49082522"],
+            "variant": null,
+            "title": "打开和关闭任务栏上的通知铃铛图标",
+            "description": ""
+        },
+        {
+            "id": ["47557358", "49686193"],
+            "variant": null,
+            "title": "Win11小组件变WinUI3",
+            "description": "请将WWEP更新到版本524.20502.0.0及以上。(需启用48433719)"
+        },
+        {
+            "id": ["47205210"],
+            "variant": ["2"],
+            "title": "开始菜单改进",
+            "description": "1.列表改进 2.变为网格视图。(需启用48433719)"
+        },
+        {
+            "id": ["49221331"],
+            "variant": null,
+            "title": "开始菜单变为列表、网格、分组三类排序",
+            "description": "22635.4082(需启用47205210,48433719)"
+        },
+        {
+            "id": ["49686287"],
+            "variant": null,
+            "title": "使用UTF-8编码显示Wi-Fi SSID",
+            "description": "使带有Unicode字符的SSID正确显示"
+        },
+        {
+            "id": ["51228992"],
+            "variant": null,
+            "title": "HDR下新增即使HDR关闭也允许HDR视频流切换开关",
+            "description": ""
+        },
+        {
+            "id": ["48177092"],
+            "variant": null,
+            "title": "控制面板字体小程序链接重定向到个性化>字体页面",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["49559611"],
+            "variant": null,
+            "title": "平板电脑优化任务栏上显示搜索框",
+            "description": ""
+        },
+        {
+            "id": ["46874415"],
+            "variant": null,
+            "title": "系统托盘中秒切换时钟选项移至设置",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["49575624", "50292326"],
+            "variant": null,
+            "title": "允许用户同时在多个应用程序中使用同一摄像头",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["48980211"],
+            "variant": null,
+            "title": "任务栏上显示非活动和固定应用的悬停卡",
+            "description": ""
+        },
+        {
+            "id": ["49607261"],
+            "variant": null,
+            "title": "关闭HDR以节省能源建议",
+            "description": ""
+        },
+        {
+            "id": ["46961347"],
+            "variant": null,
+            "title": "Windows共享浮出控件新增生成QR码按钮",
+            "description": "用于生成URL和云文件链接的QR码"
+        },
+        {
+            "id": ["45596742", "45690501", "49010421", "49035782"],
+            "variant": null,
+            "title": "任务栏上紧凑Copilot建议菜单变体",
+            "description": "已弃用"
+        },
+        {
+            "id": ["47921574", "47921515"],
+            "variant": null,
+            "title": "锁屏上显示天气旁的其他快速状态",
+            "description": "例如体育、交通和财务"
+        },
+        {
+            "id": ["49256040"],
+            "variant": null,
+            "title": "对压缩文件和存档.7z .tar的支持",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["48413250"],
+            "variant": null,
+            "title": "Windows共享浮出控件中新增复制按钮",
+            "description": "用于直接复制文件"
+        },
+        {
+            "id": ["45286411"],
+            "variant": null,
+            "title": "开始菜单搜索页中新增共享选项",
+            "description": "用于快速打开Windows共享浮出控件"
+        },
+        {
+            "id": ["32222762", "47205210"],
+            "variant": null,
+            "title": "右键单击固定到开始菜单的应用时显示跳转列表",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["43283102"],
+            "variant": null,
+            "title": "从开始菜单固定部分拖动应用固定到任务栏或桌面",
+            "description": "桌面貌似不管用"
+        },
+        {
+            "id": ["49140016"],
+            "variant": ["1"],
+            "title": "桌面Windows聚焦图标用户交互更改",
+            "description": ""
+        },
+        {
+            "id": ["38738362"],
+            "variant": null,
+            "title": "系统>关于下显示到期日期",
+            "description": "定时炸弹"
+        },
+        {
+            "id": ["46700501", "46700599", "46700719", "46700936", "47109994", "48636059", "48637472", "50104492", "50390676"],
+            "variant": null,
+            "title": "文件资源管理器的修复更改",
+            "description": ""
+        },
+        {
+            "id": ["49666228"],
+            "variant": null,
+            "title": "隐私与安全性>常规页面重命名为推荐和优惠",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["33235889"],
+            "variant": null,
+            "title": "传递优化页面重新设计",
+            "description": "最初在27686中实现。(22635.4082)"
+        },
+        {
+            "id": ["52793632"],
+            "variant": ["1", "2"],
+            "title": "Windows聚焦体验更新",
+            "description": "1:弹出减少的热点 2:UI最小化的热点。(22635.4145)"
+        },
+        {
+            "id": ["50968699"],
+            "variant": null,
+            "title": "从Windows共享弹出窗口直接共享到记事本和Clipchamp",
+            "description": "22635.4145"
+        },
+        {
+            "id": ["50564196"],
+            "variant": null,
+            "title": "账户管理器中Sign out选项移至主视图",
+            "description": "Switch user选项替换为用户下拉列表。(22635.4145)"
+        },
+        {
+            "id": ["51900073"],
+            "variant": null,
+            "title": "蓝牙和设备下新增触摸屏边缘手势配置",
+            "description": "22635.4145(需启用48433719)"
+        },
+        {
+            "id": ["45286369", "52800817"],
+            "variant": null,
+            "title": "上下文菜单中新增发送到我的手机选项",
+            "description": "用于快速将内容共享到Android设备。(22635.4225)(需启用48433719)"
+        },
+        {
+            "id": ["53330962"],
+            "variant": null,
+            "title": "断开所选用户连接对话框重新设计",
+            "description": "22635.4225"
+        },
+        {
+            "id": ["51978387"],
+            "variant": null,
+            "title": "Performance页面下显示磁盘驱动器界面",
+            "description": "22635.4225"
+        },
+        {
+            "id": ["46702397", "51848093"],
+            "variant": null,
+            "title": "悬停OneDrive文件用户名显示用户角色卡",
+            "description": "22635.4291(需启用48433719)(需启用45130483)"
+        },
+        {
+            "id": ["29785184"],
+            "variant": null,
+            "title": "显示较小任务栏图标功能重新实现",
+            "description": "22635.4291(需启用48433719)"
+        },
+        {
+            "id": ["51228992"],
+            "variant": null,
+            "title": "HDR下新增即使HDR关闭也允许HDR视频流切换开关",
+            "description": "27686"
+        },
+        {
+            "id": ["39007349"],
+            "variant": null,
+            "title": "手动设置插电和电池独立电源模式",
+            "description": "27686"
+        },
+        {
+            "id": ["50292326"],
+            "variant": null,
+            "title": "相机属性页面中的高级相机配置对话框",
+            "description": "27695(需启用49575624)"
+        },
+        {
+            "id": ["51597662"],
+            "variant": null,
+            "title": "设备离线安装内部版本的估计时间显示",
+            "description": "27695"
+        },
+        {
+            "id": ["40637063"],
+            "variant": null,
+            "title": "查看已知网络的Wi-Fi密码对话框翻新",
+            "description": "27695"
+        },
+        {
+            "id": ["52608608"],
+            "variant": null,
+            "title": "个性化>文本输入下新增Copilot键配置",
+            "description": "可选择按Copilot键时启动的UWP应用程序"
+        },
+        {
+            "id": ["48478026"],
+            "variant": null,
+            "title": "设置>系统下新增顶部硬件规格卡",
+            "description": "19045.5070"
+        },
+        {
+            "id": ["53281237"],
+            "variant": null,
+            "title": "托管商业设备上可访问主页",
+            "description": "22635.4300"
+        },
+        {
+            "id": ["45286384"],
+            "variant": null,
+            "title": "上下文菜单Share选项替换为Share with级联菜单",
+            "description": "22635.4367(需启用52800817,48433719)"
+        },
+        {
+            "id": ["50557073", "50692135"],
+            "variant": null,
+            "title": "触摸键盘新游戏手柄键盘布局",
+            "description": "26120.1843(需启用48433719,52800817)"
+        },
+        {
+            "id": ["40466470"],
+            "variant": null,
+            "title": "WiFi 6E支持实施到移动热点功能",
+            "description": "26120.1912(需启用48433719)"
+        },
+        {
+            "id": ["45643758"],
+            "variant": null,
+            "title": "电池使用图表下新增图表图例",
+            "description": "27718"
+        },
+        {
+            "id": ["51016952"],
+            "variant": null,
+            "title": "贴靠布局建议内部更改",
+            "description": "22635.4371"
+        },
+        {
+            "id": ["42941381"],
+            "variant": null,
+            "title": "登录屏幕新增欢迎回来功能",
+            "description": "26212。(需启用48433719)"
+        },
+        {
+            "id": ["50235585", "52081114"],
+            "variant": null,
+            "title": "导航窗格中新增文件夹选项逐步推出",
+            "description": "22635.4445"
+        },
+        {
+            "id": ["46493758"],
+            "variant": null,
+            "title": "开始菜单推荐部分中新增共享选项",
+            "description": "22635.4445(需启用48433719)"
+        },
+        {
+            "id": ["45738940"],
+            "variant": null,
+            "title": "跳转列表中新增共享按钮",
+            "description": "22635.4445(需启用48433719)"
+        },
+        {
+            "id": ["53655156", "53655173"],
+            "variant": ["1", "2", "3", "4", "5"],
+            "title": "Snap Assist中显示其他描述和Win+Z快捷方式提示",
+            "description": "22635.4510"
+        },
+        {
+            "id": ["41598133", "41670003"],
+            "variant": null,
+            "title": "重新设计的重置此电脑和返回早期版本对话框",
+            "description": "27744"
+        },
+        {
+            "id": ["51960011"],
+            "variant": null,
+            "title": "修复文件资源管理器菜单向上弹出",
+            "description": "禁用"
+        },
+        {
+            "id": ["54237951"],
+            "variant": null,
+            "title": "设置未知新功能",
+            "description": ""
+        },
+        {
+            "id": ["48822452"],
+            "variant": null,
+            "title": "系统托盘中电池图标改进",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["54865932"],
+            "variant": null,
+            "title": "改进Windows搜索中对Web搜索提供程序的支持",
+            "description": "之前在26120.2510中为EEA用户实施"
+        },
+        {
+            "id": ["33289874"],
+            "variant": null,
+            "title": "语音输入中新增筛选不雅内容切换开关",
+            "description": "22635.5305"
+        }
+    ]
+}

@@ -1,0 +1,439 @@
+{
+    "codename": "Germanium (24H2)",
+    "belonging": "Windows 11 24H2 ge_release",
+    "range": ["26120", "26120"],
+    "list": [
+        {
+            "id": ["48822452"],
+            "variant": null,
+            "title": "系统托盘中显示电池百分比",
+            "description": "26120.2510(需启用48433719)"
+        },
+        {
+            "id": ["48504539"],
+            "variant": ["1", "2", "3", "4"],
+            "title": "Emoji and more系统托盘按钮更新",
+            "description": "已更新为4个额外图标。(需启用48433719)"
+        },
+        {
+            "id": ["50179255", "53672489"],
+            "variant": null,
+            "title": "锁屏小组件原生方案",
+            "description": "22635.4870。启用后小组件变WinUI3,26120.3073设置-个性化-锁屏界面将无法打开"
+        },
+        {
+            "id": ["52145430"],
+            "variant": ["1", "2"],
+            "title": "Windows聚焦图标更改",
+            "description": "22635.4660。1.附带新文本 2.不附带新文本"
+        },
+        {
+            "id": ["47274802"],
+            "variant": null,
+            "title": "各种警告和错误消息对话框中的文本缩放支持",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["54322778"],
+            "variant": null,
+            "title": "放大镜中新增Ctrl+Alt+-键盘快捷键",
+            "description": "在当前缩放和1×缩放之间切换"
+        },
+        {
+            "id": ["49527529"],
+            "variant": null,
+            "title": "恢复功能(设备同步)",
+            "description": "在手机和Windows桌面环境之间创建无缝的OneDrive集成。(需启用48433719)"
+        },
+        {
+            "id": ["47944061"],
+            "variant": null,
+            "title": "右键单击上下文菜单关闭或暂停开始备份提醒",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["51784082", "54618938"],
+            "variant": null,
+            "title": "设置应用中系统→关于页面下新顶部卡",
+            "description": "用于显示关键硬件规格"
+        },
+        {
+            "id": ["53844009"],
+            "variant": ["1", "3", "4"],
+            "title": "锁屏界面右上角热点更新",
+            "description": ""
+        },
+        {
+            "id": ["54572881"],
+            "variant": null,
+            "title": "登录时恢复每个文件资源管理器窗口中以前打开的所有选项卡",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["48656084"],
+            "variant": null,
+            "title": "悬停桌面Spotlight按钮自动打开Spotlight浮出控件",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["54920368"],
+            "variant": null,
+            "title": "删除位置历史记录功能",
+            "description": ""
+        },
+        {
+            "id": ["45624564", "53397005"],
+            "variant": null,
+            "title": "文件拖放时屏幕顶部新增Drag here to Share栏",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["32145346", "49753995"],
+            "variant": null,
+            "title": "任务管理器使用标准指标显示CPU工作负载",
+            "description": "26120.3360"
+        },
+        {
+            "id": ["54157537"],
+            "variant": null,
+            "title": "系统>关于下Windows规格部分显示CE标志",
+            "description": "主要针对欧洲EEA用户"
+        },
+        {
+            "id": ["55393518"],
+            "variant": null,
+            "title": "讲述人生成式总结",
+            "description": ""
+        },
+        {
+            "id": ["50070238"],
+            "variant": null,
+            "title": "蓝屏死机已更新为简化和流线型设计",
+            "description": "删除了QR码,默认背景颜色恢复为黑色"
+        },
+        {
+            "id": ["55120546"],
+            "variant": null,
+            "title": "启动Copilot的Win+C键盘快捷键",
+            "description": "按住2秒钟还将调用\"按下通话\"功能"
+        },
+        {
+            "id": ["53433910", "54475355"],
+            "variant": null,
+            "title": "Windows共享浮出控件中本地图像内嵌图像编辑功能",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["53871483"],
+            "variant": null,
+            "title": "Windows Share浮出控件中链接和Web内容的新视觉预览",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["55393518"],
+            "variant": null,
+            "title": "讲述人中AI生成的图像描述功能",
+            "description": ""
+        },
+        {
+            "id": ["50472543", "50472600"],
+            "variant": null,
+            "title": "固定应用程序的上下文菜单更新",
+            "description": "能够向左或向右移动固定的应用程序、创建新的应用程序文件夹或将固定的应用程序移动到现有文件夹"
+        },
+        {
+            "id": ["55305888"],
+            "variant": null,
+            "title": "系统→关于下设备规格部分新增常见问题列表",
+            "description": ""
+        },
+        {
+            "id": ["53957537"],
+            "variant": null,
+            "title": "鼠标控制面板小程序选项移植到设置",
+            "description": ""
+        },
+        {
+            "id": ["47375114"],
+            "variant": null,
+            "title": "中文和日语的语音访问支持",
+            "description": ""
+        },
+        {
+            "id": ["55049146"],
+            "variant": null,
+            "title": "查看功能对话框中新增添加的功能列表",
+            "description": ""
+        },
+        {
+            "id": ["49402389"],
+            "variant": null,
+            "title": "开始菜单大更新！更多自定义！",
+            "description": "(需启用49221331,47205210,48433719)(目前不推荐实体机启用)"
+        },
+        {
+            "id": ["49381526", "49820095", "55495322"],
+            "variant": null,
+            "title": "开始菜单旁新增Phone Link配套面板",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["42651849"],
+            "variant": null,
+            "title": "任务栏日历弹窗新增时钟功能",
+            "description": "可精确到秒数。(需启用48433719)(22635.5240)"
+        },
+        {
+            "id": ["56305056"],
+            "variant": null,
+            "title": "语音访问中添加自己的单词到词典",
+            "description": "26120.3671"
+        },
+        {
+            "id": ["46532062"],
+            "variant": null,
+            "title": "Windows安全中心显示Pluton TPM芯片制造商信息",
+            "description": "27764"
+        },
+        {
+            "id": ["56724497"],
+            "variant": null,
+            "title": "快速设置中新增语音访问切换开关",
+            "description": "26120.3872"
+        },
+        {
+            "id": ["55677794"],
+            "variant": null,
+            "title": "重命名您的打印机对话框翻新",
+            "description": "26120.3872"
+        },
+        {
+            "id": ["55708620"],
+            "variant": null,
+            "title": "Click to Do中新增两个文本操作",
+            "description": "逐步推广到配备Snapdragon X系列处理器的ARM64设备。26120.3872"
+        },
+        {
+            "id": ["56659543"],
+            "variant": null,
+            "title": "自定义锁屏天气小组件",
+            "description": "(需启用50179255,53672489)(26120.3360)"
+        },
+        {
+            "id": ["56887314"],
+            "variant": null,
+            "title": "快速设置中辅助功能弹出按钮更新",
+            "description": "26120.3941"
+        },
+        {
+            "id": ["55245340"],
+            "variant": null,
+            "title": "显示带有高度的电源方案内容的命令",
+            "description": "27766"
+        },
+        {
+            "id": ["49793372"],
+            "variant": null,
+            "title": "使用HDR措辞改进",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["53427769", "57244651"],
+            "variant": null,
+            "title": "搜索结果中显示AI支持的推荐",
+            "description": "逐步推广到配备Snapdragon X系列处理器的ARM64设备。26120.3964"
+        },
+        {
+            "id": ["56005157"],
+            "variant": null,
+            "title": "设置-开发人员选项改为高级",
+            "description": "26120.3964"
+        },
+        {
+            "id": ["56887328"],
+            "variant": null,
+            "title": "快捷设置中辅助功能部分显示辅助技术文本描述",
+            "description": "26120.4151"
+        },
+        {
+            "id": ["54792954", "55345819"],
+            "variant": null,
+            "title": "上下文菜单中新增AI操作条目",
+            "description": "(需启用48433719)(26120.4151)"
+        },
+        {
+            "id": ["55390938"],
+            "variant": null,
+            "title": "Windows共享浮出控件中图像压缩比例下拉菜单",
+            "description": "26120.4151"
+        },
+        {
+            "id": ["56778684", "56892083"],
+            "variant": null,
+            "title": "新默认浏览器注册文件类型支持",
+            "description": "欧洲EEA地区专属。26120.4151"
+        },
+        {
+            "id": ["56661439"],
+            "variant": null,
+            "title": "新增Win+Shift+T键盘快捷键",
+            "description": "直接打开Snipping Tool的文本提取器功能。26120.4151"
+        },
+        {
+            "id": ["57166128"],
+            "variant": ["2"],
+            "title": "Windows备份应用程序新简化登录页面",
+            "description": "26120.4151"
+        },
+        {
+            "id": ["55805655"],
+            "variant": null,
+            "title": "显示来自Microsoft Store应用的推荐",
+            "description": "(需启用41118774)(26120.4151)"
+        },
+        {
+            "id": ["57471391"],
+            "variant": null,
+            "title": "隐私与安全→搜索页面",
+            "description": "26120.4230"
+        },
+        {
+            "id": ["57237670", "57345863"],
+            "variant": null,
+            "title": "讲述人中的新功能可发现性对话框",
+            "description": "26120.4230"
+        },
+        {
+            "id": ["55755652"],
+            "variant": null,
+            "title": "枚举驱动程序包目录属性",
+            "description": "27871"
+        },
+        {
+            "id": ["57160253"],
+            "variant": null,
+            "title": "将当前用户设置复制到欢迎屏幕和系统帐户选项",
+            "description": "(需启用48433719)(26120.3964)"
+        },
+        {
+            "id": ["48103152"],
+            "variant": null,
+            "title": "设置系统→通知中新增屏幕硬件指示器位置选项",
+            "description": "26120.4452"
+        },
+        {
+            "id": ["57159238"],
+            "variant": null,
+            "title": "额外时钟设置移植到日期与时间下",
+            "description": "(需启用48433719)(26120.4452)"
+        },
+        {
+            "id": ["57466092", "57511506"],
+            "variant": null,
+            "title": "新增个性化主页显示Recall快照",
+            "description": "26120.4452"
+        },
+        {
+            "id": ["55467432", "55648925", "56328729"],
+            "variant": null,
+            "title": "锁屏右下角显示新电池图标和电池百分比",
+            "description": "26120.2510"
+        },
+        {
+            "id": ["46471475", "56508991"],
+            "variant": null,
+            "title": "左侧导航窗格中的以管理员身份运行按钮",
+            "description": "27881"
+        },
+        {
+            "id": ["45172197", "51406324"],
+            "variant": null,
+            "title": "管理员保护、重新设计的UAC提升提示",
+            "description": "26120.4520"
+        },
+        {
+            "id": ["38762814"],
+            "variant": null,
+            "title": "通知中心功能扩展到辅助监视器",
+            "description": "26120.5722"
+        },
+        {
+            "id": ["57413021"],
+            "variant": null,
+            "title": "更改时间格式的AM/PM符号选项",
+            "description": "(需启用48433719)(26120.5742)"
+        },
+        {
+            "id": ["57193719"],
+            "variant": null,
+            "title": "选择时间服务器选项",
+            "description": "(需启用48433719)(26120.5742)"
+        },
+        {
+            "id": ["56848060"],
+            "variant": null,
+            "title": "悬停在任务栏打开的应用程序上时的新过渡效果",
+            "description": "(需启用48433719)"
+        },
+        {
+            "id": ["49453572", "57857165"],
+            "variant": null,
+            "title": "深色模式支持到各种Win32文件操作对话框",
+            "description": "(需启用48433719,56848060)"
+        },
+        {
+            "id": ["55844454"],
+            "variant": null,
+            "title": "共享浮出控件中固定项目的能力",
+            "description": "(需启用48433719)(26120.4733)"
+        },
+        {
+            "id": ["57048226"],
+            "variant": null,
+            "title": "未知功能",
+            "description": ""
+        },
+        {
+            "id": ["57994323"],
+            "variant": null,
+            "title": "深色模式下Win32文件操作对话框进度图颜色更改",
+            "description": "(需启用48433719,49453572,57857165)(26120.5751)"
+        },
+        {
+            "id": ["57645315"],
+            "variant": null,
+            "title": "视频壁纸本机支持",
+            "description": "支持.mp4/.wmv/.mkv/.avi/.mov/.webm。(需启用48433719)(26120.6990)"
+        },
+        {
+            "id": ["57703775"],
+            "variant": null,
+            "title": "快速设置中新增测试互联网速度按钮",
+            "description": "26120.6760"
+        },
+        {
+            "id": ["58383338", "59203365", "59270880"],
+            "variant": null,
+            "title": "运行和文件夹选项对话框深色模式支持",
+            "description": "(需启用48433719)(26120.6972)"
+        },
+        {
+            "id": ["56845155"],
+            "variant": null,
+            "title": "蓝牙和移动设备下新增移动设备部分",
+            "description": "26120.6690"
+        },
+        {
+            "id": ["58970402"],
+            "variant": null,
+            "title": "语音输入中行动前等待时间设置",
+            "description": "26120.6982"
+        },
+        {
+            "id": ["41356296"],
+            "variant": null,
+            "title": "自动隐藏任务栏新动效",
+            "description": "(需启用48433719)"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "codename": "Cobalt (Win10)",
+    "belonging": "Windows 10 21H2 rs_prerelease/co_release",
+    "range": ["21227", "21390.2025"],
+    "list": [
+        {
+            "id": ["27296756"],
+            "variant": null,
+            "title": "电量使用情况",
+            "description": "21313默认不启用,22000.51默认启用"
+        },
+        {
+            "id": ["25810627"],
+            "variant": null,
+            "title": "设备使用情况",
+            "description": "自21337后可正常显示页面,得手动启用,在21364推广所有预览人员"
+        },
+        {
+            "id": ["27923837"],
+            "variant": null,
+            "title": "？？？(on the taskbar)",
+            "description": ""
+        },
+        {
+            "id": ["27924070"],
+            "variant": null,
+            "title": "？？？",
+            "description": ""
+        },
+        {
+            "id": ["26920259"],
+            "variant": null,
+            "title": "自带驱动安装",
+            "description": "会给你自带的驱动(C:\\Windows\\OEMDRIVERS),运行完后重启就有"
+        },
+        {
+            "id": ["30848613"],
+            "variant": null,
+            "title": "重启后自动启动重启前打开的所有应用",
+            "description": "启用后电源界面会多出一个重启后自动启动重启前打开的所有应用(21359默认启用,22000.51移到设置)"
+        },
+        {
+            "id": ["41866508"],
+            "variant": null,
+            "title": "禁用Win10新版四不像的任务栏搜索图标",
+            "description": ""
+        }
+    ]
+}

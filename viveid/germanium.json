@@ -1,0 +1,55 @@
+{
+    "codename": "Germanium",
+    "belonging": "Windows 11 24H2 rs_prerelease",
+    "range": ["25947", "26040"],
+    "list": [
+        {
+            "id": ["39593188"],
+            "variant": null,
+            "title": "控制中心新增滚动条",
+            "description": "25967默认启用"
+        },
+        {
+            "id": ["44531625", "44685875", "45046901"],
+            "variant": null,
+            "title": "启用Win32的控制中心",
+            "description": "RIP UWP。25987默认禁用,26002开始a/b测"
+        },
+        {
+            "id": ["42537950"],
+            "variant": null,
+            "title": "禁用Windows10任务栏体验",
+            "description": "26002默认禁用"
+        },
+        {
+            "id": ["45286373"],
+            "variant": null,
+            "title": "分享界面可以拖动",
+            "description": "26002默认禁用"
+        },
+        {
+            "id": ["47688503"],
+            "variant": null,
+            "title": "设置-系统下新增AI组件界面",
+            "description": "26016默认禁用"
+        },
+        {
+            "id": ["29532725"],
+            "variant": null,
+            "title": "任务栏悬停动画回归",
+            "description": "不推荐实体机启用。26020默认禁用"
+        },
+        {
+            "id": ["45799111"],
+            "variant": null,
+            "title": "控制中心显示实时字幕选项",
+            "description": "26040默认禁用"
+        },
+        {
+            "id": ["45178292"],
+            "variant": null,
+            "title": "初次使用实时字幕时不必切换语言识别包下载",
+            "description": "26040默认禁用"
+        }
+    ]
+}

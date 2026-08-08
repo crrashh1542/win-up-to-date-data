@@ -1,0 +1,283 @@
+{
+    "codename": "Germanium (25H2)",
+    "belonging": "Windows 11 25H2 ge_release",
+    "range": ["26220", "26300"],
+    "list": [
+        {
+            "id": ["57915467"],
+            "variant": null,
+            "title": "新的搜索框闪光",
+            "description": "尚不知道是啥"
+        },
+        {
+            "id": ["57048237"],
+            "variant": null,
+            "title": "主要功能包",
+            "description": "尚不知道是啥"
+        },
+        {
+            "id": ["57882334"],
+            "variant": null,
+            "title": "任务栏可以在其他应用窗口共享",
+            "description": "仅限部分应用"
+        },
+        {
+            "id": ["53343270"],
+            "variant": null,
+            "title": "设置主页新的设备卡",
+            "description": "仅限美国地区"
+        },
+        {
+            "id": ["59265307"],
+            "variant": null,
+            "title": "设置下系统-系统信息页面翻新",
+            "description": "已经失效"
+        },
+        {
+            "id": ["45690266"],
+            "variant": null,
+            "title": "文件资源管理器中新云文件搜索开关",
+            "description": ""
+        },
+        {
+            "id": ["56546130"],
+            "variant": null,
+            "title": "新版开始菜单布局下搜索飞出窗口调整大小",
+            "description": "26200.5641"
+        },
+        {
+            "id": ["57739723", "57941090"],
+            "variant": null,
+            "title": "任务栏搜索框通过询问Copilot功能改进",
+            "description": "26220.7051"
+        },
+        {
+            "id": ["57610493"],
+            "variant": null,
+            "title": "在跳出窗口中直接滚动所有搜索结果",
+            "description": "26220.6982"
+        },
+        {
+            "id": ["57054134", "59116012"],
+            "variant": null,
+            "title": "Windows错误检查时登录弹出内存诊断通知",
+            "description": "26220.6982"
+        },
+        {
+            "id": ["52580392", "50902630"],
+            "variant": null,
+            "title": "Xbox全屏体验(FSE)",
+            "description": "需设置注册表DeviceForm。26220.7051"
+        },
+        {
+            "id": ["59765208"],
+            "variant": null,
+            "title": "Xbox全屏体验(FSE)",
+            "description": "26220.7051"
+        },
+        {
+            "id": ["55994763", "59162732"],
+            "variant": null,
+            "title": "小组件设置对话框改为全页设置页面",
+            "description": "26220.7051"
+        },
+        {
+            "id": ["58778013"],
+            "variant": null,
+            "title": "文件管理器启动前预加载文件资源管理器",
+            "description": "(需启用48433719)(26220.7271)"
+        },
+        {
+            "id": ["58423575"],
+            "variant": null,
+            "title": "现代上下文菜单动作顺序变更",
+            "description": "(需启用48433719)(26220.7271)"
+        },
+        {
+            "id": ["55324166", "59673297"],
+            "variant": null,
+            "title": "Point-in-time恢复功能",
+            "description": "26220.7262"
+        },
+        {
+            "id": ["59193521"],
+            "variant": null,
+            "title": "应用模型上下文协议(MCP)原生支持",
+            "description": "26220.7344"
+        },
+        {
+            "id": ["38679741"],
+            "variant": null,
+            "title": "Windows MIDI Services App SDK支持",
+            "description": "26220.7344"
+        },
+        {
+            "id": ["58988972"],
+            "variant": null,
+            "title": "设置中应用页面引入更新应用的页面",
+            "description": "26220.7344"
+        },
+        {
+            "id": ["57156807", "57259990", "58381341", "58527096"],
+            "variant": null,
+            "title": "运行对话框在WinUI 3中改进",
+            "description": "(需启用48433719)(26220.7523)"
+        },
+        {
+            "id": ["59359094"],
+            "variant": null,
+            "title": "设置中账户-其他用户下更改用户类型更改",
+            "description": "26220.7523"
+        },
+        {
+            "id": ["58978959"],
+            "variant": null,
+            "title": "触摸键盘全屏语音输入叠加被动画取代",
+            "description": "(需启用48433719)(26220.7523)"
+        },
+        {
+            "id": ["57741219"],
+            "variant": null,
+            "title": "Windows保护打印模式和VHD确认对话框翻新",
+            "description": "(需启用48433719)(26220.7670)"
+        },
+        {
+            "id": ["58182453"],
+            "variant": null,
+            "title": "设置中系统-高级-虚拟工作区下新增WSL切换开关",
+            "description": "26220.7752"
+        },
+        {
+            "id": ["57118881"],
+            "variant": null,
+            "title": "隐私与安全设置页面新增安全定位摄像机和麦克风菜单",
+            "description": "26300.7674"
+        },
+        {
+            "id": ["49059846"],
+            "variant": null,
+            "title": "Resume跨设备链接页面增加WhatsApp应用",
+            "description": "26220.7752"
+        },
+        {
+            "id": ["60063638"],
+            "variant": null,
+            "title": "新增任务栏共享功能",
+            "description": "26220.7752"
+        },
+        {
+            "id": ["60597402", "60825171"],
+            "variant": null,
+            "title": "系统→关于下显示存储和显卡信息",
+            "description": "(需启用59265307)(26220.7859)"
+        },
+        {
+            "id": ["59956305", "59149945"],
+            "variant": null,
+            "title": "快速设置中节能按钮改成分割开关",
+            "description": "26220.7961"
+        },
+        {
+            "id": ["60911173"],
+            "variant": null,
+            "title": "Windows Update下新增功能标志页面",
+            "description": "26220.8148"
+        },
+        {
+            "id": ["61157505"],
+            "variant": null,
+            "title": "Windows更新页面更新",
+            "description": "(需启用48433719,60911173)(26220.8165)"
+        },
+        {
+            "id": ["57751666", "57751687"],
+            "variant": null,
+            "title": "启用菜单在日历界面显示和隐藏专注模式",
+            "description": ""
+        },
+        {
+            "id": ["61410885"],
+            "variant": null,
+            "title": "暂停更新功能可自由选择日期",
+            "description": "26220.8283"
+        },
+        {
+            "id": ["59728252"],
+            "variant": null,
+            "title": "WinUI 3环形旋转动画实现到登录和关机/重启界面",
+            "description": "26220.8283"
+        },
+        {
+            "id": ["60897831"],
+            "variant": null,
+            "title": "可用更新列表移至可折叠部分",
+            "description": "26220.8283"
+        },
+        {
+            "id": ["60662124"],
+            "variant": null,
+            "title": "屏幕色调设置",
+            "description": "26220.8283"
+        },
+        {
+            "id": ["60511437"],
+            "variant": null,
+            "title": "悬停在任务栏上的新过渡效果",
+            "description": "26220.7877"
+        },
+        {
+            "id": ["61014711"],
+            "variant": null,
+            "title": "文件大小格式试用",
+            "description": "文件资源管理器右键菜单加入刷新、打印、创建快捷方式的选项"
+        },
+        {
+            "id": ["60716524"],
+            "variant": null,
+            "title": "新低延迟配置文件",
+            "description": ""
+        },
+        {
+            "id": ["61391826"],
+            "variant": null,
+            "title": "应用程序启动的新低延迟配置文件",
+            "description": ""
+        },
+        {
+            "id": ["59213768"],
+            "variant": null,
+            "title": "任务栏位置(垂直任务栏)功能重新添加",
+            "description": "26300.8493"
+        },
+        {
+            "id": ["61090762"],
+            "variant": null,
+            "title": "紧凑任务栏",
+            "description": "图标更小,高度降低。26300.8493"
+        },
+        {
+            "id": ["61754985", "61225604", "61596616", "61596617", "61596618", "61596619"],
+            "variant": null,
+            "title": "开始菜单及其个性化页面新增多个选项",
+            "description": "1.推荐改名为最近 2.新增章节层级切换 3.开始菜单大小下拉菜单 4.隐藏用户名和头像 5.占位符图片。26300.8553"
+        },
+        {
+            "id": ["61372722"],
+            "variant": null,
+            "title": "修复深色模式下文件打开/另存为对话框白色闪烁",
+            "description": ""
+        },
+        {
+            "id": ["61532758"],
+            "variant": null,
+            "title": "开关建议搜索结果功能",
+            "description": "26300.8697"
+        },
+        {
+            "id": ["61267302", "61344081", "61482515", "61760679"],
+            "variant": null,
+            "title": "搜索页面焕新",
+            "description": "搜索要点RIP。(需启用61532758)(26300.8697)"
+        }
+    ]
+}

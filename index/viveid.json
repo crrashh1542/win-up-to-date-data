@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Germanium (25H2)",
+        "id": "germanium-25h2"
+    },
+    {
+        "name": "Germanium (24H2)",
+        "id": "germanium-24h2"
+    },
+    {
+        "name": "Germanium",
+        "id": "germanium"
+    },
+    {
+        "name": "Gallium",
+        "id": "gallium"
+    },
+    {
+        "name": "Zinc",
+        "id": "zinc"
+    },
+    {
+        "name": "Copper",
+        "id": "copper"
+    },
+    {
+        "name": "Nickel (Upstream)",
+        "id": "nickel-upstream"
+    },
+    {
+        "name": "Nickel (Betaflt)",
+        "id": "nickel-betaflt"
+    },
+    {
+        "name": "Nickel",
+        "id": "nickel"
+    },
+    {
+        "name": "Cobalt (Win11)",
+        "id": "cobalt-win11"
+    },
+    {
+        "name": "Cobalt (Win10)",
+        "id": "cobalt-win10"
+    },
+    {
+        "name": "Iron",
+        "id": "iron"
+    },
+    {
+        "name": "其它",
+        "id": "uncategorized"
+    }
+]

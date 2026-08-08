@@ -1,0 +1,43 @@
+{
+    "codename": "Gallium",
+    "belonging": "Windows 11 24H1 rs_prerelease",
+    "range": ["25905", "25941"],
+    "list": [
+        {
+            "id": ["37356106"],
+            "variant": null,
+            "title": "使用Rust重写Win32k GDI代码",
+            "description": "25905开始a/b测"
+        },
+        {
+            "id": ["40226628", "41683745"],
+            "variant": null,
+            "title": "隐私权限问题警告",
+            "description": "25905默认禁用,25921移除"
+        },
+        {
+            "id": ["39484957"],
+            "variant": null,
+            "title": "OOBE中隐私部分新增存在感知选项",
+            "description": "25915默认禁用"
+        },
+        {
+            "id": ["44702824"],
+            "variant": null,
+            "title": "设置-系统下新增系统组件选项",
+            "description": "25926默认禁用"
+        },
+        {
+            "id": ["42863801"],
+            "variant": null,
+            "title": "OneDrive可保存在ReFS分区下",
+            "description": "25931默认禁用"
+        },
+        {
+            "id": ["42863801"],
+            "variant": null,
+            "title": "系统可在ReFS分区下引导",
+            "description": "25931默认禁用"
+        }
+    ]
+}
