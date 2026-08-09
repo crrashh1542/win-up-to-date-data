@@ -37,14 +37,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5052105-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3107/Windows11.0-KB5052105-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "579.41 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "727a10d084ad96c9aaf8f7c1f8f921ba",
         "sha256": "57840cf12e5d8807771bc0813be42c986c7e11594b06b3b9ea5ab6f4c9bafa93"

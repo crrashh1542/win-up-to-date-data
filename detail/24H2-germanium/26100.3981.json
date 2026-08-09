@@ -45,14 +45,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5058497-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.3981/Windows11.0-KB5058497-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "860.26 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "2c3658a37ccc0ab159ab706c554afc54",
         "sha256": "fa786d47d2d87c94d4e313035c54db0e6ade7fd1603f683e795d1b44c9304fef"

@@ -30,18 +30,17 @@
     }],
     "download": {
         "name": "Windows11.0-KB5039239-arm64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.860/Windows11.0-KB5039239-arm64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        },
-        {
-            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5039239-860-arm64.msu",
-            "source": "Internet Archive"
-        }],
+        "size": "294.13 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5039239-860-arm64.msu",
+                "source": "Internet Archive"
+            }
+        ],
         "arch": "ARM64",
         "md5": "b391b72fb83bd394aa11922cbbd729f9",
         "sha256": "44002074db148b288d1c33870031b8ae797e6ad55c86c80e415690cca29246f3"

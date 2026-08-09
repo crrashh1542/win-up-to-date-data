@@ -53,14 +53,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5053598-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3476/Windows11.0-KB5053598-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "675.60 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4807b0b1-6c5a-4a70-ab45-b378235fb9d6/public/windows11.0-kb5053598-x64_6cb3ffc5c4d652793dc71705248426eecdacdfd0.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "b44756cd7c4d89cf7e7dd964de26aed1",
         "sha256": "34e87ec97f2b5ab9d603eaaecf360f2ace1bf48a9d0a7c4ba2a59b49f071d5e6"

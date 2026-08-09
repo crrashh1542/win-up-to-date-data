@@ -53,9 +53,10 @@
     }],
     "download": {
         "name": "Windows11.0-KB5060842-x64.msu",
+        "size": "2.45 GB",
         "link": [{
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/58b46d94-e497-4048-8aea-4b430fd63d12/public/windows11.0-kb5060842-x64_07871bda98c444c14691e0a90560306703b739cf.msu",
+            "source": "Microsoft 官方"
         }],
         "arch": "AMD64",
         "md5": "afde806e8df694550e3b54a45152ea83",

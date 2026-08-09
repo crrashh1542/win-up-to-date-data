@@ -30,18 +30,21 @@
     }],
     "download": {
         "name": "Windows11.0-KB5037970-x64.msu",
-        "link": [{
-            "url": "https://1542.lanzn.com/ikoP42lmxfrg",
-            "source": "蓝奏云盘"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        },
-        {
-            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037970-x64.msu",
-            "source": "Internet Archive"
-        }],
+        "size": "126.96 MB",
+        "link": [
+            {
+                "url": "https://1542.lanzn.com/ikoP42lmxfrg",
+                "source": "蓝奏云盘"
+            },
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037970-x64.msu",
+                "source": "Internet Archive"
+            }
+        ],
         "arch": "AMD64",
         "md5": "db337bb25ea7d944f48f70d4fd9c1f4f",
         "sha256": "861a3570bf82e573360bebba689dca8e14b6a44ff6b19c28cdbd483c6f5b2dd7"

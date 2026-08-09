@@ -36,18 +36,21 @@
     }],
     "download": {
         "name": "Windows11.0-KB5037783-x64.msu",
-        "link": [{
+        "size": "86.22 MB",
+        "link": [
+            {
             "url": "https://1542.lanzn.com/i4Ylz2lmztje",
             "source": "蓝奏云盘"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        },
-        {
-            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037783-x64.msu",
-            "source": "Internet Archive"
-        }],
+            },
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037783-x64.msu",
+                "source": "Internet Archive"
+            }
+        ],
         "arch": "AMD64",
         "md5": "9845d026eee116791c6e4a17b672f14a",
         "sha256": "333c8b5c867895d95202ae5c094968276a4a216e3619dbdda448f9ab9033b901"

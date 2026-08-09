@@ -39,7 +39,24 @@
         "id": "a350067e-8331-4f33-bc25-bd463f8b4917"
     }],
     "download": {
-        "name": "26100.1.240331-1435.ge_release_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
-        "arch": "AMD64"
+        "name": "26100.1.240331-1435.ge_release_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "size": "3.61 GB",
+        "link": [
+            {
+                "url": "https://pan.baidu.com/s/1lI51VOcEGl_YID37BrZEfg?pwd=2333",
+                "source": "百度网盘"
+            },
+            {
+                "url": "https://p0-fsb.api.crrashh.com/u/0100001cdb4",
+                "source": "豆包云盘"
+            },
+            {
+                "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDzhz8E87-2TKl-rRdMoAuzAfhU21vT0gMUcWBUQ3m2E_E?e=bXm6fc",
+                "source": "OneDrive"
+            }
+        ],
+        "arch": "AMD64",
+        "md5": "eb88c7b68a24833800a3450018bafdb6",
+        "sha256": "171723b78ea914b02ee95d0219ba39961c6b49a5c6e2b24227d3fe28b52aa23d"
     }
 }

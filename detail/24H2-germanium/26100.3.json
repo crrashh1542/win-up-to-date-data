@@ -34,18 +34,21 @@
     }],
     "download": {
         "name": "Windows11.0-KB5039417-x64.msu",
-        "link": [{
-            "url": "https://1542.lanzn.com/iXYAH2lmz1tg",
-            "source": "蓝奏云盘"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        },
-        {
-            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5039417-x64.msu",
-            "source": "Internet Archive"
-        }],
+        "size": "54.91 MB",
+        "link": [
+            {
+                "url": "https://1542.lanzn.com/iXYAH2lmz1tg",
+                "source": "蓝奏云盘"
+            },
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5039417-x64.msu",
+                "source": "Internet Archive"
+            }
+        ],
         "arch": "AMD64",
         "md5": "97a6adffedb8791ec8e6be0f1a09c872",
         "sha256": "5117c103641fa601b21b405e386a1908e34ca0dc81f06ab332d9b0e7ea8d6a8d"

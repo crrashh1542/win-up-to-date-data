@@ -36,14 +36,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5041571-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1457/Windows11.0-KB5041571-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "382.85 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/be8c1ad5-56ac-422b-9351-86b586bcc2de/public/windows11.0-kb5041571-x64_adcfbf9f2bf5f01a98b91dbd8ebbe65402f896c8.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "344ff88184b7f7e3f0e1630aa0ce2098",
         "sha256": "a15f78d519e0d01ea9aaf2a0dcdf8cfe1c14aa3412102aa229aad92ff7fb26a5"

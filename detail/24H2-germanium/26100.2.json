@@ -34,18 +34,21 @@
     }],
     "download": {
         "name": "Windows11.0-KB5037941-x64.msu",
-        "link": [{
-            "url": "https://1542.lanzn.com/iK8EO2lmyp1g",
-            "source": "蓝奏云盘"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        },
-        {
-            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037941-x64.msu",
-            "source": "Internet Archive"
-        }],
+        "size": "54.91 MB",
+        "link": [
+            {
+                "url": "https://1542.lanzn.com/iK8EO2lmyp1g",
+                "source": "蓝奏云盘"
+            },
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5037941-x64.msu",
+                "source": "Internet Archive"
+            }
+        ],
         "arch": "AMD64",
         "md5": "fd64798a924a273d2f9441f7f971d61b",
         "sha256": "b33621eaeafd53c30b794f90387213962cb6304e69e81e9387020ef087c27ffe"

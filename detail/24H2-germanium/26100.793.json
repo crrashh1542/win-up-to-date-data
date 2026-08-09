@@ -34,18 +34,17 @@
     }],
     "download": {
         "name": "Windows11.0-KB5039329-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.793/Windows11.0-KB5039329-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        },
-        {
-            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5039329-x64.msu",
-            "source": "Internet Archive"
-        }],
+        "size": "173.00 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5039329-x64.msu",
+                "source": "Internet Archive"
+            }
+        ],
         "arch": "AMD64",
         "md5": "0efd9d8cb3c998beb8d6a736deef8ed7",
         "sha256": "7543afaf984da7a7a46bf06b4db0b96b6038a0e5ccd20ac639e4a1e0c0c5de96"

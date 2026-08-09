@@ -37,14 +37,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5059087-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.3781/Windows11.0-KB5059087-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "778.28 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/584ce7f1-b0c7-43c8-b2af-256fb291c5e3/public/windows11.0-kb5059087-x64_180d9c16b32cbda1c941e2e1c83f93439d6c004c.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "fd52516e0892402ee3742da42fd8084c",
         "sha256": "8aac923613863773205caa1377c6ca53ae420ec351d1210838d0afece665b66f"

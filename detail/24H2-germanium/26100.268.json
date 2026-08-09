@@ -34,18 +34,21 @@
     }],
     "download": {
         "name": "Windows11.0-KB5036908-x64.msu",
-        "link": [{
-            "url": "https://1542.lanzn.com/iZ8V52lmzekf",
-            "source": "蓝奏云盘"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        },
-        {
-            "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5036908-x64.msu",
-            "source": "Internet Archive"
-        }],
+        "size": "69.95 MB",
+        "link": [
+            {
+                "url": "https://1542.lanzn.com/iZ8V52lmzekf",
+                "source": "蓝奏云盘"
+            },
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://archive.org/download/windows-germanium-archive/Windows11.0-KB5036908-x64.msu",
+                "source": "Internet Archive"
+            }
+        ],
         "arch": "AMD64",
         "md5": "69e853de434621d2c3f4b5b591af2a25",
         "sha256": "3c07b35c83fed4418c4a81ea13ce64b31a6fcc74a96f2edc47815b55c3022805"

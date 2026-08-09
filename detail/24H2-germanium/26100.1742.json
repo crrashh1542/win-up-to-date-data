@@ -44,14 +44,21 @@
     }],
     "download": {
         "name": "Windows11.0-KB5043080-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1742/Windows11.0-KB5043080-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "509.03 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d8b7f92b-bd35-4b4c-96e5-46ce984b31e0/public/windows11.0-kb5043080-x64_953449672073f8fb99badb4cc6d5d7849b9c83e8.msu",
+                "source": "Microsoft 官方"
+            },
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            },
+            {
+                "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQBXkfZjqysjQpZbOYj7XlhDASHOLoR6XRffQHsv7EHg5yg?e=BI0gZW",
+                "source": "OneDrive"
+            }
+        ],
         "arch": "AMD64",
         "md5": "4cb4c733a536f7bf1acf219d1311f592",
         "sha256": "819632610a101af11c72907fb13ff05b5fb4222c0e263ee9a03bcc1d1d5f26a4"

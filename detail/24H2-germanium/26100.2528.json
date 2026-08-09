@@ -45,14 +45,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5048794-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.2528/Windows11.0-KB5048794-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "457.23 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "3c0a2871d168e420d2c0e2aaa6812870",
         "sha256": "4d0a9b3decd3fd4dea46e886dae7c37f0e7047131d46eb83f0d697387123eb00"

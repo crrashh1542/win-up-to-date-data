@@ -36,14 +36,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5041865-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1591/Windows11.0-KB5041865-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "486.48 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/302eaab0-5b4d-4de4-be19-e131df4b3b9f/public/windows11.0-kb5041865-x64_745f200f2b0134e70f7c622e0eb356d98b088345.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "2d2c9259b42d85da605ed2b315ea4856",
         "sha256": "73451e2ee214443ba5d6c0326f8e3d4022a8f64874fef31aa882c74da882d452"

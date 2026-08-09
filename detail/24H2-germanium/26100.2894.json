@@ -53,14 +53,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5050009-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2894/Windows11.0-KB5050009-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "507.58 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/66557ecc-650e-4c70-8baf-c624c4de912f/public/windows11.0-kb5050009-x64_97aac2ab4f607b11d50ad2fd88a5841ee0b18dd5.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "338295fdae170fbe2ba3647afff7ba2c",
         "sha256": "ee108e6697b6059d12133e3efbd9d4f3d85530a09ec60e8196b582bf3d188131"

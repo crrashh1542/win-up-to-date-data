@@ -42,5 +42,16 @@
     {
         "arch": "ARM64 (Server)",
         "id": "646fa467-8002-4a4c-aff8-e1ac868345df"
-    }]
+    }],
+    "download": {
+        "name": "Windows11.0-KB5061977-x64.msu",
+        "size": "3.77 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/c4473361-1560-4333-bc3f-a6d39c0f1926/public/windows11.0-kb5061977-x64_72be6406594d4df1d8d066263c13388c758dc69f.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "368751f247b541ccf708f3d367ff8c8b",
+        "sha256": "e787171ff27c441d9f8a7bd637908e4b58f00a7ca707c5a682b95be494dd04ad"
+    }
 }

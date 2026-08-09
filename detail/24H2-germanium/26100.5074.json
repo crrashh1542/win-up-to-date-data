@@ -34,5 +34,16 @@
     {
         "arch": "ARM64",
         "id": "bb3a6a9b-23ec-4548-8f1a-ee245c4fc4cc"
-    }]
+    }],
+    "download": {
+        "name": "Windows11.0-KB5064081-x64.msu",
+        "size": "3.22 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/b986f1b3-b24f-4302-85d4-baa913ed3a26/public/windows11.0-kb5064081-x64_a1096145ded3adfc26f8f23442281533429f0e38.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "73a29c3b3226756d119b10254eacec7f",
+        "sha256": " c4bd7afc0783ecdd5d43886a90948f3b5ecd0b3f18fcf00a67d157e44fd42440"
+    }
 }

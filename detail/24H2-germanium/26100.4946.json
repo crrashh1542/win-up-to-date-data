@@ -53,9 +53,10 @@
     }],
     "download": {
         "name": "Windows11.0-KB5063878-x64.msu",
+        "size": "2.49 GB",
         "link": [{
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/6d57381b-2334-4031-acd9-549c3611e767/public/windows11.0-kb5063878-x64_c2d51482402fd8fc112d2c022210dd7c3266896d.msu",
+            "source": "Microsoft 官方"
         }],
         "arch": "AMD64",
         "md5": "587fb7f9b63d5462047420f05b6b286c",

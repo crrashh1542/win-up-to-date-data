@@ -33,5 +33,16 @@
     {
         "arch": "ARM64",
         "id": "9beb19c0-fcda-4dbf-bb62-e42127163a5d"
-    }]
+    }],
+    "download": {
+        "name": "Windows11.0-KB5065789-x64.msu",
+        "size": "3.34 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/7b6fed73-6e54-41bd-b9d1-315e9de95795/public/windows11.0-kb5065789-x64_e3d377d0a97a3f7efaeec8f698d3040751f7da18.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "857f2887d167e346e24d1a701b383007",
+        "sha256": "bd12ef533789b54f63faff4d717e5b45a73c4b8414ee02f84ef9f93fc6a9bc1a"
+    }
 }

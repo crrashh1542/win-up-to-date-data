@@ -45,14 +45,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5060841-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.4270/Windows11.0-KB5060841-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "919.42 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "87e559ec0a6387a91a40f004e52e6302",
         "sha256": "c72aa572a03486a17362b973ab72595f947d390ba03cdffbbb76a5d383a37bea"

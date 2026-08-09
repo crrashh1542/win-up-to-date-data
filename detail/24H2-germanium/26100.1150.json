@@ -44,14 +44,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5040435-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1150/Windows11.0-KB5040435-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "302.04 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/1fa31054-619d-4e9f-9efd-f61e5ece0413/public/windows11.0-kb5040435-x64_eb3b8638c1576925800434522cbb112fd94aa379.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "fa684be85cf5db42fa4eebcc661f1526",
         "sha256": "c86efe2b8d16cd9ccfcbfc8fd0479cd41840df9d5239ef4a76f7474e9eaf375f"

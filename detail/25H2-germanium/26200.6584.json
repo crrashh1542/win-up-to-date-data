@@ -31,5 +31,16 @@
     {
         "arch": "ARM64",
         "id": "3db47489-cd38-40ec-80c3-a28df6537c37"
-    }]
+    }],
+    "download": {
+        "name": "Windows11.0-KB5065426-x64.msu",
+        "size": "3.46 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/7342fa97-e584-4465-9b3d-71e771c9db5b/public/windows11.0-kb5065426-x64_32b5f85e0f4f08e5d6eabec6586014a02d3b6224.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "a071b39d1ab8c8624896ddfd269127a0",
+        "sha256": "e60f489371d3b8673ec0b53d66b6772c550749480b61294bd6a7ebbd7adba39c"
+    }
 }

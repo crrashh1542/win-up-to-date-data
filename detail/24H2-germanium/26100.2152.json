@@ -37,14 +37,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5044384-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2152/Windows11.0-KB5044384-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "356.49 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "13ecd8737136e1b3e1e7799cb17a29af",
         "sha256": "0dea6f409df0b1cd251e56dde5a67ddcbc476b50761a301b65d628f39fd4fc58"

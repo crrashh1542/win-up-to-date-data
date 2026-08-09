@@ -45,10 +45,8 @@
     }],
     "download": {
         "name": "Windows11.0-KB5046740-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2454/Windows11.0-KB5046740-x64.msu",
-            "source": "OneDrive"
-        },
+        "size": "471.98 MB",
+        "link": [
         {
             "url": "https://www.123912.com/s/oYprVv-QnMRv",
             "source": "123云盘"

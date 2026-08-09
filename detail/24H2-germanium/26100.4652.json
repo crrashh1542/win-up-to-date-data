@@ -53,9 +53,10 @@
     }],
     "download": {
         "name": "Windows11.0-KB5062553-x64.msu",
+        "size": "2.35 GB",
         "link": [{
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/2cf31dbf-ac4d-435b-8bc7-5a474dfad46e/public/windows11.0-kb5062553-x64_6fe34113fd31b773e8ecb31682dd95b1934be4c1.msu",
+            "source": "Microsoft 官方"
         }],
         "arch": "AMD64",
         "md5": "d5b622c222f416c16ac02cf334a5c4ee",

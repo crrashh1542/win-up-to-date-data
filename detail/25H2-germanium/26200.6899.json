@@ -33,5 +33,16 @@
     {
         "arch": "ARM64",
         "id": "f44eb96e-9b39-40ec-9978-184ed846cba3"
-    }]
+    }],
+    "download": {
+        "name": "Windows11.0-KB5066835-x64.msu",
+        "size": "3.34 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/7c0d1a12-9944-4b26-bed7-a722c040d631/public/windows11.0-kb5066835-x64_2f193bc50987a9c27e42eceeb90648af19cc813a.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "cd13ae65b7d78d4c6fb909bd17bf5784",
+        "sha256": "b36daa52a8c995aa84fc6cfbf2caad958c3220b90e9f7cd9b1b2f0b3f8740159"
+    }
 }

@@ -37,14 +37,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5043178-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1882/Windows11.0-KB5043178-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "241.44 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/60c68caf-f777-461d-9a53-b0c6fa77f73d/public/windows11.0-kb5043178-x64_2db945d13d188131efd2f449454dc368dd77c209.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "a873817ff5500878a4e1f5c21465c01f",
         "sha256": "32b2c6b161aff21d0f64100497d17080dd9540b2bdf2f231dc6e04a3abbf79fe"

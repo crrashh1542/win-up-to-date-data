@@ -36,14 +36,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5039304-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.994/Windows11.0-KB5039304-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "279.45 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "c984a8a64d2c432b62b1433ea8d312ee",
         "sha256": "3941590c13ccfcbea8fd0e6f01701e8d13f6c36e61b3be376da03ea05f2569a5"

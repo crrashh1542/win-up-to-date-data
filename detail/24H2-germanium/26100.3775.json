@@ -53,14 +53,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5055523-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive004/26100.3775/Windows11.0-KB5055523-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "778.19 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/beae415c-d56f-477c-9a3a-3aa4336890f6/public/windows11.0-kb5055523-x64_b1df8c7b11308991a9c45ae3fba6caa0e2996157.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "c8fb6f6f0a42f16f608e0d7d4de5d59b",
         "sha256": "76f78cd911f12cb75adee186d5c52585b088150d8c1f8240318b9c9a239ee19a"

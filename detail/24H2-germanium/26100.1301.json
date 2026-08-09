@@ -36,14 +36,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5040529-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.1301/Windows11.0-KB5040529-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "375.54 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "c6ca194c157ffc5edd96744e58cc5889",
         "sha256": "27acab1f038c7223e17c5ad303a8b4f2ea7acbb27cc9ea4d15883157d9a6836a"

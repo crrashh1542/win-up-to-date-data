@@ -45,14 +45,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5046696-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive001/26100.2240/Windows11.0-KB5046696-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "400.18 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "a19486cf3b73e38f0346486765f7b6d4",
         "sha256": "eb131a3df7e5fab70aa1b366a6a965c6d9d8b09f3791aecb49c8251847e877ba"

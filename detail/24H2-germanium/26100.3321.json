@@ -37,14 +37,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5052093-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3321/Windows11.0-KB5052093-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "671.10 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "acf5f5a8806af27f610631656fe42dd5",
         "sha256": "4debf8f932fa54b72ab24895d0669daab6fa25d68076f940502315d8d6e99628"

@@ -34,5 +34,16 @@
     {
         "arch": "ARM64",
         "id": "63346638-ffea-46c8-a668-b7ccb5e1d763"
-    }]
+    }],
+    "download": {
+        "name": "Windows11.0-KB5055627-x64.msu",
+        "size": "3.77 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f878e0db-d539-4906-b437-b8f5875b4b68/public/windows11.0-kb5055627-x64_56bb899f7c7a89d0815767dfb2b31e1c5516963d.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "59b29ecbe1085e1f64cfedf3b869b1eb",
+        "sha256": "e6fc7092a6a6df1a85b1d26c989f28253d8f0d4e6d8bfe426fca9daf8d32adda"
+    }
 }

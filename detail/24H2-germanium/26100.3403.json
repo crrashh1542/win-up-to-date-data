@@ -45,14 +45,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5053636-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3403/Windows11.0-KB5053636-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "634.40 MB",
+        "link": [
+            {
+                "url": "https://www.123912.com/s/oYprVv-QnMRv",
+                "source": "123云盘"
+            }
+        ],
         "arch": "AMD64",
         "md5": "0e6c3057f02b2aae0b5587c69e34b0ed",
         "sha256": "6ecb22a674522c75bae1c58e2940aa1efb27cfefe990ea53948dc931c3155cce"

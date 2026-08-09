@@ -37,14 +37,13 @@
     }],
     "download": {
         "name": "Windows11.0-KB5053656-x64.msu",
-        "link": [{
-            "url": "https://disk.crrashh.com/PC/Windows/MSU/drive003/26100.3624/Windows11.0-KB5053656-x64.msu",
-            "source": "OneDrive"
-        },
-        {
-            "url": "https://www.123912.com/s/oYprVv-QnMRv",
-            "source": "123云盘"
-        }],
+        "size": "773.35 MB",
+        "link": [
+            {
+                "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/c42e187c-de43-4860-8313-d5e3e4747ea2/public/windows11.0-kb5053656-x64_6f104019d3a06f3c9ff28d570e6a64516f181306.msu",
+                "source": "Microsoft 官方"
+            }
+        ],
         "arch": "AMD64",
         "md5": "120d241966c12c8aacb5963fac833824",
         "sha256": "e27dbc18fd9b50b6c52854f8b1efcc814c3d83e0ab4c4e373c2e0b142a596742"
