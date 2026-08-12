@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.9168",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2026-08-08 07:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-08-11 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/08/kb5121003-windows-11-24h2-25h2-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.8973"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "0485f51d-b291-4823-89b8-c6be2fd43fee"
+    },
+    {
+        "arch": "ARM64",
+        "id": "486bdae8-73c0-4b71-bd6b-d3535fc99716"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5121003-x64.msu",
+        "size": "4.75 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/dbc14d78-9837-4fb2-afbc-75d6663bf1e5/public/windows11.0-kb5121003-x64_dc58f03fef04b4c611e0db0ab3fadfb301194113.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "7d502b05db1f4f2701d7fd513ffa8583",
+        "sha256": "ee85559d909c6b45fbf0a1a31466e48f1e825c01c39bc52ce934424703b95ea0"
+    }
+}

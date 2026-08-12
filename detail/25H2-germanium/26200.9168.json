@@ -1,0 +1,56 @@
+{
+    "build": {
+        "number": "26200.9168",
+        "branch": "25h2_ge_release_svc_prod1",
+        "compileTime": "2026-08-08 07:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-08-11 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/08/kb5121003-windows-11-24h2-25h2-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.8973"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "6a8c4c24-0dd2-46b9-9d8f-bd7a84ec5ad4"
+    },
+    {
+        "arch": "AMD64 (Cloud PC)",
+        "id": "1337bea2-e110-4ef9-841f-9fa7de2406df"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "ada5cf05-ef4a-4c67-803c-f756beff3079"
+    },
+    {
+        "arch": "ARM64 (Cloud PC)",
+        "id": "5132458e-5ad7-48c5-a7b4-360efa4391a1"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5121003-x64.msu",
+        "size": "4.75 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/dbc14d78-9837-4fb2-afbc-75d6663bf1e5/public/windows11.0-kb5121003-x64_dc58f03fef04b4c611e0db0ab3fadfb301194113.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "7d502b05db1f4f2701d7fd513ffa8583",
+        "sha256": "ee85559d909c6b45fbf0a1a31466e48f1e825c01c39bc52ce934424703b95ea0"
+    }
+}

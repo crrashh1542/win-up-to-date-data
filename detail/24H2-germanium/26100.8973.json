@@ -15,11 +15,11 @@
     "nav": {
         "previous": {
             "category": "24H2-germanium",
-            "build": "26100.8973"
+            "build": "26100.8968"
         },
         "next": {
-            "category": "24H2-germanium-betaflt",
-            "build": "26120.461"
+            "category": "24H2-germanium",
+            "build": "26100.9168"
         }
     },
     "belongsTo": {
