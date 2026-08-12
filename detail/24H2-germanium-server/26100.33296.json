@@ -1,0 +1,49 @@
+{
+    "build": {
+        "number": "26100.33158",
+        "branch": "lt_release_svc_prod1",
+        "compileTime": "2026-08-08 06:24",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-08-11 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-server/2026/08/kb5120233-windows-server-2025-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-server",
+            "build": "26100.33158"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26200.5001"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-server",
+        "name": "Germanium (Server)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "5b8bc4bb-5cd8-490b-9151-0259788568ae"
+    },
+    {
+        "arch": "ARM64",
+        "id": "d7d4edef-d665-4722-a950-aa5b4470413d"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5120233-x64.msu",
+        "size": "1.98 GB",
+        "link": [
+        {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e5f3de0c-a700-4872-a580-75b335df8696/public/windows11.0-kb5120233-x64_9344a2fc7fe36fbe88ebe94abedde1fa862213c1.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "4fab4f22a5cc83d97e2251d987b78fa9",
+        "sha256": "66df89682554419d54413f361cc3d03240580ab6bc5bf2721cc04e52d0da016b"
+    }
+}
