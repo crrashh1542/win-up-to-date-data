@@ -193,12 +193,12 @@
             {
                 "channel": "预览版 (v.Next)",
                 "color": "amber",
-                "version": "29621.1000",
-                "branch": "rs_prerelease",
+                "version": "29641.1000",
+                "branch": "rs_flight",
                 "codename": "Krypton",
                 "category": "26H2-krypton",
                 "semester": "26H2",
-                "date": "2026-07-13"
+                "date": "2026-08-10"
             },
             {
                 "channel": "LTSC (2025)",

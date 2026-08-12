@@ -1,0 +1,43 @@
+{
+    "build": {
+        "number": "29641.1000",
+        "branch": "rs_flight",
+        "compileTime": "2026-07-29 15:15",
+        "arch": ["AMD64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "Canary",
+        "time": "2026-08-10 21:00",
+        "url": "https://techcommunity.microsoft.com/discussions/windowsserverinsiders/announcing-windows-server-vnext-preview-build-29641/4545666",
+        "announcePlace": "Microsoft Tech Community"
+    },
+    "nav": {
+        "previous": {
+            "category": "27H1-rubidium",
+            "build": "29639.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "27H1-rubidium",
+        "name": "Rubidium"
+    },
+    "updateId": [],
+    "download": {
+        "name": "Windows_InsiderPreview_Server_vNext_zh-cn_29641_1000.iso",
+        "size": "5.47 GB",
+        "link": [
+            {
+                "url": "https://p0-fsb.api.crrashh.com/u/010000fb785",
+                "source": "豆包云盘"
+            },
+            {
+                "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQB4xKvZWZBaQZwMBCNvOmzpAZb9uSxL3TRi0XZMJa3wxd4",
+                "source": "OneDrive"
+            }
+        ],
+        "arch": "AMD64",
+        "md5": "9162b767b5fcc1eddd741ae834ed4359",
+        "sha256": "31c34a06927a6580cea5ba489638f23d74437b75164e76941a5e9c1272b5283d"
+    }
+}
