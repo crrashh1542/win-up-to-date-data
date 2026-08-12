@@ -94,51 +94,51 @@
             {
                 "channel": "26H1",
                 "color": "blue",
-                "version": "28000.2608",
-                "branch": "br_release_svc_prod3",
+                "version": "28000.2704",
+                "branch": "br_release_svc_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine",
                 "semester": "26H1",
-                "date": "2026-07-28"
+                "date": "2026-08-11"
             },
             {
                 "channel": "25H2",
                 "color": "blue",
-                "version": "26200.8973",
-                "branch": "25h2_ge_release_svc_prod3",
-                "codename": "Germanium",
-                "category": "25H2-germanium",
-                "semester": "25H2",
-                "date": "2026-07-28"
-            },
-            {
-                "channel": "CloudPC OS",
-                "color": "blue",
-                "version": "26200.8875",
+                "version": "26200.9168",
                 "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
+            },
+            {
+                "channel": "CloudPC OS",
+                "color": "blue",
+                "version": "26200.9168",
+                "branch": "25h2_ge_release_svc_prod1",
+                "codename": "Germanium",
+                "category": "25H2-germanium",
+                "semester": "25H2",
+                "date": "2026-08-11"
             },
             {
                 "channel": "24H2",
                 "color": "blue",
-                "version": "26100.8973",
-                "branch": "24h2_ge_release_svc_prod3",
+                "version": "26100.9168",
+                "branch": "24h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
-                "date": "2026-07-28"
+                "date": "2026-08-11"
             },
             {
                 "channel": "23H2",
                 "color": "blue",
-                "version": "22631.7376",
+                "version": "22631.7517",
                 "branch": "23h2_ni_release_svc_prod1",
                 "codename": "Nickel",
                 "semester": "23H2",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             }
         ]
     },
@@ -150,38 +150,38 @@
             {
                 "channel": "ESU 通道",
                 "color": "teal",
-                "version": "19045.7548",
+                "version": "19045.7663",
                 "branch": "22h2_release_svc_prod1",
                 "codename": "Vibranium",
                 "semester": "22H2",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             },
             {
                 "channel": "LTSC (2021)",
                 "color": "teal",
-                "version": "19044.7548",
+                "version": "19044.7663",
                 "branch": "21h2_release_svc_prod1",
                 "codename": "Vibranium",
                 "semester": "21H2",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             },
             {
                 "channel": "LTSC (2019)",
                 "color": "teal",
-                "version": "17763.9020",
+                "version": "17763.9121",
                 "branch": "rs5_release_svc_prod1",
                 "codename": "Redstone",
                 "semester": "1809",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             },
             {
                 "channel": "LTSB (2016)",
                 "color": "teal",
-                "version": "14393.9339",
+                "version": "14393.9418",
                 "branch": "rs1_release",
                 "codename": "Redstone",
                 "semester": "1607",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             }
         ]
     },
@@ -222,29 +222,29 @@
             {
                 "channel": "LTSC (2022)",
                 "color": "blue",
-                "version": "20349.5386",
+                "version": "20349.5499",
                 "branch": "22h2_fe_release_svc_prod1",
                 "codename": "Iron",
                 "semester": "22H2",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             },
             {
                 "channel": "LTSC (2019)",
                 "color": "teal",
-                "version": "17763.9020",
+                "version": "17763.9121",
                 "branch": "rs5_release_svc_prod1",
                 "codename": "Redstone",
                 "semester": "1809",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             },
             {
                 "channel": "LTSB (2016)",
                 "color": "teal",
-                "version": "14393.9339",
+                "version": "14393.9418",
                 "branch": "rs1_release",
                 "codename": "Redstone",
                 "semester": "1607",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             }
         ]
     },
@@ -256,62 +256,62 @@
             {
                 "channel": "Exp Next",
                 "color": "amber",
-                "version": "29617.1000",
+                "version": "29639.1000",
                 "branch": "rs_prerelease",
-                "codename": "Krypton",
-                "category": "26H2-krypton",
-                "semester": "26H2",
-                "date": "2026-06-26"
+                "codename": "Rubidium",
+                "category": "27H1-rubidium",
+                "semester": "27H1",
+                "date": "2026-07-31"
             },
             {
                 "channel": "Server vNext",
                 "color": "amber",
-                "version": "29602.1000",
-                "branch": "rs_prerelease",
+                "version": "29641.1000",
+                "branch": "rs_flight",
                 "codename": "Krypton",
-                "category": "26H2-krypton",
-                "semester": "26H2",
-                "date": "2026-06-08"
+                "category": "27H1-krypton",
+                "semester": "27H1",
+                "date": "2026-08-10"
             },
             {
                 "channel": "Exp 26H1",
                 "color": "orange",
-                "version": "28120.2387",
+                "version": "28120.2630",
                 "branch": "br_prerelease_im",
                 "codename": "Bromine",
                 "category": "26H1-bromine-prerel",
                 "semester": "26H1",
-                "date": "2026-06-26"
+                "date": "2026-07-31"
             },
             {
                 "channel": "Beta 26H1",
                 "color": "green",
-                "version": "28020.2380",
+                "version": "28020.2623",
                 "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
                 "semester": "26H1",
-                "date": "2026-06-26"
+                "date": "2026-07-31"
             },
             {
                 "channel": "Experimental",
                 "color": "orange",
-                "version": "26300.8772",
+                "version": "26300.8935",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
                 "category": "26H2-germanium-prerel",
                 "semester": "26H2",
-                "date": "2026-06-26"
+                "date": "2026-07-20"
             },
             {
                 "channel": "Beta",
                 "color": "green",
-                "version": "26220.8764",
+                "version": "26220.8925",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
                 "semester": "25H2",
-                "date": "2026-06-26"
+                "date": "2026-07-20"
             },
             {
                 "channel": "发布预览",
@@ -333,12 +333,12 @@
             {
                 "channel": "Preview",
                 "color": "purple",
-                "version": "26100.33158",
+                "version": "26100.33296",
                 "branch": "lt_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium-server",
                 "semester": "24H2",
-                "date": "2026-07-14"
+                "date": "2026-08-11"
             },
             {
                 "channel": "Production",

@@ -260,7 +260,7 @@
                     {
                         "name": "Nickel",
                         "semester": "23H2",
-                        "latestBuild": "22631.7376",
+                        "latestBuild": "22631.7517",
                         "continued": true,
                         "tag": [
                             {
@@ -405,7 +405,7 @@
                     {
                         "name": "default",
                         "semester": "22H2",
-                        "latestBuild": "19045.7548",
+                        "latestBuild": "19045.7663",
                         "continued": true,
                         "tag": [
                             {
@@ -427,7 +427,7 @@
                     {
                         "name": "default",
                         "semester": "21H2",
-                        "latestBuild": "19044.7548",
+                        "latestBuild": "19044.7663",
                         "continued": true,
                         "tag": [
                             {
@@ -499,7 +499,7 @@
                     {
                         "name": "default",
                         "semester": "1809",
-                        "latestBuild": "17763.9020",
+                        "latestBuild": "17763.9121",
                         "continued": true,
                         "tag": [
                             {
@@ -517,7 +517,7 @@
                     {
                         "name": "default",
                         "semester": "1607",
-                        "latestBuild": "14393.9339",
+                        "latestBuild": "14393.9418",
                         "continued": true,
                         "tag": [
                             {
