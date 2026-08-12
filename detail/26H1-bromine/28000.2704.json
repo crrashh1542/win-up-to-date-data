@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "28000.2704",
+        "branch": "br_release_svc_prod1",
+        "compileTime": "2026-08-08 06:24",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-08-11 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/08/kb5121000-windows-11-26h1-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.2608"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "312f676b-2cbe-41aa-ba85-85c09c88518c"
+    },
+    {
+        "arch": "ARM64",
+        "id": "ef83e100-accd-4567-a877-571d3e25c330"
+    }],
+    "download": {
+        "name": "Windows11.0-KB5121000-x64.msu",
+        "size": "3.97 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e1841a80-7448-4bd6-9832-8e194a48803e/public/windows11.0-kb5121000-x64_8bb67d631779e3e5373f2445bf35fa43a09be1da.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "af72a1f8e4525e09076c808281969ef6",
+        "sha256": "64567781045089e2f2e4ee65c1fd51fc5d7afb7f04a0eb4c924263910f811497"
+    }
+}
