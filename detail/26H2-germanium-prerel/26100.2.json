@@ -27,7 +27,7 @@
         "name": "Germanium (Prerelease)"
     },
     "updateId": [],
-    "download": {
+    "download": [{
         "name": "26100.2.250909-1321.ge_release_flt_CLIENTMULTI_X64FRE_zh-cn.iso",
         "size": "3.58 GB",
         "link": [{
@@ -49,5 +49,5 @@
         "arch": "AMD64",
         "md5": "2549e8c0314b774a85a31aa2db63bd6d",
         "sha256": "f7e262ad7195259a9327ed6c05a9358db9b270cca067539afeec86605b2be0ef"
-    }
+    }]
 }

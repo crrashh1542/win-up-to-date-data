@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "738f71e0-a8bf-40f5-a5a0-971e2fcc176a"
     }],
-    "download": {
+    "download": [{
         "name": "26334.5000.241122-1729.ge_prerelease_SERVER_X64FRE_zh-cn.iso",
         "link": [{
             "url": "https://pan.baidu.com/s/1Y9bbcjpP1GEbLmTImIfvtQ?pwd=2333",
@@ -47,5 +47,5 @@
         "arch": "AMD64",
         "md5": "ab14fa45e23978b40cc242384e765579",
         "sha256": "70f9dc946b4891bfcf826e40b51873e3b99ddf0533c640f910239ab123171a1d"
-    }
+    }]
 }

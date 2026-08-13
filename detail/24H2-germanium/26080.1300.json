@@ -38,7 +38,7 @@
         "arch": "ARM64",
         "id": "089677c6-4644-4364-bc9d-06d77c98d0ee"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5037139-x64.msu",
         "link": [{
             "url": "https://1542.lanzn.com/ijCQ02ls4dqf",
@@ -55,5 +55,5 @@
         "arch": "AMD64",
         "md5": "72948a1abd859cd4e32b30e0dfc18ee4",
         "sha256": "88d94b305e39f3d81f05a1091f184f51d694d70d3fb603a30ee009496c2690dc"
-    }
+    }]
 }

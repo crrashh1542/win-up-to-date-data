@@ -30,7 +30,7 @@
         "arch": "AMD64",
         "id": "60250154-517f-4844-8a91-01199fd6f6e6"
     }],
-    "download": {
+    "download": [{
         "name": "29574.1000.260415-1531.rs_prerelease_SERVER_X64FRE_zh-cn.iso",
         "size": "4.46 GB",
         "link": [
@@ -49,5 +49,5 @@
         "arch": "AMD64",
         "md5": "698f1668ca82e95de736f219a3b7c919",
         "sha256": "f2ae72076fe5009b8d6db4ae92009925b715b4f062e82c8d0be1d14954b6c514"
-    }
+    }]
 }

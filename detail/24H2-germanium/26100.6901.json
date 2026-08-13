@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "bffcd6fc-442f-4c20-b144-501f0bf5dc11"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5070773-x64.msu",
         "size": "3.59 GB",
         "link": [{
@@ -44,5 +44,5 @@
         "arch": "AMD64",
         "md5": "b764bbc5d577fa96dfaf6105908fdd04",
         "sha256": "c1c6b61bc04e1b25e222958dc3456c39e04aebd82ffa18e2345e26c3225d546b"
-    }
+    }]
 }

@@ -42,7 +42,7 @@
         "arch": "ARM64 (Server)",
         "id": "f507a704-9ca8-4aaa-aa71-ee2fb142d82b"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5043080-x64.msu",
         "size": "509.03 MB",
         "link": [
@@ -62,5 +62,5 @@
         "arch": "AMD64",
         "md5": "4cb4c733a536f7bf1acf219d1311f592",
         "sha256": "819632610a101af11c72907fb13ff05b5fb4222c0e263ee9a03bcc1d1d5f26a4"
-    }
+    }]
 }

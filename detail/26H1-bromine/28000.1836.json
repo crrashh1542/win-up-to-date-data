@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "b96f4e35-e7e6-4715-80d6-539193cab73c"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5083768-x64.msu",
         "link": [{
             "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a4d36648-bc51-4f54-988c-b0cfde91dd5c/public/windows11.0-kb5083768-x64_dcab4cd248f64c610a16a4190061cd6a14d0acd4.msu",
@@ -43,5 +43,5 @@
         "arch": "AMD64",
         "md5": "0fded53cfbeca617f1e6e25f8bf920c9",
         "sha256": "85f98e9324d4013462c316fe59692a3a12962fecd8622725f4725cad2c4cda2e"
-    }
+    }]
 }

@@ -42,7 +42,7 @@
         "arch": "ARM64 (Server)",
         "id": "1370329f-38a3-443d-a3a1-99206b0bf483"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5040435-x64.msu",
         "size": "302.04 MB",
         "link": [
@@ -54,5 +54,5 @@
         "arch": "AMD64",
         "md5": "fa684be85cf5db42fa4eebcc661f1526",
         "sha256": "c86efe2b8d16cd9ccfcbfc8fd0479cd41840df9d5239ef4a76f7474e9eaf375f"
-    }
+    }]
 }

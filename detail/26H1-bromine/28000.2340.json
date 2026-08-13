@@ -42,7 +42,7 @@
         "arch": "ARM64 (2)",
         "id": "4a8022e1-f184-4eb5-a246-c10e6bd184a1"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5095091-x64.msu",
         "size": "3.80 GB",
         "link": [{
@@ -52,5 +52,5 @@
         "arch": "AMD64",
         "md5": "887d32b213eb1726e1cc1fd16bd313de",
         "sha256": "e345e68f3afb9c7d08c92153d99acb16c111283432062ca5ecee6c0f41cf7a86"
-    }
+    }]
 }

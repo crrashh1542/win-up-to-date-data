@@ -36,7 +36,7 @@
         "arch": "ARM64",
         "id": "092dfade-2411-45e1-b2a8-9358b685d02a"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5078674-x64.cab",
         "link": [{
             "url": "https://wwa.lanzouu.com/iHCjJ3odte8h",
@@ -45,5 +45,5 @@
         "arch": "AMD64",
         "md5": "5fb4519732f01e9911e686027edb5130",
         "sha256": "d50adb6d908aa3770f0b41e5fa2bad366d37db66ac67d32a67aa1332977a737e"
-    }
+    }]
 }

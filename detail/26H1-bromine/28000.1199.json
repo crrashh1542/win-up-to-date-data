@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "02242beb-9b26-4445-b9b8-978df2430b1c"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5068860-x64.msu",
         "link": [{
             "url": "https://www.123865.com/s/oYprVv-DWwRv",
@@ -43,5 +43,5 @@
         "arch": "AMD64",
         "md5": "c32f8a5c9c918f641ee8456053e2023f",
         "sha256": "0f009cd95fc9bc5364cb1402e447e297d5efc4a0653fedd6659d035fe6aae7de"
-    }
+    }]
 }

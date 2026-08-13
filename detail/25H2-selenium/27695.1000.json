@@ -38,7 +38,7 @@
         "arch": "ARM64",
         "id": "32cbed8b-9690-4712-b22f-d38e104f36bc"
     }],
-    "download": {
+    "download": [{
         "name": "27695.1000.240823-1224.rs_prerelease_CLIENTCORE_OEMRET_X64FRE_zh-cn.iso",
         "link": [{
             "url": "https://pan.baidu.com/s/1omS7rRFUFwuw_CejlLznRA?pwd=2333",
@@ -51,5 +51,5 @@
         "arch": "AMD64",
         "md5": "8f09a007d54fc3a6c809eb8660875d7e",
         "sha256": "8de073448bca70edccfd497911a3e610505d7a4a80702033fe65f6f6d8ece258"
-    }
+    }]
 }

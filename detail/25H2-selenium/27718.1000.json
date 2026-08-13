@@ -38,7 +38,7 @@
         "arch": "ARM64",
         "id": "fb79fe84-1a55-428e-8216-2445573932d2"
     }],
-    "download": {
+    "download": [{
         "name": "27718.1000.240927-1358.rs_prerelease_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
         "link": [{
             "url": "https://pan.baidu.com/s/1p_9hvUdo_X6G0HhY3T9-KQ?pwd=2333",
@@ -51,5 +51,5 @@
         "arch": "AMD64",
         "md5": "2ca18f45049a1367024572625413ef4f",
         "sha256": "426e1a0f349b4a4ebcf74528c43cb6224b905b2b96e8c80be99e478edda3be4b"
-    }
+    }]
 }

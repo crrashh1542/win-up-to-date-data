@@ -32,7 +32,7 @@
         "arch": "ARM64",
         "id": "8d65c03f-3fb9-4255-8abc-4cbd657edcaa"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5082960-x64.cab",
         "link": [{
             "url": "https://wwa.lanzouu.com/iNWEb3odswta",
@@ -41,5 +41,5 @@
         "arch": "AMD64",
         "md5": "6db19317aa8c09f256a879ae868f2a88",
         "sha256": "37db1dccc94989365fd7dccd26f6f56f925584c7c4f888fe6b9d233bee7ff42f"
-    }
+    }]
 }

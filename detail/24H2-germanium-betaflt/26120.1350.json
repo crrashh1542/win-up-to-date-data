@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "5b2e43db-1567-4539-93b8-58905a58acab"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5041871-x64.msu",
         "link": [{
             "url": "https://disk.crrashh.com/PC/Windows/MSU/drive002/26120.1350/Windows11.0-KB5041871-x64.msu",
@@ -43,5 +43,5 @@
         "arch": "AMD64",
         "md5": "10356d1f9a30953f98ca86e6a309460f",
         "sha256": "96ec98aec4e8c396f8c7e36c45f9becb0b2b8377d0efed7157a1055e44f3f216"
-    }
+    }]
  }

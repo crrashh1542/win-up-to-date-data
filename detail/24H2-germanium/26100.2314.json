@@ -51,7 +51,7 @@
         "arch": "ARM64 (Cloud PC)",
         "id": "6b214305-5bc5-4904-a751-ea237c62f6ac"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5046617-x64.msu",
         "size": "437.63 MB",
         "link": [
@@ -62,5 +62,5 @@
         "arch": "AMD64",
         "md5": "7479c453c5e7b02030782fcbb82ff3ef",
         "sha256": "a90dc8b646a5152cb6a3bc798c2ea8e94994fbfc4ed883d450e773bc55e64272"
-    }
+    }]
 }

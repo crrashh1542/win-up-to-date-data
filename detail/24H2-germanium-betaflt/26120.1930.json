@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "ebe2f593-f542-40a1-bb75-e35a18c4c2bd"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5044388-x64.msu",
         "link": [{
             "url": "https://disk.crrashh.com/PC/Windows/MSU/drive002/26120.1930/Windows11.0-KB5044388-x64.msu",
@@ -43,5 +43,5 @@
         "arch": "AMD64",
         "md5": "d79b92eb7c8bd401f29257e0f30d54cb",
         "sha256": "ce1f7f8284799d0b75fa83ae4793a09af85a0a0cdbca005c5c50e8785df911a7"
-    }
+    }]
  }

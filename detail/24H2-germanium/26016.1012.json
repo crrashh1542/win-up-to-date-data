@@ -38,7 +38,7 @@
         "arch": "ARM64",
         "id": "b4fed87d-e4db-4ec2-bcfe-042720235def"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5034402-x64.msu",
         "link": [{
             "url": "https://1542.lanzn.com/ig8aa2ls4pvc",
@@ -51,5 +51,5 @@
         "arch": "AMD64",
         "md5": "dd8eadcae3f1d1076783dc3b7ed5daf9",
         "sha256": "c94d57a65e3dee4728081b12832ac423fdb9130c22b348db6fa7ce90ccfffdf2"
-    }
+    }]
 }

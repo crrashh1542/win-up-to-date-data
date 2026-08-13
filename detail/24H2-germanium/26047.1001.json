@@ -24,7 +24,7 @@
         "arch": "AMD64",
         "id": "c4a81e3d-4957-4a3b-8bab-07d6c78eb3f5"
     }],
-    "download": {
+    "download": [{
         "name": "26047.1001.240128-1636.rs_prerelease_SERVER_x64FRE_en-us.iso",
         "link": [{
             "url": "https://ia801307.us.archive.org/22/items/10.0.26047.1001.rs_prerelease.240128-1636_Server_AMD64Fre_en-US_ISO-UUPSrcPkg/ISO/26047.1000.240128-1636.rs_prerelease_SERVER_x64FRE_en-us.iso",
@@ -37,5 +37,5 @@
         "arch": "AMD64",
         "md5": "1a139e3ee513a6f9e53e30b75c6d42bf",
         "sha256": "f8fc32e42050aee9265833aee88bcdf2490b7ef54858cdda64b65f22a6c12b55"
-    }
+    }]
 }

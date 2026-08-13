@@ -42,7 +42,7 @@
         "arch": "ARM64 (2)",
         "id": "5b0a214a-31d0-4dd5-905e-8369eb8488d4"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5079391-x64.msu",
         "link": [{
             "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f7b8d266-ccc7-4709-81f4-28bcd6c45062/public/windows11.0-kb5079391-x64_0a0129ebe88fdd66e19ac7d40d9cddd0b18c3332.msu",
@@ -51,5 +51,5 @@
         "arch": "AMD64",
         "md5": "1964831fbd3372fa369cd4455883153c",
         "sha256": "06617035a0d723af2d16e3f5519259b43aefeaf79db0e58396369b5684124c65"
-    }
+    }]
 }

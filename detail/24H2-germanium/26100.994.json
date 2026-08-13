@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "acc68fc2-2dca-4339-a766-c13132244551"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5039304-x64.msu",
         "size": "279.45 MB",
         "link": [
@@ -46,5 +46,5 @@
         "arch": "AMD64",
         "md5": "c984a8a64d2c432b62b1433ea8d312ee",
         "sha256": "3941590c13ccfcbea8fd0e6f01701e8d13f6c36e61b3be376da03ea05f2569a5"
-    }
+    }]
 }

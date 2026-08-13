@@ -38,7 +38,7 @@
         "arch": "ARM64",
         "id": "a350067e-8331-4f33-bc25-bd463f8b4917"
     }],
-    "download": {
+    "download": [{
         "name": "26100.1.240331-1435.ge_release_CLIENTMULTI_X64FRE_zh-cn.iso",
         "size": "3.61 GB",
         "link": [
@@ -58,5 +58,5 @@
         "arch": "AMD64",
         "md5": "eb88c7b68a24833800a3450018bafdb6",
         "sha256": "171723b78ea914b02ee95d0219ba39961c6b49a5c6e2b24227d3fe28b52aa23d"
-    }
+    }]
 }

@@ -42,7 +42,7 @@
         "arch": "ARM64 (Cloud PC)",
         "id": "99df78d8-c211-4fb7-829f-2aac47b64ec0"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5083769-x64.msu",
         "link": [{
             "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/ca944ac5-63da-42b4-9d1f-58b0c3259132/public/windows11.0-kb5083769-x64_57f4bd47d73842dd239f2c18b8ce48c8bf1c1d5d.msu",
@@ -51,5 +51,5 @@
         "arch": "AMD64",
         "md5": "7fe7ea90cf2861e00921e7541a5720b6",
         "sha256": "d5bd7005c9f45927337ece31a047ae9c82f6b953dbb5b8a9fe7f7d15e792b1c5"
-    }
+    }]
 }

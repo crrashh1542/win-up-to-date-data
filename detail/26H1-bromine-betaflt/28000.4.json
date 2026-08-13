@@ -27,7 +27,7 @@
         "name": "Bromine (Betaflt)"
     },
     "updateId": [],
-    "download": {
+    "download": [{
         "name": "28000.4.251110-1140.br_release_flt_CLIENTMULTI_X64FRE_zh-cn.iso",
         "size": "3.98 GB",
         "link": [{
@@ -49,5 +49,5 @@
         "arch": "AMD64",
         "md5": "231f4f5ea27f2126bcb65e129c2619d1",
         "sha256": "8c2edcc14496057af879d52f5d706874b220a1b75911f1fc0bfa2ae29a52d3f4"
-    }
+    }]
 }

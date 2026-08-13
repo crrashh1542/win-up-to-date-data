@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "7f211b6b-36c3-469f-8d13-1423bf9f5418"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5040543-x64.msu",
         "link": [{
             "url": "https://disk.crrashh.com/PC/Windows/MSU/drive002/26120.1330/Windows11.0-KB5040543-x64.msu",
@@ -43,5 +43,5 @@
         "arch": "AMD64",
         "md5": "f9d9b45f8c7e7ca53312262869366558",
         "sha256": "2c335dda50455160e1d7e2564c83f33867cdcab6c7f147536c39da0c4f471116"
-    }
+    }]
  }

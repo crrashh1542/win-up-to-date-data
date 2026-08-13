@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "45e2f9d8-0eef-49b4-8466-30843bf9d002"
     }],
-    "download": {
+    "download": [{
         "name": "26461.1001.250731-1129.ge_prereleaseserver_SERVER_X64FRE_zh-cn.iso",
         "link": [ {
             "url": "https://www.123912.com/s/oYprVv-JXMRv",
@@ -43,5 +43,5 @@
         "arch": "AMD64",
         "md5": "f5b32b0ad0a2997adde4dc2c661192fd",
         "sha256": "1fa27be6f4914494e40f2b3128318c0c7fa6638d5e4d2ff466da1d80dabd6c9f"
-    }
+    }]
 }

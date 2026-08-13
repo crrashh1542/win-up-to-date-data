@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "ced07cfe-e48c-44ed-a701-1d8cae300926"
     }],
-    "download": {
+    "download": [{
         "name": "27768.1000.250103-1240.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "link": [{
             "url": "https://pan.baidu.com/s/1ovJ_zD1uPO8C-7Eox4iqCQ?pwd=2333",
@@ -47,5 +47,5 @@
         "arch": "AMD64",
         "md5": "b3145104e3dc874539e5b605d30c5234",
         "sha256": "fe7d65e2bf9ed055e0a3c42579b4d804e8efbd1c4a91bc7676375040c74a6990"
-    }
+    }]
 }

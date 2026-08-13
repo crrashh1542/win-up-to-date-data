@@ -43,7 +43,7 @@
         "arch": "ARM64 (Server)",
         "id": "88a3ed95-0c22-4fc8-9bf2-3612ab4b2cb2"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5064010-x64.msu",
         "link": [{
             "url": "https://www.123912.com/s/oYprVv-QnMRv",
@@ -52,5 +52,5 @@
         "arch": "AMD64",
         "md5": "8bd5256c6a85033f85ba78b3da58c040",
         "sha256": "a1ed751f352a1722d120fbc752e061386f4c50aed1ad44267cc40b5ac610659e"
-    }
+    }]
 }

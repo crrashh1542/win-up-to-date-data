@@ -38,7 +38,7 @@
         "arch": "AMD64 (Server)",
         "id": "85be9e3d-a4fd-4f28-a1a6-bc3d42135028"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5035384-x64.msu",
         "link": [{
             "url": "https://1542.lanzn.com/iIj0u2ls539e",
@@ -55,5 +55,5 @@
         "arch": "AMD64",
         "md5": "6844865225afc4b0d54d8e146981a0e8",
         "sha256": "b78f50a0e28d9442b67ac702ecb80b2664bde8fe04e5e7cb87c36b74c880ef12"
-    }
+    }]
 }

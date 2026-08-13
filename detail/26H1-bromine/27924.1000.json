@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "58e2b7fd-f4d1-4359-901c-9e0a11cbd344"
     }],
-    "download": {
+    "download": [{
         "name": "27924.1000.250808-1602.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "size": "4.07 GB",
         "link": [{
@@ -52,5 +52,5 @@
         "arch": "AMD64",
         "md5": "a464aa828aa09e787939b56ab0e7b7d0",
         "sha256": "ae3b9b5949842abcfd07cdc922ef8f945975eb2926a3d476e0e74ccf80933177"
-    }
+    }]
 }

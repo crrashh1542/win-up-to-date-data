@@ -54,7 +54,7 @@
         "arch": "ARM64 (3)",
         "id": "2a231ee1-91f1-485c-a08f-eb52b7c455d9"
     }],
-    "download": {
+    "download": [{
         "name": "25997.1000.231110-1241.rs_prerelease_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
         "link": [{
             "url": "https://5y38gv-my.sharepoint.com/:u:/g/personal/store0_418_run/Eb6n4Ns-cGFKntC4uG-vp90BD0eRytyzMxIhkDrDEZMA4A?e=9rAdpY",
@@ -63,5 +63,5 @@
         "arch": "MD5",
         "md5": "",
         "sha256": ""
-    }
+    }]
 }

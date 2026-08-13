@@ -30,7 +30,7 @@
         "arch": "AMD64",
         "id": "311b10bb-5dac-4e44-82d5-4ac1d1d9a49e"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5091157-x64.msu",
         "link": [
         {
@@ -40,5 +40,5 @@
         "arch": "AMD64",
         "md5": "ddd9253f9d266cc841e779dedd89ba79",
         "sha256": "2b4dcffa20c791ab0454cac1f1da3b7dcab72a79261ce64d8e3e2b81788b805d"
-    }
+    }]
 }

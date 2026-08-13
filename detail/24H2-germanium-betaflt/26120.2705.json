@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "2ce2bda1-d8fc-4db7-a559-06171cfd53b0"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5048780-x64.msu",
         "link": [{
             "url": "https://disk.crrashh.com/PC/Windows/MSU/drive002/26120.2705/Windows11.0-KB5048780-x64.msu",
@@ -43,5 +43,5 @@
         "arch": "AMD64",
         "md5": "2c3b20c3e9ee9684e4f8365b33ff7cb8",
         "sha256": "1900549b5a63b45436aba6360f8ca9de8d2d3941ce3e451fe273acc71c34f80e"
-    }
+    }]
  }

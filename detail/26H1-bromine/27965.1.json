@@ -34,7 +34,7 @@
         "arch": "ARM64",
         "id": "81599c5f-cfbd-4dfe-823e-ce29e13cb81b"
     }],
-    "download": {
+    "download": [{
         "name": "27695.1.251006-1425.br_release_CLIENTMULTI_X64FRE_zh-cn.iso",
         "size": "4.01 GB",
         "link": [{
@@ -52,5 +52,5 @@
         "arch": "AMD64",
         "md5": "894da1322508d6e2de1a84a8b76e586d",
         "sha256": "59f470a90b84e2968de6a63a778dd86352875c72baf597190010adea97967884"
-    }
+    }]
 }

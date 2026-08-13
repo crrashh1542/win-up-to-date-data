@@ -42,7 +42,7 @@
         "arch": "ARM64 (Cloud PC)",
         "id": "e07ee0fa-b41f-405f-9a5b-d1b9eef97698"
     }],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5094126-x64.msu",
         "size": "4.75 GB",
         "link": [{
@@ -52,5 +52,5 @@
         "arch": "AMD64",
         "md5": "6dad9a8d28c321e5bd5a98a24195d137",
         "sha256": "7a1e9ec5f215969fa83a3397eb2e2eee1821c8cbc9be959930f64cbce8d8f0a7"
-    }
+    }]
 }

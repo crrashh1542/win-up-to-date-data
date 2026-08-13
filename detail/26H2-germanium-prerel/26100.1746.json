@@ -25,7 +25,7 @@
         "name": "Germanium (Prerelease)"
     },
     "updateId": [],
-    "download": {
+    "download": [{
         "name": "Windows11.0-KB5122055-x64.msu",
         "size": "845 MB",
         "link": [{
@@ -43,5 +43,5 @@
         "arch": "AMD64",
         "md5": "d910fd814de71478c9ae3ce3037346b2",
         "sha256": "1efa7df6d2d733533e5d912bff75db817156b2af16e92a67d16668ffd695bfef"
-    }
+    }]
 }

@@ -38,7 +38,7 @@
         "arch": "ARM64",
         "id": "2823c1a0-ffc7-4af1-89b2-376d23249198"
     }],
-    "download": {
+    "download": [{
         "name": "26200.5001.240412-1717.ge_prerelease_CLIENTPRO_OEMRET_X64FRE_zh-cn.iso",
         "link": [{
             "url": "https://pan.huang1111.cn/s/ZMXkTL",
@@ -51,5 +51,5 @@
         "arch": "AMD64",
         "md5": "9a9e4d61940f2931501c7bc382d610af",
         "sha256": "34ec267d49208625fd3d8caa70528e730e909f8a2490f3eec720b4bc4828f073"
-    }
+    }]
 }
