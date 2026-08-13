@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Win11 25H2",
+        "value": "Win11-25H2"
+    },
+    {
+        "name": "Win11 24H2",
+        "value": "Win11-24H2"
+    },
+    {
+        "name": "Win11 21H2~23H2",
+        "value": "Win11-21H2-23H2"
+    },
+    {
+        "name": "Win10 21H2~22H2",
+        "value": "Win10-21H2-22H2"
+    },
+    {
+        "name": "Win10 2004~21H1",
+        "value": "Win10-2004-21H1"
+    },
+    {
+        "name": "Win10 1903~1909",
+        "value": "Win10-19"
+    },
+    {
+        "name": "Win10 1803~1809",
+        "value": "Win10-18"
+    },
+    {
+        "name": "Win10 1607~1709",
+        "value": "Win10-16-17"
+    }
+]

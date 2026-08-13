@@ -1,0 +1,288 @@
+[
+    {
+        "name": "Windows 10 1709 消费者版 (16299.125)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2017/12/16299.125.171213-1220.rs3_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_a706bd3db9fe8d00ad1df2a1ae680ee54278878d.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2017/12/16299.125.171213-1220.rs3_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_ed3dad3c008e7947679689491971e027db03a0f9.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1709 商业版 (16299.125)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2017/12/16299.125.171213-1220.rs3_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_92d7dbbeded7a4f58a5c2065cd8d6fac3d6bdea4.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2017/12/16299.125.171213-1220.rs3_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_2e057b69d355ecb4cc95f10b3b587a439ade9512.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1709 消费者版 (16299.15)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2017/10/16299.15.170928-1534.rs3_release_clientconsumer_ret_x64fre_zh-cn_cc52c191fda2caff9d5b6730ee88a11758dc0138.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2017/10/16299.15.170928-1534.rs3_release_clientconsumer_ret_x86fre_zh-cn_b411ad9fd3236d4cf5ec7d3debe0ef155791995f.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1709 商业版 (16299.15)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/10/16299.15.170928-1534.rs3_release_clientbusiness_vol_x64fre_zh-cn_d6bf989c6b57c7246fa72fec1e564808c3ee3255.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/10/16299.15.170928-1534.rs3_release_clientbusiness_vol_x86fre_zh-cn_4b0a6afdf690b2424f083d4b6633dd9f7f1ab0e1.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1709 消费者版 (16299.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2017/11/16299.0.171109-1522.rs3_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_b73e88d3635a37843ff84a8d249fc136fd9a7f5f.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2017/11/16299.0.171109-1522.rs3_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_b92edfd9346b2fe4f84e4fb1bb4482207f2da9ed.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1703 多合一版 (Refresh 2)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2017/07/15063.0.170710-1358.rs2_release_svc_refresh_clientcombinedchina_ret_x64fre_zh-cn_c2b0c017088e4cd91b5e8e750d12d648a5f6d031.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2017/07/15063.0.170710-1358.rs2_release_svc_refresh_clientcombinedchina_ret_x86fre_zh-cn_9af6427364142c4778a47cc293e46d9f3d83a1a6.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1703 多合一版 (Refresh 1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2017/06/15063.0.170607-1447.rs2_release_svc_refresh_clientcombinedchina_ret_x64fre_zh-cn_5999cf3f64f13f31a7475025165e2d53dcff690f.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2017/06/15063.0.170607-1447.rs2_release_svc_refresh_clientcombinedchina_ret_x86fre_zh-cn_cb88a9ae53fdf4dbfb94c95ab619fcae9b6c9fc4.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1703 多合一版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2017/03/15063.0.170317-1834.rs2_release_clientcombinedchina_ret_x64fre_zh-cn_edd657930252ef02b70e13060777d40ba8789142.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2017/03/15063.0.170317-1834.rs2_release_clientcombinedchina_ret_x86fre_zh-cn_2d41aee660f9c072cd4f02450db210d28ba10728.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1703 教育版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2017/04/15063.0.170317-1834.rs2_release_clienteducation_vol_x64fre_zh-cn_5330c1636653ef986e32fc8f2aec0343fcfaea35.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2017/04/15063.0.170317-1834.rs2_release_clienteducation_vol_x86fre_zh-cn_c90e6ef0449e175e58f5354f7acb168fb855fa0e.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1703 企业版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/03/15063.0.170317-1834.rs2_release_cliententerprise_vol_x64fre_zh-cn_bddcb35e91017f6dad07019ab05c8e7c08101c11.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/03/15063.0.170317-1834.rs2_release_cliententerprise_vol_x86fre_zh-cn_ae540ea3ddc6c379d152b6b83dadd4a52e90751c.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1703 批量专业版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/04/15063.0.170317-1834.rs2_release_clientprofessionalvl_vol_x64fre_zh-cn_972ae0367d9755f215e9f7f58bf2303c1407c99c.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/04/15063.0.170317-1834.rs2_release_clientprofessionalvl_vol_x86fre_zh-cn_58df4f1c619331a66c36f9b4f8be6c7f433766f5.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1703 专业版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/04/15063.0.170317-1834.rs2_release_clientpro_ret_x64fre_zh-cn_0a4e6b610aa41545b5b4926b689ffc6f67177932.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/04/15063.0.170317-1834.rs2_release_clientpro_ret_x86fre_zh-cn_617c17a1bab6a3960b62262233e81c3399e90ba9.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 多合一版 (Refresh 1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/c/updt/2017/01/14393.0.161119-1705.rs1_refresh_clientcombinedchina_ret_x64fre_zh-cn_85ba86cac5517ab61b2b637187da222241b5ce60.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/updt/2017/01/14393.0.161119-1705.rs1_refresh_clientcombinedchina_ret_x86fre_zh-cn_8102f2c428f0e7f592c04583bc317a36d3a2e2eb.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 教育版 (Refresh 1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2017/01/14393.0.161119-1705.rs1_refresh_clienteducation_vol_x64fre_zh-cn_120476969142efd3701de14d140be47cf84d92ab.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2017/01/14393.0.161119-1705.rs1_refresh_clienteducation_vol_x86fre_zh-cn_32e7d27d988f97b5b77e2a371035c9b80ee23b48.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 企业版 (Refresh 1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/updt/2017/01/14393.0.161119-1705.rs1_refresh_cliententerprise_vol_x64fre_zh-cn_e78e04e6204b107ffa36d898d58232c86e98199d.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/updt/2017/01/14393.0.161119-1705.rs1_refresh_cliententerprise_vol_x86fre_zh-cn_2ddd95d076810d788d63082cffcbbd75bf921243.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 批量专业版 (Refresh 1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/01/14393.0.161119-1705.rs1_refresh_clientprofessionalvl_vol_x64fre_zh-cn_efdd42f9baea736aebfb443922ffbd0de4b0e2b7.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2017/01/14393.0.161119-1705.rs1_refresh_clientprofessionalvl_vol_x86fre_zh-cn_bf32e2b319724e7fc6765330c55888cc3eda6637.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 专业版 (Refresh 1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2017/01/14393.0.161119-1705.rs1_refresh_clientpro_ret_x64fre_zh-cn_376c1494de4068b39d3206b526d1c64b729bc763.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2017/01/14393.0.161119-1705.rs1_refresh_clientpro_ret_x86fre_zh-cn_7993fa0bd7712500c6724df4fb11100517837c06.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 多合一版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/updt/2016/07/14393.0.160715-1616.rs1_release_clientcombinedchina_ret_x64fre_zh-cn_80aad80f866cb1a01fbab0b429db3a9a5a4bee81.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/updt/2016/07/14393.0.160715-1616.rs1_release_clientcombinedchina_ret_x86fre_zh-cn_0f105e9d19a6544eaaa8296028caca91cd03a55a.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 教育版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2016/08/14393.0.160715-1616.rs1_release_clienteducation_vol_x64fre_zh-cn_1a6c2f64dcfc4eea2da81bbe4ee64c0e8b96ace3.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/upgr/2016/08/14393.0.160715-1616.rs1_release_clienteducation_vol_x86fre_zh-cn_62a46db7dcd746547568357d10c6536522d420e8.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 企业版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/updt/2016/07/14393.0.160715-1616.rs1_release_cliententerprise_vol_x64fre_zh-cn_128858ecb0e979605359962ce274eade48ef1b43.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/d/updt/2016/07/14393.0.160715-1616.rs1_release_cliententerprise_vol_x86fre_zh-cn_6ab5a9f9fd419616fae87b553393f6713bfefe12.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 批量专业版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2016/08/14393.0.160715-1616.rs1_release_clientprofessionalvl_vol_x64fre_zh-cn_2c0caff70210658063c1b910158e0bd6951a083c.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2016/08/14393.0.160715-1616.rs1_release_clientprofessionalvl_vol_x86fre_zh-cn_349ce0b930cea8aff56a308d88a88bd4956860e8.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1607 专业版 (15063.0)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2016/08/14393.0.160715-1616.rs1_release_clientpro_ret_x64fre_zh-cn_32b851ce55c9ce5c608bc898266b23b80a50e1cd.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://wsus.ds.b1.download.windowsupdate.com/c/upgr/2016/08/14393.0.160715-1616.rs1_release_clientpro_ret_x86fre_zh-cn_1981dc06b1e99e613fc7e13d48e679580a8110c4.esd"
+            }
+        ]
+    }
+]

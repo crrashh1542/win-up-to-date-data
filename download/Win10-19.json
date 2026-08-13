@@ -1,0 +1,300 @@
+[
+    {
+        "name": "Windows 10 1909 消费者版 (18363.1139)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2020/11/18363.1139.201008-0514.19h2_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_2fab0741463c85d6c98e29942e1164aece5ea4a6.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2020/11/18363.1139.201008-0514.19h2_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_35aefd6712b6c9e4af8962c4a66dc147ca854fa3.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1909 商业版 (18363.1139)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2020/11/18363.1139.201008-0514.19h2_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_47102873fd333e715f06c840e08a149963cfb6a4.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2020/11/18363.1139.201008-0514.19h2_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_8e1f607553ab7980c0c9ded018d8352b529320a4.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2020/11/18363.1139.201008-0514.19h2_release_svc_refresh_clientbusiness_vol_a64fre_zh-cn_94e8a3e247d88b13517ec4a1a967ea0bd098bbba.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1909 消费者版 (18363.592)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/3f88ad25-f1b2-49fa-b580-fb8d1ac54ecb/18363.592.200109-2016.19h2_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/03002f08-8550-4b69-866f-cd499087432d/18363.592.200109-2016.19h2_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/00caa319-c54c-4a1c-a51f-56ea9cb1d603/18363.592.200109-2016.19h2_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1909 商业版 (18363.592)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/f9525f5e-75b3-430e-b304-d4dcf29577f9/18363.592.200109-2016.19h2_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/7817c270-7e3d-4ac7-b40a-c7f248964360/18363.592.200109-2016.19h2_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/5f5f6076-75ff-48c6-9b84-fed8465df5f9/18363.592.200109-2016.19h2_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1909 消费者版 (18363.418)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/38d916fb-95b6-458e-907b-d5d929244e08/18363.418.191007-0143.19h2_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/107f3ff7-90b1-4da1-8caf-cabfc01a3062/18363.418.191007-0143.19h2_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/e7e91d01-5219-4049-878f-e4382db736ca/18363.418.191007-0143.19h2_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1909 商业版 (18363.418)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/3647588a-da77-4c01-b560-db35508c3d79/18363.418.191007-0143.19h2_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/93666d1d-5e42-45fe-b805-52b0e3f2e412/18363.418.191007-0143.19h2_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/4bae5b2f-c937-4074-9fd7-49eee5042056/18363.418.191007-0143.19h2_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1909 消费者版 (18363.356)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2019/09/18363.356.190918-2052.19h2_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_7a5a2d320b3e98e9539e8af6b11959d7f9b4f408.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2019/09/18363.356.190918-2052.19h2_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_d5333cd2461a84431c12281381e0575ad1614585.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1909 商业版 (18363.356)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2019/09/18363.356.190918-2052.19h2_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_bd932d373cf22fbd3d4556b2571c169eff32a008.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2019/09/18363.356.190918-2052.19h2_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_d6af57d9b2841768c03b0694d72e80ddbe616baf.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2019/09/18363.356.190918-2052.19h2_release_svc_refresh_clientbusiness_vol_a64fre_zh-cn_60f7a9e4eebf4bc9fb01af225f955227ccee775d.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 消费者版 (18362.356)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/a58029a0-5c31-4f08-84c5-ab4bfb5ff80f/18362.356.190909-1636.19h1_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/619bc751-359c-4579-83b3-3063a8e14c3e/18362.356.190909-1636.19h1_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/5a4065e1-1d95-4909-b8cb-16d3ca2f0ec2/18362.356.190909-1636.19h1_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 商业版 (18362.356)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/dd12c150-c011-46f6-aa72-884ed46ac15b/18362.356.190909-1636.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/dc658713-353d-47cb-9d2b-50a2b6841edb/18362.356.190909-1636.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/f2494a76-9aa7-4e40-9bd9-695cc1370ecf/18362.356.190909-1636.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 消费者版 (18362.295)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/e9059782-04d1-4748-adc4-8506b935af5a/18362.295.190809-2228.19h1_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/6dcdc639-5d00-41c7-ac80-b3cc0fe939e0/18362.295.190809-2228.19h1_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/7dbb55c9-9b88-48c0-9e0a-5eca88e3f85f/18362.295.190809-2228.19h1_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 商业版 (18362.295)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/5208992d-47bf-4c4c-b14f-20cf575c4662/18362.295.190809-2228.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/c33f408f-2bc9-4be6-a56a-9775733c372d/18362.295.190809-2228.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/8cf9fd82-e7b9-4564-a4a3-a81518798447/18362.295.190809-2228.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 消费者版 (18362.239)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/437d401a-1a81-493c-a5c2-5509d6a86a65/18362.239.190709-0052.19h1_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/26feaa4f-e4a8-470a-812d-fe66343113de/18362.239.190709-0052.19h1_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/5613bdb4-c66d-458f-997a-46f3cd67b252/18362.239.190709-0052.19h1_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 商业版 (18362.239)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/6aa6f731-3614-4450-8438-3d2a0ef8f7b3/18362.239.190709-0052.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/80d38fdb-2ab4-4b12-a3a8-a1e257612da4/18362.239.190709-0052.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/f9716221-d37d-4cce-954b-3e7ff4d87a17/18362.239.190709-0052.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 消费者版 (18362.175)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/97b36b49-e0d6-4799-acc0-e5a1dea5ef16/18362.175.190612-0046.19h1_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/ed920704-34c7-48e7-93fd-d9a7c3fbac44/18362.175.190612-0046.19h1_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/44a1ba84-eb7d-4777-8c78-b1e984b3e048/18362.175.190612-0046.19h1_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 商业版 (18362.175)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/2e39f80b-a073-47ca-b479-13b67f809f88/18362.175.190612-0046.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/b6098bf4-ae1a-4ceb-990c-a844b1e1c365/18362.175.190612-0046.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/a74da82b-7870-4f11-a258-a23967708f52/18362.175.190612-0046.19h1_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 消费者版 (18362.30)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2019/04/18362.30.190401-1528.19h1_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_fc7601c798406e418c03b6aa120a853f742d89ac.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2019/04/18362.30.190401-1528.19h1_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_06868c54f8681347947a0723607e84877982085f.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2019/04/18362.30.190401-1528.19h1_release_svc_refresh_clientconsumer_ret_a64fre_zh-cn_d0e879c297963ef831e4f2f7859f873d79b6963d.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1903 商业版 (18362.30)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2019/04/18362.30.190401-1528.19h1_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_077b5da46b95ed3420a4b132d083056835a734f5.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2019/04/18362.30.190401-1528.19h1_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_00fd078e80554f54563125c87cea70d8c6f453ae.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2019/04/18362.30.190401-1528.19h1_release_svc_refresh_clientbusiness_vol_a64fre_zh-cn_2e424f92ec135d1ffc92c9c854af16303dc04937.esd"
+            }
+        ]
+    }
+]

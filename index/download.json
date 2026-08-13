@@ -1,0 +1,107 @@
+{
+    "iso": [
+        {
+            "name": "正式版",
+            "description": "从官网下载最新正式版 25H2",
+            "url": "https://www.microsoft.com/software-download/windows11"
+        },
+        {
+            "name": "预览版 (Client)",
+            "description": "Windows Insider Preview 镜像",
+            "url": "https://aka.ms/wipiso"
+        },
+        {
+            "name": "预览版 (Server)",
+            "description": "Windows Server Insider Preview 镜像",
+            "url": "https://www.microsoft.com/software-download/windowsinsiderpreviewserver"
+        },
+        {
+            "name": "25H2 RTM",
+            "description": "Windows 11 25H2 RTM (26200.6584)",
+            "url": "https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26200.6584.250915-1905.25h2_ge_release_svc_refresh_CLIENT_CONSUMER_x64FRE_zh-cn.iso"
+        },
+        {
+            "name": "Server 2025",
+            "description": "Windows Server 2025 (26100.32230)",
+            "url": "https://www.microsoft.com/zh-cn/evalcenter/download-windows-server-2025"
+        }
+    ],
+    "self": {
+        "mainline": [
+            {
+                "name": "Client 主线版本",
+                "build": "29639.1000",
+                "semester": "27H1-rubidium",
+                "badge": {
+                    "text": "Exp Next",
+                    "color": "amber"
+                }
+            },
+            {
+                "name": "Server 主线版本",
+                "build": "29641.1000",
+                "semester": "27H1-rubidium",
+                "badge": {
+                    "text": "Canary",
+                    "color": "orange"
+                }
+            }
+        ],
+        "baseline": [
+            {
+                "name": "Bromine (Insider v2)",
+                "build": "28000.7",
+                "semester": "26H1-bromine-betaflt",
+                "badge": {
+                    "text": "Exp 26H1",
+                    "color": "orange"
+                }
+            },
+            {
+                "name": "Bromine (Insider)",
+                "build": "28000.4",
+                "semester": "26H1-bromine-betaflt",
+                "badge": {
+                    "text": "Beta 26H1",
+                    "color": "green"
+                }
+            },
+            {
+                "name": "Bromine",
+                "build": "28000.1",
+                "semester": "26H1-bromine",
+                "badge": {
+                    "text": "正式",
+                    "color": "blue"
+                }
+            },
+            {
+                "name": "Germanium (Insider v2)",
+                "build": "26100.6",
+                "semester": "26H2-germanium-prerel",
+                "badge": {
+                    "text": "Experimental",
+                    "color": "orange"
+                }
+            },
+            {
+                "name": "Germanium (Insider)",
+                "build": "26100.2",
+                "semester": "26H2-germanium-prerel",
+                "badge": {
+                    "text": "Beta",
+                    "color": "green"
+                }
+            },
+            {
+                "name": "Germanium",
+                "build": "26100.1",
+                "semester": "24H2-germanium",
+                "badge": {
+                    "text": "正式",
+                    "color": "blue"
+                }
+            }
+        ]
+    }
+}

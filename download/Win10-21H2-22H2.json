@@ -1,0 +1,292 @@
+[
+    {
+        "name": "Windows 10 22H2 消费者版 (19045.3803)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/04dcfb20-5583-43e7-8be1-30501b0a1c6e/19045.3803.231204-0204.22h2_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/1c0b9500-e99b-4b64-b8a7-920e91e8d09d/19045.3803.231204-0204.22h2_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/bd6b5fe4-348a-4fb1-97e9-297c9136dfc2/19045.3803.231204-0204.22h2_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 商业版 (19045.3803)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/210d7c30-d427-47d9-8e8c-a2abad9d8e5b/19045.3803.231204-0204.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/2c06324f-4fb7-4454-92ad-7787d59851dd/19045.3803.231204-0204.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/26f7d5d6-9508-44b1-94cb-99083bf59319/19045.3803.231204-0204.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 消费者版 (19045.2965)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/74c59178-8a57-4187-b2b3-2eb2dc513313/19045.2965.230505-1139.22h2_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "hhttp://dl.delivery.mp.microsoft.com/filestreamingservice/files/447dbf9f-82c5-4c17-b7f1-0d39a00a02ca/19045.2965.230505-1139.22h2_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/d3b40f55-31c9-4dcc-a2e2-a8596dcf6d56/19045.2965.230505-1139.22h2_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 商业版 (19045.2965)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/62a0eb26-231d-496a-837d-0e9d6943d224/19045.2965.230505-1139.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/ccdec885-2d92-4f41-bc7d-18c62491cdc2/19045.2965.230505-1139.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/4f9fea8d-6bc0-4338-b144-3e078495534e/19045.2965.230505-1139.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 消费者版 (19045.2486)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/ec74591b-2403-4572-b55c-dedfa8bb54ae/19045.2486.230107-0437.22h2_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/54a639b6-cbd7-49d6-a0e9-ba6358d778a6/19045.2486.230107-0437.22h2_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/19b5e91b-045a-4378-9c7c-129efe8c6770/19045.2486.230107-0437.22h2_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 商业版 (19045.2486)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/908eac73-cc42-4fcc-b764-aa9b682b5597/19045.2486.230107-0437.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/c0961cbc-c9d5-4412-9ff5-6f6cd6011d61/19045.2486.230107-0437.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/05fdcfdf-541d-4872-b9a2-bd1b6aae4079/19045.2486.230107-0437.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 消费者版 (19045.2006)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/5fdb4d51-62f0-41bb-9487-d80b18bc11f7/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/324cef54-c8ed-4a59-a661-312965806cf3/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/f28bd0b0-e083-4736-8973-01cbdb5abb20/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 商业版 (19045.2006)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/a6fca105-b105-4b13-b98b-74848e48e3e8/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/2a61a343-b0b7-46e4-8361-0e7f8c9159c1/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/4a179ff2-06af-4312-8834-361f31f1c604/19045.2006.220908-0225.22h2_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 消费者版 (19045.1826)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2022/07/19045.1826.220707-2303.22h2_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_e1e1bcc352f08fda9c50984f6d37a11aaa353ae6.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2022/07/19045.1826.220707-2303.22h2_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_8979af79d58cc4b86b2db9d03c1c2ac38f2424a9.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 22H2 商业版 (19045.1826)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2022/07/19045.1826.220707-2303.22h2_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_5837a78142662d575f9aded68a797a5c2bc28891.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2022/07/19045.1826.220707-2303.22h2_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_8bc319a0df1430ad79e4082105631609262cd996.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2022/07/19045.1826.220707-2303.22h2_release_svc_refresh_clientbusiness_vol_a64fre_zh-cn_164f35e73451c6f03501c20f48ad071f853dbd25.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 21H2 消费者版 (19044.1706)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2022/05/19044.1706.220505-0136.21h2_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_27b266f5552c6ad2658e6b6c80277fa4854b8200.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2022/05/19044.1706.220505-0136.21h2_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_82e43d6b90640064adf2c493f14ece2603905901.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 21H2 商业版 (19044.1706)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2022/05/19044.1706.220505-0136.21h2_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_f410768fc7e48cd1d455bc46ebcc6038d9c22691.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2022/05/19044.1706.220505-0136.21h2_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_6fb200703b554a3a8759d8c6e1932633cdb94fee.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2022/05/19044.1706.220505-0136.21h2_release_svc_refresh_clientbusiness_vol_a64fre_zh-cn_2cd5d6b59560c6ca0c4d0c297f5e5da13c32561f.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 21H2 消费者版 (19044.1586)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/e67d7b10-7880-4f17-9dcd-471a1bf8b9f3/19044.1586.220303-0721.21h2_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/ce8f4e13-aca8-448f-a8cb-f83ea9c9cd90/19044.1586.220303-0721.21h2_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/0a263cc8-1735-46ea-afc4-e0c6535ae4e3/19044.1586.220303-0721.21h2_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 21H2 商业版 (19044.1586)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/f505c6b5-3efc-488a-8176-5d964991179e/19044.1586.220303-0721.21h2_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/608864f1-c446-415f-9afc-64dde8052af4/19044.1586.220303-0721.21h2_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/687cb4c5-a54f-484d-996e-f0e765adc911/19044.1586.220303-0721.21h2_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 21H2 消费者版 (19044.1288)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2021/11/19044.1288.211006-0501.21h2_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_5fe2638a56881146604943778e25dc2e76735310.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2021/11/19044.1288.211006-0501.21h2_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_f952e365a229be9694a2bce70ee130dfc7bdaf9b.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 21H2 商业版 (19044.1288)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2021/11/19044.1288.211006-0501.21h2_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_9342a95fb06b238cecde1c6485d3e9bdd5b67937.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2021/11/19044.1288.211006-0501.21h2_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_4f605b854f47cb16a99c66988fcbcba540eb5181.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2021/11/19044.1288.211006-0501.21h2_release_svc_refresh_clientbusiness_vol_a64fre_zh-cn_067357b066bdd9fb3608f1f61c9f15fb4dc56cb3.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 21H2 消费者版 (19044.1165)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2021/09/19044.1165.210806-1742.21h2_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_b3bf39da71b54027ec3d6698803b8429393de608.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2021/09/19044.1165.210806-1742.21h2_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_c42be1e846b92cb66894cc57d63107f68b1b5549.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 21H2 商业版 (19044.1165)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2021/09/19044.1165.210806-1742.21h2_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_d262ad930f0f5554a061d2cb77ce3d305a3a65c0.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2021/09/19044.1165.210806-1742.21h2_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_d26a5e87bb96535b3704d671c69aab338925f2e1.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2021/09/19044.1165.210806-1742.21h2_release_svc_refresh_clientbusiness_vol_a64fre_zh-cn_8adde4176ff39449241c16489fa5f20b4c1e65b6.esd"
+            }
+        ]
+    }
+]

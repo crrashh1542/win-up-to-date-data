@@ -1,0 +1,187 @@
+[
+    {
+        "name": "Windows 10 1809 消费者版 (17763.379)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2019/03/17763.379.190312-1352.rs5_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_ba1b05d32b87142ec716ddb99dcf083c91f021f8.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/d/upgr/2019/03/17763.379.190312-1352.rs5_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_207f978443d75d0adfdce8e9c8eb2eae3b65faec.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1809 商业版 (17763.379)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2019/03/17763.379.190312-1352.rs5_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_5d3cf9882443fab65ebc7fe2e1f0bb94752574fe.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://b1.download.windowsupdate.com/c/upgr/2019/03/17763.379.190312-1352.rs5_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_10adcdc914332820e4d26cc157ad01c6a291a8ac.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1809 消费者版 (17763.253)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/632c523e-fccf-4dc1-ac4a-f32eacc2c687/17763.253.190108-0006.rs5_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/fe258d08-631b-470c-b273-b3846f9ad9f9/17763.253.190108-0006.rs5_release_svc_refresh_CLIENTCONSUMER_RET_x86FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/3640bb1f-2ae3-482d-9efd-fd80a035c950/17763.253.190108-0006.rs5_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1809 商业版 (17763.253)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/04e7cf0f-18f9-470f-b5e4-caeb52d3131d/17763.253.190108-0006.rs5_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/6933c81b-1ad8-463e-95db-e08cd573e637/17763.253.190108-0006.rs5_release_svc_refresh_CLIENTBUSINESS_VOL_x86FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1809 消费者版 (17763.107)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/11/17763.107.101029-1455.rs5_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_ff25cc7118b470a71966c973cd68e24d4f7df30a.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/11/17763.107.101029-1455.rs5_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_33d17f983288e50e2c7f8f8d850ecda18cd1a7e4.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/11/17763.107.101029-1455.rs5_release_svc_refresh_clientconsumer_ret_a64fre_zh-cn_d8c92310e75ca66dd7f293fbfeb5db8f27bcc534.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1809 商业版 (17763.107)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/11/17763.107.101029-1455.rs5_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_a4991f267f93943292dad5c66eaa4796bd859279.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/11/17763.107.101029-1455.rs5_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_c1f870502498090cd581c547a0bed90dd1473a0a.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1809 消费者版 (17763.1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/09/17763.1.180914-1434.rs5_release_clientconsumer_ret_x64fre_zh-cn_1a644e45bd9b1b88b45a7d345d5b63ca589813e4.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/09/17763.1.180914-1434.rs5_release_clientconsumer_ret_x86fre_zh-cn_54b4a7b7733479a4e4da0878bcf6908256488bbb.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/09/17763.1.180914-1434.rs5_release_clientconsumer_ret_a64fre_zh-cn_1787f1e65b6718275a14d2186b30ca38168cc925.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1809 商业版 (17763.1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2018/09/17763.1.180914-1434.rs5_release_clientbusiness_vol_x64fre_zh-cn_a37dc7f616f37aa1f7a775b68144ad474086e190.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2018/09/17763.1.180914-1434.rs5_release_clientbusiness_vol_x86fre_zh-cn_0266fc282ac1abf80f41f1e1c5c549683095e224.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1809 LTSC 评估版 (17763.1, ISO)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "https://software-download.microsoft.com/download/pr/17763.1.180914-1434.rs5_release_CLIENT_LTSC_EVAL_x64FRE_zh-cn.iso"
+            },
+            {
+                "name": "x86",
+                "url": "https://software-download.microsoft.com/download/pr/17763.1.180914-1434.rs5_release_CLIENT_LTSC_EVAL_x86FRE_zh-cn.iso"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1803 消费者版 (17134.112)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/07/17134.112.180619-1212.rs4_release_svc_refresh_clientconsumer_ret_x64fre_zh-cn_0112a4f37d2e8c5bb849d61bc83b34469cc341b7.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/07/17134.112.180619-1212.rs4_release_svc_refresh_clientconsumer_ret_x86fre_zh-cn_7f8593d566694e30cb4f79f0750801d946ed1c61.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/07/17134.112.180619-1212.rs4_release_svc_refresh_clientconsumer_ret_a64fre_zh-cn_ed51ac39f0bdd1cc02beeed7a1323e6a62269e22.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1803 商业版 (17134.112)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2018/07/17134.112.180619-1212.rs4_release_svc_refresh_clientbusiness_vol_x64fre_zh-cn_fa91517476e679b3e815ba9429e3fc78c2061036.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2018/07/17134.112.180619-1212.rs4_release_svc_refresh_clientbusiness_vol_x86fre_zh-cn_c697e9d945bb9a8bf63b640c777726350be85c4c.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1803 消费者版 (17134.1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2018/04/17134.1.180410-1804.rs4_release_clientconsumer_ret_x64fre_zh-cn_3571ad559ed85ff28889671984c46b3939c00255.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/c/Upgr/2018/04/17134.1.180410-1804.rs4_release_clientconsumer_ret_x86fre_zh-cn_5aa044757d64492bb3de8a6995deacabc21d11f8.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 1803 商业版 (17134.1)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/04/17134.1.180410-1804.rs4_release_clientbusiness_vol_x64fre_zh-cn_4aa8fe6b27eb0ea1eb49b04867d3cab7ca9b3bdd.esd"
+            },
+            {
+                "name": "x86",
+                "url": "http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/04/17134.1.180410-1804.rs4_release_clientbusiness_vol_x86fre_zh-cn_082e2466d6c169e0ca10a69950007b8ab0cbe4f5.esd"
+            }
+        ]
+    }
+]
