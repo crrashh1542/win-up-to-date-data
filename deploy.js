@@ -8,7 +8,7 @@ const https = require('https')
 const fs = require('fs')
 const path = require('path')
 
-const BASE_URL = 'https://wutd.crrashh.com/v1'
+const BASE_URL = 'https://wutd.crrashh.com/v2'
 const DEPLOY_PATH = '/admin/deploy'
 
 function deploy(zipPath, token) {
