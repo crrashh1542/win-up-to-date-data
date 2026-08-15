@@ -11,7 +11,7 @@ echo {"hash":"%hash%","date":"%vdate%"}> %cd%\version.json
 
 set filename=data-r%count%-%hash%-%date:~5,2%%date:~8,2%%date:~11,2%
 
-"%PROGRAMFILES%\Bandizip\bz.exe" c %cd%\%filename%.zip %cd%\category\ %cd%\detail\ %cd%\viveid\ %cd%\index\ %cd%\index\ %cd%\version.json
+"%PROGRAMFILES%\Bandizip\bz.exe" c %cd%\%filename%.zip %cd%\category\ %cd%\detail\ %cd%\viveid\ %cd%\index\ %cd%\download\ %cd%\version.json
 
 if "%~1"=="-l" (
     goto :eof
