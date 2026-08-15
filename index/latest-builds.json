@@ -67,22 +67,22 @@
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26200.9168",
-                "branch": "25h2_ge_release_svc_prod1",
+                "version": "26200.9267",
+                "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-08-11"
+                "date": "2026-08-14"
             },
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26100.9168",
-                "branch": "ge_release_svc_prod1",
+                "version": "26100.9267",
+                "branch": "ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
-                "date": "2026-08-11"
+                "date": "2026-08-14"
             }
         ]
     },
@@ -125,7 +125,7 @@
                 "channel": "24H2",
                 "color": "blue",
                 "version": "26100.9168",
-                "branch": "24h2_ge_release_svc_prod1",
+                "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
