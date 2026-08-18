@@ -16,6 +16,10 @@
         "previous": {
             "category": "27H1-rubidium",
             "build": "29639.1000"
+        },
+        "next": {
+            "category": "27H1-rubidium",
+            "build": "29648.1000"
         }
     },
     "belongsTo": {
@@ -27,10 +31,6 @@
         "name": "Windows_InsiderPreview_Server_vNext_zh-cn_29641_1000.iso",
         "size": "5.47 GB",
         "link": [
-            {
-                "url": "https://p0-fsb.api.crrashh.com/u/010000fb785",
-                "source": "豆包云盘"
-            },
             {
                 "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQB4xKvZWZBaQZwMBCNvOmzpAZb9uSxL3TRi0XZMJa3wxd4",
                 "source": "OneDrive"
