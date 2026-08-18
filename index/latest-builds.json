@@ -57,12 +57,12 @@
             {
                 "channel": "Beta",
                 "color": "green",
-                "version": "26220.9022",
+                "version": "26220.9202",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
                 "semester": "25H2",
-                "date": "2026-07-31"
+                "date": "2026-08-17"
             },
             {
                 "channel": "发布预览",
