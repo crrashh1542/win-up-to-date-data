@@ -394,7 +394,7 @@
         ]
     },
     {
-        "category":"Windows 10",
+        "category": "Windows 10",
         "id": "10",
         "icon": "windows10",
         "platforms": [
@@ -409,7 +409,7 @@
                         "continued": true,
                         "tag": [
                             {
-                                "name": "RP",
+                                "name": "ESU",
                                 "color": "purple"
                             },
                             {
@@ -523,6 +523,149 @@
                             {
                                 "name": "LTSC",
                                 "color": "teal"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Server",
+        "id": "server",
+        "icon": "server",
+        "platforms": [
+            {
+                "name": "Server vNext",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "27H1",
+                        "category": "27H1-rubidium",
+                        "latestBuild": "29641.1000",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Canary",
+                                "color": "amber"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Server 2025",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "24H2",
+                        "category": "24H2-germanium-server",
+                        "latestBuild": "26100.33296",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "LTSC",
+                                "color": "teal"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Server 23H2",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "23H2",
+                        "latestBuild": "25398.2330",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "正式",
+                                "color": "blue"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Server 2022",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "22H2",
+                        "latestBuild": "20349.5499",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "LTSC",
+                                "color": "teal"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Server 2019",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "2019",
+                        "latestBuild": "17763.9121",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "LTSC",
+                                "color": "teal"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Server 2016",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "2016",
+                        "latestBuild": "14393.9418",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "LTSB",
+                                "color": "teal"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Server 2012 R2",
+                "multi": false,
+                "items": [
+                    {
+                        "name": "default",
+                        "semester": "2012",
+                        "latestBuild": "9600.18258",
+                        "continued": false,
+                        "tag": [
+                            {
+                                "name": "ESU",
+                                "color": "purple"
+                            },
+                            {
+                                "name": "正式",
+                                "color": "blue"
                             }
                         ]
                     }
