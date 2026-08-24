@@ -6,8 +6,8 @@
     "range": ["27691", "27788"],
     "nav": {
         "previous": {
-            "path": "25H2-germanium-betaflt",
-            "name": "Germanium (25H2 Betaflt)"
+            "path": "25H1-dilithium",
+            "name": "Dilithium"
         },
         "next": {
             "path": "26H1-bromine",

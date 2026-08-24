@@ -6,12 +6,12 @@
     "range": ["26200.5510", null],
     "nav": {
         "previous": {
-            "path": "25H1-dilithium",
-            "name": "Dilithium"
+            "path": "24H2-germanium-upstream",
+            "name": "Germanium (Upstream)"
         },
         "next": {
-            "path": "26H1-bromine",
-            "name": "Bromine"
+            "path": "25H2-germanium-betaflt",
+            "name": "Germanium (25H2 Betaflt)"
         }
     },
     "list": [
