@@ -1,0 +1,58 @@
+{
+    "build": {
+        "number": "28000.2804",
+        "branch": "br_release_svc_prod3",
+        "compileTime": "2026-08-24 21:44",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-08-27 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/08/kb5120996-windows-11-26h1-update",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.2796"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [
+        {
+            "arch": "AMD64 (1)",
+            "id": "8f595bc2-11e8-4b7d-91e0-c457277db89e"
+        },
+        {
+            "arch": "AMD64 (2)",
+            "id": "a75ef0ad-5dab-461e-a0a0-24cf7b3ee0e8"
+        },
+        {
+            "arch": "ARM64 (1)",
+            "id": "deee09e7-795b-4ac6-ad80-a8680e97908d"
+        },
+        {
+            "arch": "ARM64 (2)",
+            "id": "565031a5-7ba7-4b18-b986-854749de9248"
+        }
+    ],
+    "download": [{
+        "name": "Windows11.0-KB5120996-x64.msu",
+        "size": "3.75 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4ce67b18-2d9e-4292-8fec-e1cfc28ffc1d/public/windows11.0-kb5120996-x64_54fe3a29356b012c25345c9d4593363e0f9f2568.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "aed9cf2bb3fbc2b51898e0f814d6818c",
+        "sha256": "113d88885abc6bd1106bc4a74fb8a0fb6679af80d699c06c8d2e46f62c182d19"
+    }]
+}
