@@ -16,6 +16,10 @@
         "previous": {
             "category": "27H1-rubidium",
             "build": "29641.1000"
+        },
+        "next": {
+            "category": "27H1-rubidium",
+            "build": "29651.1000"
         }
     },
     "belongsTo": {
