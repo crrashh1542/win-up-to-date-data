@@ -26,18 +26,27 @@
         "path": "27H1-rubidium",
         "name": "Rubidium"
     },
-    "updateId": [],
+    "updateId": [
+        {
+            "arch": "AMD64",
+            "id": "62eb4764-322d-4080-a008-aeaa54d2ff4e"
+        }
+    ],
     "download": [{
-        "name": "Windows_InsiderPreview_Server_vNext_zh-cn_29641_1000.iso",
-        "size": "5.47 GB",
+        "name": "29641.1000.260729-1515.rs_flight_SERVER_X64FRE_zh-cn.iso",
+        "size": "4.49 GB",
         "link": [
             {
-                "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQB4xKvZWZBaQZwMBCNvOmzpAZb9uSxL3TRi0XZMJa3wxd4",
+                "url": "https://p0-fsb.api.crrashh.com/u/010000fb785",
+                "source": "豆包云盘"
+            },
+            {
+                "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQA1S9E8p6pYQr5_j9GGPMvQAQijz_xZYTXvOlMSTF307-c",
                 "source": "OneDrive"
             }
         ],
         "arch": "AMD64",
-        "md5": "9162b767b5fcc1eddd741ae834ed4359",
-        "sha256": "31c34a06927a6580cea5ba489638f23d74437b75164e76941a5e9c1272b5283d"
+        "md5": "ed87ea092efadff70a60f851307f7c7f",
+        "sha256": "a451a7751ee18aa594c55a52cf8e84a146a68185f81b5f4e5dbfc6f27105b0fe"
     }]
 }
