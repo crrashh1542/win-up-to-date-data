@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.9278",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2026-08-24 21:19",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-08-27 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/08/kb5120998-windows-11-24h2-25h2-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.9267"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "d922b79f-142d-4cf8-896b-515abfd01e66"
+    },
+    {
+        "arch": "ARM64",
+        "id": "bd00afed-db83-4448-a3b3-29c773d9378c"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5120998-x64.msu",
+        "size": "4.35 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/7416ff4e-4741-42fb-a16b-0a92e2dfc42b/public/windows11.0-kb5120998-x64_5cdebefaecf780c7487e56a0d5472830a24a673a.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "d8909b0d847c8d3ffc56b7ca6a516fcd",
+        "sha256": "6cf05dcd2fbc5d4b759d3b716d8e4df9b5570c29d18701ea56a7e2068db9d9fa"
+    }]
+}

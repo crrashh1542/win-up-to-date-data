@@ -44,10 +44,10 @@
             },
             {
                 "name": "Germanium (26H2)",
-                "multi": false,
+                "multi": true,
                 "items": [
                     {
-                        "name": "default",
+                        "name": "Germanium (Prerelease)",
                         "semester": "26H2",
                         "category": "26H2-germanium-prerel",
                         "latestBuild": "26340.9233",
@@ -56,6 +56,19 @@
                             {
                                 "name": "Experimental",
                                 "color": "orange"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Germanium",
+                        "semester": "26H2",
+                        "category": "26H2-germanium",
+                        "latestBuild": "26300.9278",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "RP",
+                                "color": "purple"
                             }
                         ]
                     }
@@ -154,7 +167,7 @@
                         "name": "Germanium",
                         "semester": "25H2",
                         "category": "25H2-germanium",
-                        "latestBuild": "26200.9267",
+                        "latestBuild": "26200.9278",
                         "continued": true,
                         "tag": [
                             {
@@ -226,7 +239,7 @@
                         "name": "Germanium",
                         "semester": "24H2",
                         "category": "24H2-germanium",
-                        "latestBuild": "26100.9267",
+                        "latestBuild": "26100.9278",
                         "continued": true,
                         "tag": [
                             {

@@ -1,0 +1,20 @@
+{
+    "name": "Germanium (26H2)",
+    "codename": "Germanium",
+    "belonging": "Windows 11",
+    "semester": "26H2",
+    "range": [26300.9278, null],
+    "nav": {
+        "previous": {
+            "path": "25H2-germanium-betaflt",
+            "name": "Germanium (25H2 Betaflt)"
+        },
+        "next": {
+            "path": "26H2-germanium-prerel",
+            "name": "Germanium (Prerelease)"
+        }
+    },
+    "list": [
+        ["26300.9278", "2026-08-27"]
+    ]
+}
