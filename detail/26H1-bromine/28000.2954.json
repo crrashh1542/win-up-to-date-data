@@ -1,0 +1,50 @@
+{
+    "build": {
+        "number": "28000.2954",
+        "branch": "br_release_svc_prod1",
+        "compileTime": "2026-09-04 18:48",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-09-08 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/09/kb5124012-windows-11-26h1-security-update",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.2804"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [
+        {
+            "arch": "AMD64",
+            "id": "5796bc0a-4927-4b3c-bc57-109c22b50ca4"
+        },
+        {
+            "arch": "ARM64",
+            "id": "66b788a0-2cfb-40c4-b58c-82e345ce99bf"
+        }
+    ],
+    "download": [{
+        "name": "Windows11.0-KB5124012-x64.msu",
+        "size": "3.73 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/c0f9948f-d30a-4c3b-af27-08323e66a2ce/public/windows11.0-kb5124012-x64_85abefda703d7f250fe73babfe784f826682e284.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "214b6884e2f95403b1bdaccb1803b6df",
+        "sha256": "be8c1df225ea050cb8dcbd9a3bf13669a595991608b5f59ac3189cc313681056"
+    }]
+}
