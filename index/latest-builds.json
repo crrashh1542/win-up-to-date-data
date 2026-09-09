@@ -57,12 +57,12 @@
             {
                 "channel": "Beta",
                 "color": "green",
-                "version": "26220.9223",
+                "version": "26220.9343",
                 "branch": "ge_release_svc_betaflt_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium-betaflt",
                 "semester": "25H2",
-                "date": "2026-08-21"
+                "date": "2026-09-08"
             },
             {
                 "channel": "发布预览",
@@ -205,9 +205,9 @@
                 "color": "amber",
                 "version": "29651.1000",
                 "branch": "rs_flight",
-                "codename": "Krypton",
-                "category": "26H2-krypton",
-                "semester": "26H2",
+                "codename": "Rubidium",
+                "category": "27H1-rubidium",
+                "semester": "27H1",
                 "date": "2026-08-24"
             },
             {
