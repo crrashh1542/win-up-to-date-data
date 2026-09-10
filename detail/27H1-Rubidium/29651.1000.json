@@ -16,6 +16,10 @@
         "previous": {
             "category": "27H1-rubidium",
             "build": "29648.1000"
+        },
+        "next": {
+            "category": "27H1-rubidium",
+            "build": "29661.1000"
         }
     },
     "belongsTo": {
@@ -29,7 +33,7 @@
         }
     ],
     "download": [{
-        "name": "29651.1000.260812-1413.rs_flight_SERVER_X64FRE_zh-cn",
+        "name": "29651.1000.260812-1413.rs_flight_SERVER_X64FRE_zh-cn.iso",
         "size": "4.52 GB",
         "link": [
             {
