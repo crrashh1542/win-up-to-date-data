@@ -25,7 +25,11 @@
     "updateId": [
         {
             "arch": "AMD64",
-            "id": "bde51667-3b56-4db5-9363-13c302bff158"
+            "id": "5a916774-d166-4271-b5a9-e0aa04ca3ce8"
+        },
+        {
+            "arch": "ARM64",
+            "id": "487e454c-7cdb-4841-a0ba-49412ceea24b"
         }
     ],
     "download": [{
