@@ -67,32 +67,32 @@
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26300.9278",
-                "branch": "26h2_ge_release_svc_prod3",
+                "version": "26300.9445",
+                "branch": "26h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "26H2-germanium",
                 "semester": "26H2",
-                "date": "2026-08-27"
+                "date": "2026-09-08"
             },
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26200.9278",
-                "branch": "25h2_ge_release_svc_prod3",
+                "version": "26200.9445",
+                "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-08-27"
+                "date": "2026-09-08"
             },
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26100.9278",
-                "branch": "ge_release_svc_prod3",
+                "version": "26100.9445",
+                "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
-                "date": "2026-08-27"
+                "date": "2026-09-08"
             }
         ]
     },
@@ -114,32 +114,32 @@
             {
                 "channel": "25H2",
                 "color": "blue",
-                "version": "26200.9168",
+                "version": "26200.9445",
                 "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-08-11"
+                "date": "2026-09-08"
             },
             {
                 "channel": "CloudPC OS",
                 "color": "blue",
-                "version": "26200.9168",
+                "version": "26200.9445",
                 "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-08-11"
+                "date": "2026-09-08"
             },
             {
                 "channel": "24H2",
                 "color": "blue",
-                "version": "26100.9168",
+                "version": "26100.9445",
                 "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
-                "date": "2026-08-11"
+                "date": "2026-09-08"
             },
             {
                 "channel": "23H2",
