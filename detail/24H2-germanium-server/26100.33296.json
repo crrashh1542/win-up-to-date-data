@@ -1,6 +1,6 @@
 {
     "build": {
-        "number": "26100.33158",
+        "number": "26100.33296",
         "branch": "lt_release_svc_prod1",
         "compileTime": "2026-08-08 06:24",
         "arch": ["AMD64", "ARM64"],
@@ -18,8 +18,8 @@
             "build": "26100.33158"
         },
         "next": {
-            "category": "24H2-germanium-upstream",
-            "build": "26200.5001"
+            "category": "24H2-germanium-server",
+            "build": "26100.33438"
         }
     },
     "belongsTo": {
