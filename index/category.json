@@ -273,7 +273,7 @@
                     {
                         "name": "Nickel",
                         "semester": "23H2",
-                        "latestBuild": "22631.7517",
+                        "latestBuild": "22631.7582",
                         "continued": true,
                         "tag": [
                             {
@@ -418,7 +418,7 @@
                     {
                         "name": "default",
                         "semester": "22H2",
-                        "latestBuild": "19045.7663",
+                        "latestBuild": "19045.7725",
                         "continued": true,
                         "tag": [
                             {
@@ -440,7 +440,7 @@
                     {
                         "name": "default",
                         "semester": "21H2",
-                        "latestBuild": "19044.7663",
+                        "latestBuild": "19044.7725",
                         "continued": true,
                         "tag": [
                             {
@@ -512,7 +512,7 @@
                     {
                         "name": "default",
                         "semester": "1809",
-                        "latestBuild": "17763.9121",
+                        "latestBuild": "17763.9245",
                         "continued": true,
                         "tag": [
                             {
@@ -530,7 +530,7 @@
                     {
                         "name": "default",
                         "semester": "1607",
-                        "latestBuild": "14393.9418",
+                        "latestBuild": "14393.9512",
                         "continued": true,
                         "tag": [
                             {
@@ -556,7 +556,7 @@
                         "name": "default",
                         "semester": "27H1",
                         "category": "27H1-rubidium",
-                        "latestBuild": "29661.1000",
+                        "latestBuild": "29651.1000",
                         "continued": true,
                         "tag": [
                             {
@@ -615,7 +615,7 @@
                     {
                         "name": "default",
                         "semester": "22H2",
-                        "latestBuild": "20349.5499",
+                        "latestBuild": "20349.5622",
                         "continued": true,
                         "tag": [
                             {
@@ -633,7 +633,7 @@
                     {
                         "name": "default",
                         "semester": "2019",
-                        "latestBuild": "17763.9121",
+                        "latestBuild": "17763.9245",
                         "continued": true,
                         "tag": [
                             {
@@ -651,7 +651,7 @@
                     {
                         "name": "default",
                         "semester": "2016",
-                        "latestBuild": "14393.9418",
+                        "latestBuild": "14393.9512",
                         "continued": true,
                         "tag": [
                             {
