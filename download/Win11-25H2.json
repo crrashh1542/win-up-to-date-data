@@ -1,5 +1,31 @@
 [
     {
+        "name": "Windows 11 25H2 消费者版 (26200.9445)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/775251a8-9701-440b-b946-ab5c3824236e/26200.9445.260908-0406.25h2_ge_release_svc_refresh_CLIENTCONSUMER_RET_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/af7aa7b3-867f-4085-a2e5-3cfe90566c57/26200.9445.260908-0406.25h2_ge_release_svc_refresh_CLIENTCONSUMER_RET_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
+        "name": "Windows 11 25H2 商业版 (26200.9445)",
+        "links": [
+            {
+                "name": "AMD64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/87aaec38-9b96-452b-93aa-5008265eede8/26200.9445.260908-0406.25h2_ge_release_svc_refresh_CLIENTBUSINESS_VOL_x64FRE_zh-cn.esd"
+            },
+            {
+                "name": "ARM64",
+                "url": "http://dl.delivery.mp.microsoft.com/filestreamingservice/files/fe192fbe-17f1-43b7-a435-06e93a9e697f/26200.9445.260908-0406.25h2_ge_release_svc_refresh_CLIENTBUSINESS_VOL_A64FRE_zh-cn.esd"
+            }
+        ]
+    },
+    {
         "name": "Windows 11 25H2 消费者版 (26200.9168)",
         "links": [
             {
