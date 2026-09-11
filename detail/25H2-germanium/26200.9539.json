@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "26200.9539",
+        "branch": "25h2_ge_release_svc_prod3",
+        "compileTime": "2026-09-07 18:19",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-09-10 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/release-preview-24h2-25h2/build-26100-9539-26200-9539",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium",
+            "build": "26200.9445"
+        },
+        "next": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.5770"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium",
+        "name": "Germanium (25H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "b0605a8c-92ae-456c-b47c-81d48eae5f47"
+    },
+    {
+        "arch": "ARM64",
+        "id": "4b332f38-07ca-47f9-98af-48e8a1f41b3e"
+    }],
+    "download": []
+}

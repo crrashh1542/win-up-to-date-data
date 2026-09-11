@@ -18,13 +18,13 @@
             "build": "26300.9278"
         },
         "next": {
-            "category": "26H2-germanium-prerel",
-            "build": "26100.2"
+            "category": "26H2-germanium",
+            "build": "26300.9539"
         }
     },
     "belongsTo": {
-        "path": "26H2-germanium-prerel",
-        "name": "Germanium (Prerelease)"
+        "path": "26H2-germanium",
+        "name": "Germanium (26H2 EKB)"
     },
     "updateId": [{
         "arch": "AMD64",
