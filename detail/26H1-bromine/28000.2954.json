@@ -10,7 +10,7 @@
         "channel": "General",
         "time": "2026-09-08 17:00",
         "url": "https://support.microsoft.com/servicing/os/windows-11/2026/09/kb5124012-windows-11-26h1-security-update",
-        "announcePlace": "Microsoft Learn"
+        "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
@@ -18,8 +18,8 @@
             "build": "28000.2804"
         },
         "next": {
-            "category": "26H1-bromine-betaflt",
-            "build": "28000.4"
+            "category": "26H1-bromine",
+            "build": "28000.3079"
         }
     },
     "belongsTo": {
