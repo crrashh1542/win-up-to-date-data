@@ -30,7 +30,7 @@
         "mainline": [
             {
                 "name": "Client 主线版本",
-                "build": "29661.1000",
+                "build": "29667.1000",
                 "semester": "27H1-rubidium",
                 "badge": {
                     "text": "Exp Next",

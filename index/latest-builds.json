@@ -7,12 +7,12 @@
             {
                 "channel": "Exp Next",
                 "color": "amber",
-                "version": "29661.1000",
+                "version": "29667.1000",
                 "branch": "rs_prerelease",
                 "codename": "Rubidium",
                 "category": "27H1-rubidium",
                 "semester": "27H1",
-                "date": "2026-09-08"
+                "date": "2026-09-11"
             },
             {
                 "channel": "Exp 26H1",
@@ -22,7 +22,7 @@
                 "codename": "Bromine",
                 "category": "26H1-bromine-prerel",
                 "semester": "26H1",
-                "date": "2026-09-08"
+                "date": "2026-09-11"
             },
             {
                 "channel": "Beta 26H1",
@@ -32,7 +32,7 @@
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
                 "semester": "26H1",
-                "date": "2026-09-08"
+                "date": "2026-09-11"
             },
             {
                 "channel": "发布预览",
