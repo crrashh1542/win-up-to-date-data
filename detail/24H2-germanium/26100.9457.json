@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.9457",
+        "branch": "ge_release_svc_im",
+        "compileTime": "2026-09-12 04:09",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-09-14 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/09/kb5129195-windows-11-24h2-25h2-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.9445"
+        },
+        "next": {
+            "category": "24H2-germanium",
+            "build": "26100.9539"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "433def8f-9a27-4afc-bad5-e024c9cd5363"
+    },
+    {
+        "arch": "ARM64",
+        "id": "11a79ad8-a26e-4deb-964e-f65231c110be"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5129195-x64.msu",
+        "size": "4.32 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/471c8f54-b9fc-491d-9944-234d5db009f0/public/windows11.0-kb5129195-x64_ed361878ec2b56a7dfdb8f256565263a7fdc8eaa.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "37b924bfd5aff48df36e98d8a47364e4",
+        "sha256": "b33ff7aab5bbbbb73867f3f5c2f492fe97c0129b96aa1941bc270610d7876dfa"
+    }]
+}
