@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "28000.2954",
-        "branch": "br_release_svc_prod1",
-        "compileTime": "2026-09-04 18:48",
+        "number": "28000.2956",
+        "branch": "br_release_svc_im",
+        "compileTime": "2026-09-12 06:55",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "General",
-        "time": "2026-09-08 17:00",
+        "time": "2026-09-14 17:00",
         "url": "https://support.microsoft.com/servicing/os/windows-11/2026/09/kb5124012-windows-11-26h1-security-update",
         "announcePlace": "Microsoft Support"
     },
     "nav": {
         "previous": {
             "category": "26H1-bromine",
-            "build": "28000.2804"
+            "build": "28000.2954"
         },
         "next": {
             "category": "26H1-bromine",
-            "build": "28000.2956"
+            "build": "28000.3079"
         }
     },
     "belongsTo": {
@@ -29,22 +29,22 @@
     "updateId": [
         {
             "arch": "AMD64",
-            "id": "5796bc0a-4927-4b3c-bc57-109c22b50ca4"
+            "id": "dfc70cae-9c31-49f0-a42c-b337feb729a4"
         },
         {
             "arch": "ARM64",
-            "id": "66b788a0-2cfb-40c4-b58c-82e345ce99bf"
+            "id": "3ef504f8-a287-4265-9831-cee3a8f5dfa4"
         }
     ],
     "download": [{
-        "name": "Windows11.0-KB5124012-x64.msu",
+        "name": "Windows11.0-KB5129194-x64.msu",
         "size": "3.73 GB",
         "link": [{
-            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/c0f9948f-d30a-4c3b-af27-08323e66a2ce/public/windows11.0-kb5124012-x64_85abefda703d7f250fe73babfe784f826682e284.msu",
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/d82c3bd8-a3a6-4d87-bd8e-5df5eb7b6cb2/public/windows11.0-kb5129194-x64_e46546e8472484b91514d74bd6c5c4f6a3b647ac.msu",
             "source": "Microsoft 官方"
         }],
         "arch": "AMD64",
-        "md5": "214b6884e2f95403b1bdaccb1803b6df",
-        "sha256": "be8c1df225ea050cb8dcbd9a3bf13669a595991608b5f59ac3189cc313681056"
+        "md5": "284d78eb1bdf7b09e1f88868ed94a8b3",
+        "sha256": "037b553d0ca3de2ab4a50aedf9dc039992e9c9c7691a86a98d7cf3312bdb2ac3"
     }]
 }
