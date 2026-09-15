@@ -144,11 +144,11 @@
             {
                 "channel": "23H2",
                 "color": "blue",
-                "version": "22631.7582",
-                "branch": "23h2_ni_release_svc_prod1",
+                "version": "22631.7584",
+                "branch": "23h2_ni_release_svc_im",
                 "codename": "Nickel",
                 "semester": "23H2",
-                "date": "2026-09-08"
+                "date": "2026-09-14"
             }
         ]
     },
@@ -160,38 +160,38 @@
             {
                 "channel": "ESU 通道",
                 "color": "teal",
-                "version": "19045.7725",
-                "branch": "22h2_release_svc_prod1",
+                "version": "19045.7727",
+                "branch": "22h2_release_svc_im",
                 "codename": "Vibranium",
                 "semester": "22H2",
-                "date": "2026-09-08"
+                "date": "2026-09-14"
             },
             {
                 "channel": "LTSC (2021)",
                 "color": "teal",
-                "version": "19044.7725",
-                "branch": "21h2_release_svc_prod1",
+                "version": "19044.7727",
+                "branch": "21h2_release_svc_im",
                 "codename": "Vibranium",
                 "semester": "21H2",
-                "date": "2026-09-08"
+                "date": "2026-09-14"
             },
             {
                 "channel": "LTSC (2019)",
                 "color": "teal",
-                "version": "17763.9245",
-                "branch": "rs5_release_svc_prod1",
+                "version": "17763.9247",
+                "branch": "rs5_release_svc_im",
                 "codename": "Redstone",
                 "semester": "1809",
-                "date": "2026-09-08"
+                "date": "2026-09-14"
             },
             {
                 "channel": "LTSB (2016)",
                 "color": "teal",
-                "version": "14393.9512",
+                "version": "14393.9514",
                 "branch": "rs1_release",
                 "codename": "Redstone",
                 "semester": "1607",
-                "date": "2026-09-08"
+                "date": "2026-09-14"
             }
         ]
     },
@@ -232,29 +232,29 @@
             {
                 "channel": "LTSC (2022)",
                 "color": "blue",
-                "version": "20349.5622",
-                "branch": "22h2_fe_release_svc_prod1",
+                "version": "20349.5631",
+                "branch": "22h2_fe_release_svc_im",
                 "codename": "Iron",
                 "semester": "22H2",
-                "date": "2026-09-08"
+                "date": "2026-09-14"
             },
             {
                 "channel": "LTSC (2019)",
                 "color": "teal",
                 "version": "17763.9245",
-                "branch": "rs5_release_svc_prod1",
+                "branch": "rs5_release_svc_im",
                 "codename": "Redstone",
                 "semester": "1809",
-                "date": "2026-09-08"
+                "date": "2026-09-14"
             },
             {
                 "channel": "LTSB (2016)",
                 "color": "teal",
-                "version": "14393.9512",
+                "version": "14393.9514",
                 "branch": "rs1_release",
                 "codename": "Redstone",
                 "semester": "1607",
-                "date": "2026-09-08"
+                "date": "2026-09-14"
             }
         ]
     },
