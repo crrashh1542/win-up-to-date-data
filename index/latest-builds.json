@@ -203,12 +203,12 @@
             {
                 "channel": "预览版 (v.Next)",
                 "color": "amber",
-                "version": "29651.1000",
+                "version": "29659.1000",
                 "branch": "rs_flight",
                 "codename": "Rubidium",
                 "category": "27H1-rubidium",
                 "semester": "27H1",
-                "date": "2026-08-24"
+                "date": "2026-09-09"
             },
             {
                 "channel": "LTSC (2025)",
