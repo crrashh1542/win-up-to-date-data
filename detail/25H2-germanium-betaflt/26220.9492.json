@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "26220.9472",
+        "number": "26220.9492",
         "branch": "ge_release_svc_betaflt_prod1",
-        "compileTime": "2026-09-04 19:24",
+        "compileTime": "2026-09-11 19:39",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Beta",
-        "time": "2026-09-11 17:00",
-        "url": "https://learn.microsoft.com/windows-insider/release-notes/beta/preview-build-26220-9472",
+        "time": "2026-09-18 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/beta/preview-build-26220-9492",
         "announcePlace": "Microsoft Learn"
     },
     "nav": {
         "previous": {
             "category": "25H2-germanium-betaflt",
-            "build": "26220.9343"
+            "build": "26220.9472"
         },
         "next": {
-            "category": "25H2-germanium-betaflt",
-            "build": "26220.9492"
+            "category": "26H2-germanium",
+            "build": "26300.9278"
         }
     },
     "belongsTo": {
@@ -28,11 +28,11 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "ba211ae3-5323-4e1f-b63c-07da5b63ea0f"
+        "id": "d7cd226f-dc7e-4edf-b2ec-bbffc7b975a0"
     },
     {
         "arch": "ARM64",
-        "id": "4d313893-1331-4462-9a5e-c189f1594bb3"
+        "id": "6f144937-ab97-45ce-a93a-b06ee497133b"
     }],
     "download": []
 }
