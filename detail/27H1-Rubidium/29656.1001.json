@@ -1,0 +1,44 @@
+{
+    "build": {
+        "number": "29656.1001",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-08-20 17:23",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "WindowsPE"
+    },
+    "release": {
+        "channel": "Preview",
+        "time": "2026-09-03 17:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "27H1-rubidium",
+            "build": "29651.1000"
+        },
+        "next": {
+            "category": "27H1-rubidium",
+            "build": "29659.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "27H1-rubidium",
+        "name": "Rubidium"
+    },
+    "download": [{
+        "name": "29656.1001.260820-1723.rs_prerelease.WINPE_X64FRE_zh-cn.iso",
+        "size": "585 MB",
+        "link": [
+            {
+                "url": "https://p0-fsb.api.crrashh.com/u/010000246d2",
+                "source": "豆包云盘"
+            },
+            {
+                "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDRSMzOHFlHQoayMcAbANZRAdGZEZWezJydoSKxd9Tycnc",
+                "source": "OneDrive"
+            }
+        ],
+        "arch": "AMD64",
+        "md5": "5e8478e21b1d616168f9f287783a7956",
+        "sha256": "d1568a04ea85af49d057f9eba3abe209d17ff412863f5f36f2987c2b1c7b8f5c"
+    }]
+}
