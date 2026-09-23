@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.9550",
+        "branch": "ge_release_svc_prod3",
+        "compileTime": "2026-09-20 00:13",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-09-22 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/09/kb5124010-windows-11-24h2-25h2-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.9539"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "934aa491-3299-4318-b5f3-3489a1915d83"
+    },
+    {
+        "arch": "ARM64",
+        "id": "c004689e-f068-47f7-85b8-ca8d08497eaf"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5124010-x64.msu",
+        "size": "4.37 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/518df5fb-59fb-43d7-a44f-990e150b948a/public/windows11.0-kb5124010-x64_95a6272121df38221bfafc90b50baa8ec3e5294e.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "174ec9a2789c407e53552c0ea4ea614f",
+        "sha256": "2bb0e126ccede1fb770be74b2d8783ac2f941b4efc7a388fa4a21f7ef699426a"
+    }]
+}
