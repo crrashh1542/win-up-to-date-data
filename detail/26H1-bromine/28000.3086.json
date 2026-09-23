@@ -1,0 +1,50 @@
+{
+    "build": {
+        "number": "28000.3086",
+        "branch": "br_release_svc_prod3",
+        "compileTime": "2026-09-17 17:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Release Preview",
+        "time": "2026-09-22 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/09/kb5124006-windows-11-26h1-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.3079"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [
+        {
+            "arch": "AMD64",
+            "id": "5dfdb50d-719e-4f51-8eb4-1359664188d7"
+        },
+        {
+            "arch": "ARM64",
+            "id": "27c94336-9c4f-4563-b530-46136923ffba"
+        }
+    ],
+    "download": [{
+        "name": "Windows11.0-KB5124006-x64.msu",
+        "size": "3.79 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/a67abd4d-72ff-4eb0-a4b4-29e712e72fea/public/windows11.0-kb5124006-x64_56448acbbbba50d048a8d2cfb9fa5b6aca7ee602.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "d238bd4a7fd9c052fdec0da333e7ab61",
+        "sha256": "91592a70e52205afdb5a6ce3480ac3b40a142d6e4a756f3f88480bd047e3cb71"
+    }]
+}
