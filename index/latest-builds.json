@@ -17,12 +17,12 @@
             {
                 "channel": "Exp 26H1",
                 "color": "orange",
-                "version": "28120.3032",
+                "version": "28120.3122",
                 "branch": "br_prerelease_im",
                 "codename": "Bromine",
                 "category": "26H1-bromine-prerel",
                 "semester": "26H1",
-                "date": "2026-09-18"
+                "date": "2026-09-25"
             },
             {
                 "channel": "Beta 26H1",

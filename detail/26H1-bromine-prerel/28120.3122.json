@@ -1,25 +1,25 @@
 {
     "build": {
-        "number": "28120.3032",
+        "number": "28120.3122",
         "branch": "br_prerelease_im",
-        "compileTime": "2026-09-14 11:08",
+        "compileTime": "2026-09-17 19:06",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
         "channel": "Experimental",
-        "time": "2026-09-18 17:00",
-        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-26-h1/preview-build-28120-3032",
+        "time": "2026-09-25 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-26-h1/preview-build-28120-3122",
         "announcePlace": "Microsoft Learn"
     },
     "nav": {
         "previous": {
             "category": "26H1-bromine-prerel",
-            "build": "28120.3002"
+            "build": "28120.3032"
         },
         "next": {
-            "category": "26H1-bromine-prerel",
-            "build": "28120.3112"
+            "category": "26H2-krypton",
+            "build": "29531.1000"
         }
     },
     "belongsTo": {
@@ -28,11 +28,11 @@
     },
     "updateId": [{
         "arch": "AMD64",
-        "id": "5b2289bf-2e1a-4e85-a716-8263feeb3fe1"
+        "id": "693744e6-e75c-486b-abf6-5f2c2854f0c3"
     },
     {
         "arch": "ARM64",
-        "id": "a7c515dc-5671-4912-9977-f2a99cfc553e"
+        "id": "b16e93d0-e5aa-48ef-9894-f5256b09f8c1"
     }],
     "download": []
 }
