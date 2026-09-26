@@ -47,12 +47,12 @@
             {
                 "channel": "Experimental",
                 "color": "orange",
-                "version": "26340.9502",
+                "version": "26340.9577",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
                 "category": "26H2-germanium-prerel",
                 "semester": "26H2",
-                "date": "2026-09-18"
+                "date": "2026-09-25"
             },
             {
                 "channel": "Beta",
