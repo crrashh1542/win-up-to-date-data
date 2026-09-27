@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Windows Up-to-Date 数据控制台</title>
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --card: #fff;
+      --line: #e3e6ea;
+      --txt: #24292f;
+      --muted: #6a737d;
+      --blue: #0969da;
+      --green: #1a7f37;
+      --red: #cf222e;
+      --amber: #9a6700;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--txt);
+      font: 14px/1.6 "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 16px 60px;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin: 4px 0 16px;
+    }
+
+    h1 small {
+      color: var(--muted);
+      font-weight: normal;
+      font-size: 13px;
+      margin-left: 8px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+
+    .tabs button {
+      border: 1px solid var(--line);
+      background: var(--card);
+      padding: 7px 18px;
+      border-radius: 8px 8px 0 0;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .tabs button.on {
+      background: var(--blue);
+      color: #fff;
+      border-color: var(--blue);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 14px;
+    }
+
+    .card h2 {
+      font-size: 15px;
+      margin: 0 0 12px;
+      color: var(--blue);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 10px 14px;
+    }
+
+    label {
+      display: block;
+      font-size: 12.5px;
+      color: var(--muted);
+      margin-bottom: 3px;
+    }
+
+    label b {
+      color: var(--red);
+      font-weight: normal;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 6px 9px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      font: inherit;
+      background: #fff;
+    }
+
+    input:focus,
+    select:focus {
+      outline: 2px solid #b6d4fe;
+      border-color: var(--blue);
+    }
+
+    .row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+
+    .row input,
+    .row select {
+      flex: 1;
+      min-width: 120px;
+    }
+
+    .btn {
+      padding: 7px 16px;
+      border-radius: 7px;
+      border: 1px solid var(--line);
+      background: var(--card);
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .btn.primary {
+      background: var(--blue);
+      color: #fff;
+      border-color: var(--blue);
+    }
+
+    .btn.danger {
+      background: var(--red);
+      color: #fff;
+      border-color: var(--red);
+    }
+
+    .btn:disabled {
+      opacity: .45;
+      cursor: not-allowed;
+    }
+
+    .mini {
+      padding: 2px 10px;
+      font-size: 12.5px;
+    }
+
+    .hint {
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+
+    .preview {
+      background: #f6f8fa;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    .preview b {
+      color: var(--blue);
+    }
+
+    .bad {
+      color: var(--red);
+    }
+
+    .good {
+      color: var(--green);
+    }
+
+    pre#out {
+      background: #161b22;
+      color: #c9d1d9;
+      padding: 14px;
+      border-radius: 8px;
+      overflow: auto;
+      max-height: 340px;
+      font: 12.5px/1.55 Consolas, monospace;
+      white-space: pre-wrap;
+    }
+
+    fieldset {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin: 8px 0;
+      padding: 8px 12px;
+    }
+
+    legend {
+      font-size: 12.5px;
+      color: var(--muted);
+      padding: 0 6px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .chkline {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .chkline label {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+      color: var(--txt);
+      font-size: 13.5px;
+      margin: 0;
+    }
+
+    .chkline input {
+      width: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>Windows Up-to-Date 数据控制台 <small id="repoInfo"></small></h1>
+    <div class="tabs">
+      <button id="tabNew" class="on" onclick="tab('new')">新构建</button>
+      <button id="tabBump" onclick="tab('bump')">旧版本线 bump</button>
+      <button id="tabTool" onclick="tab('tool')">校验与部署</button>
+    </div>
+
+    <!-- ============ 新构建 ============ -->
+    <div id="paneNew">
+      <div class="card">
+        <h2>构建定位</h2>
+        <div class="grid">
+          <div><label>类目 <b>*</b></label><select id="f_category" onchange="onKey()"></select></div>
+          <div><label>构建号 <b>*</b>（主版本.修订号）</label><input id="f_build" placeholder="28000.3099" onblur="onKey()"
+              onchange="onKey()"></div>
+        </div>
+        <div style="height:8px"></div>
+        <div class="preview" id="pv">选择类目并输入构建号后，这里显示插入位置与 nav 链预览。</div>
+        <div class="hint" id="policy"></div>
+      </div>
+
+      <div class="card">
+        <h2>构建信息（detail）</h2>
+        <div class="grid">
+          <div><label>date（记录日期，取自发布时间日期部分）</label><input id="f_date" readonly class="ro"></div>
+          <div><label>build.branch <b>*</b></label><input id="f_branch" placeholder="br_release_svc_prod3"></div>
+          <div><label>build.compileTime <b>*</b></label><input id="f_compileTime" placeholder="2026-09-17 17:39"></div>
+          <div><label>build.counterpart</label><input id="f_counterpart" list="dl_counterpart"><datalist
+              id="dl_counterpart">
+              <option>Client</option>
+              <option>Server</option>
+            </datalist></div>
+        </div>
+        <div class="grid" style="margin-top:8px">
+          <div class="chkline" style="align-items:flex-end">
+            <span style="font-size:12.5px;color:var(--muted)">build.arch：</span>
+            <label><input type="checkbox" class="arch" value="AMD64">AMD64</label>
+            <label><input type="checkbox" class="arch" value="ARM64">ARM64</label>
+            <label><input type="checkbox" class="arch" value="x86">x86</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>发布信息（release）</h2>
+        <div class="grid">
+          <div><label>release.channel <b>*</b></label><input id="f_channel"></div>
+          <div><label>release.time <b>*</b></label><input id="f_time" placeholder="2026-09-22 17:00"
+              oninput="computeDate()"></div>
+          <div><label>release.url</label><input id="f_url" placeholder="https://support.microsoft.com/..."></div>
+          <div><label>release.announcePlace</label><input id="f_announcePlace"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>updateId（可留空）</h2>
+        <div id="uidRows"></div>
+        <button class="btn mini" onclick="addUid()">＋ 添加 updateId</button>
+      </div>
+
+      <div class="card">
+        <h2>download（可留空）</h2>
+        <div id="dlRows"></div>
+        <button class="btn mini" onclick="addDl()">＋ 添加下载项</button>
+      </div>
+
+      <div class="card">
+        <div class="row">
+          <button class="btn" onclick="doValidate()">校验草稿</button>
+          <button class="btn primary" onclick="doApply(false)">应用（apply）</button>
+          <label class="chkline" style="margin:0"><input type="checkbox" id="f_commit" checked
+              onchange="syncCommitOpts()">apply 通过后自动 git
+            commit（[new] …）</label>
+          <label class="chkline" style="margin:0"><input type="checkbox" id="f_signoff" checked>Signed-off-by（-s）</label>
+          <label class="chkline" style="margin:0"><input type="checkbox" id="f_gpg" checked>GPG 签名（-S）</label>
+          <span style="flex:1"></span>
+          <button class="btn" onclick="resetForm()">清空</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ bump ============ -->
+    <div id="paneBump" class="hidden">
+      <div class="card">
+        <h2>旧版本线服务更新（[latest] 场景）</h2>
+        <div class="row">
+          <label style="margin:0"><input type="radio" name="bmode" value="category" checked onchange="bumpMode()">
+            类目模式</label>
+          <label style="margin:0"><input type="radio" name="bmode" value="from" onchange="bumpMode()"> 锚点模式 --from（旧线无
+            category 指针）</label>
+        </div>
+        <div class="grid">
+          <div id="b_catWrap"><label>类目</label><select id="b_category"></select></div>
+          <div id="b_fromWrap" class="hidden"><label>旧版本号（--from）</label><input id="b_from" placeholder="22631.7582">
+          </div>
+          <div><label>新版本号</label><input id="b_build" placeholder="22631.7584"></div>
+          <div><label>date <b>*</b></label><input id="b_date" placeholder="2026-09-14"></div>
+          <div><label>branch（可选，显式更新索引 branch）</label><input id="b_branch" placeholder="23h2_ni_release_svc_im"></div>
+        </div>
+        <div style="height:10px"></div>
+        <div class="row">
+          <label class="chkline" style="margin:0"><input type="checkbox" id="b_list">同时插入 category list</label>
+          <button class="btn primary" onclick="doBump()">执行 bump</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 工具箱 ============ -->
+    <div id="paneTool" class="hidden">
+      <div class="card">
+        <h2>全库一致性校验</h2>
+        <button class="btn" onclick="doCheck()">运行 check</button>
+        <div class="hint">检查 JSON 可解析、nav 链自引用/对称性、索引与 list 一致性等。</div>
+      </div>
+      <div class="card">
+        <h2>打包与部署</h2>
+        <button class="btn danger" onclick="doDeploy()">打包并部署（pack + deploy）</button>
+        <div class="hint">重新生成 version.json 并打包上传数据压缩包，成功后清理本地 zip。deploy.txt 缺失时仅打包不上传。</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>输出</h2>
+      <pre id="out">就绪。</pre>
+    </div>
+  </div>
+
+  <script>
+    let STATE = null
+
+    function tab(name) {
+      for (const t of ['new', 'bump', 'tool']) {
+        document.getElementById('pane' + t[0].toUpperCase() + t.slice(1)).classList.toggle('hidden', t !== name)
+        document.getElementById('tab' + t[0].toUpperCase() + t.slice(1)).classList.toggle('on', t === name)
+      }
+    }
+
+    async function api(path, body) {
+      const opt = body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : {}
+      const r = await fetch(path, opt)
+      return r.json()
+    }
+
+    function show(res) {
+      const el = document.getElementById('out')
+      el.textContent = (res.output ?? JSON.stringify(res, null, 2)) + (res.code !== undefined ? `\n[exit ${res.code}]` : '')
+      el.style.color = res.code === 0 || res.code === undefined ? '#7ee787' : '#ffa198'
+    }
+
+    function fillSelect(sel, items, value) {
+      sel.innerHTML = ''
+      for (const it of items) {
+        const o = document.createElement('option')
+        o.value = it.name
+        o.textContent = `${it.codename}（${it.name}）` + (it.head ? `  head ${it.head}` : '  （空）')
+        sel.appendChild(o)
+      }
+      if (value) sel.value = value
+    }
+
+    async function init() {
+      STATE = await api('/api/state')
+      fillSelect(document.getElementById('f_category'), STATE.categories)
+      fillSelect(document.getElementById('b_category'), STATE.categories)
+      document.getElementById('repoInfo').textContent =
+        `已有草稿 ${STATE.drafts.length} 张` + (STATE.drafts.length ? '：' + STATE.drafts.join('、') : '')
+      addUid(); addDl()
+      syncCommitOpts()
+    }
+
+    function onKey() { preview() }
+
+    async function preview() {
+      const category = document.getElementById('f_category').value
+      const build = document.getElementById('f_build').value.trim()
+      const pv = document.getElementById('pv')
+      document.getElementById('policy').textContent = ''
+      if (!category || !/^[0-9]+(\.[0-9]+)+$/.test(build)) { pv.textContent = '选择类目并输入构建号后，这里显示插入位置与 nav 链预览。'; return }
+      const r = await api(`/api/preview?category=${encodeURIComponent(category)}&build=${encodeURIComponent(build)}`)
+      if (!r.ok) { pv.innerHTML = `<span class="bad">✗ ${r.error}</span>`; return }
+      pv.innerHTML =
+        `插入位置：<b>list 第 ${r.position} 位</b>　·　` +
+        `previous → <b>${r.below ?? '（成为链头）'}</b>　·　` +
+        `next → <b>${r.navPreview.next ? r.navPreview.next.category + '/' + r.navPreview.next.build : '（无）'}</b>`
+      // 预填（只在字段为空时填充，避免覆盖用户输入）
+      const set = (id, v) => { const el = document.getElementById(id); if (!el.value) el.value = v || '' }
+      set('f_counterpart', r.prefill.counterpart)
+      set('f_channel', r.prefill.channel)
+      set('f_announcePlace', r.prefill.announcePlace)
+      if (!document.querySelectorAll('input.arch:checked').length) {
+        document.querySelectorAll('input.arch').forEach(c => { c.checked = (r.prefill.arch || []).includes(c.value) })
+      }
+      document.getElementById('policy').innerHTML = r.policy.isStable
+        ? '<span class="bad">正式渠道（RP/正式）：release.url 必填；通常应提供 updateId 与下载链接。</span>'
+        : 'Insider 线：release.url / updateId / download 可留空（仅提示）。'
+    }
+
+    function computeDate() {
+      const t = document.getElementById('f_time').value.trim()
+      document.getElementById('f_date').value = /^\d{4}-\d{2}-\d{2}/.test(t) ? t.slice(0, 10) : ''
+    }
+
+    /* ---------- updateId / download 可重复行 ---------- */
+    function addUid(arch, id) {
+      const div = document.createElement('div')
+      div.className = 'row'
+      div.innerHTML = `
+    <select class="uid_arch" style="max-width:110px">
+      <option value="">（无架构）</option><option>AMD64</option><option>ARM64</option><option>x86</option>
+    </select>
+    <input class="uid_id" placeholder="GUID，如 5dfdb50d-719e-4f51-8eb4-1359664188d7">
+    <button class="btn mini" onclick="this.parentNode.remove()">✕</button>`
+      div.querySelector('.uid_arch').value = arch || ''
+      div.querySelector('.uid_id').value = id || ''
+      document.getElementById('uidRows').appendChild(div)
+    }
+
+    let dlSeq = 0
+    function addDl() {
+      const n = ++dlSeq
+      const div = document.createElement('div')
+      div.className = 'dlitem'
+      div.style.cssText = 'border:1px solid var(--line);border-radius:8px;padding:8px 12px;margin:6px 0'
+      div.innerHTML = `
+    <div class="row" style="margin-bottom:4px">
+      <input class="dl_name" placeholder="文件名，如 Windows11.0-KB5124006-x64.msu" style="flex:2">
+      <input class="dl_size" placeholder="大小，如 3.79 GB（可空）" style="max-width:130px">
+      <select class="dl_arch" style="max-width:110px"><option>AMD64</option><option>ARM64</option><option>x86</option></select>
+      <button class="btn mini" onclick="this.closest('.dlitem').remove()">✕</button>
+    </div>
+    <div class="row" style="margin-bottom:4px">
+      <input class="dl_md5" placeholder="MD5（可空）" style="max-width:280px">
+      <input class="dl_sha" placeholder="SHA256（可空）" style="flex:1">
+    </div>
+    <div class="dl_links"></div>
+    <button class="btn mini" onclick="addLink(this.previousElementSibling)">＋ 链接</button>`
+      document.getElementById('dlRows').appendChild(div)
+      addLink(div.querySelector('.dl_links'))
+    }
+
+    function addLink(container, url, source) {
+      const div = document.createElement('div')
+      div.className = 'row'
+      div.innerHTML = `
+    <input class="lk_url" placeholder="下载链接 URL" style="flex:3">
+    <input class="lk_src" placeholder="来源，如 Microsoft 官方" style="max-width:180px">
+    <button class="btn mini" onclick="this.parentNode.remove()">✕</button>`
+      div.querySelector('.lk_url').value = url || ''
+      div.querySelector('.lk_src').value = source || ''
+      container.appendChild(div)
+    }
+
+    function collectDraft() {
+      const build = document.getElementById('f_build').value.trim()
+      const archs = [...document.querySelectorAll('input.arch:checked')].map(c => c.value)
+      const updateId = [...document.querySelectorAll('#uidRows .row')].map(div => {
+        const id = div.querySelector('.uid_id').value.trim()
+        const arch = div.querySelector('.uid_arch').value
+        if (!id) return null
+        return arch ? { arch, id } : { id }
+      }).filter(Boolean)
+      const download = [...document.querySelectorAll('#dlRows .dlitem')].map(div => {
+        const name = div.querySelector('.dl_name').value.trim()
+        const links = [...div.querySelectorAll('.row')].map(l => ({
+          url: l.querySelector('.lk_url').value.trim(),
+          source: l.querySelector('.lk_src').value.trim() || 'Microsoft 官方',
+        })).filter(l => l.url)
+        if (!name && links.length === 0) return null
+        const item = { name, link: links, arch: div.querySelector('.dl_arch').value }
+        const size = div.querySelector('.dl_size').value.trim()
+        if (size) item.size = size
+        const md5 = div.querySelector('.dl_md5').value.trim()
+        if (md5) item.md5 = md5
+        const sha = div.querySelector('.dl_sha').value.trim()
+        if (sha) item.sha256 = sha
+        return item
+      }).filter(Boolean)
+      return {
+        category: document.getElementById('f_category').value,
+        build: {
+          number: build,
+          branch: document.getElementById('f_branch').value.trim(),
+          compileTime: document.getElementById('f_compileTime').value.trim(),
+          arch: archs,
+          counterpart: document.getElementById('f_counterpart').value.trim(),
+        },
+        release: {
+          channel: document.getElementById('f_channel').value.trim(),
+          time: document.getElementById('f_time').value.trim(),
+          url: document.getElementById('f_url').value.trim(),
+          announcePlace: document.getElementById('f_announcePlace').value.trim(),
+        },
+        updateId,
+        download,
+      }
+    }
+
+    async function doValidate() {
+      show({ code: 0, output: '正在校验…' })
+      show(await api('/api/apply', { draft: collectDraft(), validateOnly: true }))
+    }
+
+    function syncCommitOpts() {
+      const on = document.getElementById('f_commit').checked
+      for (const id of ['f_signoff', 'f_gpg']) {
+        const el = document.getElementById(id)
+        el.disabled = !on
+        el.parentNode.style.opacity = on ? '1' : '.45'
+      }
+    }
+
+    async function doApply() {
+      const commit = document.getElementById('f_commit').checked
+      const signoff = document.getElementById('f_signoff').checked
+      const gpg = document.getElementById('f_gpg').checked
+      show({ code: 0, output: '正在应用（apply）…' })
+      const res = await api('/api/apply', { draft: collectDraft(), commit, signoff, gpg })
+      show(res)
+      if (res.code === 0 && commit) {
+        document.getElementById('out').textContent += '\n\n✔ 已提交。可切换到「校验与部署」执行打包部署。'
+      }
+    }
+
+    function resetForm() {
+      for (const id of ['f_build', 'f_branch', 'f_compileTime', 'f_time', 'f_url', 'f_date']) {
+        document.getElementById(id).value = ''
+      }
+      document.getElementById('uidRows').innerHTML = ''
+      document.getElementById('dlRows').innerHTML = ''
+      addUid(); addDl()
+      document.getElementById('pv').textContent = '选择类目并输入构建号后，这里显示插入位置与 nav 链预览。'
+    }
+
+    /* ---------- bump ---------- */
+    function bumpMode() {
+      const from = document.querySelector('input[name=bmode]:checked').value === 'from'
+      document.getElementById('b_catWrap').classList.toggle('hidden', from)
+      document.getElementById('b_fromWrap').classList.toggle('hidden', !from)
+    }
+
+    async function doBump() {
+      const mode = document.querySelector('input[name=bmode]:checked').value
+      show({ code: 0, output: '正在 bump…' })
+      show(await api('/api/bump', {
+        mode,
+        category: document.getElementById('b_category').value,
+        from: document.getElementById('b_from').value.trim(),
+        build: document.getElementById('b_build').value.trim(),
+        date: document.getElementById('b_date').value.trim(),
+        branch: document.getElementById('b_branch').value.trim(),
+        list: document.getElementById('b_list').checked,
+      }))
+    }
+
+    /* ---------- toolbox ---------- */
+    async function doCheck() {
+      show({ code: 0, output: '正在全库校验…' })
+      show(await api('/api/check'))
+    }
+
+    async function doDeploy() {
+      if (!confirm('将打包并上传部署到生产（wutd.crrashh.com），确认继续？')) return
+      show({ code: 0, output: '正在打包并上传…' })
+      show(await api('/api/deploy', { confirm: true }))
+    }
+
+    init()
+  </script>
+</body>
+
+</html>

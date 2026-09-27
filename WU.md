@@ -18,7 +18,7 @@ node wu.js ui          # 启动本地表单并自动打开浏览器（--port 可
 
 - **新构建**：选类目、填构建号 → 页面即时显示插入位置与 nav 链预览并预填类别元数据 →
   填 branch/时间/公告/updateId/下载（可动态增删行）→「校验草稿」或直接「应用」
-  （apply 前自动先校验，ERROR 会拦截；可勾选自动 git commit）；
+  （apply 前自动先校验，ERROR 会拦截；可勾选自动 git commit，Signed-off-by 与 GPG 签名默认启用）；
 - **旧版本线 bump**：类目模式 / `--from` 锚点模式，date/branch 显式填写；
 - **校验与部署**：全库内容检查并打包部署
 
@@ -49,6 +49,8 @@ node wu.js apply _drafts/26H1-bromine-28000.3086.draft.json --commit
 apply 自动完成：创建 `detail/<cat>/<build>.json`、category list 按号位插入、
 nav 链双向接线、两个 index 的 version/date 推进（branch 不自动改写，由 bump --branch 显式更新）、download.json 主线推进，
 并输出 `[new] <codename>: <build>` 规范提交信息（`--commit` 直接提交）。
+
+提交默认带 **Signed-off-by（`-s`）与 GPG 签名（`-S`）**，需要关闭时加 `--no-signoff` / `--no-gpg`。
 
 ### 旧版本线服务更新（原 `[latest]` 提交）
 

@@ -7,6 +7,8 @@
  *   new <category> <build>                          创建新构建草稿卡
  *   check [--draft <file>]                          全库一致性校验 / 草稿校验（无参数检查全部草稿）
  *   apply <draft.json> [--commit] [--keep-draft]    草稿投影落盘（生成 detail + 推导链 + 索引）
+ *                                                   提交默认带 Signed-off-by（-s）与 GPG 签名（-S），
+ *                                                   可用 --no-signoff / --no-gpg 关闭
  *   bump <category> <build> <date> [--branch b]     旧版本线服务更新（[latest] 场景）
  *   bump --from <oldBuild> <build> <date>           同上，用旧版本号定位（索引条目无 category 时）
  *   index [--dry-run]                               索引派生值与源数据同步
@@ -64,7 +66,12 @@ function main() {
             else cmdCheck()
             break
         case 'apply':
-            cmdApply(rest[0], { commit: !!flags.commit, keepDraft: !!flags['keep-draft'] })
+            cmdApply(rest[0], {
+                commit: !!flags.commit,
+                keepDraft: !!flags['keep-draft'],
+                signoff: !flags['no-signoff'],
+                gpg: !flags['no-gpg'],
+            })
             break
         case 'bump':
             cmdBump(rest, flags)
