@@ -252,7 +252,7 @@
         <div class="grid">
           <div><label>类目 <b>*</b></label><select id="f_category" onchange="onKey()"></select></div>
           <div><label>构建号 <b>*</b>（主版本.修订号）</label><input id="f_build" placeholder="28000.3099" onblur="onKey()"
-              onchange="onKey()"></div>
+              onchange="onKey()" oninput="scheduleUrlAutofill()"></div>
         </div>
         <div style="height:8px"></div>
         <div class="preview" id="pv">选择类目并输入构建号后，这里显示插入位置与 nav 链预览。</div>
@@ -287,9 +287,12 @@
           <div><label>release.channel <b>*</b></label><input id="f_channel"></div>
           <div><label>release.time <b>*</b></label><input id="f_time" placeholder="2026-09-22 17:00"
               oninput="computeDate()"></div>
-          <div><label>release.url</label><input id="f_url" placeholder="https://support.microsoft.com/..."></div>
-          <div><label>release.announcePlace</label><input id="f_announcePlace"></div>
         </div>
+        <div style="height:8px"></div>
+        <div><label>release.url <span id="urlHint" class="hint"></span></label><input id="f_url"
+            placeholder="https://support.microsoft.com/..." oninput="onUrlInput()" onchange="onUrlInput()"></div>
+        <div style="height:8px"></div>
+        <div><label>release.announcePlace</label><input id="f_announcePlace"></div>
       </div>
 
       <div class="card">
@@ -433,11 +436,67 @@
       document.getElementById('policy').innerHTML = r.policy.isStable
         ? '<span class="bad">正式渠道（RP/正式）：release.url 必填；通常应提供 updateId 与下载链接。</span>'
         : 'Insider 线：release.url / updateId / download 可留空（仅提示）。'
+      scheduleUrlAutofill()
     }
 
     function computeDate() {
       const t = document.getElementById('f_time').value.trim()
       document.getElementById('f_date').value = /^\d{4}-\d{2}-\d{2}/.test(t) ? t.slice(0, 10) : ''
+    }
+
+    /* ---------- release.url / announcePlace 自动填充 ---------- */
+    let urlAutoTimer = null
+    let lastUrlProbe = ''
+
+    // 构建号输入防抖后触发探测；类目切换（preview）也会调用
+    function scheduleUrlAutofill() {
+      clearTimeout(urlAutoTimer)
+      urlAutoTimer = setTimeout(runUrlAutofill, 900)
+    }
+
+    async function runUrlAutofill() {
+      const category = document.getElementById('f_category').value
+      const build = document.getElementById('f_build').value.trim()
+      const urlEl = document.getElementById('f_url')
+      const hint = document.getElementById('urlHint')
+      if (!category || !/^[0-9]+(\.[0-9]+)+$/.test(build)) return
+      if (urlEl.value.trim()) return // 用户已填，不覆盖
+      const key = category + '/' + build
+      if (lastUrlProbe === key) return
+      lastUrlProbe = key
+      hint.textContent = '探测发布说明链接…'
+      const r = await api(`/api/autofill-url?category=${encodeURIComponent(category)}&build=${encodeURIComponent(build)}`)
+      if (lastUrlProbe !== key) return // 探测期间输入又变了
+      if (r.ok && !urlEl.value.trim()) {
+        urlEl.value = r.url
+        hint.textContent = `✓ 已自动填写（HTTP ${r.status}）`
+        applyPlaceFromUrl()
+      } else if (r.reason === 'no-slug') {
+        hint.textContent = '' // 类目无频道映射，静默跳过
+      } else {
+        hint.textContent = `候选链接 HTTP ${r.status ?? '无响应'}，未自动填写`
+      }
+    }
+
+    // 公告来源：按 url 域名映射（announcePlace 为空或为已知自动值时才改写）
+    function onUrlInput() {
+      applyPlaceFromUrl()
+      const hint = document.getElementById('urlHint')
+      if (hint.textContent.startsWith('✓')) hint.textContent = '（手动输入）'
+    }
+
+    function applyPlaceFromUrl() {
+      const url = document.getElementById('f_url').value.trim()
+      const placeEl = document.getElementById('f_announcePlace')
+      if (!url || !STATE || !STATE.announcePlaceByHost) return
+      let host = ''
+      try { host = new URL(url).hostname } catch { return }
+      const mapped = STATE.announcePlaceByHost[host]
+      if (!mapped) return
+      const cur = placeEl.value.trim()
+      if (!cur || Object.values(STATE.announcePlaceByHost).includes(cur)) {
+        placeEl.value = mapped
+      }
     }
 
     /* ---------- updateId / download 可重复行 ---------- */
@@ -568,6 +627,8 @@
       document.getElementById('uidRows').innerHTML = ''
       document.getElementById('dlRows').innerHTML = ''
       addUid(); addDl()
+      document.getElementById('urlHint').textContent = ''
+      lastUrlProbe = ''
       document.getElementById('pv').textContent = '选择类目并输入构建号后，这里显示插入位置与 nav 链预览。'
     }
 

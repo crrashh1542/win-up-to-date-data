@@ -5,6 +5,7 @@
  * 仅绑定 127.0.0.1；所有动作都通过子进程调用 wu.js 本身，保证 UI 与 CLI 行为一致。
  */
 const http = require('http')
+const https = require('https')
 const fs = require('fs')
 const path = require('path')
 const { spawn } = require('child_process')
@@ -15,6 +16,56 @@ const CAT_RE = /^[A-Za-z0-9._-]{1,64}$/
 const BUILD_RE = /^[0-9]{1,7}(\.[0-9]{1,7})+$/
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
 const BRANCH_RE = /^[\w./-]{0,80}$/
+
+// 自动填充配置（外置 JSON，每次请求时重新读取，改完即生效）
+const AUTOFILL_PATH = path.join(__dirname, 'autofill.json')
+function readAutofill() {
+    try {
+        return JSON.parse(fs.readFileSync(AUTOFILL_PATH, 'utf-8'))
+    } catch {
+        return { releaseNotesChannels: {}, announcePlaceByHost: {} }
+    }
+}
+
+/**
+ * 探测候选发布说明链接是否真实存在。
+ * learn.microsoft.com 对存在与不存在的构建都先 302（补 /en-us/ 前缀），
+ * 因此必须跟随重定向（最多 3 跳），以终态状态码为准：仅 200 视为存在。
+ * 读取到响应头即断开，不下载正文。
+ */
+function fetchStatus(url, depth = 0) {
+    return new Promise((resolve) => {
+        try {
+            const req = https.request(
+                url,
+                { method: 'GET', timeout: 8000, headers: { 'User-Agent': 'wutd-autofill/1.0' } },
+                (res) => {
+                    const status = res.statusCode
+                    const loc = res.headers.location
+                    res.destroy()
+                    if ((status === 301 || status === 302) && loc && depth < 3) {
+                        resolve(fetchStatus(new URL(loc, url).toString(), depth + 1))
+                        return
+                    }
+                    resolve({ status, finalUrl: url })
+                }
+            )
+            req.on('timeout', () => {
+                req.destroy()
+                resolve(null)
+            })
+            req.on('error', () => resolve(null))
+            req.end()
+        } catch {
+            resolve(null)
+        }
+    })
+}
+
+async function probeUrl(url) {
+    const r = await fetchStatus(url)
+    return r || { status: null, finalUrl: url }
+}
 
 function wutdCli() {
     return path.join(__dirname, '..', 'wu.js')
@@ -98,7 +149,28 @@ async function handle(req, res) {
 
     // 全局状态：类目列表 + 已有草稿
     if (req.method === 'GET' && url.pathname === '/api/state') {
-        send(res, 200, { categories: listCategories(), drafts: listDrafts() })
+        const autofill = readAutofill()
+        send(res, 200, {
+            categories: listCategories(),
+            drafts: listDrafts(),
+            announcePlaceByHost: autofill.announcePlaceByHost || {},
+        })
+        return
+    }
+
+    // 发布说明链接候选探测：类目有映射时构造 Learn 候选 URL 并探活。
+    // learn 对存在/不存在的构建都先 302，故跟随重定向后仅终态 200 才算存在
+    if (req.method === 'GET' && url.pathname === '/api/autofill-url') {
+        const category = url.searchParams.get('category') || ''
+        const build = url.searchParams.get('build') || ''
+        if (!CAT_RE.test(category) || !BUILD_RE.test(build)) {
+            return send(res, 200, { ok: false, reason: '参数不合法' })
+        }
+        const slug = readAutofill().releaseNotesChannels?.[category]
+        if (!slug) return send(res, 200, { ok: false, reason: 'no-slug' })
+        const candidate = `https://learn.microsoft.com/windows-insider/release-notes/${slug}/preview-build-${build.replace(/\./g, '-')}`
+        const { status } = await probeUrl(candidate)
+        send(res, 200, { ok: status === 200, status, url: candidate })
         return
     }
 

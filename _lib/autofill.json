@@ -1,0 +1,14 @@
+{
+    "releaseNotesChannels": {
+        "25H2-germanium-betaflt": "beta",
+        "26H2-germanium-prerel": "experimental",
+        "26H1-bromine-betaflt": "beta-26h1",
+        "26H1-bromine-prerel": "experimental-26-h1",
+        "27H1-rubidium": "experimental-future-platforms"
+    },
+    "announcePlaceByHost": {
+        "learn.microsoft.com": "Microsoft Learn",
+        "support.microsoft.com": "Microsoft Support",
+        "blogs.windows.com": "Windows Blogs"
+    }
+}
