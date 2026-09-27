@@ -203,6 +203,9 @@ function validateDraft(draftPath) {
 
     const b = draft.build || {}
     if (!b.branch) err('build.branch 缺失')
+    else if (/_release_svc_prod$/.test(b.branch)) {
+        warn(`branch("${b.branch}") 疑似只填了类目预填前缀，请补全 prod1/2/3、im 等实际后缀`)
+    }
     if (!b.compileTime) err('build.compileTime 缺失')
     else if (!DATETIME_RE.test(b.compileTime)) err(`build.compileTime 格式应为 YYYY-MM-DD HH:mm，当前: ${b.compileTime}`)
     if (!Array.isArray(b.arch) || b.arch.length === 0) err('build.arch 不能为空')

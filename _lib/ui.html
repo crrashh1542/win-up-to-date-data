@@ -433,6 +433,15 @@
       if (!document.querySelectorAll('input.arch:checked').length) {
         document.querySelectorAll('input.arch').forEach(c => { c.checked = (r.prefill.arch || []).includes(c.value) })
       }
+      // 类目级预填（_lib/autofill.json）：channel/branch 以配置为准（覆盖式，branch 多为待补全前缀）
+      const af = STATE && STATE.autofill ? STATE.autofill[category] : null
+      if (af) {
+        if (af.releaseChannel) document.getElementById('f_channel').value = af.releaseChannel
+        if (af.branch) {
+          const bEl = document.getElementById('f_branch')
+          if (bEl.value.trim() !== af.branch) bEl.value = af.branch
+        }
+      }
       document.getElementById('policy').innerHTML = r.policy.isStable
         ? '<span class="bad">正式渠道（RP/正式）：release.url 必填；通常应提供 updateId 与下载链接。</span>'
         : 'Insider 线：release.url / updateId / download 可留空（仅提示）。'

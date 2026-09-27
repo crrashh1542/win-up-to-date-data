@@ -153,6 +153,7 @@ async function handle(req, res) {
         send(res, 200, {
             categories: listCategories(),
             drafts: listDrafts(),
+            autofill: autofill.categories || {},
             announcePlaceByHost: autofill.announcePlaceByHost || {},
         })
         return
@@ -166,7 +167,7 @@ async function handle(req, res) {
         if (!CAT_RE.test(category) || !BUILD_RE.test(build)) {
             return send(res, 200, { ok: false, reason: '参数不合法' })
         }
-        const slug = readAutofill().releaseNotesChannels?.[category]
+        const slug = readAutofill().categories?.[category]?.releaseNotesChannel
         if (!slug) return send(res, 200, { ok: false, reason: 'no-slug' })
         const candidate = `https://learn.microsoft.com/windows-insider/release-notes/${slug}/preview-build-${build.replace(/\./g, '-')}`
         const { status } = await probeUrl(candidate)

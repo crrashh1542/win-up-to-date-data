@@ -1,10 +1,62 @@
 {
-    "releaseNotesChannels": {
-        "25H2-germanium-betaflt": "beta",
-        "26H2-germanium-prerel": "experimental",
-        "26H1-bromine-betaflt": "beta-26h1",
-        "26H1-bromine-prerel": "experimental-26-h1",
-        "27H1-rubidium": "experimental-future-platforms"
+    "categories": {
+        "24H2-germanium": {
+            "branch": "ge_release_svc_prod"
+        },
+        "24H2-germanium-betaflt": {
+            "releaseChannel": "Beta",
+            "branch": "ge_release_svc_betaflt_prod1"
+        },
+        "24H2-germanium-server": {
+            "branch": "lt_release_svc_prod"
+        },
+        "24H2-germanium-upstream": {
+            "branch": "ge_prerelease"
+        },
+        "25H1-dilithium": {
+            "branch": "rs_prerelease"
+        },
+        "25H2-germanium": {
+            "branch": "25h2_ge_release_svc_prod"
+        },
+        "25H2-germanium-betaflt": {
+            "releaseNotesChannel": "beta",
+            "releaseChannel": "Beta",
+            "branch": "ge_release_svc_betaflt_prod1"
+        },
+        "25H2-selenium": {
+            "branch": "rs_prerelease"
+        },
+        "26H1-bromine": {
+            "branch": "br_release_svc_prod"
+        },
+        "26H1-bromine-betaflt": {
+            "releaseNotesChannel": "beta-26h1",
+            "releaseChannel": "Beta",
+            "branch": "br_release_svc_betaflt_prod1"
+        },
+        "26H1-bromine-prerel": {
+            "releaseNotesChannel": "experimental-26-h1",
+            "releaseChannel": "Experimental",
+            "branch": "br_prerelease_im"
+        },
+        "26H2-germanium": {
+            "branch": "26h2_ge_release_svc_prod"
+        },
+        "26H2-germanium-prerel": {
+            "releaseNotesChannel": "experimental",
+            "releaseChannel": "Experimental",
+            "branch": "ge_prerelease_im"
+        },
+        "26H2-krypton": {
+            "releaseChannel": "Experimental",
+            "branch": "rs_prerelease"
+        },
+        "27H1-rubidium": {
+            "releaseNotesChannel": "experimental-future-platforms",
+            "releaseChannel": "Experimental",
+            "branch": "rs_prerelease"
+        }
     },
     "announcePlaceByHost": {
         "learn.microsoft.com": "Microsoft Learn",

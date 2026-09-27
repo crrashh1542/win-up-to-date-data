@@ -21,7 +21,9 @@ node wu.js ui          # 启动本地表单并自动打开浏览器（--port 可
   （apply 前自动先校验，ERROR 会拦截；可勾选自动 git commit，Signed-off-by 与 GPG 签名默认启用）；
 - **旧版本线 bump**：类目模式 / `--from` 锚点模式，date/branch 显式填写；
 - **校验与部署**：全库内容检查并打包部署
-- **自动补全**：详情请见 `_lib/autofill.json`
+- **自动补全**：详情请见 `_lib/autofill.json`。以类目为主对象，含三类预填：
+  `releaseNotesChannel`（release.url 的 Learn 链接频道）、
+  `releaseChannel`、`branch`
 
 所有动作在服务端通过子进程调用 `wu.js` 自身执行，UI 与 CLI 行为完全一致；UI 提交的草稿临时写入 `_drafts/ui-*.draft.json`，apply 成功后自动删除。
 
