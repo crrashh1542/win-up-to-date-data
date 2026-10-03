@@ -140,10 +140,10 @@ async function handle(req, res) {
     const url = new URL(req.url, 'http://127.0.0.1')
 
     // 页面
-    if (req.method === 'GET' && (url.pathname === '/' || url.pathname === '/index.html')) {
+    if ((req.method === 'GET' || req.method === 'HEAD') && (url.pathname === '/' || url.pathname === '/index.html')) {
         const html = fs.readFileSync(path.join(__dirname, 'ui.html'))
-        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' })
-        res.end(html)
+        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' })
+        res.end(req.method === 'HEAD' ? undefined : html)
         return
     }
 

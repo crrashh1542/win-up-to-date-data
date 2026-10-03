@@ -152,10 +152,43 @@ function cmdCheck() {
         checkIndexValue('latest-builds.json', category, r.version, () => {})
     }
 
+    // 6. 大小写一致性：git 索引路径必须与磁盘真实大小写一致
+    //    （磁盘与索引大小写分裂时，git add 会静默漏暂存已跟踪文件的修改）
+    const { spawnSync } = require('child_process')
+    const tracked = spawnSync('git', ['ls-files'], { cwd: repoRoot(), encoding: 'utf-8' })
+        .stdout.split('\n').map((s) => s.trim()).filter(Boolean)
+    const dirCache = new Map()
+    const diskCase = (rel) => {
+        const parts = rel.split('/')
+        let cur = repoRoot()
+        for (let i = 0; i < parts.length; i++) {
+            const key = cur
+            if (!dirCache.has(key)) {
+                const m = new Map()
+                try {
+                    for (const n of fs.readdirSync(cur)) m.set(n.toLowerCase(), n)
+                } catch { /* 目录不存在：由其他检查报告 */ }
+                dirCache.set(key, m)
+            }
+            const real = dirCache.get(key).get(parts[i].toLowerCase())
+            if (real === undefined) return null
+            parts[i] = real
+            cur = path.join(cur, real)
+        }
+        return parts.join('/')
+    }
+    for (const t of tracked) {
+        const disk = diskCase(t)
+        if (disk && disk !== t) {
+            err(`大小写不一致: 索引 "${t}" ≠ 磁盘 "${disk}"（会导致 git add 静默漏暂存，请纠正索引拼写）`)
+        }
+    }
+
     console.log('')
     if (errors === 0 && warns === 0) out.ok('全部一致性检查通过')
     else out[errors ? 'error' : 'warn'](`检查完成: ${errors} 个错误, ${warns} 个警告`)
-    process.exit(errors ? 1 : 0)
+    // exitCode 而非 exit：stdout 为管道（UI 调用）时立即退出会丢失缓冲输出
+    process.exitCode = errors ? 1 : 0
 }
 
 module.exports = { cmdCheck }

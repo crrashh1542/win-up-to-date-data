@@ -380,8 +380,22 @@
 
     async function api(path, body) {
       const opt = body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : {}
-      const r = await fetch(path, opt)
-      return r.json()
+      let r
+      try {
+        r = await fetch(path, opt)
+      } catch (e) {
+        throw new Error('无法连接本地服务！请确认终端中 node wu.js ui 仍在运行（若刚更新代码需重启）')
+      }
+      const text = await r.text()
+      try {
+        return JSON.parse(text)
+      } catch {
+        throw new Error(`服务返回异常（HTTP ${r.status}）：${text.slice(0, 200)}`)
+      }
+    }
+
+    function fail(e) {
+      show({ code: 1, output: String((e && e.message) || e) })
     }
 
     function show(res) {
@@ -402,7 +416,13 @@
     }
 
     async function init() {
-      STATE = await api('/api/state')
+      try {
+        STATE = await api('/api/state')
+      } catch (e) {
+        fail(e)
+        document.getElementById('repoInfo').textContent = '（本地服务未连接，功能不可用）'
+        return
+      }
       fillSelect(document.getElementById('f_category'), STATE.categories)
       fillSelect(document.getElementById('b_category'), STATE.categories)
       document.getElementById('repoInfo').textContent =
@@ -411,7 +431,7 @@
       syncCommitOpts()
     }
 
-    function onKey() { preview() }
+    function onKey() { preview().catch(fail) }
 
     async function preview() {
       const category = document.getElementById('f_category').value
@@ -426,7 +446,7 @@
         `previous → <b>${r.below ?? '（成为链头）'}</b>　·　` +
         `next → <b>${r.navPreview.next ? r.navPreview.next.category + '/' + r.navPreview.next.build : '（无）'}</b>`
       // 预填（只在字段为空时填充，避免覆盖用户输入）
-      const set = (id, v) => { const el = document.getElementById(id); if (!el.value) el.value = v || '' }
+      const set = (id, v) => { const el = document.getElementById(id); if (el && !el.value) el.value = v || '' }
       set('f_counterpart', r.prefill.counterpart)
       set('f_channel', r.prefill.channel)
       set('f_announcePlace', r.prefill.announcePlace)
@@ -436,10 +456,10 @@
       // 类目级预填（_lib/autofill.json）：channel/branch 以配置为准（覆盖式，branch 多为待补全前缀）
       const af = STATE && STATE.autofill ? STATE.autofill[category] : null
       if (af) {
-        if (af.releaseChannel) document.getElementById('f_channel').value = af.releaseChannel
+        if (af.releaseChannel) { const cEl = document.getElementById('f_channel'); if (cEl) cEl.value = af.releaseChannel }
         if (af.branch) {
           const bEl = document.getElementById('f_branch')
-          if (bEl.value.trim() !== af.branch) bEl.value = af.branch
+          if (bEl && bEl.value.trim() !== af.branch) bEl.value = af.branch
         }
       }
       document.getElementById('policy').innerHTML = r.policy.isStable
@@ -474,7 +494,13 @@
       if (lastUrlProbe === key) return
       lastUrlProbe = key
       hint.textContent = '探测发布说明链接…'
-      const r = await api(`/api/autofill-url?category=${encodeURIComponent(category)}&build=${encodeURIComponent(build)}`)
+      let r
+      try {
+        r = await api(`/api/autofill-url?category=${encodeURIComponent(category)}&build=${encodeURIComponent(build)}`)
+      } catch (e) {
+        hint.textContent = '探活失败（' + e.message + '）'
+        return
+      }
       if (lastUrlProbe !== key) return // 探测期间输入又变了
       if (r.ok && !urlEl.value.trim()) {
         urlEl.value = r.url
@@ -558,8 +584,19 @@
       container.appendChild(div)
     }
 
+    // 空值安全的表单读取：元素缺失时降级为空值，而非抛错
+    // （防止浏览器缓存了旧页面导致 DOM 与 JS 版本错位时直接崩溃）
+    function val(id) {
+      const el = document.getElementById(id)
+      return el ? el.value.trim() : ''
+    }
+    function chk(id) {
+      const el = document.getElementById(id)
+      return el ? el.checked : false
+    }
+
     function collectDraft() {
-      const build = document.getElementById('f_build').value.trim()
+      const build = val('f_build')
       const archs = [...document.querySelectorAll('input.arch:checked')].map(c => c.value)
       const updateId = [...document.querySelectorAll('#uidRows .row')].map(div => {
         const id = div.querySelector('.uid_id').value.trim()
@@ -569,7 +606,8 @@
       }).filter(Boolean)
       const download = [...document.querySelectorAll('#dlRows .dlitem')].map(div => {
         const name = div.querySelector('.dl_name').value.trim()
-        const links = [...div.querySelectorAll('.row')].map(l => ({
+        // 链接行只取 .dl_links 容器内的行——文件名/MD5 行同样带 .row 类，不能混入
+        const links = [...div.querySelectorAll('.dl_links .row')].map(l => ({
           url: l.querySelector('.lk_url').value.trim(),
           source: l.querySelector('.lk_src').value.trim() || 'Microsoft 官方',
         })).filter(l => l.url)
@@ -584,19 +622,19 @@
         return item
       }).filter(Boolean)
       return {
-        category: document.getElementById('f_category').value,
+        category: val('f_category'),
         build: {
           number: build,
-          branch: document.getElementById('f_branch').value.trim(),
-          compileTime: document.getElementById('f_compileTime').value.trim(),
+          branch: val('f_branch'),
+          compileTime: val('f_compileTime'),
           arch: archs,
-          counterpart: document.getElementById('f_counterpart').value.trim(),
+          counterpart: val('f_counterpart'),
         },
         release: {
-          channel: document.getElementById('f_channel').value.trim(),
-          time: document.getElementById('f_time').value.trim(),
-          url: document.getElementById('f_url').value.trim(),
-          announcePlace: document.getElementById('f_announcePlace').value.trim(),
+          channel: val('f_channel'),
+          time: val('f_time'),
+          url: val('f_url'),
+          announcePlace: val('f_announcePlace'),
         },
         updateId,
         download,
@@ -605,28 +643,32 @@
 
     async function doValidate() {
       show({ code: 0, output: '正在校验…' })
-      show(await api('/api/apply', { draft: collectDraft(), validateOnly: true }))
+      try {
+        show(await api('/api/apply', { draft: collectDraft(), validateOnly: true }))
+      } catch (e) { fail(e) }
     }
 
     function syncCommitOpts() {
-      const on = document.getElementById('f_commit').checked
+      const on = chk('f_commit')
       for (const id of ['f_signoff', 'f_gpg']) {
         const el = document.getElementById(id)
         el.disabled = !on
-        el.parentNode.style.opacity = on ? '1' : '.45'
+        if (el.parentNode) el.parentNode.style.opacity = on ? '1' : '.45'
       }
     }
 
     async function doApply() {
-      const commit = document.getElementById('f_commit').checked
-      const signoff = document.getElementById('f_signoff').checked
-      const gpg = document.getElementById('f_gpg').checked
+      const commit = chk('f_commit')
+      const signoff = chk('f_signoff')
+      const gpg = chk('f_gpg')
       show({ code: 0, output: '正在应用（apply）…' })
-      const res = await api('/api/apply', { draft: collectDraft(), commit, signoff, gpg })
-      show(res)
-      if (res.code === 0 && commit) {
-        document.getElementById('out').textContent += '\n\n✔ 已提交。可切换到「校验与部署」执行打包部署。'
-      }
+      try {
+        const res = await api('/api/apply', { draft: collectDraft(), commit, signoff, gpg })
+        show(res)
+        if (res.code === 0 && commit) {
+          document.getElementById('out').textContent += '\n\n✔ 已提交。可切换到「校验与部署」执行打包部署。'
+        }
+      } catch (e) { fail(e) }
     }
 
     function resetForm() {
@@ -651,27 +693,33 @@
     async function doBump() {
       const mode = document.querySelector('input[name=bmode]:checked').value
       show({ code: 0, output: '正在 bump…' })
-      show(await api('/api/bump', {
-        mode,
-        category: document.getElementById('b_category').value,
-        from: document.getElementById('b_from').value.trim(),
-        build: document.getElementById('b_build').value.trim(),
-        date: document.getElementById('b_date').value.trim(),
-        branch: document.getElementById('b_branch').value.trim(),
-        list: document.getElementById('b_list').checked,
-      }))
+      try {
+        show(await api('/api/bump', {
+          mode,
+          category: document.getElementById('b_category').value,
+          from: document.getElementById('b_from').value.trim(),
+          build: document.getElementById('b_build').value.trim(),
+          date: document.getElementById('b_date').value.trim(),
+          branch: document.getElementById('b_branch').value.trim(),
+          list: document.getElementById('b_list').checked,
+        }))
+      } catch (e) { fail(e) }
     }
 
     /* ---------- toolbox ---------- */
     async function doCheck() {
       show({ code: 0, output: '正在全库校验…' })
-      show(await api('/api/check'))
+      try {
+        show(await api('/api/check'))
+      } catch (e) { fail(e) }
     }
 
     async function doDeploy() {
       if (!confirm('将打包并上传部署到生产（wutd.crrashh.com），确认继续？')) return
       show({ code: 0, output: '正在打包并上传…' })
-      show(await api('/api/deploy', { confirm: true }))
+      try {
+        show(await api('/api/deploy', { confirm: true }))
+      } catch (e) { fail(e) }
     }
 
     init()

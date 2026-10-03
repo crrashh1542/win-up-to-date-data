@@ -246,6 +246,7 @@ function validateDraft(draftPath) {
 }
 
 function cmdCheckDraft(draftPath) {
+    // 用 exitCode 而非 process.exit：stdout 为管道（UI 调用）时立即退出会丢失缓冲输出
     if (!draftPath || typeof draftPath !== 'string') {
         const dir = p(DRAFT_DIR)
         if (!fs.existsSync(dir)) die('_drafts 目录不存在，没有待检查的草稿')
@@ -256,9 +257,10 @@ function cmdCheckDraft(draftPath) {
             console.log(`--- ${f}`)
             if (!checkOne(path.join(dir, f))) exit = 1
         }
-        process.exit(exit)
+        process.exitCode = exit
+        return
     }
-    process.exit(checkOne(draftPath) ? 0 : 1)
+    process.exitCode = checkOne(draftPath) ? 0 : 1
 }
 
 function checkOne(draftPath) {
@@ -448,7 +450,8 @@ function cmdApply(draftPath, opts = {}) {
 
     if (opts.commit) {
         const { spawnSync } = require('child_process')
-        const add = spawnSync('git', ['add', ...touched], { cwd: repoRoot(), encoding: 'utf-8' })
+        // 路径统一正斜杠（反斜杠 pathspec 在大小写与索引不一致时会静默漏暂存）
+        const add = spawnSync('git', ['add', ...touched.map((t) => t.replace(/\\/g, '/'))], { cwd: repoRoot(), encoding: 'utf-8' })
         if (add.status !== 0) die(`git add 失败: ${add.stderr}`)
         // 默认 Signed-off-by（-s）与 GPG 签名（-S），--no-signoff / --no-gpg 关闭
         const commitArgs = [
