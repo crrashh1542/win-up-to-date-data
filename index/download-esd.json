@@ -1,5 +1,9 @@
 [
     {
+        "name": "Win11 26H2",
+        "value": "Win11-26H2"
+    },
+    {
         "name": "Win11 25H2",
         "value": "Win11-25H2"
     },
