@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "29683.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-09-30 14:16",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Experimental",
+        "time": "2026-10-07 18:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29683-1000",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "27H1-rubidium",
+            "build": "29680.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "27H1-rubidium",
+        "name": "Rubidium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "2fab9ee5-66d1-4532-8592-f48a223edf69"
+    },
+    {
+        "arch": "ARM64",
+        "id": "7c352b97-cbef-4f5a-b091-32f374d4eabc"
+    }],
+    "download": [{
+        "name": "29683.1000.260930-1416.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "size": "4.73 GB",
+        "link": [{
+            "url": "https://p0-fsb.api.crrashh.com/u/010000e2123",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQAI6YVUZuphR6zZHgWlJd-6AeTIhOGMZCDEgQhek19gqPg",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "6ef14473695451eb3ca4521032370e2a",
+        "sha256": "58f8c7f481f46da7efd42b4d5ad3b29cd1e2164b17ceae20e99af8e59fc27d80"
+    }]
+}
