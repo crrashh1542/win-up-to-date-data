@@ -297,6 +297,9 @@
 
       <div class="card">
         <h2>updateId（可留空）</h2>
+        <datalist id="uidArchList">
+          <option>AMD64</option><option>ARM64</option><option>x86</option>
+        </datalist>
         <div id="uidRows"></div>
         <button class="btn mini" onclick="addUid()">＋ 添加 updateId</button>
       </div>
@@ -546,14 +549,24 @@
       const div = document.createElement('div')
       div.className = 'row'
       div.innerHTML = `
-    <select class="uid_arch" style="max-width:110px">
-      <option value="">（无架构）</option><option>AMD64</option><option>ARM64</option><option>x86</option>
-    </select>
-    <input class="uid_id" placeholder="GUID，如 5dfdb50d-719e-4f51-8eb4-1359664188d7">
+    <input class="uid_arch" list="uidArchList" placeholder="架构" style="max-width:130px">
+    <input class="uid_id" placeholder="" style="flex:1">
+    <button class="btn mini" onclick="moveUid(this, -1)" title="上移">↑</button>
+    <button class="btn mini" onclick="moveUid(this, 1)" title="下移">↓</button>
     <button class="btn mini" onclick="this.parentNode.remove()">✕</button>`
       div.querySelector('.uid_arch').value = arch || ''
       div.querySelector('.uid_id').value = id || ''
       document.getElementById('uidRows').appendChild(div)
+    }
+
+    // 上移/下移 updateId 行；行序即 detail 中 updateId 数组的顺序
+    function moveUid(btn, dir) {
+      const row = btn.closest('.row')
+      const rows = [...document.querySelectorAll('#uidRows .row')]
+      const j = rows.indexOf(row) + dir
+      if (j < 0 || j >= rows.length) return
+      if (dir < 0) rows[j].before(row)
+      else rows[j].after(row)
     }
 
     // updateId 行随 build.arch 勾选自动增删：
