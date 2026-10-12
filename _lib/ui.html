@@ -359,6 +359,15 @@
         <div class="hint">检查 JSON 可解析、nav 链自引用/对称性、索引与 list 一致性等。</div>
       </div>
       <div class="card">
+        <h2>Git 同步</h2>
+        <div class="row">
+          <button class="btn" onclick="loadGitStatus(false)">刷新差异</button>
+          <button class="btn" onclick="loadGitStatus(true)">fetch 远端状态</button>
+          <button class="btn primary" id="pushBtn" onclick="doPush()">推送到云端（git push）</button>
+        </div>
+        <div id="gitSync" class="hint">点击「刷新差异」查看本地与云端的提交差异。</div>
+      </div>
+      <div class="card">
         <h2>打包与部署</h2>
         <button class="btn danger" onclick="doDeploy()">打包并部署（pack + deploy）</button>
         <div class="hint">重新生成 version.json 并打包上传数据压缩包，成功后清理本地 zip。deploy.txt 缺失时仅打包不上传。</div>
@@ -379,6 +388,8 @@
         document.getElementById('pane' + t[0].toUpperCase() + t.slice(1)).classList.toggle('hidden', t !== name)
         document.getElementById('tab' + t[0].toUpperCase() + t.slice(1)).classList.toggle('on', t === name)
       }
+      // 进入「校验与部署」页时自动获取一次本地与云端的差异
+      if (name === 'tool') loadGitStatus(false)
     }
 
     async function api(path, body) {
@@ -758,6 +769,47 @@
       show({ code: 0, output: '正在打包并上传…' })
       try {
         show(await api('/api/deploy', { confirm: true }))
+      } catch (e) { fail(e) }
+    }
+
+    /* ---------- git 同步 ---------- */
+    async function loadGitStatus(doFetch) {
+      const el = document.getElementById('gitSync')
+      el.textContent = doFetch ? '正在 fetch 远端状态…' : '正在读取差异…'
+      try {
+        renderGitSync(await api('/api/git-status' + (doFetch ? '?fetch=1' : '')))
+      } catch (e) {
+        el.innerHTML = '<span class="bad">' + e.message + '</span>'
+      }
+    }
+
+    function renderGitSync(r) {
+      const el = document.getElementById('gitSync')
+      let html = `分支 <b>${r.branch}</b> · 本地 HEAD <b>${r.head}</b><br>`
+      html += r.remoteRef
+        ? `云端 ${r.remoteRef} @ <b>${r.remoteHead}</b> · 工作区未提交变更 <b>${r.dirty}</b> 处<br>`
+        : `<span class="bad">无远端跟踪分支（首次推送前请先在终端 git push -u）</span><br>`
+      if (r.fetchNote) html += `${r.fetchNote}<br>`
+      if (r.remoteRef) {
+        html += `待推送提交：<b class="${r.ahead ? '' : 'good'}">${r.ahead}</b> · 待拉取提交：<b class="${r.behind ? 'bad' : 'good'}">${r.behind}</b>`
+        if (r.ahead) {
+          html += '<br><b>待推送：</b>' + r.localOnly.map((c) => `<br>　${c}`).join('')
+        }
+        if (r.behind) {
+          html += '<br><b class="bad">云端领先（需先拉取）：</b>' + r.remoteOnly.map((c) => `<br>　${c}`).join('')
+        }
+      }
+      el.innerHTML = html
+      document.getElementById('pushBtn').disabled = !r.remoteRef || !r.ahead || r.behind > 0
+    }
+
+    async function doPush() {
+      if (!confirm('将本地提交推送到 GitHub（origin），确认？')) return
+      show({ code: 0, output: '正在推送…' })
+      try {
+        const res = await api('/api/git-push', { confirm: true })
+        show(res)
+        loadGitStatus(false)
       } catch (e) { fail(e) }
     }
 

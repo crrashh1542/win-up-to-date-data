@@ -8,7 +8,7 @@ const http = require('http')
 const https = require('https')
 const fs = require('fs')
 const path = require('path')
-const { spawn } = require('child_process')
+const { spawn, spawnSync } = require('child_process')
 const { repoRoot, out, die } = require('./util')
 const { previewNew } = require('./draft')
 
@@ -65,6 +65,43 @@ function fetchStatus(url, depth = 0) {
 async function probeUrl(url) {
     const r = await fetchStatus(url)
     return r || { status: null, finalUrl: url }
+}
+
+/* --------------------------- git 同步（差异/推送） --------------------------- */
+
+function gitOut(args, opts = {}) {
+    const r = spawnSync('git', args, { cwd: repoRoot(), encoding: 'utf-8', ...opts })
+    return { code: r.status, stdout: (r.stdout || '').trim(), stderr: (r.stderr || '').trim() }
+}
+
+/** 本地与云端（远端跟踪分支）的差异信息；fetch=true 时先刷新远端状态（20s 超时） */
+function gitSyncInfo(doFetch) {
+    let fetchNote = ''
+    if (doFetch) {
+        const f = spawnSync('git', ['fetch'], { cwd: repoRoot(), encoding: 'utf-8', timeout: 20000 })
+        fetchNote =
+            f.status === 0
+                ? 'fetch 成功，远端状态已刷新'
+                : `fetch 失败（${(f.stderr || f.error || '超时').trim().slice(0, 160)}）`
+    }
+    const branch = gitOut(['rev-parse', '--abbrev-ref', 'HEAD']).stdout
+    const head = gitOut(['log', '-1', '--format=%h %s']).stdout
+    const remoteRef = gitOut([
+        'for-each-ref',
+        '--format=%(refname:short)',
+        `refs/remotes/origin/${branch}`,
+    ]).stdout
+    const dirty = gitOut(['status', '--porcelain']).stdout.split('\n').filter(Boolean).length
+    if (!remoteRef) {
+        return { branch, head, remoteRef: null, fetchNote, dirty }
+    }
+    const remoteHead = gitOut(['log', '-1', '--format=%h %s', remoteRef]).stdout
+    const counts = gitOut(['rev-list', '--left-right', '--count', `${remoteRef}...HEAD`]).stdout.split(/\s+/)
+    const behind = Number(counts[0]) || 0
+    const ahead = Number(counts[1]) || 0
+    const localOnly = gitOut(['log', '--oneline', '--no-decorate', `${remoteRef}..HEAD`]).stdout.split('\n').filter(Boolean)
+    const remoteOnly = gitOut(['log', '--oneline', '--no-decorate', `HEAD..${remoteRef}`]).stdout.split('\n').filter(Boolean)
+    return { branch, head, remoteRef, remoteHead, ahead, behind, localOnly, remoteOnly, dirty, fetchNote }
 }
 
 function wutdCli() {
@@ -188,6 +225,31 @@ async function handle(req, res) {
     // 全库一致性校验
     if (req.method === 'GET' && url.pathname === '/api/check') {
         send(res, 200, await runCli(['check']))
+        return
+    }
+
+    // Git 同步：本地与云端差异（fetch=1 时先刷新远端状态）
+    if (req.method === 'GET' && url.pathname === '/api/git-status') {
+        send(res, 200, gitSyncInfo(url.searchParams.get('fetch') === '1'))
+        return
+    }
+
+    // Git 推送（外发操作，需显式确认；远端领先时拒绝）
+    if (req.method === 'POST' && url.pathname === '/api/git-push') {
+        const body = await readBody(req)
+        if (!(body && body.confirm === true)) return send(res, 400, { code: 1, output: '缺少推送确认' })
+        const info = gitSyncInfo(false)
+        if (!info.remoteRef) return send(res, 200, { code: 1, output: '无远端跟踪分支，请先 git push -u 建立关联' })
+        if (info.behind > 0) {
+            return send(res, 200, {
+                code: 1,
+                output: `远端领先 ${info.behind} 个提交（本地缺失：\n${info.remoteOnly.join('\n')}）\n请先在终端处理分叉（git pull --rebase）后再推送`,
+            })
+        }
+        if (info.ahead === 0) return send(res, 200, { code: 0, output: '本地与云端一致，无待推送提交' })
+        const pushed = spawnSync('git', ['push'], { cwd: repoRoot(), encoding: 'utf-8', timeout: 120000 })
+        const output = `git push exit ${pushed.status}\n${(pushed.stdout || '') + (pushed.stderr || '')}`.trim()
+        send(res, 200, { code: pushed.status === 0 ? 0 : 1, output })
         return
     }
 

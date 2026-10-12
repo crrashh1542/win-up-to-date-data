@@ -22,7 +22,8 @@ node wu ui          # 启动本地表单并自动打开浏览器（--port 可切
   「校验草稿」或直接「应用」
   （apply 前自动先校验，ERROR 会拦截；可勾选自动 git commit，Signed-off-by 与 GPG 签名默认启用）；
 - **旧版本线 bump**：类目模式 / `--from` 锚点模式，date/branch 显式填写；
-- **校验与部署**：全库内容检查并打包部署
+- **校验与部署**：全库内容检查、Git 同步（列出本地与云端的差异提交，fetch 刷新远端状态，
+  带确认推送；云端领先时拒绝推送并提示先处理分叉）并打包部署
 - **自动补全**：详情请见 `_lib/autofill.json`。以类目为主对象，含四类预填：
   `releaseNotesChannel`（release.url 的 Learn 链接频道）、
   `releaseChannel`（仅 Beta / Experimental）、
