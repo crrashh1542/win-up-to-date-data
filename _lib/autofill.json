@@ -1,7 +1,8 @@
 {
     "categories": {
         "24H2-germanium": {
-            "branch": "ge_release_svc_prod"
+            "branch": "ge_release_svc_prod",
+            "defaultDownload": true
         },
         "24H2-germanium-betaflt": {
             "releaseChannel": "Beta",
@@ -17,7 +18,8 @@
             "branch": "rs_prerelease"
         },
         "25H2-germanium": {
-            "branch": "25h2_ge_release_svc_prod"
+            "branch": "25h2_ge_release_svc_prod",
+            "defaultDownload": true
         },
         "25H2-germanium-betaflt": {
             "releaseNotesChannel": "beta",
@@ -28,7 +30,8 @@
             "branch": "rs_prerelease"
         },
         "26H1-bromine": {
-            "branch": "br_release_svc_prod"
+            "branch": "br_release_svc_prod",
+            "defaultDownload": true
         },
         "26H1-bromine-betaflt": {
             "releaseNotesChannel": "beta-26h1",
@@ -41,7 +44,8 @@
             "branch": "br_prerelease_im"
         },
         "26H2-germanium": {
-            "branch": "26h2_ge_release_svc_prod"
+            "branch": "26h2_ge_release_svc_prod",
+            "defaultDownload": true
         },
         "26H2-germanium-prerel": {
             "releaseNotesChannel": "experimental",

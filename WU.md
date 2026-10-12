@@ -2,28 +2,31 @@
 
 芝士用于是取代手工编辑 JSON 的命令行工具。
 
-:::note
-此文档的多数内容和相关工具链由 AI 生成。
-:::
+> [!NOTE]
+> 此文档的多数内容和相关工具由 AI 生成。
 
 ```
-node wu.js <command> ...
+node wu <command> ...
 ```
 
 ## 表单更新 UI 界面
 
 ```
-node wu.js ui          # 启动本地表单并自动打开浏览器（--port 可切换端口，--no-open 不自动打开浏览器）
+node wu ui          # 启动本地表单并自动打开浏览器（--port 可切换端口，--no-open 不自动打开浏览器）
 ```
 
 - **新构建**：选类目、填构建号 → 页面即时显示插入位置与 nav 链预览并预填类别元数据 →
-  填 branch/时间/公告/updateId/下载（可动态增删行）→「校验草稿」或直接「应用」
+  填 branch/时间/公告/updateId/下载（updateId 行随 build.arch 勾选自动生成/移除，
+  已填 GUID 的行不受影响；下载默认为空，生产线类目自动带一个下载项，均可动态增删）→
+  「校验草稿」或直接「应用」
   （apply 前自动先校验，ERROR 会拦截；可勾选自动 git commit，Signed-off-by 与 GPG 签名默认启用）；
 - **旧版本线 bump**：类目模式 / `--from` 锚点模式，date/branch 显式填写；
 - **校验与部署**：全库内容检查并打包部署
-- **自动补全**：详情请见 `_lib/autofill.json`。以类目为主对象，含三类预填：
+- **自动补全**：详情请见 `_lib/autofill.json`。以类目为主对象，含四类预填：
   `releaseNotesChannel`（release.url 的 Learn 链接频道）、
-  `releaseChannel`、`branch`
+  `releaseChannel`（仅 Beta / Experimental）、
+  `branch`（生产线为统一前缀，prod1/2/3、im 等后缀需人工补全）、
+  `defaultDownload`（true 时选中该类目自动带一个下载项）
 
 所有动作在服务端通过子进程调用 `wu.js` 自身执行，UI 与 CLI 行为完全一致；UI 提交的草稿临时写入 `_drafts/ui-*.draft.json`，apply 成功后自动删除。
 
@@ -42,11 +45,11 @@ node wu.js ui          # 启动本地表单并自动打开浏览器（--port 可
 ### 新构建（原 `[new]` 提交）
 
 ```
-node wu.js new 26H1-bromine 28000.3086      # 1. 生成 _drafts/26H1-bromine-28000.3086.draft.json
+node wu new 26H1-bromine 28000.3086       # 1. 生成 _drafts/26H1-bromine-28000.3086.draft.json
 # 2. 随时用编辑器填写草稿字段（顺序随意，可分多次、可多张草稿并行）
-node wu.js check --draft                     # 3. 查看缺失项/问题（不带参数检查全部草稿）
-node wu.js apply _drafts/26H1-bromine-28000.3086.draft.json --commit
-                                                     # 4. 校验、投影、生成规范提交
+node wu check --draft                     # 3. 查看缺失项/问题（不带参数检查全部草稿）
+node wu apply _drafts/26H1-bromine-28000.3086.draft.json --commit
+                                          # 4. 校验、投影、生成规范提交
 ```
 
 apply 自动完成：创建 `detail/<cat>/<build>.json`、category list 按号位插入、
@@ -58,9 +61,9 @@ nav 链双向接线、两个 index 的 version/date 推进（branch 不自动改
 ### 旧版本线服务更新（原 `[latest]` 提交）
 
 ```
-node wu.js bump 26H1-bromine 28000.3086 2026-09-22          # 类目模式
-node wu.js bump --from 22631.7582 22631.7584 2026-09-14    # 锚点模式（旧线无 category 指针）
-node wu.js bump 26H1-bromine 28000.3086 2026-09-22 --list  # 需要同步 category list 时
+node wu bump 26H1-bromine 28000.3086 2026-09-22          # 类目模式
+node wu bump --from 22631.7582 22631.7584 2026-09-14    # 锚点模式（旧线无 category 指针）
+node wu bump 26H1-bromine 28000.3086 2026-09-22 --list  # 需要同步 category list 时
 ```
 
 只更新两个 index 文件（惯例不更新 category list 与 detail）。多个类目可连续 bump 后一次提交。
@@ -68,22 +71,22 @@ node wu.js bump 26H1-bromine 28000.3086 2026-09-22 --list  # 需要同步 catego
 ### 索引修复
 
 ```
-node wu.js index --dry-run   # 预览索引落后于源数据的条目
-node wu.js index             # 同步 index/category.json 与 index/latest-builds.json
+node wu index --dry-run   # 预览索引落后于源数据的条目
+node wu index             # 同步 index/category.json 与 index/latest-builds.json
 ```
 
 ### 校验
 
 ```
-node wu.js check             # 全库一致性（JSON 可解析、nav 链自引用/对称性、索引与 list 一致性等）
+node wu check             # 全库一致性（JSON 可解析、nav 链自引用/对称性、索引与 list 一致性等）
 ```
 
 ### 打包与部署
 
 ```
-node wu.js pack              # 生成 version.json + data-r<rev>-<hash>-<yymmdd>.zip
-node wu.js deploy            # pack + 上传（读 deploy.txt），成功后清理本地 zip
-node wu.js deploy --no-pack  # 复用已有 zip
+node wu pack              # 生成 version.json + data-r<rev>-<hash>-<yymmdd>.zip
+node wu deploy            # pack + 上传（读 deploy.txt），成功后清理本地 zip
+node wu deploy --no-pack  # 复用已有 zip
 ```
 
 zip 使用纯 Node 实现打包，具体内容包括 `category/` `detail/` `viveid/` `index/` `download/` `version.json`。`deploy.txt` 不存在或为空时 deploy 自动跳过。
