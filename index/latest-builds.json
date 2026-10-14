@@ -67,32 +67,32 @@
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26300.9550",
-                "branch": "26h2_ge_release_svc_prod3",
+                "version": "26300.9711",
+                "branch": "26h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "26H2-germanium",
                 "semester": "26H2",
-                "date": "2026-09-22"
+                "date": "2026-10-13"
             },
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26200.9550",
-                "branch": "25h2_ge_release_svc_prod3",
+                "version": "26200.9711",
+                "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-09-22"
+                "date": "2026-10-13"
             },
             {
                 "channel": "发布预览",
                 "color": "purple",
                 "version": "26100.9550",
-                "branch": "ge_release_svc_prod3",
+                "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
-                "date": "2026-09-22"
+                "date": "2026-10-13"
             }
         ]
     },
@@ -101,6 +101,26 @@
         "id": "client-11",
         "icon": "windows11",
         "releases": [
+            {
+                "channel": "26H2",
+                "color": "blue",
+                "version": "26300.9711",
+                "branch": "26h2_ge_release_svc_prod1",
+                "codename": "Germanium",
+                "category": "26H2-germanium",
+                "semester": "26H2",
+                "date": "2026-10-13"
+            },
+            {
+                "channel": "26H2 (CloudPC OS)",
+                "color": "blue",
+                "version": "26300.9711",
+                "branch": "26h2_ge_release_svc_prod1",
+                "codename": "Germanium",
+                "category": "26H2-germanium",
+                "semester": "26H2",
+                "date": "2026-10-13"
+            },
             {
                 "channel": "26H1",
                 "color": "blue",
@@ -114,32 +134,32 @@
             {
                 "channel": "25H2",
                 "color": "blue",
-                "version": "26200.9457",
-                "branch": "25h2_ge_release_svc_im",
+                "version": "26200.9711",
+                "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-09-14"
+                "date": "2026-10-13"
             },
             {
-                "channel": "CloudPC OS",
+                "channel": "25H2 (CloudPC OS)",
                 "color": "blue",
-                "version": "26200.9457",
-                "branch": "25h2_ge_release_svc_im",
+                "version": "26200.9711",
+                "branch": "25h2_ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-09-14"
+                "date": "2026-10-13"
             },
             {
                 "channel": "24H2",
                 "color": "blue",
-                "version": "26100.9457",
-                "branch": "ge_release_svc_im",
+                "version": "26100.9711",
+                "branch": "ge_release_svc_prod1",
                 "codename": "Germanium",
                 "category": "24H2-germanium",
                 "semester": "24H2",
-                "date": "2026-09-14"
+                "date": "2026-10-13"
             },
             {
                 "channel": "23H2",
