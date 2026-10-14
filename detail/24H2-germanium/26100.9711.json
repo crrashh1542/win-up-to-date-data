@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26100.9711",
+        "branch": "ge_release_svc_prod1",
+        "compileTime": "2026-10-09 22:44",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-10-13 18:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/10/kb5127648-windows-11-24h2-25h2-26h2-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium",
+            "build": "26100.9550"
+        },
+        "next": {
+            "category": "24H2-germanium-betaflt",
+            "build": "26120.461"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium",
+        "name": "Germanium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "ac94e557-eb76-4c8b-a064-0c72d6d3e09c"
+    },
+    {
+        "arch": "ARM64",
+        "id": "14843c5b-fa5c-469a-b897-24c216564d2a"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5127648-x64.msu",
+        "size": "4.45 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4225b261-8248-43e5-a808-34f3faafe3f6/public/windows11.0-kb5127648-x64_2b88d2d308adc938fcd4d2876a68ee0b2a3c4c09.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "cb29ab4f302c606da04eb800d1ddda5f",
+        "sha256": "8a1067c763121953876e2e0dcbf5e2c5832545a44ef6baba362938287e05fcfb"
+    }]
+}

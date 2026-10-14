@@ -15,11 +15,11 @@
     "nav": {
         "previous": {
             "category": "26H2-germanium",
-            "build": "26300.9457"
+            "build": "26300.9539"
         },
         "next": {
-            "category": "26H2-germanium-prerel",
-            "build": "26100.2"
+            "category": "26H2-germanium",
+            "build": "26300.9711"
         }
     },
     "belongsTo": {
