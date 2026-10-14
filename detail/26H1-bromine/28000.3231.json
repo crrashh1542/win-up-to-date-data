@@ -1,0 +1,50 @@
+{
+    "build": {
+        "number": "28000.3231",
+        "branch": "br_release_svc_prod1",
+        "compileTime": "2026-10-09 22:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-10-13 18:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/10/kb5127646-windows-11-26h1-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.3086"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [
+        {
+            "arch": "AMD64",
+            "id": "69bac559-2e7f-457b-9e2a-97868c5ee8a6"
+        },
+        {
+            "arch": "ARM64",
+            "id": "de9772af-3b3e-47df-b2f6-4e87eb627f12"
+        }
+    ],
+    "download": [{
+        "name": "Windows11.0-KB5127646-x64.msu",
+        "size": "3.86 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/23a416b1-3cfa-451b-8ca3-186075b34a87/public/windows11.0-kb5127646-x64_1581b4e504578c7885f2ce34a86c37f785bef551.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "a83a8ab1c8694db8ef71e5f7af947674",
+        "sha256": "2094adc4e6ffccabf3a38998bd2849e3a2851c249ab5e8d58191123e23d098c6"
+    }]
+}
