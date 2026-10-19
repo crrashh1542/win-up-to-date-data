@@ -47,12 +47,12 @@
             {
                 "channel": "Experimental",
                 "color": "orange",
-                "version": "26340.9616",
+                "version": "26340.9750",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
                 "category": "26H2-germanium-prerel",
                 "semester": "26H2",
-                "date": "2026-10-07"
+                "date": "2026-10-16"
             },
             {
                 "channel": "Beta",
@@ -317,12 +317,12 @@
             {
                 "channel": "Experimental",
                 "color": "orange",
-                "version": "26340.9616",
+                "version": "26340.9750",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
                 "category": "26H2-germanium-prerel",
                 "semester": "26H2",
-                "date": "2026-10-07"
+                "date": "2026-10-16"
             },
             {
                 "channel": "Beta",

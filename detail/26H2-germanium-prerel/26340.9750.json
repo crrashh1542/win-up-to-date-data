@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "26340.9750",
+        "branch": "ge_prerelease_im",
+        "compileTime": "2026-10-10 09:43",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Experimental",
+        "time": "2026-10-16 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental/preview-build-26340-9750",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-germanium-prerel",
+            "build": "26340.9616"
+        },
+        "next": {
+            "category": "25H1-dilithium",
+            "build": "27686.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-germanium-prerel",
+        "name": "Germanium (Prerelease)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "b7cbe624-ae0e-43a7-93e4-b56e624489ee"
+    },
+    {
+        "arch": "ARM64",
+        "id": "cb0f12bf-cd10-404a-ba07-3b7fd181a813"
+    }],
+    "download": []
+}
