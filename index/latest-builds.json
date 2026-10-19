@@ -17,12 +17,12 @@
             {
                 "channel": "Exp 26H1",
                 "color": "orange",
-                "version": "28120.3181",
+                "version": "28120.3272",
                 "branch": "br_prerelease_im",
                 "codename": "Bromine",
                 "category": "26H1-bromine-prerel",
                 "semester": "26H1",
-                "date": "2026-10-07"
+                "date": "2026-10-16"
             },
             {
                 "channel": "Beta 26H1",
@@ -297,12 +297,12 @@
             {
                 "channel": "Exp 26H1",
                 "color": "orange",
-                "version": "28120.3181",
+                "version": "28120.3272",
                 "branch": "br_prerelease_im",
                 "codename": "Bromine",
                 "category": "26H1-bromine-prerel",
                 "semester": "26H1",
-                "date": "2026-10-07"
+                "date": "2026-10-16"
             },
             {
                 "channel": "Beta 26H1",
