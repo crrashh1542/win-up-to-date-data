@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "26220.9757",
+        "branch": "ge_release_svc_betaflt_prod1",
+        "compileTime": "2026-10-15 18:05",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Beta",
+        "time": "2026-10-23 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/beta/preview-build-26220-9757",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "25H2-germanium-betaflt",
+            "build": "26220.9739"
+        },
+        "next": {
+            "category": "26H2-germanium",
+            "build": "26300.9278"
+        }
+    },
+    "belongsTo": {
+        "path": "25H2-germanium-betaflt",
+        "name": "Germanium (25H2 Betaflt)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "e40554cc-ac0b-4a07-b9a0-701d7893a07e"
+    },
+    {
+        "arch": "ARM64",
+        "id": "84b44351-710a-4337-bd6f-0fc6c5f8e12b"
+    }],
+    "download": []
+}
