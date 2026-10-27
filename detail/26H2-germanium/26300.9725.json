@@ -1,0 +1,52 @@
+{
+    "build": {
+        "number": "26300.9725",
+        "branch": "26h2_ge_release_svc_im",
+        "compileTime": "2026-10-24 04:05",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-10-26 21:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/10/kb5134133-windows-11-24h2-25h2-26h2-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-germanium",
+            "build": "26300.9711"
+        },
+        "next": {
+            "category": "26H2-germanium",
+            "build": "26300.9807"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-germanium",
+        "name": "Germanium (26H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "a9e9673e-1444-4bec-9445-1d294d11bb4e"
+    },
+    {
+        "arch": "ARM64 (1)",
+        "id": "1244b665-1cee-499e-93a4-5ea404d2c820"
+    },
+    {
+        "arch": "ARM64 (2)",
+        "id": "f6722ac5-6c3c-4fb5-ab61-f3fa020c8a27"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5134133-x64.msu",
+        "size": "4.54 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/37e2df4b-2f39-44bf-b7d7-c75ae43cf4c8/public/windows11.0-kb5134133-x64_0e59d2f988a5422dfb489e97faed3b3835fc7568.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "b59bae937bb560488e3212a1be9abca6",
+        "sha256": "cdd9d082a87c131f2ecff346717e163c23d3dadc323fa8faed00826d8e135872"
+    }]
+}

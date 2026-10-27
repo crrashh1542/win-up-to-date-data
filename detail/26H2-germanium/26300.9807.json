@@ -1,13 +1,13 @@
 {
     "build": {
-        "number": "26200.9807",
-        "branch": "25h2_ge_release_svc_prod3",
+        "number": "26300.9807",
+        "branch": "26h2_ge_release_svc_prod3",
         "compileTime": "2026-10-13 18:34",
         "arch": ["AMD64", "ARM64"],
         "counterpart": "Client"
     },
     "release": {
-        "channel": "General",
+        "channel": "Release Preview",
         "time": "2026-10-16 17:00",
         "url": "https://learn.microsoft.com/windows-insider/release-notes/release-preview-24h2-25h2/build-26200-9807-26300-9807",
         "announcePlace": "Microsoft Learn"
@@ -15,7 +15,7 @@
     "nav": {
         "previous": {
             "category": "26H2-germanium",
-            "build": "26300.9711"
+            "build": "26300.9725"
         },
         "next": {
             "category": "26H2-germanium-prerel",

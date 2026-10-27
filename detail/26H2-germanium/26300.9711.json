@@ -1,6 +1,6 @@
 {
     "build": {
-        "number": "26200.9711",
+        "number": "26300.9711",
         "branch": "26h2_ge_release_svc_prod1",
         "compileTime": "2026-10-09 22:44",
         "arch": ["AMD64", "ARM64"],
@@ -19,7 +19,7 @@
         },
         "next": {
             "category": "26H2-germanium",
-            "build": "26300.9807"
+            "build": "26300.9725"
         }
     },
     "belongsTo": {

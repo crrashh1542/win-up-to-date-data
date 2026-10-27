@@ -239,13 +239,9 @@
                         "name": "Germanium",
                         "semester": "24H2",
                         "category": "24H2-germanium",
-                        "latestBuild": "26100.9711",
+                        "latestBuild": "26100.9725",
                         "continued": true,
                         "tag": [
-                            {
-                                "name": "RP",
-                                "color": "purple"
-                            },
                             {
                                 "name": "正式",
                                 "color": "blue"
