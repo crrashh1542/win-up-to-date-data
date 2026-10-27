@@ -1,0 +1,44 @@
+{
+    "build": {
+        "number": "28000.3237",
+        "branch": "br_release_svc_im",
+        "compileTime": "2026-10-23 23:25",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-10-26 21:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/10/kb5134134-windows-11-26h1-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.3231"
+        },
+        "next": {
+            "category": "26H1-bromine",
+            "build": "28000.3351"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [
+        {
+            "arch": "AMD64 (1)",
+            "id": "293c754f-fec2-4161-b2d8-6940966fdf5d"
+        },
+        {
+            "arch": "AMD64 (2)",
+            "id": "a7fff915-161e-425b-b467-15932061440c"
+        },
+        {
+            "arch": "ARM64",
+            "id": "cae31273-b879-4fc8-9cfc-b3e7699ab1b4"
+        }
+    ],
+    "download": []
+}

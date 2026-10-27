@@ -7,7 +7,7 @@
         "counterpart": "Client"
     },
     "release": {
-        "channel": "General",
+        "channel": "Release Preview",
         "time": "2026-10-16 17:00",
         "url": "https://learn.microsoft.com/windows-insider/release-notes/release-preview-26h1/build-28000-3351",
         "announcePlace": "Microsoft Learn"
@@ -15,7 +15,7 @@
     "nav": {
         "previous": {
             "category": "26H1-bromine",
-            "build": "28000.3231"
+            "build": "28000.3237"
         },
         "next": {
             "category": "26H1-bromine-betaflt",

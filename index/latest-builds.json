@@ -114,12 +114,12 @@
             {
                 "channel": "26H1",
                 "color": "blue",
-                "version": "28000.3351",
-                "branch": "br_release_svc_prod1",
+                "version": "28000.3237",
+                "branch": "br_release_svc_im",
                 "codename": "Bromine",
                 "category": "26H1-bromine",
                 "semester": "26H1",
-                "date": "2026-10-16"
+                "date": "2026-10-26"
             },
             {
                 "channel": "25H2",
