@@ -1,0 +1,56 @@
+{
+    "build": {
+        "number": "28000.3365",
+        "branch": "br_release_svc_prod3",
+        "compileTime": "2026-10-25 10:09",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-10-28 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/10/kb5127653-windows-11-26h1-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.3351"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64 (1)",
+        "id": "8f550c54-da87-45d3-89e3-0c03a6f16ae8"
+    },
+    {
+        "arch": "AMD64 (2)",
+        "id": "e3914fec-814a-46d8-9a94-a3f2d67ee9bf"
+    },
+    {
+        "arch": "ARM64 (1)",
+        "id": "e8706433-04f4-4a00-b58f-df8ed1bab586"
+    },
+    {
+        "arch": "ARM64 (2)",
+        "id": "ab3c5f86-25bc-43a2-993e-e1b2ddf3b872"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5127653-x64.msu",
+        "size": "4.05 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/e9115a85-b733-45c8-9e9c-b56983f05ff4/public/windows11.0-kb5127653-x64_319cd0de593780c2d6b663ce0c8eab06beb1a22b.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "061bdb7498849a90ff47a26628fdcb8d",
+        "sha256": "85c1acd0ebb35a60f090333fc1ccbf1e4b6c6271839d7f203ce8baff446ff3b6"
+    }]
+}
