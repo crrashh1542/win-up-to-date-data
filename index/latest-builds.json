@@ -67,22 +67,22 @@
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26300.9807",
+                "version": "26300.9818",
                 "branch": "26h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "26H2-germanium",
                 "semester": "26H2",
-                "date": "2026-10-19"
+                "date": "2026-10-28"
             },
             {
                 "channel": "发布预览",
                 "color": "purple",
-                "version": "26200.9807",
+                "version": "26200.9818",
                 "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-10-19"
+                "date": "2026-10-28"
             }
         ]
     },
@@ -94,12 +94,12 @@
             {
                 "channel": "26H2",
                 "color": "blue",
-                "version": "26300.9725",
-                "branch": "26h2_ge_release_svc_im",
+                "version": "26300.9818",
+                "branch": "26h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "26H2-germanium",
                 "semester": "26H2",
-                "date": "2026-10-26"
+                "date": "2026-10-28"
             },
             {
                 "channel": "26H2 (CloudPC OS)",
@@ -124,12 +124,12 @@
             {
                 "channel": "25H2",
                 "color": "blue",
-                "version": "26200.9725",
-                "branch": "25h2_ge_release_svc_im",
+                "version": "26200.9818",
+                "branch": "25h2_ge_release_svc_prod3",
                 "codename": "Germanium",
                 "category": "25H2-germanium",
                 "semester": "25H2",
-                "date": "2026-10-26"
+                "date": "2026-10-28"
             },
             {
                 "channel": "25H2 (CloudPC OS)",

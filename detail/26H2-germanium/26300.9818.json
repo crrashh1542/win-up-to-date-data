@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "26300.9818",
+        "branch": "26h2_ge_release_svc_prod3",
+        "compileTime": "2026-10-25 09:59",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-10-28 17:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/10/kb5127936-windows-11-25h2-26h2-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-germanium",
+            "build": "26300.9807"
+        },
+        "next": {
+            "category": "26H2-germanium-prerel",
+            "build": "26100.2"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-germanium",
+        "name": "Germanium (26H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "6c7bf258-2632-47dd-83ee-c23945978da1"
+    },
+    {
+        "arch": "ARM64",
+        "id": "4e10fccd-8c53-4b76-99a9-210c11f1a0e6"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5127936-x64.msu",
+        "size": "4.56 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/f6638a86-82af-448b-8b8d-03857c230aed/public/windows11.0-kb5127936-x64_50caf2fe2be948935a804656404d11f17929830b.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "ab918df5b977ce6d9849eee43a18963f",
+        "sha256": "ed0e63076f3f11eca26927a6fe8d2b417125cc7b8e1c33d25d64680f74b4b448"
+    }]
+}
