@@ -27,7 +27,7 @@
             {
                 "channel": "Beta 26H1",
                 "color": "green",
-                "version": "28020.9843",
+                "version": "28020.3382",
                 "branch": "br_release_svc_betaflt_prod1",
                 "codename": "Bromine",
                 "category": "26H1-bromine-betaflt",
@@ -47,12 +47,12 @@
             {
                 "channel": "Experimental",
                 "color": "orange",
-                "version": "26340.9767",
+                "version": "26340.9843",
                 "branch": "ge_prerelease_im",
                 "codename": "Germanium",
                 "category": "26H2-germanium-prerel",
                 "semester": "26H2",
-                "date": "2026-10-23"
+                "date": "2026-10-30"
             },
             {
                 "channel": "Beta",

@@ -1,0 +1,38 @@
+{
+    "build": {
+        "number": "28020.3382",
+        "branch": "br_release_svc_betaflt_prod1",
+        "compileTime": "2026-10-22 19:54",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Beta",
+        "time": "2026-10-30 17:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/beta-26h1/preview-build-28020-3382",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28020.3292"
+        },
+        "next": {
+            "category": "26H1-bromine-prerel",
+            "build": "28120.2242"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine-betaflt",
+        "name": "Bromine (Betaflt)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "132bf691-577f-47d7-96e8-4b9fb50d1832"
+    },
+    {
+        "arch": "ARM64",
+        "id": "11f88fca-9267-48b6-8bdd-5044ca736f41"
+    }],
+    "download": []
+}
