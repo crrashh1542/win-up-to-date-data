@@ -16,6 +16,10 @@
         "previous": {
             "category": "27H1-rubidium",
             "build": "29683.1000-server"
+        },
+        "next": {
+            "category": "27H1-rubidium",
+            "build": "29698.1000"
         }
     },
     "belongsTo": {
@@ -34,7 +38,11 @@
         "name": "29695.1001.261020-1424.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
         "size": "4.83 GB",
         "link": [{
-            "url": "https://fsb.api.crrashh.com/u/https://fsb.api.crrashh.com/u/01000077acc",
+            "url": "https://yun.139.com/shareweb/#/w/i/2yA8CH8qVmDxr",
+            "source": "移动云盘"
+        },
+        {
+            "url": "https://fsb.api.crrashh.com/u/010000fe47f",
             "source": "豆包云盘"
         },
         {
