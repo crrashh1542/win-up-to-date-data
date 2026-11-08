@@ -18,8 +18,8 @@
             "build": "26300.9807"
         },
         "next": {
-            "category": "26H2-germanium-prerel",
-            "build": "26100.2"
+            "category": "26H2-germanium-betaflt",
+            "build": "26320.9876"
         }
     },
     "belongsTo": {

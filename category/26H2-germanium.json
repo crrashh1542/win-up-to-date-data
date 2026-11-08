@@ -10,8 +10,8 @@
             "name": "Germanium (25H2 Betaflt)"
         },
         "next": {
-            "path": "26H2-germanium-prerel",
-            "name": "Germanium (Prerelease)"
+            "path": "26H2-germanium-betaflt",
+            "name": "Germanium (26H2 Betaflt)"
         }
     },
     "list": [

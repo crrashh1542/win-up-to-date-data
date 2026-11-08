@@ -60,6 +60,19 @@
                         ]
                     },
                     {
+                        "name": "Germanium (Betaflt)",
+                        "semester": "26H2",
+                        "category": "26H2-germanium-betaflt",
+                        "latestBuild": "26320.9876",
+                        "continued": true,
+                        "tag": [
+                            {
+                                "name": "Experimental",
+                                "color": "orange"
+                            }
+                        ]
+                    },
+                    {
                         "name": "Germanium",
                         "semester": "26H2",
                         "category": "26H2-germanium",
@@ -151,7 +164,7 @@
                         "semester": "25H2",
                         "category": "25H2-germanium-betaflt",
                         "latestBuild": "26220.9836",
-                        "continued": true,
+                        "continued": false,
                         "tag": [
                             {
                                 "name": "Dev",

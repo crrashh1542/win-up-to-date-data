@@ -3,7 +3,7 @@
     "codename": "Germanium",
     "belonging": "Windows 11",
     "semester": "25H2",
-    "range": ["26220.5770", null],
+    "range": ["26220.5770","26220.9836"],
     "nav": {
         "previous": {
             "path": "25H2-germanium",
