@@ -1,0 +1,52 @@
+{
+    "build": {
+        "number": "29704.1000",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-10-30 18:14",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Experimental",
+        "time": "2026-11-06 18:00",
+        "url": "https://learn.microsoft.com/windows-insider/release-notes/experimental-future-platforms/preview-build-29704-1000",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "27H1-rubidium",
+            "build": "29698.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "27H1-rubidium",
+        "name": "Rubidium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "9001e7ee-0788-40a8-bbda-6dd61a8811fb"
+    },
+    {
+        "arch": "ARM64",
+        "id": "0db8c2f0-f5b3-4484-8acf-cf416554d59f"
+    }],
+    "download": [{
+        "name": "29704.1000.261030-1814.rs_prerelease_CLIENTMULTI_X64FRE_zh-cn.iso",
+        "size": "4.83 GB",
+        "link": [{
+            "url": "https://yun.139.com/shareweb/#/w/i/2yA8CS96v31je",
+            "source": "移动云盘"
+        },
+        {
+            "url": "https://fsb.api.crrashh.com/u/0100005565a",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQDh737TxKcGSqhL8bK_M-WZASvfXri4yTGJxsdJuUajFSw",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "cbc2dd8606c1b99feb68a62846958df1",
+        "sha256": "6da6ad696dd8bff7550a1103424d1c20430ee2e9cf4609119ba5f05c52697d13"
+    }]
+}
