@@ -1,0 +1,52 @@
+{
+    "build": {
+        "number": "29704.1010",
+        "branch": "rs_prerelease",
+        "compileTime": "2026-10-30 18:21",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Experimental",
+        "time": "2026-11-09 18:00",
+        "url": "https://learn.microsoft.com/en-us/answers/questions/6063794/build-29704-1010-out-to-canary-future-channel",
+        "announcePlace": "Microsoft Learn"
+    },
+    "nav": {
+        "previous": {
+            "category": "27H1-rubidium",
+            "build": "27904.1000"
+        }
+    },
+    "belongsTo": {
+        "path": "27H1-rubidium",
+        "name": "Rubidium"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "64b19285-7e29-43e6-90c1-16e24ae2500e"
+    },
+    {
+        "arch": "ARM64",
+        "id": "0007fb42-9b78-4a4c-8826-d99e9a9b3012"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5135251-x64.msu",
+        "size": "63.45 MB",
+        "link": [{
+            "url": "https://wwa.lanzn.com/ilGyf4fetyda",
+            "source": "蓝奏云盘"
+        },
+        {
+            "url": "https://feishu.doubao.com/drive/file/EjnPbV48DoGlVuxBJKnctnbVnYd",
+            "source": "豆包云盘"
+        },
+        {
+            "url": "https://shaog-my.sharepoint.com/:u:/g/personal/crrashh_shaog_onmicrosoft_com/IQChZgsKY9DUTrMWDvIgsqH7AagOZ_CyLLrjOubJ-m3b7Hs",
+            "source": "OneDrive"
+        }],
+        "arch": "AMD64",
+        "md5": "760d08b2aa9d9153335f97fec2454473",
+        "sha256": "6f8ab96153aeaeab7542808c6782fa52233d65974951d163ee745026cce82b5d"
+    }]
+}
