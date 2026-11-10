@@ -1,0 +1,36 @@
+{
+    "build": {
+        "number": "26320.9877",
+        "branch": "ge_release_svc_betaflt_im",
+        "compileTime": "2026-11-04 11:54",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "Beta",
+        "time": "2026-11-09 18:00"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-germanium-betaflt",
+            "build": "26320.9876"
+        },
+        "next": {
+            "category": "26H2-germanium-prerel",
+            "build": "26100.2"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-germanium",
+        "name": "Germanium (26H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "ad797313-9cfd-46b9-8dab-a6a5eab0e3b7"
+    },
+    {
+        "arch": "ARM64",
+        "id": "0c8299e9-1d3c-4a6e-b9db-b8a123543da1"
+    }],
+    "download": []
+}
