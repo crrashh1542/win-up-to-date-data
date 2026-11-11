@@ -1,0 +1,49 @@
+{
+    "build": {
+        "number": "26100.33822",
+        "branch": "lt_release_svc_prod1",
+        "compileTime": "2026-11-08 12:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Server"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-11-10 18:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-server/2026/11/kb5131080-windows-server-2025-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "24H2-germanium-server",
+            "build": "26100.33650"
+        },
+        "next": {
+            "category": "24H2-germanium-upstream",
+            "build": "26200.5001"
+        }
+    },
+    "belongsTo": {
+        "path": "24H2-germanium-server",
+        "name": "Germanium (Server)"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "5d8b7dca-51fa-476c-8832-717bd618a211"
+    },
+    {
+        "arch": "ARM64",
+        "id": "0b24fc40-1c45-4178-b3b4-7e0f74a8695c"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5131080-x64.msu",
+        "size": "1.93 GB",
+        "link": [
+        {
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/40445b51-7122-431b-92f8-8a5f3952c890/public/windows11.0-kb5131080-x64_3a6d5dabe658c5cef242dc6d8f0cefdfd8504e36.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "be4e4104c48150aa3c301c7c2cbc0e0e",
+        "sha256": "fab371b2ecfafea28af9608c077bafba3c5e9768e0ef30e56073819dca1968ef"
+    }]
+}
