@@ -1,0 +1,48 @@
+{
+    "build": {
+        "number": "28000.3501",
+        "branch": "br_release_svc_prod1",
+        "compileTime": "2026-11-08 12:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-11-10 18:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/11/kb5132059-windows-11-26h1-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H1-bromine",
+            "build": "28000.3365"
+        },
+        "next": {
+            "category": "26H1-bromine-betaflt",
+            "build": "28000.4"
+        }
+    },
+    "belongsTo": {
+        "path": "26H1-bromine",
+        "name": "Bromine"
+    },
+    "updateId": [{
+        "arch": "AMD64",
+        "id": "0ebee78b-ea45-4f17-93a0-3146414efeb1"
+    },
+    {
+        "arch": "ARM64",
+        "id": "7b1633dc-2a89-48c6-9d44-53af4a1cd5d4"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5132059-x64.msu",
+        "size": "3.87 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/b03d1a4a-d014-40aa-a2bc-0fd7554feb80/public/windows11.0-kb5132059-x64_5981ef2a4d58dccb937cd3dbd2d6a3b2546443d4.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "ad003ccda3f32776064412f0f3f5baa8",
+        "sha256": "542a372f7ba8d5d32c17483ccde585e6041a50abac3bce37219a6dbf14e830c2"
+    }]
+}
