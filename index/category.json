@@ -76,7 +76,7 @@
                         "name": "Germanium",
                         "semester": "26H2",
                         "category": "26H2-germanium",
-                        "latestBuild": "26300.9818",
+                        "latestBuild": "26300.9974",
                         "continued": true,
                         "tag": [
                             {
@@ -180,7 +180,7 @@
                         "name": "Germanium",
                         "semester": "25H2",
                         "category": "25H2-germanium",
-                        "latestBuild": "26200.9818",
+                        "latestBuild": "26200.9974",
                         "continued": true,
                         "tag": [
                             {
@@ -252,12 +252,16 @@
                         "name": "Germanium",
                         "semester": "24H2",
                         "category": "24H2-germanium",
-                        "latestBuild": "26100.9725",
+                        "latestBuild": "26100.9974",
                         "continued": true,
                         "tag": [
                             {
                                 "name": "正式",
                                 "color": "blue"
+                            },
+                            {
+                                "name": "LTSC",
+                                "color": "teal"
                             }
                         ]
                     }

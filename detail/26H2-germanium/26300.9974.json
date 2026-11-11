@@ -1,0 +1,56 @@
+{
+    "build": {
+        "number": "26300.9974",
+        "branch": "26h2_ge_release_svc_prod1",
+        "compileTime": "2026-11-08 12:39",
+        "arch": ["AMD64", "ARM64"],
+        "counterpart": "Client"
+    },
+    "release": {
+        "channel": "General",
+        "time": "2026-11-10 18:00",
+        "url": "https://support.microsoft.com/servicing/os/windows-11/2026/11/kb5132061-windows-11-24h2-25h2-26h2-security-update",
+        "announcePlace": "Microsoft Support"
+    },
+    "nav": {
+        "previous": {
+            "category": "26H2-germanium",
+            "build": "26300.9818"
+        },
+        "next": {
+            "category": "26H2-germanium-betaflt",
+            "build": "26320.9876"
+        }
+    },
+    "belongsTo": {
+        "path": "26H2-germanium",
+        "name": "Germanium (26H2 EKB)"
+    },
+    "updateId": [{
+        "arch": "AMD64 (Client)",
+        "id": "aa272a56-7dbf-4349-b410-10ae6defc750"
+    },
+    {
+        "arch": "AMD64 (Cloud PC)",
+        "id": "28cc52e7-4ef8-481e-894d-3a3d10f63786"
+    },
+    {
+        "arch": "ARM64 (Client)",
+        "id": "f9fae289-cce8-4570-b236-61c2da4e960b"
+    },
+    {
+        "arch": "ARM64 (Cloud PC)",
+        "id": "a1dcadee-09a7-4c38-823f-575e43e46d87"
+    }],
+    "download": [{
+        "name": "Windows11.0-KB5132061-x64.msu",
+        "size": "4.40 GB",
+        "link": [{
+            "url": "https://catalog.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/5775e69a-9a06-44b1-9b51-4bb89c81f212/public/windows11.0-kb5132061-x64_aedc878e9e078df2ec7e2cfb98dd5b21831cdbcc.msu",
+            "source": "Microsoft 官方"
+        }],
+        "arch": "AMD64",
+        "md5": "14f8e89ced540446d854915afa45f909",
+        "sha256": "8966a4ea203519c0e082dc1193580b723ec86e21bd72009ac9781e8014ae798b"
+    }]
+}
